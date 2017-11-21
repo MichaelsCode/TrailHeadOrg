@@ -1,5 +1,7 @@
 <apex:page standardController="Account">
     
-    {! Account.Name }
-    
+    <apex:detail relatedList="false"/>
+    <apex:relatedList list="Contacts"/>
+    <apex:relatedList list="Opportunities" pageSize="5"/>
+
 </apex:page>
