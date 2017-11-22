@@ -1,0 +1,10 @@
+<!--
+ - Created by michael on 22/11/2017.
+ -->
+
+<apex:page standardController="Contact">
+    <apex:form>
+        Hello <apex:inputField value="{!Contact.FirstName}" />
+        <br /><apex:commandButton value="Submit" action="{!save}" />
+    </apex:form>
+</apex:page>
