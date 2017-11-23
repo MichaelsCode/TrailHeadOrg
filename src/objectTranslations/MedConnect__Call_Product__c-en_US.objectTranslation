@@ -1,3 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Call --></label>
+        <name>MedConnect__Call__c</name>
+        <relationshipLabel><!-- Call Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>MedConnect__Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fulfilled Quantity --></label>
+        <name>MedConnect__Fulfilled_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kit --></label>
+        <name>MedConnect__Kit__c</name>
+        <relationshipLabel><!-- Call Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>MedConnect__Product__c</name>
+        <relationshipLabel><!-- Call Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>MedConnect__Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Usage Comments --></label>
+        <name>MedConnect__Usage_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Used Quantity --></label>
+        <name>MedConnect__Used_Quantity__c</name>
+    </fields>
+</CustomObjectTranslation>

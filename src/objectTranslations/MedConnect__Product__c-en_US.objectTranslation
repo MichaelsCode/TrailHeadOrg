@@ -1,3 +1,942 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- InterestLayoutForSFOne --></label>
+        <name>InterestLayoutForSFOne</name>
+    </fieldSets>
+    <fields>
+        <label><!-- ANDA Number --></label>
+        <name>MedConnect__ANDA_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Short Name --></label>
+        <name>MedConnect__Adt_Short_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Analysis Site --></label>
+        <name>MedConnect__Analysis_Site__c</name>
+        <relationshipLabel><!-- Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- BLA Number --></label>
+        <name>MedConnect__BLA_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brand Name --></label>
+        <name>MedConnect__Brand_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Unit --></label>
+        <name>MedConnect__Bussiness_Unit__c</name>
+        <relationshipLabel><!-- Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Catalog Number --></label>
+        <name>MedConnect__Catalog_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Clinical Investigation Number --></label>
+        <name>MedConnect__Clinical_Investigation_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Combination Product? --></label>
+        <name>MedConnect__Combination_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Common Device Name --></label>
+        <name>MedConnect__Common_Device_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Product --></label>
+        <name>MedConnect__Company_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consumer site --></label>
+        <name>MedConnect__Consumer_site__c</name>
+    </fields>
+    <fields>
+        <label><!-- Controlled Substance --></label>
+        <name>MedConnect__Controlled_Substance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>MedConnect__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Device Class --></label>
+        <name>MedConnect__Device_Class__c</name>
+        <picklistValues>
+            <masterLabel>Class 1</masterLabel>
+            <translation><!-- Class 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Class 2</masterLabel>
+            <translation><!-- Class 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Class 3</masterLabel>
+            <translation><!-- Class 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Class 4</masterLabel>
+            <translation><!-- Class 4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Device Labelled As Sterile --></label>
+        <name>MedConnect__Device_Labelled_As_Sterile__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Device License No --></label>
+        <name>MedConnect__Device_License_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distributor --></label>
+        <name>MedConnect__Distributor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Division --></label>
+        <name>MedConnect__Division__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duplicate Test --></label>
+        <name>MedConnect__Duplicate_Test__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective End Date --></label>
+        <name>MedConnect__Effective_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Start Date --></label>
+        <name>MedConnect__Effective_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>MedConnect__External_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Action Required? --></label>
+        <name>MedConnect__Field_Action_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- GMP Exempt Flag --></label>
+        <name>MedConnect__GMP_Exempt_Flag__c</name>
+    </fields>
+    <fields>
+        <label><!-- IND Number --></label>
+        <name>MedConnect__IND_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insurance Reimbursement info --></label>
+        <name>MedConnect__Insurance_Reimbursement_info__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Bundle --></label>
+        <name>MedConnect__Is_Bundle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Part --></label>
+        <name>MedConnect__Is_Part__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Pre-1938 --></label>
+        <name>MedConnect__Is_Pre_1938__c</name>
+    </fields>
+    <fields>
+        <label><!-- Labeled for Single Use --></label>
+        <name>MedConnect__Labeled_for_Single_Use__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- isLoaner --></label>
+        <name>MedConnect__Loaner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer HQ Location --></label>
+        <name>MedConnect__Manufacturer_HQ_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Name --></label>
+        <name>MedConnect__Manufacturer_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturing Location --></label>
+        <name>MedConnect__Manufacturing_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Speciality --></label>
+        <name>MedConnect__Medical_Speciality__c</name>
+        <picklistValues>
+            <masterLabel>AN - Anesthesiology</masterLabel>
+            <translation><!-- AN - Anesthesiology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CH - Clinical Chemistry</masterLabel>
+            <translation><!-- CH - Clinical Chemistry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CV - Cardiovascular</masterLabel>
+            <translation><!-- CV - Cardiovascular --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE - Dental</masterLabel>
+            <translation><!-- DE - Dental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EN - Ear, Nose, &amp; Throat</masterLabel>
+            <translation><!-- EN - Ear, Nose, &amp; Throat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GU - Gastroenterology &amp; Urology</masterLabel>
+            <translation><!-- GU - Gastroenterology &amp; Urology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HE - Hematology</masterLabel>
+            <translation><!-- HE - Hematology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HO - General Hospital</masterLabel>
+            <translation><!-- HO - General Hospital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IM - Immunology</masterLabel>
+            <translation><!-- IM - Immunology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI - Microbiology</masterLabel>
+            <translation><!-- MI - Microbiology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NE - Neurology</masterLabel>
+            <translation><!-- NE - Neurology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OB - Obstetrics/Gynecology</masterLabel>
+            <translation><!-- OB - Obstetrics/Gynecology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OP - Ophthalmic</masterLabel>
+            <translation><!-- OP - Ophthalmic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR - Orthopedic</masterLabel>
+            <translation><!-- OR - Orthopedic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA - Pathology</masterLabel>
+            <translation><!-- PA - Pathology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PM - Physical Medicine</masterLabel>
+            <translation><!-- PM - Physical Medicine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RA - Radiology</masterLabel>
+            <translation><!-- RA - Radiology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SU - General &amp; Plastic Surgery</masterLabel>
+            <translation><!-- SU - General &amp; Plastic Surgery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX - Clinical Toxicology</masterLabel>
+            <translation><!-- TX - Clinical Toxicology --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Model Number --></label>
+        <name>MedConnect__Model_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- NDA Number --></label>
+        <name>MedConnect__NDA_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nomenclature Code --></label>
+        <name>MedConnect__Nomenclature_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nomenclature System --></label>
+        <name>MedConnect__Nomenclature_System__c</name>
+        <picklistValues>
+            <masterLabel>EDMS</masterLabel>
+            <translation><!-- EDMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GMDN</masterLabel>
+            <translation><!-- GMDN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UMDNS (ECRI)</masterLabel>
+            <translation><!-- UMDNS (ECRI) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Nomenclature Text --></label>
+        <name>MedConnect__Nomenclature_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- OTC Product? --></label>
+        <name>MedConnect__OTC_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- PMA/ 510(k) Number --></label>
+        <name>MedConnect__PMA_510_k_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Product Name --></label>
+        <name>MedConnect__Parent_Product_Name__c</name>
+        <relationshipLabel><!-- Parts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Planned Maintenance Frequency Unit --></label>
+        <name>MedConnect__Planned_Maintenance_Frequency_Unit__c</name>
+        <picklistValues>
+            <masterLabel>Days</masterLabel>
+            <translation><!-- Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Months</masterLabel>
+            <translation><!-- Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Years</masterLabel>
+            <translation><!-- Years --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Planned Maintenance Frequency --></label>
+        <name>MedConnect__Planned_Maintenance_Frequency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Order Date Offset to Due Date(Days) --></label>
+        <name>MedConnect__Planned_Maintenance_WO_Offset_To_DueDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Type --></label>
+        <name>MedConnect__Price_Type__c</name>
+        <picklistValues>
+            <masterLabel>One Time</masterLabel>
+            <translation><!-- One Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recurring</masterLabel>
+            <translation><!-- Recurring --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schedule Based</masterLabel>
+            <translation><!-- Schedule Based --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Usage based</masterLabel>
+            <translation><!-- Usage based --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Procode --></label>
+        <name>MedConnect__ProCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Category --></label>
+        <name>MedConnect__Product_Category__c</name>
+        <picklistValues>
+            <masterLabel>Durable</masterLabel>
+            <translation><!-- Durable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fast Moving</masterLabel>
+            <translation><!-- Fast Moving --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invasive</masterLabel>
+            <translation><!-- Invasive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non invasive</masterLabel>
+            <translation><!-- Non invasive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product Code --></label>
+        <name>MedConnect__Product_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Family --></label>
+        <name>MedConnect__Product_Family__c</name>
+        <relationshipLabel><!-- Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Line --></label>
+        <name>MedConnect__Product_Line__c</name>
+        <picklistValues>
+            <masterLabel>Diagnostic</masterLabel>
+            <translation><!-- Diagnostic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Miscellaneous</masterLabel>
+            <translation><!-- Miscellaneous --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monitoring</masterLabel>
+            <translation><!-- Monitoring --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Therapeutic</masterLabel>
+            <translation><!-- Therapeutic --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product Part Number --></label>
+        <name>MedConnect__Product_Part_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Recall Required? --></label>
+        <name>MedConnect__Product_Recall_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Website --></label>
+        <name>MedConnect__Product_Website__c</name>
+    </fields>
+    <fields>
+        <label><!-- Protocol Number --></label>
+        <name>MedConnect__Protocol_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity in each UOM --></label>
+        <name>MedConnect__Quantity_in_each_UOM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Radiation Emitting Device? --></label>
+        <name>MedConnect__Radiation_Emitting_Device__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason for Change --></label>
+        <name>MedConnect__Reason_for_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regulation Number --></label>
+        <name>MedConnect__Regulation_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Repair Site --></label>
+        <name>MedConnect__Repair_Site__c</name>
+        <picklistValues>
+            <masterLabel>Depot</masterLabel>
+            <translation><!-- Depot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Depot Repair</masterLabel>
+            <translation><!-- Depot Repair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field</masterLabel>
+            <translation><!-- Field --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field Service</masterLabel>
+            <translation><!-- Field Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vendor</masterLabel>
+            <translation><!-- Vendor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Restricted --></label>
+        <name>MedConnect__Restricted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Review Panel --></label>
+        <name>MedConnect__Review_Panel__c</name>
+        <picklistValues>
+            <masterLabel>AN</masterLabel>
+            <translation><!-- AN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CH</masterLabel>
+            <translation><!-- CH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CV</masterLabel>
+            <translation><!-- CV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE</masterLabel>
+            <translation><!-- DE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EN</masterLabel>
+            <translation><!-- EN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GU</masterLabel>
+            <translation><!-- GU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HE</masterLabel>
+            <translation><!-- HE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HO</masterLabel>
+            <translation><!-- HO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IM</masterLabel>
+            <translation><!-- IM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI</masterLabel>
+            <translation><!-- MI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NE</masterLabel>
+            <translation><!-- NE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OB</masterLabel>
+            <translation><!-- OB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OP</masterLabel>
+            <translation><!-- OP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR</masterLabel>
+            <translation><!-- OR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA</masterLabel>
+            <translation><!-- PA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PM</masterLabel>
+            <translation><!-- PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RA</masterLabel>
+            <translation><!-- RA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SU</masterLabel>
+            <translation><!-- SU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX</masterLabel>
+            <translation><!-- TX --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Revision # --></label>
+        <name>MedConnect__Revision_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Revision # --></label>
+        <name>MedConnect__Revision__c</name>
+    </fields>
+    <fields>
+        <label><!-- Schedule Type --></label>
+        <name>MedConnect__Schedule_Type__c</name>
+        <picklistValues>
+            <masterLabel>Time Based</masterLabel>
+            <translation><!-- Time Based --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Service/Maintenance Contract --></label>
+        <name>MedConnect__Service_Maintenance_Contract__c</name>
+        <relationshipLabel><!-- Covered Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Ship Method --></label>
+        <name>MedConnect__Ship_Method__c</name>
+        <picklistValues>
+            <masterLabel>Air</masterLabel>
+            <translation><!-- Air --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carry</masterLabel>
+            <translation><!-- Carry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ground</masterLabel>
+            <translation><!-- Ground --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Similar Product --></help>
+        <label><!-- Similar Product --></label>
+        <name>MedConnect__Similar_Product__c</name>
+        <relationshipLabel><!-- Products (Similar Product) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Smart Script Id --></label>
+        <name>MedConnect__Smart_Script_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Smart Script --></label>
+        <name>MedConnect__Smart_Script__c</name>
+        <relationshipLabel><!-- Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Software version number --></label>
+        <name>MedConnect__Software_version_number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>MedConnect__Status__c</name>
+        <picklistValues>
+            <masterLabel>Alpha</masterLabel>
+            <translation><!-- Alpha --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beta</masterLabel>
+            <translation><!-- Beta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prototype</masterLabel>
+            <translation><!-- Prototype --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation><!-- Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sample</masterLabel>
+            <translation><!-- Sample --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Structure Type --></label>
+        <name>MedConnect__Structure_Type__c</name>
+        <picklistValues>
+            <masterLabel>Bundled</masterLabel>
+            <translation><!-- Bundled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Configurable</masterLabel>
+            <translation><!-- Configurable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Simple</masterLabel>
+            <translation><!-- Simple --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Subject Code --></label>
+        <name>MedConnect__Subject_Code__c</name>
+        <picklistValues>
+            <masterLabel>S1</masterLabel>
+            <translation><!-- S1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S2</masterLabel>
+            <translation><!-- S2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S3</masterLabel>
+            <translation><!-- S3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S4</masterLabel>
+            <translation><!-- S4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Submission Type ID --></label>
+        <name>MedConnect__Submission_Type_ID__c</name>
+        <picklistValues>
+            <masterLabel>1 - 510(K)</masterLabel>
+            <translation><!-- 1 - 510(K) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - PMA</masterLabel>
+            <translation><!-- 2 - PMA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Contact ODE</masterLabel>
+            <translation><!-- 3 - Contact ODE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - 510(K) Exempt</masterLabel>
+            <translation><!-- 4 - 510(K) Exempt --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Supplier --></label>
+        <name>MedConnect__Supplier__c</name>
+        <relationshipLabel><!-- Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Therapeutic Area --></label>
+        <name>MedConnect__Therapeutic_Area__c</name>
+        <picklistValues>
+            <masterLabel>Allergy</masterLabel>
+            <translation><!-- Allergy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Analgesia/Anesthesia</masterLabel>
+            <translation><!-- Analgesia/Anesthesia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anaphylaxis</masterLabel>
+            <translation><!-- Anaphylaxis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Angiogenesis</masterLabel>
+            <translation><!-- Angiogenesis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arthritis</masterLabel>
+            <translation><!-- Arthritis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Autoimmune Diseases</masterLabel>
+            <translation><!-- Autoimmune Diseases --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Biological</masterLabel>
+            <translation><!-- Biological --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bone Metabolism</masterLabel>
+            <translation><!-- Bone Metabolism --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cardiovascular</masterLabel>
+            <translation><!-- Cardiovascular --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central Nervous System &amp; Neurologic</masterLabel>
+            <translation><!-- Central Nervous System &amp; Neurologic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dermatology</masterLabel>
+            <translation><!-- Dermatology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diabetes</masterLabel>
+            <translation><!-- Diabetes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ENT</masterLabel>
+            <translation><!-- ENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Endocrinology</masterLabel>
+            <translation><!-- Endocrinology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gastrointestinal</masterLabel>
+            <translation><!-- Gastrointestinal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hematology</masterLabel>
+            <translation><!-- Hematology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infections</masterLabel>
+            <translation><!-- Infections --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inflammation</masterLabel>
+            <translation><!-- Inflammation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intensive care</masterLabel>
+            <translation><!-- Intensive care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Metabolic Disorders</masterLabel>
+            <translation><!-- Metabolic Disorders --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oncology</masterLabel>
+            <translation><!-- Oncology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ophthalmology</masterLabel>
+            <translation><!-- Ophthalmology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pain</masterLabel>
+            <translation><!-- Pain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Palliative care</masterLabel>
+            <translation><!-- Palliative care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Psychiatry</masterLabel>
+            <translation><!-- Psychiatry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Radiography</masterLabel>
+            <translation><!-- Radiography --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Respiratory</masterLabel>
+            <translation><!-- Respiratory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Toxicology</masterLabel>
+            <translation><!-- Toxicology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transplantation</masterLabel>
+            <translation><!-- Transplantation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Virology</masterLabel>
+            <translation><!-- Virology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Women’s Health</masterLabel>
+            <translation><!-- Women’s Health --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Third Party Review Code --></label>
+        <name>MedConnect__Third_Party_Review_Code__c</name>
+        <picklistValues>
+            <masterLabel>APP - Accredited Persons Program</masterLabel>
+            <translation><!-- APP - Accredited Persons Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MRA - Mutual Recognition Agreement</masterLabel>
+            <translation><!-- MRA - Mutual Recognition Agreement --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Third Party Review Eligible --></label>
+        <name>MedConnect__Third_Party_Review_Eligible__c</name>
+    </fields>
+    <fields>
+        <label><!-- Troubleshoot Flow --></label>
+        <name>MedConnect__Troubleshoot_Flow__c</name>
+    </fields>
+    <fields>
+        <label><!-- UOM --></label>
+        <name>MedConnect__UOM__c</name>
+        <picklistValues>
+            <masterLabel>Box</masterLabel>
+            <translation><!-- Box --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton</masterLabel>
+            <translation><!-- Carton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case</masterLabel>
+            <translation><!-- Case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grams</masterLabel>
+            <translation><!-- Grams --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Litres</masterLabel>
+            <translation><!-- Litres --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mg</masterLabel>
+            <translation><!-- Mg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ml</masterLabel>
+            <translation><!-- Ml --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single Unit</masterLabel>
+            <translation><!-- Single Unit --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- UDI --></label>
+        <name>MedConnect__UUID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unclassified Reason --></label>
+        <name>MedConnect__Unclassified_Reason__c</name>
+        <picklistValues>
+            <masterLabel>1 - Pre-Amendment</masterLabel>
+            <translation><!-- 1 - Pre-Amendment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - IDE</masterLabel>
+            <translation><!-- 2 - IDE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - For Export Only</masterLabel>
+            <translation><!-- 3 - For Export Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Unknown</masterLabel>
+            <translation><!-- 4 - Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Guidance Under Development</masterLabel>
+            <translation><!-- 5 - Guidance Under Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 - Enforcement Discretion</masterLabel>
+            <translation><!-- 6 - Enforcement Discretion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7 - Not FDA Regulated</masterLabel>
+            <translation><!-- 7 - Not FDA Regulated --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Vendor Account --></label>
+        <name>MedConnect__Vendor_Account__c</name>
+        <relationshipLabel><!-- Products (Vendor Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Check the field to enable manufacturer enforced planned maintenance --></help>
+        <label><!-- Enforce planned maintenance --></label>
+        <name>MedConnect__enforce_planned_maintenance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Can user return impacted product? --></label>
+        <name>MedConnect__is_ready_to_return__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Please specify IND Number --></errorMessage>
+        <name>MedConnect__IND_Number_Required_For_Protocol</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Effective End Date cannot be before Effective Start Date. --></errorMessage>
+        <name>MedConnect__Product_Validation_Rule</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- View_Audit_History --></label>
+        <name>MedConnect__View_Audit_History</name>
+    </webLinks>
+</CustomObjectTranslation>

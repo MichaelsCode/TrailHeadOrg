@@ -1,3 +1,156 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- FAL edit view --></label>
+        <name>FAL_edit_view</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- FA Detail Edit View --></label>
+        <name>FA_Detail_Edit_View</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- FA Detail List View --></label>
+        <name>FA_Detail_List_View</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Short Name --></label>
+        <name>MedConnect__Adt_Short_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Equipment --></label>
+        <name>MedConnect__FA_Equipment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Failure Analysis Name --></label>
+        <name>MedConnect__FA_Header_Name__c</name>
+        <relationshipLabel><!-- Failure Analysis Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Image --></label>
+        <name>MedConnect__FA_Image__c</name>
+    </fields>
+    <fields>
+        <label><!-- Results --></label>
+        <name>MedConnect__FA_Results__c</name>
+    </fields>
+    <fields>
+        <label><!-- Technique Type --></label>
+        <name>MedConnect__FA_Technique_Type__c</name>
+        <picklistValues>
+            <masterLabel>Destructive</masterLabel>
+            <translation><!-- Destructive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non Destructive</masterLabel>
+            <translation><!-- Non Destructive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Technique --></label>
+        <name>MedConnect__FA_Technique__c</name>
+        <picklistValues>
+            <masterLabel>AFM / STM</masterLabel>
+            <translation><!-- AFM / STM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auger Analysis</masterLabel>
+            <translation><!-- Auger Analysis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chromatography</masterLabel>
+            <translation><!-- Chromatography --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Curve Tracing</masterLabel>
+            <translation><!-- Curve Tracing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Decapsulation</masterLabel>
+            <translation><!-- Decapsulation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EBIC</masterLabel>
+            <translation><!-- EBIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDX/WDX</masterLabel>
+            <translation><!-- EDX/WDX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ESCA or XPS</masterLabel>
+            <translation><!-- ESCA or XPS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FTIR Spectroscopy</masterLabel>
+            <translation><!-- FTIR Spectroscopy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Failure Verification</masterLabel>
+            <translation><!-- Failure Verification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Focused Ion Beam</masterLabel>
+            <translation><!-- Focused Ion Beam --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hermeticity Testing</masterLabel>
+            <translation><!-- Hermeticity Testing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hot Spot Detection</masterLabel>
+            <translation><!-- Hot Spot Detection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LEM,Microprobing</masterLabel>
+            <translation><!-- LEM,Microprobing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LIMS</masterLabel>
+            <translation><!-- LIMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OBIC</masterLabel>
+            <translation><!-- OBIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Optical Microscopy</masterLabel>
+            <translation><!-- Optical Microscopy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RGA</masterLabel>
+            <translation><!-- RGA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAM</masterLabel>
+            <translation><!-- SAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEM/TEM</masterLabel>
+            <translation><!-- SEM/TEM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIMS</masterLabel>
+            <translation><!-- SIMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sectioning</masterLabel>
+            <translation><!-- Sectioning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X-Ray Radiography</masterLabel>
+            <translation><!-- X-Ray Radiography --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Picture --></label>
+        <name>MedConnect__Picture__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason For Change --></label>
+        <name>MedConnect__Reason_For_Change__c</name>
+    </fields>
+    <webLinks>
+        <label><!-- Upload_FA_Image --></label>
+        <name>MedConnect__Upload_FA_Image</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,3 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Clinical_Specialist_Call_Detail_Fieldset --></label>
+        <name>Clinical_Specialist_Call_Detail_Fieldset</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Clinical_Specialist_Call_Detail_ViewFieldset --></label>
+        <name>Clinical_Specialist_Call_Detail_ViewFiel</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Sales_Call_Detail_Fieldset --></label>
+        <name>Sales_Call_Detail_Fieldset</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Sales_Call_Detail_ViewFieldset --></label>
+        <name>Sales_Call_Detail_ViewFieldset</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Adt Short Name --></label>
+        <name>MedConnect__Adt_Short_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call --></label>
+        <name>MedConnect__Call__c</name>
+        <relationshipLabel><!-- Call Details --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description of Planned Product Use --></label>
+        <name>MedConnect__Description_of_Planned_Product_Use__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discussion Point --></label>
+        <name>MedConnect__Discussion_Point__c</name>
+    </fields>
+    <fields>
+        <help><!-- Stents as measured by Physician available --></help>
+        <label><!-- Is stents measured by Physician --></label>
+        <name>MedConnect__Is_stents_measured_by_Physician__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key Message --></label>
+        <name>MedConnect__Key_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>MedConnect__Product__c</name>
+        <relationshipLabel><!-- Call Details --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reason for Change --></label>
+        <name>MedConnect__Reason_for_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stents as measured by Physician --></label>
+        <name>MedConnect__Stents_as_measured_by_Physician__c</name>
+    </fields>
+    <fields>
+        <help><!-- Stents (measurements of a patient&apos;s anatomy) for the Product --></help>
+        <label><!-- Stents for the Product --></label>
+        <name>MedConnect__Stents_for_the_Product__c</name>
+    </fields>
+    <webLinks>
+        <label><!-- New_Call_Detail --></label>
+        <name>MedConnect__New_Call_Detail</name>
+    </webLinks>
+</CustomObjectTranslation>

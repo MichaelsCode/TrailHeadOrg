@@ -1,3 +1,293 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- AssetInfoFieldSet --></label>
+        <name>AssetInfoFieldSet</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Account --></label>
+        <name>MedConnect__Account__c</name>
+        <relationshipLabel><!-- Asset --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Short Name --></label>
+        <name>MedConnect__Adt_Short_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asset Location --></label>
+        <name>MedConnect__Asset_Location_Geo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asset Location --></label>
+        <name>MedConnect__Asset_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Batch Number --></label>
+        <name>MedConnect__Batch_Master__c</name>
+        <relationshipLabel><!-- Assets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Deprecated Batch Number --></label>
+        <name>MedConnect__Batch_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>MedConnect__City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Clinical Investigation Number --></label>
+        <name>MedConnect__Clinical_Investigation_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Control No --></label>
+        <name>MedConnect__Control_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>MedConnect__Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Location --></label>
+        <name>MedConnect__Current_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Shipped --></label>
+        <name>MedConnect__Date_Shipped__c</name>
+    </fields>
+    <fields>
+        <label><!-- Device Manufacture Date --></label>
+        <name>MedConnect__Device_Manufacture_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expiration Date --></label>
+        <name>MedConnect__Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hardware Version --></label>
+        <name>MedConnect__Hardware_Version__c</name>
+        <relationshipLabel><!-- Assets (Hardware Version) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Installed By --></label>
+        <name>MedConnect__Installed_By__c</name>
+        <relationshipLabel><!-- Assets (Installed By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Installed Date --></label>
+        <name>MedConnect__Installed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Serviced By --></label>
+        <name>MedConnect__Last_Serviced_By__c</name>
+        <relationshipLabel><!-- Assets (Last Serviced By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Last Serviced Date --></label>
+        <name>MedConnect__Last_Serviced_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Shipped Date --></label>
+        <name>MedConnect__Last_Shipped_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- License Key --></label>
+        <name>MedConnect__License_Key__c</name>
+        <relationshipLabel><!-- Assets (License Key) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Lot Number --></label>
+        <name>MedConnect__Lot_Master1__c</name>
+        <relationshipLabel><!-- Assets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Lot Number Deleted --></label>
+        <name>MedConnect__Lot_Master__c</name>
+        <relationshipLabel><!-- Assets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Deprecated  Lot Number --></label>
+        <name>MedConnect__Lot_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Location --></label>
+        <name>MedConnect__Manufacturer_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Name --></label>
+        <name>MedConnect__Manufacturer_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Report Number --></label>
+        <name>MedConnect__Manufacturer_Report_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturing Country --></label>
+        <name>MedConnect__Manufacturing_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturing Location --></label>
+        <name>MedConnect__Manufacturing_Location__c</name>
+        <relationshipLabel><!-- Asset --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Order Line Item --></label>
+        <name>MedConnect__Order_Line_Item__c</name>
+        <relationshipLabel><!-- Asset --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Ownership Level --></label>
+        <name>MedConnect__Ownership_Level__c</name>
+        <picklistValues>
+            <masterLabel>Company Own</masterLabel>
+            <translation><!-- Company Own --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lease</masterLabel>
+            <translation><!-- Lease --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan</masterLabel>
+            <translation><!-- Loan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Own</masterLabel>
+            <translation><!-- Own --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sample</masterLabel>
+            <translation><!-- Sample --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Parent Asset --></label>
+        <name>MedConnect__Parent_Asset__c</name>
+        <relationshipLabel><!-- Component Assets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Postal Code --></label>
+        <name>MedConnect__Postal_Code_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Postal Code Number --></label>
+        <name>MedConnect__Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>MedConnect__Product__c</name>
+        <relationshipLabel><!-- Asset --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Purchase Order No --></label>
+        <name>MedConnect__Purchase_Order_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>MedConnect__Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referenceable --></label>
+        <name>MedConnect__Referenceable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Revision Unused Formula Field --></label>
+        <name>MedConnect__Revision_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Revision # --></label>
+        <name>MedConnect__Revision__c</name>
+    </fields>
+    <fields>
+        <label><!-- Serial No --></label>
+        <name>MedConnect__Serial_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Agreement --></label>
+        <name>MedConnect__Service_Agreement__c</name>
+        <relationshipLabel><!-- Asset --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Service Due On --></label>
+        <name>MedConnect__Service_Due_On__c</name>
+    </fields>
+    <fields>
+        <label><!-- Software Version --></label>
+        <name>MedConnect__Software_Version__c</name>
+        <relationshipLabel><!-- Assets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>MedConnect__State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Street --></label>
+        <name>MedConnect__Street__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>MedConnect__Type__c</name>
+        <picklistValues>
+            <masterLabel>Downgrade</masterLabel>
+            <translation><!-- Downgrade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Install</masterLabel>
+            <translation><!-- Install --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uninstall</masterLabel>
+            <translation><!-- Uninstall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upgrade</masterLabel>
+            <translation><!-- Upgrade --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- UDI --></label>
+        <name>MedConnect__UDI__c</name>
+    </fields>
+    <fields>
+        <label><!-- Usage Status --></label>
+        <name>MedConnect__Usage_Status__c</name>
+        <picklistValues>
+            <masterLabel>In Inventory</masterLabel>
+            <translation><!-- In Inventory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Service</masterLabel>
+            <translation><!-- In Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Transit</masterLabel>
+            <translation><!-- In Transit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Installed</masterLabel>
+            <translation><!-- Installed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Out of Service</masterLabel>
+            <translation><!-- Out of Service --></translation>
+        </picklistValues>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Please enter Installation Date and Usage Status for given Account --></errorMessage>
+        <name>MedConnect__Installation_and_usage_level_validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select same product as exist in Order Line Item. --></errorMessage>
+        <name>MedConnect__Same_Product_As_In_OLI</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Activate_Asset_Location --></label>
+        <name>MedConnect__Activate_Asset_Location</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Assign_Warranty_Term --></label>
+        <name>MedConnect__Assign_Warranty_Term</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Complaint --></label>
+        <name>MedConnect__Create_Complaint</name>
+    </webLinks>
+</CustomObjectTranslation>

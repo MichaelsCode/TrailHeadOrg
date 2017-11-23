@@ -1,3 +1,192 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Product Invetigation BOM Field Set --></label>
+        <name>Product_Invetigation_BOM_Field_Set</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Adt Short Name --></label>
+        <name>MedConnect__Adt_Short_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asset Serial No --></label>
+        <name>MedConnect__Asset_Serial_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asset --></label>
+        <name>MedConnect__Asset__c</name>
+        <relationshipLabel><!-- Material BOM Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Batch Master --></label>
+        <name>MedConnect__Batch_Master__c</name>
+        <relationshipLabel><!-- Material BOM Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Commodity Owner Email --></label>
+        <name>MedConnect__Commodity_Owner_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commodity Owner --></label>
+        <name>MedConnect__Commodity_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost --></label>
+        <name>MedConnect__Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Instruction --></label>
+        <name>MedConnect__Instruction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory --></label>
+        <name>MedConnect__Inventory__c</name>
+        <relationshipLabel><!-- Material BOM Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- IsDesignUploaded --></label>
+        <name>MedConnect__IsDesignUploaded__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsImage --></label>
+        <name>MedConnect__IsImage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Level --></label>
+        <name>MedConnect__Level__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lot Number --></label>
+        <name>MedConnect__Lot_Master1__c</name>
+        <relationshipLabel><!-- Material BOM Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Lot Master Deleted --></label>
+        <name>MedConnect__Lot_Master__c</name>
+        <relationshipLabel><!-- Material BOM Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Lot Number Deleted --></label>
+        <name>MedConnect__Lot_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Make Or Buy --></label>
+        <name>MedConnect__Make_Or_Buy__c</name>
+        <picklistValues>
+            <masterLabel>Buy</masterLabel>
+            <translation><!-- Buy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Make</masterLabel>
+            <translation><!-- Make --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Material BOM --></label>
+        <name>MedConnect__Material_BOM__c</name>
+        <relationshipLabel><!-- Material BOM Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- PO Number --></label>
+        <name>MedConnect__PO_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Asset Part Name --></label>
+        <name>MedConnect__Parent_Asset_Part_Name__c</name>
+        <relationshipLabel><!-- Material BOM Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Part Description --></label>
+        <name>MedConnect__Part_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Design --></label>
+        <name>MedConnect__Part_Design__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Name --></label>
+        <name>MedConnect__Part_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Picture --></label>
+        <name>MedConnect__Picture__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>MedConnect__Product__c</name>
+        <relationshipLabel><!-- Material BOM Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>MedConnect__Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason For Change --></label>
+        <name>MedConnect__Reason_For_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Revision Level --></label>
+        <name>MedConnect__Revision_Level__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D</masterLabel>
+            <translation><!-- D --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Serial Number --></label>
+        <name>MedConnect__Serial_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Charge --></label>
+        <name>MedConnect__Service_Charge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier --></label>
+        <name>MedConnect__Supplier__c</name>
+        <relationshipLabel><!-- Material BOM Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- UOM --></label>
+        <name>MedConnect__UOM__c</name>
+        <picklistValues>
+            <masterLabel>Gram</masterLabel>
+            <translation><!-- Gram --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kilogram</masterLabel>
+            <translation><!-- Kilogram --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lbs</masterLabel>
+            <translation><!-- Lbs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mts</masterLabel>
+            <translation><!-- Mts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit</masterLabel>
+            <translation><!-- Unit --></translation>
+        </picklistValues>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Please select &apos;Make&apos; and &apos;Buy&apos; for  &apos;Internal&apos; and  &apos;External&apos; supplier respectively. --></errorMessage>
+        <name>MedConnect__Supplier_validation</name>
+    </validationRules>
+</CustomObjectTranslation>

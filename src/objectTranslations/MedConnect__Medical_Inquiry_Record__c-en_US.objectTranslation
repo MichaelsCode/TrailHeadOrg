@@ -1,3 +1,767 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Incident Smart Script Edit FieldSet --></label>
+        <name>Incident_Smart_Script_Edit_FieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- MedicalInquiryChangeStatusFieldset --></label>
+        <name>MedicalInquiryChangeStatusFieldset</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Medical Inquiry Intake Page --></label>
+        <name>Medical_Inquiry_Action</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Medical Inquiry Action Taken Edit --></label>
+        <name>Medical_Inquiry_Action_Taken_Edit</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Medical Inquiry Event Details Edit --></label>
+        <name>Medical_Inquiry_Event_Details_Edit</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Medical Inquiry Field Set --></label>
+        <name>Medical_Inquiry_Field_Set</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Medical Inquiry General Details Field Set --></label>
+        <name>Medical_Inquiry_General_Details_Field_Se</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>MedConnect__Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>MedConnect__Account__c</name>
+        <relationshipLabel><!-- Medical Inquiry Records --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Check if additional information requested by customer are sent --></help>
+        <label><!-- Additional Information sent? --></label>
+        <name>MedConnect__Additional_Information_sent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Street --></label>
+        <name>MedConnect__Address_Line_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address Line 2 --></label>
+        <name>MedConnect__Address_Line_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>MedConnect__City__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check if Codes are documented and complete --></help>
+        <label><!-- CodesDocumentation Completed ? --></label>
+        <name>MedConnect__CodesDocumentation_Completed__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check if Codes are documented and complete --></help>
+        <label><!-- Codes Documentation Completed ? --></label>
+        <name>MedConnect__Codes_Documentation_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Address Line 1 --></label>
+        <name>MedConnect__Contact_Address_Line_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Address Line 2 --></label>
+        <name>MedConnect__Contact_Address_Line_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact City --></label>
+        <name>MedConnect__Contact_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Name --></label>
+        <name>MedConnect__Contact_Name_View__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>MedConnect__Contact_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact State --></label>
+        <name>MedConnect__Contact_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Zip --></label>
+        <name>MedConnect__Contact_Zip__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>MedConnect__Contact__c</name>
+        <relationshipLabel><!-- Medical Inquiry Records --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Copy Address --></label>
+        <name>MedConnect__Copy_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Copy Email --></label>
+        <name>MedConnect__Copy_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Copy Fax --></label>
+        <name>MedConnect__Copy_Fax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Copy Phone --></label>
+        <name>MedConnect__Copy_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country of Event --></label>
+        <name>MedConnect__Country_of_Event__c</name>
+        <picklistValues>
+            <masterLabel>Argentina</masterLabel>
+            <translation><!-- Argentina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Australia</masterLabel>
+            <translation><!-- Australia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Austria</masterLabel>
+            <translation><!-- Austria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belgium</masterLabel>
+            <translation><!-- Belgium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bosnia and Herzegovina</masterLabel>
+            <translation><!-- Bosnia and Herzegovina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brazil</masterLabel>
+            <translation><!-- Brazil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bulgaria</masterLabel>
+            <translation><!-- Bulgaria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada</masterLabel>
+            <translation><!-- Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chile</masterLabel>
+            <translation><!-- Chile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>China</masterLabel>
+            <translation><!-- China --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Columbia</masterLabel>
+            <translation><!-- Columbia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Costa Rica</masterLabel>
+            <translation><!-- Costa Rica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Croatia</masterLabel>
+            <translation><!-- Croatia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cyprus</masterLabel>
+            <translation><!-- Cyprus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Czech Republic</masterLabel>
+            <translation><!-- Czech Republic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denmark</masterLabel>
+            <translation><!-- Denmark --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dominican Republic</masterLabel>
+            <translation><!-- Dominican Republic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Egypt</masterLabel>
+            <translation><!-- Egypt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estonia</masterLabel>
+            <translation><!-- Estonia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finland</masterLabel>
+            <translation><!-- Finland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>France</masterLabel>
+            <translation><!-- France --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Germany</masterLabel>
+            <translation><!-- Germany --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Great Britain</masterLabel>
+            <translation><!-- Great Britain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greece</masterLabel>
+            <translation><!-- Greece --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hong Kong</masterLabel>
+            <translation><!-- Hong Kong --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hungary</masterLabel>
+            <translation><!-- Hungary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iceland</masterLabel>
+            <translation><!-- Iceland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation><!-- India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indonesia</masterLabel>
+            <translation><!-- Indonesia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Israel</masterLabel>
+            <translation><!-- Israel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Italy</masterLabel>
+            <translation><!-- Italy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Japan</masterLabel>
+            <translation><!-- Japan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kosovo</masterLabel>
+            <translation><!-- Kosovo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latvia</masterLabel>
+            <translation><!-- Latvia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liechtenstein</masterLabel>
+            <translation><!-- Liechtenstein --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lithuania</masterLabel>
+            <translation><!-- Lithuania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Luxembourg</masterLabel>
+            <translation><!-- Luxembourg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Macedonia</masterLabel>
+            <translation><!-- Macedonia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malaysia</masterLabel>
+            <translation><!-- Malaysia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malta</masterLabel>
+            <translation><!-- Malta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mexico</masterLabel>
+            <translation><!-- Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montenegro</masterLabel>
+            <translation><!-- Montenegro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Zealand</masterLabel>
+            <translation><!-- New Zealand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norway</masterLabel>
+            <translation><!-- Norway --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peru</masterLabel>
+            <translation><!-- Peru --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Philippines</masterLabel>
+            <translation><!-- Philippines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poland</masterLabel>
+            <translation><!-- Poland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portugal</masterLabel>
+            <translation><!-- Portugal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Republic of Ireland</masterLabel>
+            <translation><!-- Republic of Ireland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Romania</masterLabel>
+            <translation><!-- Romania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Russia</masterLabel>
+            <translation><!-- Russia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Serbia</masterLabel>
+            <translation><!-- Serbia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Singapore</masterLabel>
+            <translation><!-- Singapore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slovakia</masterLabel>
+            <translation><!-- Slovakia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slovenia</masterLabel>
+            <translation><!-- Slovenia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Africa</masterLabel>
+            <translation><!-- South Africa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Korea</masterLabel>
+            <translation><!-- South Korea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spain</masterLabel>
+            <translation><!-- Spain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sweden</masterLabel>
+            <translation><!-- Sweden --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Switzerland</masterLabel>
+            <translation><!-- Switzerland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taiwan</masterLabel>
+            <translation><!-- Taiwan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thailand</masterLabel>
+            <translation><!-- Thailand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Netherlands</masterLabel>
+            <translation><!-- The Netherlands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkey</masterLabel>
+            <translation><!-- Turkey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USA</masterLabel>
+            <translation><!-- USA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uruguay</masterLabel>
+            <translation><!-- Uruguay --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Date of Event --></label>
+        <name>MedConnect__Date_of_Event__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Void --></label>
+        <name>MedConnect__Date_of_Void__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default response time (in days) --></label>
+        <name>MedConnect__Default_response_time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Degree --></label>
+        <name>MedConnect__Degree_s__c</name>
+        <picklistValues>
+            <masterLabel>APRN</masterLabel>
+            <translation><!-- APRN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MD</masterLabel>
+            <translation><!-- MD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS</masterLabel>
+            <translation><!-- MS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PhD</masterLabel>
+            <translation><!-- PhD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PharmD</masterLabel>
+            <translation><!-- PharmD --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Delivery Method --></label>
+        <name>MedConnect__Delivery_Method__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fax</masterLabel>
+            <translation><!-- Fax --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone</masterLabel>
+            <translation><!-- Phone --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>MedConnect__Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Classification --></label>
+        <name>MedConnect__Event_Classification__c</name>
+        <picklistValues>
+            <masterLabel>Death</masterLabel>
+            <translation><!-- Death --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malfunction</masterLabel>
+            <translation><!-- Malfunction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Serious Injury</masterLabel>
+            <translation><!-- Serious Injury --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Event Description --></label>
+        <name>MedConnect__Event_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fax --></label>
+        <name>MedConnect__Fax__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Remedial Action --></label>
+        <name>MedConnect__First_Remedial_Action__c</name>
+    </fields>
+    <fields>
+        <label><!-- Health Professional? --></label>
+        <name>MedConnect__Health_Professional__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incident Happened Due to --></label>
+        <name>MedConnect__Incident_Happened_Due_to__c</name>
+        <picklistValues>
+            <masterLabel>Investigational Testing</masterLabel>
+            <translation><!-- Investigational Testing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special Access Program</masterLabel>
+            <translation><!-- Special Access Program --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Incident --></label>
+        <name>MedConnect__Incident__c</name>
+        <relationshipLabel><!-- Medical Inquiry --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Incident represent serious public threat --></label>
+        <name>MedConnect__Incident_represent_serious_public_threat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inquiry Text --></label>
+        <name>MedConnect__Inquiry_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsEscalated --></label>
+        <name>MedConnect__IsEscalated__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsLocked --></label>
+        <name>MedConnect__IsLocked__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical History --></label>
+        <name>MedConnect__Medical_History__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please specify Other Degree(s) of the HCP if Other is chosen from Degree picklist. --></help>
+        <label><!-- Other Degree(s) --></label>
+        <name>MedConnect__Other_Degree_s__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>MedConnect__Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Processing Status History --></label>
+        <name>MedConnect__Processing_Status_History__c</name>
+    </fields>
+    <fields>
+        <label><!-- Processing Status --></label>
+        <name>MedConnect__Processing_Status__c</name>
+        <picklistValues>
+            <masterLabel>Accepted</masterLabel>
+            <translation><!-- Accepted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolved</masterLabel>
+            <translation><!-- Resolved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Voided</masterLabel>
+            <translation><!-- Voided --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work In Progress</masterLabel>
+            <translation><!-- Work In Progress --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>MedConnect__Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- RMA Order --></label>
+        <name>MedConnect__RMA_Order__c</name>
+        <relationshipLabel><!-- Medical Inquiry Records --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reason for Change --></label>
+        <name>MedConnect__Reason_for_Change__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check if refund to customer is complete --></help>
+        <label><!-- Refund Complete? --></label>
+        <name>MedConnect__Refund_Complete__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check if replacement product is sent to customer --></help>
+        <label><!-- Replacement Complete ? --></label>
+        <name>MedConnect__Replacement_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Source --></label>
+        <name>MedConnect__Report_Source__c</name>
+        <picklistValues>
+            <masterLabel>Company Representative</masterLabel>
+            <translation><!-- Company Representative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer</masterLabel>
+            <translation><!-- Consumer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributor</masterLabel>
+            <translation><!-- Distributor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foreign</masterLabel>
+            <translation><!-- Foreign --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health Professional</masterLabel>
+            <translation><!-- Health Professional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Literature</masterLabel>
+            <translation><!-- Literature --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Study</masterLabel>
+            <translation><!-- Study --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User Facility</masterLabel>
+            <translation><!-- User Facility --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reporter City --></label>
+        <name>MedConnect__Reporter_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Country --></label>
+        <name>MedConnect__Reporter_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Email --></label>
+        <name>MedConnect__Reporter_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Fax --></label>
+        <name>MedConnect__Reporter_Fax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter First Name --></label>
+        <name>MedConnect__Reporter_First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Last Name --></label>
+        <name>MedConnect__Reporter_Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Middle Name --></label>
+        <name>MedConnect__Reporter_Middle_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Occupation --></label>
+        <name>MedConnect__Reporter_Occupation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Phone No --></label>
+        <name>MedConnect__Reporter_Phone_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter State --></label>
+        <name>MedConnect__Reporter_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Street --></label>
+        <name>MedConnect__Reporter_Street__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Title --></label>
+        <name>MedConnect__Reporter_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Zip Code --></label>
+        <name>MedConnect__Reporter_Zip_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Second Remedial Action --></label>
+        <name>MedConnect__Second_Remedial_Action__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Request --></label>
+        <name>MedConnect__Service_Request__c</name>
+        <relationshipLabel><!-- Medical Inquiry Records --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>MedConnect__State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>MedConnect__Status__c</name>
+        <picklistValues>
+            <masterLabel>Accepted</masterLabel>
+            <translation><!-- Accepted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolved</masterLabel>
+            <translation><!-- Resolved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Voided</masterLabel>
+            <translation><!-- Voided --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work In Progress</masterLabel>
+            <translation><!-- Work In Progress --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Urgent - Immediate --></label>
+        <name>MedConnect__Urgent_Immediate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check if Minimum 3 Attempts are made to get the Product Returned --></help>
+        <label><!-- 3 Attempts complete? --></label>
+        <name>MedConnect__X3_Attempts_complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zip --></label>
+        <name>MedConnect__Zip__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Medical Inquiry Not Void --></label>
+        <name>Medical_Inquiry_Not_Void</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Medical Inquiry Void --></label>
+        <name>Medical_Inquiry_Void</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Date of Event should not be Future Date --></errorMessage>
+        <name>MedConnect__Date_of_Event_Not_Future_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only void when status is closed --></errorMessage>
+        <name>MedConnect__MI_Status_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cannot void record with this status --></errorMessage>
+        <name>MedConnect__Medical_Inquery_Void_Status_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cannot edit at this stage. --></errorMessage>
+        <name>MedConnect__Medical_Inquiry_Void_Block</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Change_Processing_Status --></label>
+        <name>MedConnect__Change_Processing_Status</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Custom_Delete --></label>
+        <name>MedConnect__Custom_Delete</name>
+    </webLinks>
+</CustomObjectTranslation>

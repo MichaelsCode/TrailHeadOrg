@@ -1,3 +1,344 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Expense Estimate Field Set --></label>
+        <name>Expense_Estimate_Field_Set</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Expense field set --></label>
+        <name>Expense_field_set</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Labour Estimate Field Set --></label>
+        <name>Labour_Estimate_Field_Set</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Material Estimate Field Set --></label>
+        <name>Material_Estimate_Field_Set</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- labour field set --></label>
+        <name>labour_field_set</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- material field set --></label>
+        <name>material_field_set</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Activity Type --></label>
+        <name>MedConnect__Activity_Type__c</name>
+        <picklistValues>
+            <masterLabel>Callback</masterLabel>
+            <translation><!-- Callback --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clinical Support</masterLabel>
+            <translation><!-- Clinical Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Demonstration</masterLabel>
+            <translation><!-- Demonstration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diagnostic</masterLabel>
+            <translation><!-- Diagnostic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dispatch</masterLabel>
+            <translation><!-- Dispatch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inspection</masterLabel>
+            <translation><!-- Inspection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Installation,Un-Installation</masterLabel>
+            <translation><!-- Installation,Un-Installation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preventive Maintenance</masterLabel>
+            <translation><!-- Preventive Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receiving</masterLabel>
+            <translation><!-- Receiving --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair</masterLabel>
+            <translation><!-- Repair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Request</masterLabel>
+            <translation><!-- Service Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipping</masterLabel>
+            <translation><!-- Shipping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer</masterLabel>
+            <translation><!-- Transfer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Activity --></label>
+        <name>MedConnect__Activity__c</name>
+        <relationshipLabel><!-- Quote Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Short Name --></label>
+        <name>MedConnect__Adt_Short_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Applied Rate Type --></label>
+        <name>MedConnect__Applied_Rate_Type__c</name>
+        <picklistValues>
+            <masterLabel>Flat Rate</masterLabel>
+            <translation><!-- Flat Rate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Per Hour</masterLabel>
+            <translation><!-- Per Hour --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Apply Warranty --></label>
+        <name>MedConnect__Apply_Warranty__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billable --></label>
+        <name>MedConnect__Billable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Covered % --></label>
+        <name>MedConnect__Covered__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>MedConnect__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount Type --></label>
+        <name>MedConnect__Discount_Type__c</name>
+        <picklistValues>
+            <masterLabel>Amount</masterLabel>
+            <translation><!-- Amount --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percent</masterLabel>
+            <translation><!-- Percent --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Discount --></label>
+        <name>MedConnect__Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activity Type --></label>
+        <name>MedConnect__Estimate_Activity__c</name>
+        <picklistValues>
+            <masterLabel>Callback</masterLabel>
+            <translation><!-- Callback --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clinical Support</masterLabel>
+            <translation><!-- Clinical Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Demonstration</masterLabel>
+            <translation><!-- Demonstration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diagnostic</masterLabel>
+            <translation><!-- Diagnostic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dispatch</masterLabel>
+            <translation><!-- Dispatch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dispatch Loaner</masterLabel>
+            <translation><!-- Dispatch Loaner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inspection</masterLabel>
+            <translation><!-- Inspection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Installation,Un-Installation</masterLabel>
+            <translation><!-- Installation,Un-Installation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planned Maintenance</masterLabel>
+            <translation><!-- Planned Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preventive Maintenance</masterLabel>
+            <translation><!-- Preventive Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receiving</masterLabel>
+            <translation><!-- Receiving --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair</masterLabel>
+            <translation><!-- Repair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Request</masterLabel>
+            <translation><!-- Service Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipping</masterLabel>
+            <translation><!-- Shipping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer</masterLabel>
+            <translation><!-- Transfer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Expense Amount --></label>
+        <name>MedConnect__Expense_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expense Type --></label>
+        <name>MedConnect__Expense_Type__c</name>
+        <picklistValues>
+            <masterLabel>Airfare</masterLabel>
+            <translation><!-- Airfare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment</masterLabel>
+            <translation><!-- Entertainment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food - Breakfast</masterLabel>
+            <translation><!-- Food - Breakfast --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food - Dinner</masterLabel>
+            <translation><!-- Food - Dinner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food - Lunch</masterLabel>
+            <translation><!-- Food - Lunch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gas</masterLabel>
+            <translation><!-- Gas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lodging</masterLabel>
+            <translation><!-- Lodging --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mileage</masterLabel>
+            <translation><!-- Mileage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Miscellaneous</masterLabel>
+            <translation><!-- Miscellaneous --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parking</masterLabel>
+            <translation><!-- Parking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parts</masterLabel>
+            <translation><!-- Parts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone</masterLabel>
+            <translation><!-- Phone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rental Car</masterLabel>
+            <translation><!-- Rental Car --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tolls</masterLabel>
+            <translation><!-- Tolls --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Gross Line Amount --></label>
+        <name>MedConnect__Gross_Line_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hours Worked --></label>
+        <name>MedConnect__Hours_Worked__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line Amount --></label>
+        <name>MedConnect__Line_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line Type --></label>
+        <name>MedConnect__Line_Type__c</name>
+        <picklistValues>
+            <masterLabel>Expense</masterLabel>
+            <translation><!-- Expense --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Labour</masterLabel>
+            <translation><!-- Labour --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Material</masterLabel>
+            <translation><!-- Material --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Parent Material --></label>
+        <name>MedConnect__Parent_Material__c</name>
+        <relationshipLabel><!-- Quote Line Item --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Part Order Line Item --></label>
+        <name>MedConnect__Part_Order_Line_Item__c</name>
+        <relationshipLabel><!-- Quote Line Item --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>MedConnect__Product__c</name>
+        <relationshipLabel><!-- Quote Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>MedConnect__Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote --></label>
+        <name>MedConnect__Quote__c</name>
+        <relationshipLabel><!-- Quote Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Rate --></label>
+        <name>MedConnect__Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason For Change --></label>
+        <name>MedConnect__Reason_For_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit Price --></label>
+        <name>MedConnect__Unit_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Warranty Coverage --></label>
+        <name>MedConnect__Warranty_Coverage2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Warranty Coverage --></label>
+        <name>MedConnect__Warranty_Coverage_formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Warranty Valid --></label>
+        <name>MedConnect__Warranty_Valid__c</name>
+    </fields>
+    <webLinks>
+        <label><!-- New_Qoute_Line_Item --></label>
+        <name>MedConnect__New_Qoute_Line_Item</name>
+    </webLinks>
+</CustomObjectTranslation>

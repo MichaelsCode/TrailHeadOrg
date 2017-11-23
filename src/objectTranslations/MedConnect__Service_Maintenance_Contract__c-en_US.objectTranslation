@@ -1,3 +1,716 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Additional Information --></label>
+        <name>Additional_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Applicable Travel Zone --></label>
+        <name>Applicable_Travel_Zone</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Contract Details --></label>
+        <name>Contract_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Default Travel Policy --></label>
+        <name>Default_Travel_Policy</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Enterprise Coverage --></label>
+        <name>Enterprise_Coverage</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Information --></label>
+        <name>Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Labor Rounding Rules --></label>
+        <name>Labor_Rounding_Rules</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- New Contract Details --></label>
+        <name>New_Contract_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- New Contract Fileds --></label>
+        <name>New_Contract_Fileds</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- New Information Section --></label>
+        <name>New_Information_Section</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Pricebooks --></label>
+        <name>Pricebooks</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Renew Contract Fields --></label>
+        <name>Renew_Contract_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Renewal Information --></label>
+        <name>Renewal_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- System Information --></label>
+        <name>System_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Travel Rounding Rules --></label>
+        <name>Travel_Rounding_Rules</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Acceptance Date --></label>
+        <name>MedConnect__Acceptance_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>MedConnect__Account__c</name>
+        <relationshipLabel><!-- Service/Maintenance Contract --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Activation Notes --></label>
+        <name>MedConnect__Activation_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>MedConnect__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- All Contacts Covered --></label>
+        <name>MedConnect__All_Contacts_Covered__c</name>
+    </fields>
+    <fields>
+        <label><!-- All Products Covered --></label>
+        <name>MedConnect__All_Products_Covered__c</name>
+    </fields>
+    <fields>
+        <label><!-- All Services Covered --></label>
+        <name>MedConnect__All_Services_Covered__c</name>
+    </fields>
+    <fields>
+        <label><!-- All Sites Covered --></label>
+        <name>MedConnect__All_Sites_Covered__c</name>
+    </fields>
+    <fields>
+        <label><!-- Authorized Value --></label>
+        <name>MedConnect__Authorized_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Schedule --></label>
+        <name>MedConnect__Billing_Schedule__c</name>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation><!-- Monthly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation><!-- Quarterly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi annual</masterLabel>
+            <translation><!-- Semi annual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yearly</masterLabel>
+            <translation><!-- Yearly --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Business Hours --></label>
+        <name>MedConnect__Business_Hours__c</name>
+        <relationshipLabel><!-- Service/Maintenance Contract --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cancellation Notes --></label>
+        <name>MedConnect__Cancelation_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cancelled By --></label>
+        <name>MedConnect__Canceled_By__c</name>
+        <relationshipLabel><!-- Service/Maintenance Contract (Cancelled By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cancelled On --></label>
+        <name>MedConnect__Canceled_On__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>MedConnect__Contact__c</name>
+        <relationshipLabel><!-- Service/Maintenance Contract --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contract Country --></label>
+        <name>MedConnect__Contract_Country__c</name>
+        <picklistValues>
+            <masterLabel>Albania</masterLabel>
+            <translation><!-- Albania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Argentina</masterLabel>
+            <translation><!-- Argentina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Australia</masterLabel>
+            <translation><!-- Australia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Austria</masterLabel>
+            <translation><!-- Austria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belarus</masterLabel>
+            <translation><!-- Belarus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belgium</masterLabel>
+            <translation><!-- Belgium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belize</masterLabel>
+            <translation><!-- Belize --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bosnia and Herzegovina</masterLabel>
+            <translation><!-- Bosnia and Herzegovina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brazil</masterLabel>
+            <translation><!-- Brazil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bulgaria</masterLabel>
+            <translation><!-- Bulgaria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada</masterLabel>
+            <translation><!-- Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Channel Islands</masterLabel>
+            <translation><!-- Channel Islands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chile</masterLabel>
+            <translation><!-- Chile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colombia</masterLabel>
+            <translation><!-- Colombia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Costa Rica</masterLabel>
+            <translation><!-- Costa Rica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Croatia</masterLabel>
+            <translation><!-- Croatia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Czech Republic</masterLabel>
+            <translation><!-- Czech Republic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denmark</masterLabel>
+            <translation><!-- Denmark --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecuador</masterLabel>
+            <translation><!-- Ecuador --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>El Salvador</masterLabel>
+            <translation><!-- El Salvador --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estonia</masterLabel>
+            <translation><!-- Estonia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finland</masterLabel>
+            <translation><!-- Finland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>France</masterLabel>
+            <translation><!-- France --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>French Guiana</masterLabel>
+            <translation><!-- French Guiana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Germany</masterLabel>
+            <translation><!-- Germany --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greece</masterLabel>
+            <translation><!-- Greece --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guatemala</masterLabel>
+            <translation><!-- Guatemala --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guyana</masterLabel>
+            <translation><!-- Guyana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Honduras</masterLabel>
+            <translation><!-- Honduras --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hungary</masterLabel>
+            <translation><!-- Hungary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iceland</masterLabel>
+            <translation><!-- Iceland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation><!-- India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ireland</masterLabel>
+            <translation><!-- Ireland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Italy</masterLabel>
+            <translation><!-- Italy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Japan</masterLabel>
+            <translation><!-- Japan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latvia</masterLabel>
+            <translation><!-- Latvia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lithuania</masterLabel>
+            <translation><!-- Lithuania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Luxembourg</masterLabel>
+            <translation><!-- Luxembourg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malta</masterLabel>
+            <translation><!-- Malta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mexico</masterLabel>
+            <translation><!-- Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montenegro</masterLabel>
+            <translation><!-- Montenegro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Netherlands</masterLabel>
+            <translation><!-- Netherlands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Zealand</masterLabel>
+            <translation><!-- New Zealand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nicaragua</masterLabel>
+            <translation><!-- Nicaragua --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norway</masterLabel>
+            <translation><!-- Norway --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Panama</masterLabel>
+            <translation><!-- Panama --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paraguay</masterLabel>
+            <translation><!-- Paraguay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peru</masterLabel>
+            <translation><!-- Peru --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poland</masterLabel>
+            <translation><!-- Poland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portugal</masterLabel>
+            <translation><!-- Portugal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Republic of Moldova</masterLabel>
+            <translation><!-- Republic of Moldova --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Romania</masterLabel>
+            <translation><!-- Romania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Russian Federation</masterLabel>
+            <translation><!-- Russian Federation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Serbia</masterLabel>
+            <translation><!-- Serbia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slovakia</masterLabel>
+            <translation><!-- Slovakia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slovenia</masterLabel>
+            <translation><!-- Slovenia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spain</masterLabel>
+            <translation><!-- Spain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suriname</masterLabel>
+            <translation><!-- Suriname --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sweden</masterLabel>
+            <translation><!-- Sweden --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Switzerland</masterLabel>
+            <translation><!-- Switzerland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ukraine</masterLabel>
+            <translation><!-- Ukraine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Kingdom</masterLabel>
+            <translation><!-- United Kingdom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United States</masterLabel>
+            <translation><!-- United States --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uruguay</masterLabel>
+            <translation><!-- Uruguay --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contract Duration (Months) --></label>
+        <name>MedConnect__Contract_Duration_Months__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Number --></label>
+        <name>MedConnect__Contract_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Price --></label>
+        <name>MedConnect__Contract_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Signed --></label>
+        <name>MedConnect__Contract_Signed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Source --></label>
+        <name>MedConnect__Contract_Source__c</name>
+        <picklistValues>
+            <masterLabel>02 - Contract Renewal</masterLabel>
+            <translation><!-- 02 - Contract Renewal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03 - Conversion From Billable</masterLabel>
+            <translation><!-- 03 - Conversion From Billable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04 - Conversion From Warranty</masterLabel>
+            <translation><!-- 04 - Conversion From Warranty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>06 - Time Of Sale</masterLabel>
+            <translation><!-- 06 - Time Of Sale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 - MFG Migration</masterLabel>
+            <translation><!-- 10 - MFG Migration --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Cost Center --></label>
+        <name>MedConnect__Cost_Center__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Parts Price Book --></label>
+        <name>MedConnect__Default_Parts_Price_Book__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Travel Price --></label>
+        <name>MedConnect__Default_Travel_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Travel Unit --></label>
+        <name>MedConnect__Default_Travel_Unit__c</name>
+        <picklistValues>
+            <masterLabel>Flat Rate</masterLabel>
+            <translation><!-- Flat Rate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Per Hour</masterLabel>
+            <translation><!-- Per Hour --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tiered Per Mile/Km</masterLabel>
+            <translation><!-- Tiered Per Mile/Km --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zone Based</masterLabel>
+            <translation><!-- Zone Based --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Discount% --></label>
+        <name>MedConnect__Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discounted Price --></label>
+        <name>MedConnect__Discounted_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>MedConnect__End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exchange Type --></label>
+        <name>MedConnect__Exchange_Type__c</name>
+        <picklistValues>
+            <masterLabel>Advance Exchange</masterLabel>
+            <translation><!-- Advance Exchange --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return Exchange</masterLabel>
+            <translation><!-- Return Exchange --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- MFG Contract Number --></label>
+        <name>MedConnect__MFG_Contract_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Minimum Labor (Mins) --></label>
+        <name>MedConnect__Minimum_Labor_Mins__c</name>
+    </fields>
+    <fields>
+        <label><!-- Minimum Travel (Mins) --></label>
+        <name>MedConnect__Minimum_Travel_Mins__c</name>
+    </fields>
+    <fields>
+        <label><!-- Moved To SAP --></label>
+        <name>MedConnect__Moved_To_SAP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Date --></label>
+        <name>MedConnect__Order_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- PO Number --></label>
+        <name>MedConnect__PO_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- PO Required --></label>
+        <name>MedConnect__PO_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Terms --></label>
+        <name>MedConnect__Payment_Terms__c</name>
+        <picklistValues>
+            <masterLabel>2% NET 30</masterLabel>
+            <translation><!-- 2% NET 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRE - Credit Card</masterLabel>
+            <translation><!-- CRE - Credit Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CWO - Cash With Order</masterLabel>
+            <translation><!-- CWO - Cash With Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MFG Migration</masterLabel>
+            <translation><!-- MFG Migration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N30 - Net 30 Days From Invoice</masterLabel>
+            <translation><!-- N30 - Net 30 Days From Invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N60 - Net 60 Days From Invoice</masterLabel>
+            <translation><!-- N60 - Net 60 Days From Invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NET 30</masterLabel>
+            <translation><!-- NET 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NET 45</masterLabel>
+            <translation><!-- NET 45 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NET 60</masterLabel>
+            <translation><!-- NET 60 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Promo Code --></label>
+        <name>MedConnect__Promo_Code__c</name>
+        <picklistValues>
+            <masterLabel>Code1</masterLabel>
+            <translation><!-- Code1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code2</masterLabel>
+            <translation><!-- Code2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Purchase Order --></label>
+        <name>MedConnect__Purchase_Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Renewal Date --></label>
+        <name>MedConnect__Renewal_Date_View__c</name>
+    </fields>
+    <fields>
+        <label><!-- Renewal Date --></label>
+        <name>MedConnect__Renewal_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Renewal Notes --></label>
+        <name>MedConnect__Renewal_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Renewal Number --></label>
+        <name>MedConnect__Renewal_Number_View__c</name>
+    </fields>
+    <fields>
+        <label><!-- Renewal Number --></label>
+        <name>MedConnect__Renewal_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Round Labor To Nearest (Mins) --></label>
+        <name>MedConnect__Round_Labor_To_Nearest_Mins__c</name>
+    </fields>
+    <fields>
+        <label><!-- Round Travel to Nearest (Mins) --></label>
+        <name>MedConnect__Round_Travel_to_Nearest_Mins__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rounding Type (Labor) --></label>
+        <name>MedConnect__Rounding_Type_Labor__c</name>
+        <picklistValues>
+            <masterLabel>Actuals</masterLabel>
+            <translation><!-- Actuals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Round Down</masterLabel>
+            <translation><!-- Round Down --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Round Up</masterLabel>
+            <translation><!-- Round Up --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Rounding Type (Travel) --></label>
+        <name>MedConnect__Rounding_Type_Travel__c</name>
+        <picklistValues>
+            <masterLabel>Actuals</masterLabel>
+            <translation><!-- Actuals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Round Down</masterLabel>
+            <translation><!-- Round Down --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Round Up</masterLabel>
+            <translation><!-- Round Up --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SLA Terms --></label>
+        <name>MedConnect__SLA_Terms__c</name>
+        <relationshipLabel><!-- Service/Maintenance Contract --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales Rep --></label>
+        <name>MedConnect__Sales_Rep__c</name>
+        <relationshipLabel><!-- Service/Maintenance Contract (Sales Rep) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Select --></label>
+        <name>MedConnect__Select__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Contract Notes --></label>
+        <name>MedConnect__Service_Contract_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service/Maintenance Contract --></label>
+        <name>MedConnect__Service_Maintenance_Contract__c</name>
+        <relationshipLabel><!-- Service/Maintenance Contract --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Service Plan --></label>
+        <name>MedConnect__Service_Plan__c</name>
+        <relationshipLabel><!-- Service/Maintenance Contract --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>MedConnect__Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>MedConnect__User__c</name>
+        <relationshipLabel><!-- Service/Maintenance Contract (User) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Weeks To Renewal --></label>
+        <name>MedConnect__Weeks_To_Renewal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zone --></label>
+        <name>MedConnect__Zone__c</name>
+        <picklistValues>
+            <masterLabel>Zone 1</masterLabel>
+            <translation><!-- Zone 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zone 2</masterLabel>
+            <translation><!-- Zone 2 --></translation>
+        </picklistValues>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Start Date must be less than End Date --></errorMessage>
+        <name>MedConnect__Start_Date_must_be_less_than_End_Date</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Activate --></label>
+        <name>MedConnect__Activate</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Deactivate --></label>
+        <name>MedConnect__Deactivate</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Renew_Contract --></label>
+        <name>MedConnect__Renew_Contract</name>
+    </webLinks>
+</CustomObjectTranslation>

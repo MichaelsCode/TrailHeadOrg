@@ -1,3 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Discount Method --></label>
+        <name>MedConnect__Discount_Method__c</name>
+        <picklistValues>
+            <masterLabel>Simple</masterLabel>
+            <translation><!-- Simple --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tiered</masterLabel>
+            <translation><!-- Tiered --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Discount Name --></label>
+        <name>MedConnect__Discount_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective End Date --></label>
+        <name>MedConnect__Effective_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Start Date --></label>
+        <name>MedConnect__Effective_Start_Date__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Effective Start Date cannot be greater than the End date --></errorMessage>
+        <name>MedConnect__Effective_Start_End_Validity</name>
+    </validationRules>
+</CustomObjectTranslation>

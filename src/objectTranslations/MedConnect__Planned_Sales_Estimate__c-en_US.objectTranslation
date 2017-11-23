@@ -1,3 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account Plan Id --></label>
+        <name>MedConnect__Account_Plan_Id__c</name>
+        <relationshipLabel><!-- Planned Sales Estimates --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Planned Qtr Revenue --></label>
+        <name>MedConnect__Planned_Qtr_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Id --></label>
+        <name>MedConnect__Product_Id__c</name>
+        <relationshipLabel><!-- Planned Sales Estimates --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

@@ -1,3 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Company Profile --></label>
+        <name>MedConnect__Company_Profile__c</name>
+        <relationshipLabel><!-- Company Product Profile --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>MedConnect__Product__c</name>
+        <relationshipLabel><!-- Company Product Profile --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales Q1 --></label>
+        <name>MedConnect__Sales_Q1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Q2 --></label>
+        <name>MedConnect__Sales_Q2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Q3 --></label>
+        <name>MedConnect__Sales_Q3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Q4 --></label>
+        <name>MedConnect__Sales_Q4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year --></label>
+        <name>MedConnect__Year__c</name>
+    </fields>
+</CustomObjectTranslation>

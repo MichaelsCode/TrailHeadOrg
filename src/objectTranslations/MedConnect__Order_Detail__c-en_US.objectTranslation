@@ -1,3 +1,194 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Line Item Edit --></label>
+        <name>Line_Item_Edit</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- OrderLineItemFieldSet --></label>
+        <name>OrderLineItemFieldSet</name>
+    </fieldSets>
+    <fields>
+        <label><!-- ADT Short Name --></label>
+        <name>MedConnect__ADT_Short_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Balance Quantity --></label>
+        <name>MedConnect__Balance_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier --></label>
+        <name>MedConnect__Carrier__c</name>
+        <picklistValues>
+            <masterLabel>Air</masterLabel>
+            <translation><!-- Air --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DHL</masterLabel>
+            <translation><!-- DHL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FedEx</masterLabel>
+            <translation><!-- FedEx --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Full Load</masterLabel>
+            <translation><!-- Full Load --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS</masterLabel>
+            <translation><!-- UPS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USPS</masterLabel>
+            <translation><!-- USPS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Discount Metrics --></label>
+        <name>MedConnect__Discount_Metrics__c</name>
+        <relationshipLabel><!-- Sales Order Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Unit Discount --></label>
+        <name>MedConnect__Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected Shipping Date --></label>
+        <name>MedConnect__Expected_Shipping_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Freight Amount --></label>
+        <name>MedConnect__Freight_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fulfillment Date --></label>
+        <name>MedConnect__Fulfillment_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Installation Account --></label>
+        <name>MedConnect__Installation_Account__c</name>
+        <relationshipLabel><!-- Sales Order Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Item Status --></label>
+        <name>MedConnect__Item_Status__c</name>
+        <picklistValues>
+            <masterLabel>In Stock</masterLabel>
+            <translation><!-- In Stock --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Out of Stock</masterLabel>
+            <translation><!-- Out of Stock --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Material Quote Line Item --></label>
+        <name>MedConnect__Material_Quote_Line_Item__c</name>
+        <relationshipLabel><!-- Sales Order Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Order ID --></label>
+        <name>MedConnect__Order_Id__c</name>
+        <relationshipLabel><!-- Sales Order Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Order Line Item --></label>
+        <name>MedConnect__Order_Line_Item__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partial Shipment --></label>
+        <name>MedConnect__Partial_Shipment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payable Amount --></label>
+        <name>MedConnect__Payable_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit Price --></label>
+        <name>MedConnect__Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>MedConnect__Product__c</name>
+        <relationshipLabel><!-- Sales Order Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity Shipped --></label>
+        <name>MedConnect__Quantity_Shipped__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>MedConnect__Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason for Change --></label>
+        <name>MedConnect__Reason_for_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Requested Delivery Date --></label>
+        <name>MedConnect__Requested_Delivery_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Method --></label>
+        <name>MedConnect__Shipping_Method__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>MedConnect__Status__c</name>
+        <picklistValues>
+            <masterLabel>Backorder</masterLabel>
+            <translation><!-- Backorder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dispatched from Inventory</masterLabel>
+            <translation><!-- Dispatched from Inventory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order Received</masterLabel>
+            <translation><!-- Order Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order Received at Ship To location</masterLabel>
+            <translation><!-- Order Received at Ship To location --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order Shipped</masterLabel>
+            <translation><!-- Order Shipped --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tax --></label>
+        <name>MedConnect__Tax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Discount --></label>
+        <name>MedConnect__Total_Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Price --></label>
+        <name>MedConnect__Total_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking Number --></label>
+        <name>MedConnect__Tracking_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volume Discount Line Item --></label>
+        <name>MedConnect__Volume_Discount_Line_Item__c</name>
+        <relationshipLabel><!-- Sales Order Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Warehouse --></label>
+        <name>MedConnect__Warehouse__c</name>
+        <relationshipLabel><!-- Sales Order Line Items --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

@@ -1,3 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Content --></label>
+        <name>MedConnect__Content__c</name>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>MedConnect__Priority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>MedConnect__Product__c</name>
+        <relationshipLabel><!-- Technical Bulletins --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Valid From --></label>
+        <name>MedConnect__Valid_From__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valid Till --></label>
+        <name>MedConnect__Valid_Till__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Valid From can not be greater than Valid Till date.Kindly provide the appropriate data. --></errorMessage>
+        <name>MedConnect__Valid_Till_can_not_be_less_thanvalidfrom</name>
+    </validationRules>
+</CustomObjectTranslation>

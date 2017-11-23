@@ -1,3 +1,191 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account Type --></label>
+        <name>MedConnect__Account_Type__c</name>
+        <picklistValues>
+            <masterLabel>Affiliates</masterLabel>
+            <translation><!-- Affiliates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billing Account</masterLabel>
+            <translation><!-- Billing Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clinic</masterLabel>
+            <translation><!-- Clinic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial Customers</masterLabel>
+            <translation><!-- Commercial Customers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Export Partner</masterLabel>
+            <translation><!-- Export Partner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fulfillment Shipper/Distributer</masterLabel>
+            <translation><!-- Fulfillment Shipper/Distributer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GPO</masterLabel>
+            <translation><!-- GPO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospital/Surgery Centres</masterLabel>
+            <translation><!-- Hospital/Surgery Centres --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IDN</masterLabel>
+            <translation><!-- IDN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Laboratories</masterLabel>
+            <translation><!-- Laboratories --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmacy</masterLabel>
+            <translation><!-- Pharmacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase Account</masterLabel>
+            <translation><!-- Purchase Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipping Account</masterLabel>
+            <translation><!-- Shipping Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplier</masterLabel>
+            <translation><!-- Supplier --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>MedConnect__Account__c</name>
+        <relationshipLabel><!-- Discount Metrics (Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Adjustment Amount --></label>
+        <name>MedConnect__Adjustment_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Adjustment Type --></label>
+        <name>MedConnect__Adjustment_Type__c</name>
+        <picklistValues>
+            <masterLabel>% Discount</masterLabel>
+            <translation><!-- % Discount --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>% Markup</masterLabel>
+            <translation><!-- % Markup --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discount Amount</masterLabel>
+            <translation><!-- Discount Amount --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Markup Amount</masterLabel>
+            <translation><!-- Markup Amount --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Distributor --></label>
+        <name>MedConnect__Distributor_Account__c</name>
+        <relationshipLabel><!-- Discount Metrics (Distributor) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Discount Matrix Duplicate found --></label>
+        <name>MedConnect__DuplicateDeterminer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective End Date --></label>
+        <name>MedConnect__Effective_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Start Date --></label>
+        <name>MedConnect__Effective_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Category --></label>
+        <name>MedConnect__Product_Category__c</name>
+        <picklistValues>
+            <masterLabel>Durable</masterLabel>
+            <translation><!-- Durable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fast Moving</masterLabel>
+            <translation><!-- Fast Moving --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invasive</masterLabel>
+            <translation><!-- Invasive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noninvasive</masterLabel>
+            <translation><!-- Noninvasive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product Line --></label>
+        <name>MedConnect__Product_Line__c</name>
+        <picklistValues>
+            <masterLabel>Diagnostic</masterLabel>
+            <translation><!-- Diagnostic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Miscellaneous</masterLabel>
+            <translation><!-- Miscellaneous --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monitoring</masterLabel>
+            <translation><!-- Monitoring --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Therapeutic</masterLabel>
+            <translation><!-- Therapeutic --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>MedConnect__Product__c</name>
+        <relationshipLabel><!-- Discount Metrics --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Volume Discount --></label>
+        <name>MedConnect__Volume_Discount__c</name>
+        <relationshipLabel><!-- Discount Metrics --></relationshipLabel>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Select The Same Account Type or Account of that Record Type --></errorMessage>
+        <name>MedConnect__AccountRecordType_not_eq_be_Account_Type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Adjustment Amount cannot be more then 100 when Adjustment Type is % --></errorMessage>
+        <name>MedConnect__Adjustment_Amount_Validation_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If you have Volume Discount entered, You don&apos;t need to enter Adjustment Amount but leave it blank, else you need to have value in Adjustment amount. --></errorMessage>
+        <name>MedConnect__Adjustment_Amount_and_VD_optionally_req</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Effective End Date cannot be before Effective Start Date. --></errorMessage>
+        <name>MedConnect__Discount_Metrics_Validation_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Effective End Date can not be greater then the Effective End Date of Product --></errorMessage>
+        <name>MedConnect__Effective_End_Date_Validation_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If you have Volume Discount entered, You don&apos;t need to enter Effective End Date but leave it blank, else you need to enter Effective End Date . --></errorMessage>
+        <name>MedConnect__Effective_End_Date_Validation_Rule_VD</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Effective Start Date cannot be less than Current Date --></errorMessage>
+        <name>MedConnect__Effective_Start_Date_Input_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If you have Volume Discount entered, You don&apos;t need to enter Effective Start Date but leave it blank, else you need to enter Effective Start Date . --></errorMessage>
+        <name>MedConnect__Effective_Start_Date_Validation_Rule</name>
+    </validationRules>
+</CustomObjectTranslation>

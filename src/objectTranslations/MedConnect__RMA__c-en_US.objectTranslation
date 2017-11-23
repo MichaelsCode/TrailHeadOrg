@@ -1,3 +1,591 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- RMA_Edit_View --></label>
+        <name>RMA_Edit_View</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Account --></label>
+        <name>MedConnect__Account__c</name>
+        <relationshipLabel><!-- RMAs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Adt Short Name --></label>
+        <name>MedConnect__Adt_Short_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Amount to be paid for Conversion --></label>
+        <name>MedConnect__Amount_to_be_paid_for_Conversion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asset --></label>
+        <name>MedConnect__Asset__c</name>
+        <relationshipLabel><!-- RMAs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Associated Support Representative --></label>
+        <name>MedConnect__Associated_Support_Representative__c</name>
+        <relationshipLabel><!-- RMAs (Associated Support Representative) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Button Flag --></label>
+        <name>MedConnect__Button_Flag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cancellation Date --></label>
+        <name>MedConnect__Cancellation_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>MedConnect__CommentsOnRecievingDispatchedProd__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conversion Request Date --></label>
+        <name>MedConnect__Conversion_Request_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conversion Request Description --></label>
+        <name>MedConnect__Conversion_Request_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Contact --></label>
+        <name>MedConnect__Customer_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer --></label>
+        <name>MedConnect__Customer__c</name>
+        <relationshipLabel><!-- RMAs (Customer) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date of Purchase --></label>
+        <name>MedConnect__Date_of_Purchase__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dispatch Address --></label>
+        <name>MedConnect__Dispatch_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dispatch Address --></label>
+        <name>MedConnect__Dispatch_Address_of_Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Address --></label>
+        <name>MedConnect__Dispatch_Address_of_Customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Date --></label>
+        <name>MedConnect__Dispatch_Date_Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dispatch Date --></label>
+        <name>MedConnect__Dispatch_Date_Customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Mode --></label>
+        <name>MedConnect__Dispatch_Mode_Company__c</name>
+        <picklistValues>
+            <masterLabel>Courier</masterLabel>
+            <translation><!-- Courier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hand to Hand</masterLabel>
+            <translation><!-- Hand to Hand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parcel</masterLabel>
+            <translation><!-- Parcel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipping</masterLabel>
+            <translation><!-- Shipping --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Dispatch Mode --></label>
+        <name>MedConnect__Dispatch_Mode_Customer__c</name>
+        <picklistValues>
+            <masterLabel>Courier</masterLabel>
+            <translation><!-- Courier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hand to Hand</masterLabel>
+            <translation><!-- Hand to Hand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parcel</masterLabel>
+            <translation><!-- Parcel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipping</masterLabel>
+            <translation><!-- Shipping --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Dispatched Via --></label>
+        <name>MedConnect__Dispatched_Via_By_Customer__c</name>
+        <picklistValues>
+            <masterLabel>DELIVERY</masterLabel>
+            <translation><!-- DELIVERY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DHL AIRWAY</masterLabel>
+            <translation><!-- DHL AIRWAY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FEDEX 2 DAYS</masterLabel>
+            <translation><!-- FEDEX 2 DAYS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FEDEX 3 DAYS</masterLabel>
+            <translation><!-- FEDEX 3 DAYS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FEDEX GROUND</masterLabel>
+            <translation><!-- FEDEX GROUND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FEDEX PRIORITY OVERN</masterLabel>
+            <translation><!-- FEDEX PRIORITY OVERN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FEDEX STAND. OVER NT</masterLabel>
+            <translation><!-- FEDEX STAND. OVER NT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OTHER</masterLabel>
+            <translation><!-- OTHER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PICK UP</masterLabel>
+            <translation><!-- PICK UP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRUCKING</masterLabel>
+            <translation><!-- TRUCKING --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS 3 DAY SERVICE</masterLabel>
+            <translation><!-- UPS 3 DAY SERVICE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS BLUE</masterLabel>
+            <translation><!-- UPS BLUE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS GROUND</masterLabel>
+            <translation><!-- UPS GROUND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS GROUND 100 WEIGHT</masterLabel>
+            <translation><!-- UPS GROUND 100 WEIGHT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS RED</masterLabel>
+            <translation><!-- UPS RED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS-RED SATURDAY DEL</masterLabel>
+            <translation><!-- UPS-RED SATURDAY DEL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USA MAIL</masterLabel>
+            <translation><!-- USA MAIL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WILL CALL</masterLabel>
+            <translation><!-- WILL CALL --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Expected Delivery Date --></label>
+        <name>MedConnect__Expected_Delivery_Date_Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected Delivery Date Customer --></label>
+        <name>MedConnect__Expected_Delivery_Date_Customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Impacted Product --></label>
+        <name>MedConnect__Impacted_Product__c</name>
+        <relationshipLabel><!-- RMAs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- IsShipped --></label>
+        <name>MedConnect__IsDispatchedByCompany__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsDispatched --></label>
+        <name>MedConnect__IsDispatchedByCustomer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Dispatched --></label>
+        <name>MedConnect__Is_Dispatched__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has Payment been done --></label>
+        <name>MedConnect__Is_Payment_done__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loaner Asset Sl. No. --></label>
+        <name>MedConnect__Loaner_Asset_Sl_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loaner Asset --></label>
+        <name>MedConnect__Loaner_Asset__c</name>
+        <relationshipLabel><!-- RMAs (Loaner Asset) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Number of hours used before malfunction --></label>
+        <name>MedConnect__Number_of_hours_used__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>MedConnect__Order__c</name>
+        <relationshipLabel><!-- RMAs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Other Shipping Details --></label>
+        <name>MedConnect__Other_Dispatch_Details_Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Dispatch Details --></label>
+        <name>MedConnect__Other_Dispatch_Details_Customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Dispatch Details --></label>
+        <name>MedConnect__Other_Dispatch_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date --></label>
+        <name>MedConnect__Package_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>MedConnect__Package_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Standard RMA --></label>
+        <name>MedConnect__Parent_RMA__c</name>
+        <relationshipLabel><!-- RMAs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Problem Description --></label>
+        <name>MedConnect__Problem_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Complaint --></label>
+        <name>MedConnect__Product_Complaint__c</name>
+        <relationshipLabel><!-- RMAs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Condition On Receiving --></label>
+        <name>MedConnect__Product_Condition_On_Recieving__c</name>
+        <picklistValues>
+            <masterLabel>Extensively Damaged</masterLabel>
+            <translation><!-- Extensively Damaged --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Good Condition</masterLabel>
+            <translation><!-- Good Condition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-repairable</masterLabel>
+            <translation><!-- Non-repairable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repairable</masterLabel>
+            <translation><!-- Repairable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slightly Damaged</masterLabel>
+            <translation><!-- Slightly Damaged --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>MedConnect__Product__c</name>
+        <relationshipLabel><!-- RMAs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity Returned --></label>
+        <name>MedConnect__Quantity_Returned__c</name>
+    </fields>
+    <fields>
+        <label><!-- RMA Origin --></label>
+        <name>MedConnect__RMA_Origin__c</name>
+        <picklistValues>
+            <masterLabel>Case - Created by Support Rep</masterLabel>
+            <translation><!-- Case - Created by Support Rep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case - Created on Payment for Exchange by the customer</masterLabel>
+            <translation><!-- Case - Created on Payment for Exchange by the customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case - Created on Payment for Repair by the customer</masterLabel>
+            <translation><!-- Case - Created on Payment for Repair by the customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer - Directly Created</masterLabel>
+            <translation><!-- Customer - Directly Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>From Product Complaint</masterLabel>
+            <translation><!-- From Product Complaint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>From Service Request</masterLabel>
+            <translation><!-- From Service Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner - Directly  Created</masterLabel>
+            <translation><!-- Partner - Directly  Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RMA - Converted from Standard RMA</masterLabel>
+            <translation><!-- RMA - Converted from Standard RMA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RMA - Created against DOA</masterLabel>
+            <translation><!-- RMA - Created against DOA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- RMA Type --></label>
+        <name>MedConnect__RMA_Type__c</name>
+        <picklistValues>
+            <masterLabel>Return</masterLabel>
+            <translation><!-- Return --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return and Replace</masterLabel>
+            <translation><!-- Return and Replace --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reason For Change --></label>
+        <name>MedConnect__Reason_For_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason for Return --></label>
+        <name>MedConnect__Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason for Cancellation --></label>
+        <name>MedConnect__Reason_for_Cancellation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actual Receiving Date/Time of Customer --></label>
+        <name>MedConnect__Receiving_date_time_Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actual Receiving Date/Time of Company --></label>
+        <name>MedConnect__Receiving_date_time_Customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Received by --></label>
+        <name>MedConnect__Recieved_by_Company__c</name>
+        <relationshipLabel><!-- RMAs (Received by) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Replacement Product Serial number --></label>
+        <name>MedConnect__Replacement_Product_Serial_number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Returned Product Type --></label>
+        <name>MedConnect__Returned_Product_Type__c</name>
+        <picklistValues>
+            <masterLabel>Actual</masterLabel>
+            <translation><!-- Actual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Representative</masterLabel>
+            <translation><!-- Representative --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Service Request --></label>
+        <name>MedConnect__Service_Request__c</name>
+        <relationshipLabel><!-- RMAs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Shipped via --></label>
+        <name>MedConnect__Shipped_via_by_company__c</name>
+        <picklistValues>
+            <masterLabel>DELIVERY</masterLabel>
+            <translation><!-- DELIVERY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DHL AIRWAY</masterLabel>
+            <translation><!-- DHL AIRWAY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FEDEX 2 DAYS</masterLabel>
+            <translation><!-- FEDEX 2 DAYS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FEDEX 3 DAYS</masterLabel>
+            <translation><!-- FEDEX 3 DAYS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FEDEX GROUND</masterLabel>
+            <translation><!-- FEDEX GROUND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FEDEX PRIORITY OVERN</masterLabel>
+            <translation><!-- FEDEX PRIORITY OVERN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FEDEX STAND. OVER NT</masterLabel>
+            <translation><!-- FEDEX STAND. OVER NT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OTHER</masterLabel>
+            <translation><!-- OTHER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PICK UP</masterLabel>
+            <translation><!-- PICK UP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRUCKING</masterLabel>
+            <translation><!-- TRUCKING --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS 3 DAY SERVICE</masterLabel>
+            <translation><!-- UPS 3 DAY SERVICE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS BLUE</masterLabel>
+            <translation><!-- UPS BLUE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS GROUND</masterLabel>
+            <translation><!-- UPS GROUND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS GROUND 100 WEIGHT</masterLabel>
+            <translation><!-- UPS GROUND 100 WEIGHT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS RED</masterLabel>
+            <translation><!-- UPS RED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS-RED SATURDAY DEL</masterLabel>
+            <translation><!-- UPS-RED SATURDAY DEL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USA MAIL</masterLabel>
+            <translation><!-- USA MAIL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WILL CALL</masterLabel>
+            <translation><!-- WILL CALL --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Shipping and Handling Charges --></label>
+        <name>MedConnect__Shipping_and_Handling_Charges__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>MedConnect__Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change to Advanced Requested</masterLabel>
+            <translation><!-- Change to Advanced Requested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Converted to Advanced</masterLabel>
+            <translation><!-- Converted to Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dead On Arrival</masterLabel>
+            <translation><!-- Dead On Arrival --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dispatch Requested - Directly Created</masterLabel>
+            <translation><!-- Dispatch Requested - Directly Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dispatched By Company</masterLabel>
+            <translation><!-- Dispatched By Company --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dispatched By Customer</masterLabel>
+            <translation><!-- Dispatched By Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Entitlements</masterLabel>
+            <translation><!-- No Entitlements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment Made for Repair</masterLabel>
+            <translation><!-- Payment Made for Repair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment Made for Replacement</masterLabel>
+            <translation><!-- Payment Made for Replacement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recieved By Company</masterLabel>
+            <translation><!-- Recieved By Company --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recieved by Customer</masterLabel>
+            <translation><!-- Recieved by Customer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Store/Dealer Address --></label>
+        <name>MedConnect__Store_Dealer_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Store/Dealer Number --></label>
+        <name>MedConnect__Store_Dealer_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>MedConnect__Support_Rep_Comments__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Advanced --></label>
+        <name>Advanced</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Repair --></label>
+        <name>Repair</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Standard --></label>
+        <name>Standard</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- New_RMA_For_Product_Complaint --></label>
+        <name>MedConnect__New_RMA_For_Product_Complaint</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- View_Audit_History --></label>
+        <name>MedConnect__View_Audit_History</name>
+    </webLinks>
+</CustomObjectTranslation>

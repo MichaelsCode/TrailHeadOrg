@@ -1,3 +1,337 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- NCMRDetailPage --></label>
+        <name>NCMRDetailPage</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- NCMR Information --></label>
+        <name>NCMR_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- NCMR Non-Conformance Details --></label>
+        <name>NCMR_Non_Conformance_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- NCMR Non-Conformance Source --></label>
+        <name>NCMR_Non_Conformance_Source</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- NCMR Non-Conforming Details --></label>
+        <name>NCMR_Non_Conforming_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- NCMR Reporter Details --></label>
+        <name>NCMR_Reporter_Details</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Address --></label>
+        <name>MedConnect__Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Short Name --></label>
+        <name>MedConnect__Adt_Short_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attribution --></label>
+        <name>MedConnect__Attribution__c</name>
+    </fields>
+    <fields>
+        <label><!-- Catalog Number --></label>
+        <name>MedConnect__Catalog_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Containment Due Date --></label>
+        <name>MedConnect__Containment_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Account --></label>
+        <name>MedConnect__Customer_Account__c</name>
+        <relationshipLabel><!-- NCMR (Customer Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Department --></label>
+        <name>MedConnect__Department__c</name>
+        <relationshipLabel><!-- NCMR (Department) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description of Non-Conformance --></label>
+        <name>MedConnect__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disposition Due Date --></label>
+        <name>MedConnect__Disposition_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>MedConnect__Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Failure Mode --></label>
+        <name>MedConnect__Failure_Mode_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Failure Mode --></label>
+        <name>MedConnect__Failure_Mode__c</name>
+        <relationshipLabel><!-- NCMR --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Fax --></label>
+        <name>MedConnect__Fax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initia Risk Assessment Date --></label>
+        <name>MedConnect__Initia_Risk_Assessment_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Investigation Due Date --></label>
+        <name>MedConnect__Investigation_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non-Conformance Title --></label>
+        <name>MedConnect__Non_Conformance_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non-Conformance Type --></label>
+        <name>MedConnect__Non_Conformance_Type__c</name>
+        <picklistValues>
+            <masterLabel>Customer</masterLabel>
+            <translation><!-- Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal</masterLabel>
+            <translation><!-- Internal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplier</masterLabel>
+            <translation><!-- Supplier --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Objective Evidence --></label>
+        <name>MedConnect__Objective_Evidence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Occurrence Date --></label>
+        <name>MedConnect__Occurance_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comment --></label>
+        <name>MedConnect__PC_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comment --></label>
+        <name>MedConnect__PD_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comment --></label>
+        <name>MedConnect__PIRA_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comment --></label>
+        <name>MedConnect__PI_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Perform Containment? --></label>
+        <name>MedConnect__Perform_Containment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Perform Disposition? --></label>
+        <name>MedConnect__Perform_Disposition__c</name>
+    </fields>
+    <fields>
+        <label><!-- Perform Initial Risk Assessment? --></label>
+        <name>MedConnect__Perform_Initial_Risk_Assessment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Perform Investigation? --></label>
+        <name>MedConnect__Perform_Investigation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>MedConnect__Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discovery/Plant Area --></label>
+        <name>MedConnect__Plant_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>MedConnect__Priority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Process --></label>
+        <name>MedConnect__Process__c</name>
+        <relationshipLabel><!-- NCMR --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Processing Status History --></label>
+        <name>MedConnect__Processing_Status_History__c</name>
+    </fields>
+    <fields>
+        <label><!-- Processing Status --></label>
+        <name>MedConnect__Processing_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved &amp; Closed</masterLabel>
+            <translation><!-- Approved &amp; Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Assigned to MRB</masterLabel>
+            <translation><!-- Assigned to MRB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Containment Performed</masterLabel>
+            <translation><!-- Containment Performed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disposition Closed</masterLabel>
+            <translation><!-- Disposition Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disposition In Progress</masterLabel>
+            <translation><!-- Disposition In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investigation In Progress</masterLabel>
+            <translation><!-- Investigation In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investigation Performed</masterLabel>
+            <translation><!-- Investigation Performed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted For Approval</masterLabel>
+            <translation><!-- Submitted For Approval --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product Line --></label>
+        <name>MedConnect__Product_Line__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Revision --></label>
+        <name>MedConnect__Product_Revision__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product/Sub-Assembly/Component --></label>
+        <name>MedConnect__Product__c</name>
+        <relationshipLabel><!-- NCMR --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reason For Change --></label>
+        <name>MedConnect__Reason_For_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Date --></label>
+        <name>MedConnect__Report_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Name --></label>
+        <name>MedConnect__Reporter_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Severity --></label>
+        <name>MedConnect__Severity__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Source Number --></label>
+        <name>MedConnect__Source_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Type --></label>
+        <name>MedConnect__Source_Type__c</name>
+        <picklistValues>
+            <masterLabel>IN PROGRESS NCR</masterLabel>
+            <translation><!-- IN PROGRESS NCR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INCOMING NCR</masterLabel>
+            <translation><!-- INCOMING NCR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Source --></label>
+        <name>MedConnect__Source__c</name>
+        <picklistValues>
+            <masterLabel>General</masterLabel>
+            <translation><!-- General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inspection</masterLabel>
+            <translation><!-- Inspection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receipt</masterLabel>
+            <translation><!-- Receipt --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Supplier Account --></label>
+        <name>MedConnect__Supplier_Account__c</name>
+        <relationshipLabel><!-- NCMR (Supplier Account) --></relationshipLabel>
+    </fields>
+    <recordTypes>
+        <label><!-- NCMR For Audit --></label>
+        <name>Audit</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- NCMR for Sub-Assembly --></label>
+        <name>NCMR_for_Sub_assembly</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- NCMR for Components --></label>
+        <name>NCMR_for_components</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- NCMR For Process --></label>
+        <name>Process</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- NCMR For Product --></label>
+        <name>Product</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Determine_Disposition --></label>
+        <name>MedConnect__Determine_Disposition</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_PDF --></label>
+        <name>MedConnect__Generate_PDF</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Policy --></label>
+        <name>MedConnect__Policy</name>
+    </webLinks>
+</CustomObjectTranslation>

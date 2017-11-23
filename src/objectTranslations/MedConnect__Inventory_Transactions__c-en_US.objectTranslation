@@ -1,3 +1,327 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- TransferFieldSet --></label>
+        <name>TransferFieldSet</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Adjustment Reason --></label>
+        <name>MedConnect__Adjustment_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Adjustment Type --></label>
+        <name>MedConnect__Adjustment_Type__c</name>
+        <picklistValues>
+            <masterLabel>Lost/Damaged Stock Mismatch</masterLabel>
+            <translation><!-- Lost/Damaged Stock Mismatch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order/Transferred Out Stock Mismatch</masterLabel>
+            <translation><!-- Order/Transferred Out Stock Mismatch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return Stock Mismatch</masterLabel>
+            <translation><!-- Return Stock Mismatch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipment Stock Mismatch</masterLabel>
+            <translation><!-- Shipment Stock Mismatch --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Allocated Quantity --></label>
+        <name>MedConnect__Allocated_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call --></label>
+        <name>MedConnect__Call__c</name>
+        <relationshipLabel><!-- Inventory Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Depot --></label>
+        <name>MedConnect__Depot__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destination Customer --></label>
+        <name>MedConnect__Destination_Customer__c</name>
+        <relationshipLabel><!-- Inventory Transactions (Destination Customer) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Destination FSE --></label>
+        <name>MedConnect__Destination_FSE__c</name>
+        <relationshipLabel><!-- Inventory Transactions (Destination FSE) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Destination Inventory Location --></label>
+        <name>MedConnect__Destination_Inventory_Location__c</name>
+        <relationshipLabel><!-- Inventory Transactions (Destination Inventory Location) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Destination Inventory --></label>
+        <name>MedConnect__Destination_Inventory__c</name>
+        <picklistValues>
+            <masterLabel>Consignment</masterLabel>
+            <translation><!-- Consignment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer</masterLabel>
+            <translation><!-- Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributor</masterLabel>
+            <translation><!-- Distributor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trunk of FSE</masterLabel>
+            <translation><!-- Trunk of FSE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warehouse</masterLabel>
+            <translation><!-- Warehouse --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Transaction End Date --></label>
+        <name>MedConnect__End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- FirstTimeFeed --></label>
+        <name>MedConnect__FirstTimeFeed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory Id --></label>
+        <name>MedConnect__Inventory_Item_Id__c</name>
+        <relationshipLabel><!-- Inventory Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Inventory Order Line Item --></label>
+        <name>MedConnect__Inventory_Order_Line_Item__c</name>
+        <relationshipLabel><!-- Inventory Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Inventory Period --></label>
+        <name>MedConnect__Inventory_Period__c</name>
+        <relationshipLabel><!-- Inventory Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Inventory Transactions --></label>
+        <name>MedConnect__Inventory_Transactions__c</name>
+        <relationshipLabel><!-- Inventory Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reason --></label>
+        <name>MedConnect__Lost_Damaged_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Max Quantity --></label>
+        <name>MedConnect__Max_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Line Item --></label>
+        <name>MedConnect__Order_Line_Item__c</name>
+        <relationshipLabel><!-- Inventory Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Parent Inventory Quantity --></label>
+        <name>MedConnect__Parent_Inventory_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>MedConnect__Quantity_Dispaly__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>MedConnect__Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reconcile Status --></label>
+        <name>MedConnect__Reconcile_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reconciled</masterLabel>
+            <translation><!-- Reconciled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>inactive</masterLabel>
+            <translation><!-- inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Source Customer --></label>
+        <name>MedConnect__Source_Customer__c</name>
+        <relationshipLabel><!-- Inventory Transactions (Source Customer) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Source FSE --></label>
+        <name>MedConnect__Source_FSE__c</name>
+        <relationshipLabel><!-- Inventory Transactions (Source FSE) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Source Inventory Location --></label>
+        <name>MedConnect__Source_Inventory_Location__c</name>
+        <relationshipLabel><!-- Inventory Transactions (Source Inventory Location) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Source Inventory --></label>
+        <name>MedConnect__Source_Inventory__c</name>
+        <picklistValues>
+            <masterLabel>Consignment</masterLabel>
+            <translation><!-- Consignment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer</masterLabel>
+            <translation><!-- Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributor</masterLabel>
+            <translation><!-- Distributor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trunk of FSE</masterLabel>
+            <translation><!-- Trunk of FSE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warehouse</masterLabel>
+            <translation><!-- Warehouse --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Transaction Date --></label>
+        <name>MedConnect__Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>MedConnect__Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Transaction Name --></label>
+        <name>MedConnect__Transaction_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>MedConnect__Type__c</name>
+        <picklistValues>
+            <masterLabel>Adjustment</masterLabel>
+            <translation><!-- Adjustment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allocate</masterLabel>
+            <translation><!-- Allocate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deallocate</masterLabel>
+            <translation><!-- Deallocate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exchange Between FSE</masterLabel>
+            <translation><!-- Exchange Between FSE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Over The Counter</masterLabel>
+            <translation><!-- Over The Counter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receive From TP</masterLabel>
+            <translation><!-- Receive From TP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receive Internal</masterLabel>
+            <translation><!-- Receive Internal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receive Others</masterLabel>
+            <translation><!-- Receive Others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ship Internal</masterLabel>
+            <translation><!-- Ship Internal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ship Other</masterLabel>
+            <translation><!-- Ship Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ship to TP</masterLabel>
+            <translation><!-- Ship to TP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stock Transfer</masterLabel>
+            <translation><!-- Stock Transfer --></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <label><!-- Adjustment --></label>
+        <name>Adjustment</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Damaged --></label>
+        <name>Damaged</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Default --></label>
+        <name>Default</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Depot Order --></label>
+        <name>Depot_Order</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Lost --></label>
+        <name>Lost_Damaged</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Order --></label>
+        <name>Order</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Return --></label>
+        <name>Return</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Shipment --></label>
+        <name>Shipment</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Transfer In --></label>
+        <name>Transfer_In</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Transfer Out --></label>
+        <name>Transfer_Out</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Quantity Can not be Greater than Source Inventory Quantity. --></errorMessage>
+        <name>MedConnect__Quantity_Can_not_Greater_than_Source</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Inventory Transaction can not be modified as current Inventory Period is reconciled. --></errorMessage>
+        <name>MedConnect__editable_false_after_reconcillation</name>
+    </validationRules>
+</CustomObjectTranslation>

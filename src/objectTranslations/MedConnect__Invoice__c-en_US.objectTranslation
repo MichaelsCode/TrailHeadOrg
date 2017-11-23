@@ -1,3 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- InvoiceCommonInfoInFieldSet --></label>
+        <name>InvoiceCommonInfoInFieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Invoice_Field_Set --></label>
+        <name>Invoice_Field_Set</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Account --></label>
+        <name>MedConnect__Account__c</name>
+        <relationshipLabel><!-- Invoices --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cancelation Notes --></label>
+        <name>MedConnect__Cancelation_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Canceled By --></label>
+        <name>MedConnect__Canceled_By__c</name>
+        <relationshipLabel><!-- Invoices --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Canceled On --></label>
+        <name>MedConnect__Canceled_On__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>MedConnect__Contact__c</name>
+        <relationshipLabel><!-- Invoices --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Payment Method --></label>
+        <name>MedConnect__Payment_Method__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purchase Order # --></label>
+        <name>MedConnect__Purchase_Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- RMA --></label>
+        <name>MedConnect__RMA_Order__c</name>
+        <relationshipLabel><!-- Invoices --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RMA --></label>
+        <name>MedConnect__RMA__c</name>
+        <relationshipLabel><!-- Invoices --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Service Request --></label>
+        <name>MedConnect__Service_Request__c</name>
+        <relationshipLabel><!-- Invoices --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>MedConnect__Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Close</masterLabel>
+            <translation><!-- Close --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid</masterLabel>
+            <translation><!-- Paid --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total Invoice Detail Amount --></label>
+        <name>MedConnect__Total_Invoice_Detail_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Order --></label>
+        <name>MedConnect__Work_Order__c</name>
+        <relationshipLabel><!-- Invoices --></relationshipLabel>
+    </fields>
+    <recordTypes>
+        <label><!-- Invoice For Repair --></label>
+        <name>RMA</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Invoice For Service Request --></label>
+        <name>Service_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Invoice For Work Order --></label>
+        <name>Work_Order</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Invoice_View_As_PDF --></label>
+        <name>MedConnect__Invoice_View_As_PDF</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Invoice_for_RMA --></label>
+        <name>MedConnect__New_Invoice_for_RMA</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Invoice_for_Service_Request --></label>
+        <name>MedConnect__New_Invoice_for_Service_Request</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Invoice_for_Work_Order --></label>
+        <name>MedConnect__New_Invoice_for_Work_Order</name>
+    </webLinks>
+</CustomObjectTranslation>

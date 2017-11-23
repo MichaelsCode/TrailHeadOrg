@@ -1,3 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account --></label>
+        <name>MedConnect__Account__c</name>
+        <relationshipLabel><!-- Company Profiles --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Business Unit --></label>
+        <name>MedConnect__Business_Unit__c</name>
+        <picklistValues>
+            <masterLabel>Anasthesia</masterLabel>
+            <translation><!-- Anasthesia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Biosurgery</masterLabel>
+            <translation><!-- Biosurgery --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Potential --></label>
+        <name>MedConnect__Potential__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales LM --></label>
+        <name>MedConnect__Sales_LM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales LY --></label>
+        <name>MedConnect__Sales_LY__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales QTD --></label>
+        <name>MedConnect__Sales_QTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales YTD --></label>
+        <name>MedConnect__Sales_YTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Therapeutic Area --></label>
+        <name>MedConnect__Therapeutic_Area__c</name>
+        <relationshipLabel><!-- Company Profiles --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

@@ -1,3 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Amount --></label>
+        <name>MedConnect__Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asset Warranty --></label>
+        <name>MedConnect__Asset_Warranty__c</name>
+        <relationshipLabel><!-- Credit Memo Line Item --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Asset --></label>
+        <name>MedConnect__Asset__c</name>
+        <relationshipLabel><!-- Credit Memo Line Item --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Credit Memo Header --></label>
+        <name>MedConnect__Credit_Memo_Header__c</name>
+        <relationshipLabel><!-- Credit Memo Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Discount From Warranty --></label>
+        <name>MedConnect__Discount_From_Warranty__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Name --></label>
+        <name>MedConnect__Product_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>MedConnect__Product__c</name>
+        <relationshipLabel><!-- Credit Memo Line Items (Product) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>MedConnect__Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Serial No --></label>
+        <name>MedConnect__Serial_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- UDI --></label>
+        <name>MedConnect__UDI__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit Price --></label>
+        <name>MedConnect__Unit_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Warranty Covered --></label>
+        <name>MedConnect__Warranty_Covered__c</name>
+    </fields>
+    <webLinks>
+        <label><!-- Custom_Delete --></label>
+        <name>MedConnect__Custom_Delete</name>
+    </webLinks>
+</CustomObjectTranslation>

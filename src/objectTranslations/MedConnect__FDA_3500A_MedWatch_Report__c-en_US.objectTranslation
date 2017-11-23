@@ -1,3 +1,1971 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- ESignature View FieldSet --></label>
+        <name>ESignature_View_FieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Extra Report Information --></label>
+        <name>Extra_Report_Information</name>
+    </fieldSets>
+    <fields>
+        <help><!-- Account selected here will be used to populate User Facility/Importer details(F3) in MedWatch Form. --></help>
+        <label><!-- User Facility/Importer Name --></label>
+        <name>MedConnect__Account__c</name>
+        <relationshipLabel><!-- FDA 3500A – MedWatch Reports --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Addnl. Manf. Narrative/Corrective Data --></label>
+        <name>MedConnect__Addnl_Manf_Narrative_Corrective_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Person Phone --></label>
+        <name>MedConnect__Contact_Person_Phone__c</name>
+    </fields>
+    <fields>
+        <help><!-- Account selected here will be used to populate User Facility/Importer Contact details(F4 &amp; F5) in MedWatch Form. --></help>
+        <label><!-- User Facility/Importer Contact  Name --></label>
+        <name>MedConnect__Contact__c</name>
+        <relationshipLabel><!-- FDA 3500A – MedWatch Reports --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Correlation Id --></label>
+        <name>MedConnect__Correlation_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date device returned to manufacturer --></label>
+        <name>MedConnect__Date_device_returned_to_manufacturer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Receipt by Regulatory Authority --></label>
+        <name>MedConnect__Date_of_Receipt_by_Regulatory_Authority__c</name>
+    </fields>
+    <fields>
+        <label><!-- FDA Correction/ Removal Reporting Number --></label>
+        <name>MedConnect__FDA_Correction_Removal_Reporting_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Follow-up of Report --></label>
+        <name>MedConnect__Follow_up_of_Report__c</name>
+        <relationshipLabel><!-- FDA 3500A – MedWatch Reports --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Other Remarks --></label>
+        <name>MedConnect__Footer_Other_Remarks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fourth Report Source --></label>
+        <name>MedConnect__Fourth_Report_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mfr Report # --></label>
+        <name>MedConnect__Header_Mfr_Report__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Reporter Address Line 1 --></label>
+        <name>MedConnect__Initial_Reporter_Address_Line_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Reporter Address Line 2 --></label>
+        <name>MedConnect__Initial_Reporter_Address_Line_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Reporter City --></label>
+        <name>MedConnect__Initial_Reporter_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Reporter Country Code --></label>
+        <name>MedConnect__Initial_Reporter_Country_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Reporter Email --></label>
+        <name>MedConnect__Initial_Reporter_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Reporter Facility Name --></label>
+        <name>MedConnect__Initial_Reporter_Facility_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Reporter Fax --></label>
+        <name>MedConnect__Initial_Reporter_Fax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Reporter First Name --></label>
+        <name>MedConnect__Initial_Reporter_First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Reporter Health Professional --></label>
+        <name>MedConnect__Initial_Reporter_Health_Professional__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Reporter Last Name --></label>
+        <name>MedConnect__Initial_Reporter_Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Reporter Middle Name --></label>
+        <name>MedConnect__Initial_Reporter_Middle_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Reporter Phone --></label>
+        <name>MedConnect__Initial_Reporter_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Reporter Postal Code --></label>
+        <name>MedConnect__Initial_Reporter_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Reporter State --></label>
+        <name>MedConnect__Initial_Reporter_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Congenital Anomaly Or Birth Defect --></label>
+        <name>MedConnect__Is_Congenital_Anomaly_Or_Birth_Defect__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Device Returned to Manufacturer? --></label>
+        <name>MedConnect__Is_Device_Returned_to_Manufacturer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Hospitalization Initial or Prolonged --></label>
+        <name>MedConnect__Is_Hospitalization_Initial_or_Prolonged__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Report Source Company Representative --></label>
+        <name>MedConnect__Is_Report_Source_Company_Representative__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Report Source Consumer --></label>
+        <name>MedConnect__Is_Report_Source_Consumer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Report Source Distributor --></label>
+        <name>MedConnect__Is_Report_Source_Distributor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Report Source Foreign --></label>
+        <name>MedConnect__Is_Report_Source_Foreign__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Report Source Health Professional --></label>
+        <name>MedConnect__Is_Report_Source_Health_Professional__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Report Source Literature --></label>
+        <name>MedConnect__Is_Report_Source_Literature__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Report Source Other --></label>
+        <name>MedConnect__Is_Report_Source_Other__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Report Source Study --></label>
+        <name>MedConnect__Is_Report_Source_Study__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Report Source User Facility --></label>
+        <name>MedConnect__Is_Report_Source_User_Facility__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Contact Addr. Street Line 1 --></label>
+        <name>MedConnect__Manufacturer_Contact_Addr_Street_Line_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Contact Addr. Street Line 2 --></label>
+        <name>MedConnect__Manufacturer_Contact_Addr_Street_Line_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Contact  Zip Code Extension --></label>
+        <name>MedConnect__Manufacturer_Contact_Zip_Code_Extension__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Email --></label>
+        <name>MedConnect__Manufacturer_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Site Address Street Line 1 --></label>
+        <name>MedConnect__Manufacturer_Site_Address_Street_Line_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Site Address Street Line 2 --></label>
+        <name>MedConnect__Manufacturer_Site_Address_Street_Line_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Site City --></label>
+        <name>MedConnect__Manufacturer_Site_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Site Country Code --></label>
+        <name>MedConnect__Manufacturer_Site_Country_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Site Email --></label>
+        <name>MedConnect__Manufacturer_Site_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Site Fax --></label>
+        <name>MedConnect__Manufacturer_Site_Fax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Site Phone --></label>
+        <name>MedConnect__Manufacturer_Site_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Site Postal Code --></label>
+        <name>MedConnect__Manufacturer_Site_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Site State Code --></label>
+        <name>MedConnect__Manufacturer_Site_State_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Site Zip Code Extension --></label>
+        <name>MedConnect__Manufacturer_Site_Zip_Code_Extension__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Site Zip Code --></label>
+        <name>MedConnect__Manufacturer_Site_Zip_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- Message Id received from FDA --></help>
+        <label><!-- Message Id --></label>
+        <name>MedConnect__Message_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous report submission date --></label>
+        <name>MedConnect__Previous_report_submission_date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the primary Product Investigation from which data will be populated into report. --></help>
+        <label><!-- Primary Product Investigation --></label>
+        <name>MedConnect__Product_Investigation__c</name>
+        <relationshipLabel><!-- FDA 3500A – MedWatch Reports --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reason For Change --></label>
+        <name>MedConnect__Reason_For_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Receipt Acknowledgement Number --></label>
+        <name>MedConnect__Receipt_Acknowledgement_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Locked --></label>
+        <name>MedConnect__Record_Locked__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Passed Timestamp --></label>
+        <name>MedConnect__Report_Passed_Timestamp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Status --></label>
+        <name>MedConnect__Report_Status__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reporting Information Approved</masterLabel>
+            <translation><!-- Reporting Information Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reporting Information Rejected</masterLabel>
+            <translation><!-- Reporting Information Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Void</masterLabel>
+            <translation><!-- Void --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Report Submission Date --></label>
+        <name>MedConnect__Report_Submission_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Submission Due Date --></label>
+        <name>MedConnect__Report_Submission_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Submission Timestamp --></label>
+        <name>MedConnect__Report_Submission_Timestamp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Submitted By --></label>
+        <name>MedConnect__Report_Submitted_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reportable Authority --></label>
+        <name>MedConnect__Reportable_Authority__c</name>
+        <relationshipLabel><!-- FDA 3500A – MedWatch Reports --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reprocessor Address Street Line 1 --></label>
+        <name>MedConnect__Reprocessor_Address_Street_Line_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Address Street Line 1 --></label>
+        <name>MedConnect__ScF14_Manufacturer_Address_Street_Line_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Address Street Line 2 --></label>
+        <name>MedConnect__ScF14_Manufacturer_Address_Street_Line_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Patient Identifier --></label>
+        <name>MedConnect__SecA1_Patient_Identifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Age Unit --></label>
+        <name>MedConnect__SecA2_Age_Unit__c</name>
+        <picklistValues>
+            <masterLabel>Days</masterLabel>
+            <translation><!-- Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Months</masterLabel>
+            <translation><!-- Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weeks</masterLabel>
+            <translation><!-- Weeks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Years</masterLabel>
+            <translation><!-- Years --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Patient Age at the time of event --></label>
+        <name>MedConnect__SecA2_Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Birth --></label>
+        <name>MedConnect__SecA2_Date_of_Birth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sex --></label>
+        <name>MedConnect__SecA3_Sex__c</name>
+        <picklistValues>
+            <masterLabel>F</masterLabel>
+            <translation><!-- F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M</masterLabel>
+            <translation><!-- M --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Weight Unit --></label>
+        <name>MedConnect__SecA4_Weight_Unit__c</name>
+        <picklistValues>
+            <masterLabel>kgs</masterLabel>
+            <translation><!-- kgs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>lbs</masterLabel>
+            <translation><!-- lbs --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Weight of the patient --></label>
+        <name>MedConnect__SecA4_Weight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Adverse Event --></label>
+        <name>MedConnect__SecB1_Is_Adverse_Event__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Product Problem --></label>
+        <name>MedConnect__SecB1_Is_Product_Problem__c</name>
+    </fields>
+    <fields>
+        <help><!-- If an outcome of death is attributed to the adverse event, please enter the date of death --></help>
+        <label><!-- Date of Death --></label>
+        <name>MedConnect__SecB2_Date_of_Death__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Death --></label>
+        <name>MedConnect__SecB2_Is_Death__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Disability Or Permanent Damage --></label>
+        <name>MedConnect__SecB2_Is_Disability_Or_Permanent_Damage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Life Threatening --></label>
+        <name>MedConnect__SecB2_Is_Life_Threatening__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Other Serious --></label>
+        <name>MedConnect__SecB2_Is_Other_Serious__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Required Intervention --></label>
+        <name>MedConnect__SecB2_Is_Required_Intervention__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Event --></label>
+        <name>MedConnect__SecB3_Date_of_Event__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Report --></label>
+        <name>MedConnect__SecB4_Date_of_this_Report__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Description --></label>
+        <name>MedConnect__SecB5_Describe_Event_or_Problem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tests/Laboratory Data, Including Dates --></label>
+        <name>MedConnect__SecB6_Relevant_Test_Lab_Data_Incld_Dt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Relevant History --></label>
+        <name>MedConnect__SecB7Ext_Other_Relevant_History__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical History or Preexisting Condition --></label>
+        <name>MedConnect__SecB7_Other_Relevant_History__c</name>
+    </fields>
+    <fields>
+        <label><!-- Race --></label>
+        <name>MedConnect__SecB_Race__c</name>
+        <picklistValues>
+            <masterLabel>African American</masterLabel>
+            <translation><!-- African American --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>American Indian or Alaska</masterLabel>
+            <translation><!-- American Indian or Alaska --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asian</masterLabel>
+            <translation><!-- Asian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Native</masterLabel>
+            <translation><!-- Native --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Native Hawaiian or Other</masterLabel>
+            <translation><!-- Native Hawaiian or Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pacific Islander</masterLabel>
+            <translation><!-- Pacific Islander --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>White</masterLabel>
+            <translation><!-- White --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Did Event Reappear After Reintroduction? --></help>
+        <label><!-- 1. Event Reappeared After Reintroduction --></label>
+        <name>MedConnect__SecC10_Event_Reappeared_After_Reintro_1__c</name>
+        <picklistValues>
+            <masterLabel>Doesn’t apply</masterLabel>
+            <translation><!-- Doesn’t apply --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Did Event Reappear After Reintroduction? --></help>
+        <label><!-- 2. Event Reappeared After Reintroduction --></label>
+        <name>MedConnect__SecC10_Event_Reappeared_After_Reintro_2__c</name>
+        <picklistValues>
+            <masterLabel>Doesn’t apply</masterLabel>
+            <translation><!-- Doesn’t apply --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 1. Product Lot --></label>
+        <name>MedConnect__SecC1_1_Lot__c</name>
+    </fields>
+    <fields>
+        <label><!-- 2. Product Lot --></label>
+        <name>MedConnect__SecC1_2_Lot__c</name>
+    </fields>
+    <fields>
+        <label><!-- 2. Manufacturer/ Compounder --></label>
+        <name>MedConnect__SecC1_2_Manufacturer_Compounder__c</name>
+    </fields>
+    <fields>
+        <label><!-- 2. Product NDC # or Unique ID --></label>
+        <name>MedConnect__SecC1_2_NDC_or_Unique_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1. Manufacturer/ Compounder --></label>
+        <name>MedConnect__SecC1_X1_Manufacturer_Compounder__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1. Product NDC # or Unique ID --></label>
+        <name>MedConnect__SecC1_X1_Product_NDC_or_Unique_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1. Product Name --></label>
+        <name>MedConnect__SecC1_X1_Product_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- 2. Product Name --></label>
+        <name>MedConnect__SecC1_X2_Product_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- 2. Product Strength --></label>
+        <name>MedConnect__SecC1_X2_Product_Strength__c</name>
+    </fields>
+    <fields>
+        <label><!-- Concomitant Medical Products, Therapy Dt --></label>
+        <name>MedConnect__SecC2D11Ext_Concomnt_Med_Prod_Thrpy_Dt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Concomitant Med Products &amp; Therapy Dates --></label>
+        <name>MedConnect__SecC2_Concomnt_Med_Prod_Thrpy_Dt__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1. Product Dose --></label>
+        <name>MedConnect__SecC3_Dose_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- 2. Product Dose --></label>
+        <name>MedConnect__SecC3_Dose_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1. Product Frequency --></label>
+        <name>MedConnect__SecC3_Frequency_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- 2. Product Frequency --></label>
+        <name>MedConnect__SecC3_Frequency_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1. Product Route Used --></label>
+        <name>MedConnect__SecC3_Route_Used_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- 2. Product Route Used --></label>
+        <name>MedConnect__SecC3_Route_Used_2__c</name>
+    </fields>
+    <fields>
+        <help><!-- (If unknown, give duration) from/to (or best estimate)) (dd-mmm-yyyy) --></help>
+        <label><!-- 1. Product Therapy Dates --></label>
+        <name>MedConnect__SecC4_Therapy_Dates_1__c</name>
+    </fields>
+    <fields>
+        <help><!-- (If unknown, give duration) from/to (or best estimate)) (dd-mmm-yyyy) --></help>
+        <label><!-- 2. Product Therapy Dates --></label>
+        <name>MedConnect__SecC4_Therapy_Dates_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1. Diagnosis for Use --></label>
+        <name>MedConnect__SecC5_Diagnosis_for_Use_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- 2. Diagnosis for Use --></label>
+        <name>MedConnect__SecC5_Diagnosis_for_Use_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1. Expiration Date --></label>
+        <name>MedConnect__SecC8_Expiration_Date_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- 2. Expiration Date --></label>
+        <name>MedConnect__SecC8_Expiration_Date_2__c</name>
+    </fields>
+    <fields>
+        <help><!-- Event Abated After Use Stopped or Dose Reduced? --></help>
+        <label><!-- 1. Event Abated Aftr Use Stopped/Reduced --></label>
+        <name>MedConnect__SecC9_Evnt_Abated_Aftr_Use_Stpd_Reduce_1__c</name>
+        <picklistValues>
+            <masterLabel>Doesn’t apply</masterLabel>
+            <translation><!-- Doesn’t apply --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Event Abated After Use Stopped or Dose Reduced? --></help>
+        <label><!-- 2. Event Abated Aftr Use Stopped/Reduced --></label>
+        <name>MedConnect__SecC9_Evnt_Abated_Aftr_Use_Stpd_Reduce_2__c</name>
+        <picklistValues>
+            <masterLabel>Doesn’t apply</masterLabel>
+            <translation><!-- Doesn’t apply --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Device Available for Evaluation? --></label>
+        <name>MedConnect__SecD10_Device_Available_for_Evaluation__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Date device returned to manufacturer --></label>
+        <name>MedConnect__SecD10_Returned_to_Manufacturer_on__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please specify multiple products in the format: product-name,product-name. --></help>
+        <label><!-- Concomitant Med Products --></label>
+        <name>MedConnect__SecD11_Concomnt_Med_Prod_Thrpy_Dt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brand Name --></label>
+        <name>MedConnect__SecD1_Brand_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Address Street Line 2 --></label>
+        <name>MedConnect__SecD1_Manufacturer_Address_Street_Line_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer City --></label>
+        <name>MedConnect__SecD1_Manufacturer_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Fax --></label>
+        <name>MedConnect__SecD1_Manufacturer_Fax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Address Street Line 1 --></label>
+        <name>MedConnect__SecD1_Manufacturer_Name_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer State Code --></label>
+        <name>MedConnect__SecD1_Manufacturer_State_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Common Device Name --></label>
+        <name>MedConnect__SecD2a_Common_Device_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Procode --></label>
+        <name>MedConnect__SecD2b_Procode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Country Code --></label>
+        <name>MedConnect__SecD3_Manufacturer_Country_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Name --></label>
+        <name>MedConnect__SecD3_Manufacturer_Name_City_and_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Postal Code --></label>
+        <name>MedConnect__SecD3_Manufacturer_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Zip Code Extension --></label>
+        <name>MedConnect__SecD3_Manufacturer_Zip_Code_Extension__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Zip Code --></label>
+        <name>MedConnect__SecD3_Manufacturer_Zip_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Catalog --></label>
+        <name>MedConnect__SecD4_Catalog__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expiration Date --></label>
+        <name>MedConnect__SecD4_Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Explantation Date --></label>
+        <name>MedConnect__SecD4_Explantation_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implantation Date --></label>
+        <name>MedConnect__SecD4_Implantation_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lot --></label>
+        <name>MedConnect__SecD4_Lot__c</name>
+    </fields>
+    <fields>
+        <label><!-- Model --></label>
+        <name>MedConnect__SecD4_Model__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reprocessor Address Street Line 2 --></label>
+        <name>MedConnect__SecD4_Reprocessor_Address_Street_Line_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reprocessor City --></label>
+        <name>MedConnect__SecD4_Reprocessor_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reprocessor Country Code --></label>
+        <name>MedConnect__SecD4_Reprocessor_Country_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reprocessor Email --></label>
+        <name>MedConnect__SecD4_Reprocessor_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reprocessor Fax Number --></label>
+        <name>MedConnect__SecD4_Reprocessor_Fax_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reprocessor Name --></label>
+        <name>MedConnect__SecD4_Reprocessor_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reprocessor Postal Code --></label>
+        <name>MedConnect__SecD4_Reprocessor_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reprocessor State Code --></label>
+        <name>MedConnect__SecD4_Reprocessor_State_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reprocessor Zip Code Extension --></label>
+        <name>MedConnect__SecD4_Reprocessor_Zip_Code_Extension__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reprocessor Zip Code --></label>
+        <name>MedConnect__SecD4_Reprocessor_Zip_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Serial --></label>
+        <name>MedConnect__SecD4_Serial__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unique Identifier (UDI) --></label>
+        <name>MedConnect__SecD4_Unique_Identifier_UDI__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operator of Device --></label>
+        <name>MedConnect__SecD5_Operator_of_Device__c</name>
+        <picklistValues>
+            <masterLabel>Health Professional</masterLabel>
+            <translation><!-- Health Professional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lay User</masterLabel>
+            <translation><!-- Lay User --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Patient</masterLabel>
+            <translation><!-- Patient --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Operator of Device Other --></label>
+        <name>MedConnect__SecD5_Other_Operator_of_Device__c</name>
+    </fields>
+    <fields>
+        <help><!-- Is this a single-use device that was reprocessed and reused on a patient? --></help>
+        <label><!-- Is this a single-use device? --></label>
+        <name>MedConnect__SecD8_Is_this_a_single_use_device__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please specify multiple dates in the format: YYYYMMDD,YYYYMMDD. --></help>
+        <label><!-- Therapy Dates --></label>
+        <name>MedConnect__SecD_Therapy_Dates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Reporter Title --></label>
+        <name>MedConnect__SecE1_Initial_Reporter_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Reporter Occupation --></label>
+        <name>MedConnect__SecE3_Occupation__c</name>
+        <picklistValues>
+            <masterLabel>Administrator/Supervisor</masterLabel>
+            <translation><!-- Administrator/Supervisor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Audiologist</masterLabel>
+            <translation><!-- Audiologist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Biomedical Engineer</masterLabel>
+            <translation><!-- Biomedical Engineer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dentist</masterLabel>
+            <translation><!-- Dentist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nurse</masterLabel>
+            <translation><!-- Nurse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nurse Practitioner</masterLabel>
+            <translation><!-- Nurse Practitioner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Healthcare</masterLabel>
+            <translation><!-- Other Healthcare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Healthcare Professional</masterLabel>
+            <translation><!-- Other Healthcare Professional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmacist</masterLabel>
+            <translation><!-- Pharmacist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Physician</masterLabel>
+            <translation><!-- Physician --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Physician Assistant</masterLabel>
+            <translation><!-- Physician Assistant --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reporter Also Sent Report to FDA? --></label>
+        <name>MedConnect__SecE4_Initial_Reporter_Sent_Reprt_to_FDA__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Device Codes --></label>
+        <name>MedConnect__SecF10_Device_Codes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Patient Codes --></label>
+        <name>MedConnect__SecF10_Patient_Codes__c</name>
+    </fields>
+    <fields>
+        <help><!-- if Report Sent to FDA is yes then Date needs to be fill --></help>
+        <label><!-- User Facility Date report sent to FDA --></label>
+        <name>MedConnect__SecF11_Report_Sent_to_FDA_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Facility Report Sent to FDA? --></label>
+        <name>MedConnect__SecF11_Report_Sent_to_FDA__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Location Where Event Occurred Other --></label>
+        <name>MedConnect__SecF12_Location_Where_Event_Occurred_Oth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Where Event Occurred --></label>
+        <name>MedConnect__SecF12_Location_Where_Event_Occurred__c</name>
+        <picklistValues>
+            <masterLabel>Ambulatory Surgical Facility</masterLabel>
+            <translation><!-- Ambulatory Surgical Facility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home</masterLabel>
+            <translation><!-- Home --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospital</masterLabel>
+            <translation><!-- Hospital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nursing Home</masterLabel>
+            <translation><!-- Nursing Home --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outpatient Diagnostic Facility</masterLabel>
+            <translation><!-- Outpatient Diagnostic Facility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outpatient Treatment Facility</masterLabel>
+            <translation><!-- Outpatient Treatment Facility --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If Report Sent to Manufacturer is yes then field needs to be fill --></help>
+        <label><!-- Report Sent to Manufacturer Date --></label>
+        <name>MedConnect__SecF13_Report_Sent_to_Manufacturer_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Sent to Manufacturer? --></label>
+        <name>MedConnect__SecF13_Report_Sent_to_Manufacturer__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer City --></label>
+        <name>MedConnect__SecF14_Manufacturer_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Country Code --></label>
+        <name>MedConnect__SecF14_Manufacturer_Country_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Email --></label>
+        <name>MedConnect__SecF14_Manufacturer_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Fax Number --></label>
+        <name>MedConnect__SecF14_Manufacturer_Fax_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unused --></label>
+        <name>MedConnect__SecF14_Manufacturer_Fax_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Name --></label>
+        <name>MedConnect__SecF14_Manufacturer_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Postal Code --></label>
+        <name>MedConnect__SecF14_Manufacturer_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer State Code --></label>
+        <name>MedConnect__SecF14_Manufacturer_State_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Zip Code Extension --></label>
+        <name>MedConnect__SecF14_Manufacturer_Zip_Code_Extension__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Zip Code --></label>
+        <name>MedConnect__SecF14_Manufacturer_Zip_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Reporter Type --></label>
+        <name>MedConnect__SecF1_Initial_Reporter_Type__c</name>
+        <picklistValues>
+            <masterLabel>Check One</masterLabel>
+            <translation><!-- Check One --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Importer</masterLabel>
+            <translation><!-- Importer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User Faciity</masterLabel>
+            <translation><!-- User Faciity --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- UF/Importer Report Number --></label>
+        <name>MedConnect__SecF2_UF_Importer_Report_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Facility Name --></label>
+        <name>MedConnect__SecF3_User_Facility_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- UF/Importer Event Awareness Date --></label>
+        <name>MedConnect__SecF6_UF_Importer_Event_Awareness_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- If Type of Report is Follow-up the need fill this field --></help>
+        <label><!-- Follow-up# --></label>
+        <name>MedConnect__SecF7_Type_of_Report_Follow_up__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Facility Type of Report --></label>
+        <name>MedConnect__SecF7_Type_of_Report__c</name>
+        <picklistValues>
+            <masterLabel>Follow-up</masterLabel>
+            <translation><!-- Follow-up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Initial</masterLabel>
+            <translation><!-- Initial --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approximate Age of Device --></label>
+        <name>MedConnect__SecF9_Approx_Age_of_Device__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approximate Age of Device --></label>
+        <name>MedConnect__SecF9_Approximate_Age_of_Device__c</name>
+    </fields>
+    <fields>
+        <label><!-- Age of Device Unit --></label>
+        <name>MedConnect__SecF_Age_of_Device_Unit__c</name>
+        <picklistValues>
+            <masterLabel>Days</masterLabel>
+            <translation><!-- Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Months</masterLabel>
+            <translation><!-- Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weeks</masterLabel>
+            <translation><!-- Weeks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Years</masterLabel>
+            <translation><!-- Years --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Report Sent to Manufacturer Date --></label>
+        <name>MedConnect__SecF_Report_Sent_to_Manufacturer_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Facility Email --></label>
+        <name>MedConnect__SecF_User_Facility_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturing Contact Email --></label>
+        <name>MedConnect__SecG1_Email_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Contact  City --></label>
+        <name>MedConnect__SecG1_Manufacturer_Contact_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Contact  Country Code --></label>
+        <name>MedConnect__SecG1_Manufacturer_Contact_Country_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Contact Facility Name --></label>
+        <name>MedConnect__SecG1_Manufacturer_Contact_Facility_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Contact Last Name --></label>
+        <name>MedConnect__SecG1_Manufacturer_Contact_Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Contact Middle Name --></label>
+        <name>MedConnect__SecG1_Manufacturer_Contact_Middle_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Contact  Postal Code --></label>
+        <name>MedConnect__SecG1_Manufacturer_Contact_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Contact  State Code --></label>
+        <name>MedConnect__SecG1_Manufacturer_Contact_State_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Contact Title --></label>
+        <name>MedConnect__SecG1_Manufacturer_Contact_Title__c</name>
+        <picklistValues>
+            <masterLabel>Dr.</masterLabel>
+            <translation><!-- Dr. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mr.</masterLabel>
+            <translation><!-- Mr. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mrs.</masterLabel>
+            <translation><!-- Mrs. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ms.</masterLabel>
+            <translation><!-- Ms. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prof.</masterLabel>
+            <translation><!-- Prof. --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Contact Zip Code --></label>
+        <name>MedConnect__SecG1_Manufacturer_Contact_Zip_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Contact First Name --></label>
+        <name>MedConnect__SecG1_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Contact  Fax Number --></label>
+        <name>MedConnect__SecG2_Manufacturer_Contact_Fax_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturing Site Name --></label>
+        <name>MedConnect__SecG2_Manufacturing_Site_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Contact Phone Number --></label>
+        <name>MedConnect__SecG2_Phone_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Report Source --></label>
+        <name>MedConnect__SecG3_Report_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Second Report Source --></label>
+        <name>MedConnect__SecG3_Second_Report_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Third Report Source --></label>
+        <name>MedConnect__SecG3_Third_Report_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Received by Manufacturer --></label>
+        <name>MedConnect__SecG4_Date_Received_by_Manufacturer__c</name>
+    </fields>
+    <fields>
+        <label><!-- ANDA # --></label>
+        <name>MedConnect__SecG5_ANDA__c</name>
+    </fields>
+    <fields>
+        <label><!-- BLA # --></label>
+        <name>MedConnect__SecG5_BLA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Combination Product --></label>
+        <name>MedConnect__SecG5_Combination_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- IND # --></label>
+        <name>MedConnect__SecG5_IND__c</name>
+    </fields>
+    <fields>
+        <label><!-- OTC Product --></label>
+        <name>MedConnect__SecG5_OTC__c</name>
+    </fields>
+    <fields>
+        <label><!-- PMA/ 510(k) --></label>
+        <name>MedConnect__SecG5_PMA_510_k__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pre-1938 --></label>
+        <name>MedConnect__SecG5_Pre_1938__c</name>
+    </fields>
+    <fields>
+        <label><!-- Protocol # --></label>
+        <name>MedConnect__SecG6_If_IND_Give_Protocol__c</name>
+    </fields>
+    <fields>
+        <label><!-- All Manufacturer Type of Report --></label>
+        <name>MedConnect__SecG7_All_Manufacturer_Type_of_Report__c</name>
+        <picklistValues>
+            <masterLabel>10-day</masterLabel>
+            <translation><!-- 10-day --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15-day</masterLabel>
+            <translation><!-- 15-day --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30-day</masterLabel>
+            <translation><!-- 30-day --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5-day</masterLabel>
+            <translation><!-- 5-day --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7-day</masterLabel>
+            <translation><!-- 7-day --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Follow-up</masterLabel>
+            <translation><!-- Follow-up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Initial</masterLabel>
+            <translation><!-- Initial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Periodic</masterLabel>
+            <translation><!-- Periodic --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Follow Up Number --></label>
+        <name>MedConnect__SecG7_Follow_Up_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- All Manufacturer Type of Report --></label>
+        <name>MedConnect__SecG7_Type_of_Report__c</name>
+        <picklistValues>
+            <masterLabel>10-day</masterLabel>
+            <translation><!-- 10-day --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15-day</masterLabel>
+            <translation><!-- 15-day --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30-day</masterLabel>
+            <translation><!-- 30-day --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5-day</masterLabel>
+            <translation><!-- 5-day --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7-day</masterLabel>
+            <translation><!-- 7-day --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Follow-up</masterLabel>
+            <translation><!-- Follow-up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Initial</masterLabel>
+            <translation><!-- Initial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Periodic</masterLabel>
+            <translation><!-- Periodic --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Adverse Event Term(s) --></label>
+        <name>MedConnect__SecG8_Adverse_Event_Term_s__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Report Number --></label>
+        <name>MedConnect__SecG9_Manufacturer_Report_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Manufacturer Narrative --></label>
+        <name>MedConnect__SecH10_Additional_Manufacturer_Narrative__c</name>
+    </fields>
+    <fields>
+        <label><!-- Corrected Data --></label>
+        <name>MedConnect__SecH11_Corrected_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type of Reportable Event --></label>
+        <name>MedConnect__SecH1_Type_of_Reportable_Event__c</name>
+        <picklistValues>
+            <masterLabel>Death</masterLabel>
+            <translation><!-- Death --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malfunction</masterLabel>
+            <translation><!-- Malfunction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Serious Injury</masterLabel>
+            <translation><!-- Serious Injury --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- If Follow-up, What Type? --></label>
+        <name>MedConnect__SecH2_If_Follow_up_What_Type__c</name>
+        <picklistValues>
+            <masterLabel>Additional Information</masterLabel>
+            <translation><!-- Additional Information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correction</masterLabel>
+            <translation><!-- Correction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Device Evaluation</masterLabel>
+            <translation><!-- Device Evaluation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Response to FDA Request</masterLabel>
+            <translation><!-- Response to FDA Request --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If Device Evaluated by Manufacturer value is no the there must be explation --></help>
+        <label><!-- Device Evaluated Explain No --></label>
+        <name>MedConnect__SecH3_Device_Evaluated_Explain_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Device Evaluated by Manufacturer? --></label>
+        <name>MedConnect__SecH3_Device_Evaluated_by_Manufacturer__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Returned to Manufacturer</masterLabel>
+            <translation><!-- Not Returned to Manufacturer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes (Evaluation Summary Attached)</masterLabel>
+            <translation><!-- Yes (Evaluation Summary Attached) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Device Manufacturer Date --></label>
+        <name>MedConnect__SecH4_Device_Manufacture_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason for Non- Evaluation --></label>
+        <name>MedConnect__SecH4_Reason_for_Non_Evaluation__c</name>
+        <picklistValues>
+            <masterLabel>Device evaluation anticipated, but not yet begun</masterLabel>
+            <translation><!-- Device evaluation anticipated, but not yet begun --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Device not made by company</masterLabel>
+            <translation><!-- Device not made by company --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Device problem already known, no evaluation necessary</masterLabel>
+            <translation><!-- Device problem already known, no evaluation necessary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Device received in a condition which made analysis impossible</masterLabel>
+            <translation><!-- Device received in a condition which made analysis impossible --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Labeled for Single Use? --></label>
+        <name>MedConnect__SecH5_Labeled_for_Single_Use__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Conclusion Codes --></label>
+        <name>MedConnect__SecH6_Conclusion_Codes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Device Codes --></label>
+        <name>MedConnect__SecH6_Device_Codes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Method Codes --></label>
+        <name>MedConnect__SecH6_Method_Codes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Patient Codes --></label>
+        <name>MedConnect__SecH6_Patient_Codes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Result Codes --></label>
+        <name>MedConnect__SecH6_Result_Codes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remedial Action Initiated Other Type 1st --></label>
+        <name>MedConnect__SecH7_If_Remedial_Action_Initiate_Other1__c</name>
+    </fields>
+    <fields>
+        <help><!-- If Remedial Action Initiated, Check Type is other then field need to fill --></help>
+        <label><!-- Remedial Action Initiated Other Type 2nd --></label>
+        <name>MedConnect__SecH7_If_Remedial_Action_Initiate_Other2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remedial Action Initiated Type --></label>
+        <name>MedConnect__SecH7_If_Remedial_Action_Initiated_Check__c</name>
+        <picklistValues>
+            <masterLabel>Inspection</masterLabel>
+            <translation><!-- Inspection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Modification/Adjustment</masterLabel>
+            <translation><!-- Modification/Adjustment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Notification</masterLabel>
+            <translation><!-- Notification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Patient Monitoring</masterLabel>
+            <translation><!-- Patient Monitoring --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recall</masterLabel>
+            <translation><!-- Recall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relabeling</masterLabel>
+            <translation><!-- Relabeling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair</masterLabel>
+            <translation><!-- Repair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Replace</masterLabel>
+            <translation><!-- Replace --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Usage of Device --></label>
+        <name>MedConnect__SecH8_Usage_of_Device__c</name>
+        <picklistValues>
+            <masterLabel>Initial Use of Device</masterLabel>
+            <translation><!-- Initial Use of Device --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reuse</masterLabel>
+            <translation><!-- Reuse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Submission Status --></label>
+        <name>MedConnect__Submission_Status__c</name>
+        <picklistValues>
+            <masterLabel>Ack 1</masterLabel>
+            <translation><!-- Ack 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ack 2</masterLabel>
+            <translation><!-- Ack 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attachment Ack Pending</masterLabel>
+            <translation><!-- Attachment Ack Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Error</masterLabel>
+            <translation><!-- Data Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delayed Acknowledgement</masterLabel>
+            <translation><!-- Delayed Acknowledgement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Passed</masterLabel>
+            <translation><!-- Passed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System Error</masterLabel>
+            <translation><!-- System Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transmitted</masterLabel>
+            <translation><!-- Transmitted --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- User Facility Address Street Line 1 --></label>
+        <name>MedConnect__User_Facility_Address_Street_Line_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Facility Address Street Line 2 --></label>
+        <name>MedConnect__User_Facility_Address_Street_Line_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Facility City --></label>
+        <name>MedConnect__User_Facility_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Facility Contact First Name --></label>
+        <name>MedConnect__User_Facility_Contact_First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Facility Contact Last Name --></label>
+        <name>MedConnect__User_Facility_Contact_Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Facility Contact Middle Initial --></label>
+        <name>MedConnect__User_Facility_Contact_Middle_Initial__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Facility Contact Title --></label>
+        <name>MedConnect__User_Facility_Contact_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Facility Country Code --></label>
+        <name>MedConnect__User_Facility_Country_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Facility Date of  Report --></label>
+        <name>MedConnect__User_Facility_Date_of_Report__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Facility Postal Code --></label>
+        <name>MedConnect__User_Facility_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Facility State Code --></label>
+        <name>MedConnect__User_Facility_State_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Facility Zip Code Extension --></label>
+        <name>MedConnect__User_Facility_Zip_Code_Extension__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Facility Zip Code --></label>
+        <name>MedConnect__User_Facility_Zip_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1. Product Strength --></label>
+        <name>MedConnect__X1_Product_Strength__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Follow-up Report --></label>
+        <name>Followup_Report</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Initial Report --></label>
+        <name>Initial_Report</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Max length (80 characters) exceeded. --></errorMessage>
+        <name>MedConnect__Brand_Name_Length_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (80 characters) exceeded. --></errorMessage>
+        <name>MedConnect__Common_Dev_Name_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Date of Receipt by Regulatory Authority can’t be less than Report Submission Date --></errorMessage>
+        <name>MedConnect__Date_of_Receipt_by_R_Authority_compare</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select an initial report --></errorMessage>
+        <name>MedConnect__Follow_Up_of_Report_Field_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Follow-up# cannot be populated for an initial report --></errorMessage>
+        <name>MedConnect__Follow_up_field_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Date of Death cannot be specified unless Death is selected as an outcome --></errorMessage>
+        <name>MedConnect__Is_Death_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please specify IND # --></errorMessage>
+        <name>MedConnect__Is_IND_Blank_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (3 characters) exceeded. --></errorMessage>
+        <name>MedConnect__Procode_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Reporting Information can only be created If Reportable Authority Status is &apos;Reportability Approved&apos;. --></errorMessage>
+        <name>MedConnect__RA_Status_Should_Reportability_Approved</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This field can be filled only if Device Evaluated by Manufacturer = No --></errorMessage>
+        <name>MedConnect__Reason_for_Non_Evaluation_depends</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Record Can not be save when Report Status is complete or void --></errorMessage>
+        <name>MedConnect__Record_not_save_when_Rep_Status_complete</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Report Number has not been specified. --></errorMessage>
+        <name>MedConnect__Report_Submission_With_Out_Report_No</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Report Submission Date can’t be less than PC: Date of Event --></errorMessage>
+        <name>MedConnect__Report_Submission_date_PC_Compare</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (10 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecA1_Patient_Identifier_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (32765 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecB5_Event_Description_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (32765 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecB6_Test_Lab_Data_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (32765 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecB7_Medical_History_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (32765 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecC2_Concomitant_Therapy_Date_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (50 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecD11_Concomitant_Therapy_Date_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (30 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecD1_Manufacturer_City_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (26 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecD1_Manufacturer_Fax_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (2 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecD1_Manufacturer_State_Code_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (30 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecD1_Manufacturer_Street_1_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (30 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecD1_Manufacturer_Street_2_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (3 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecD3_Manufacturer_Country_Code_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (50 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecD3_Manufacturer_Email_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (50 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecD3_Manufacturer_Name_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (10 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecD3_Manufacturer_Postal_Code_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (5 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecD3_Manufacturer_Zip_Code_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (4 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecD3_Manufacturer_Zip_Code_Ext_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (30 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecD4_Catalog_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (30 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecD4_Lot_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (80 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecD4_Model_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (30 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecD4_Reprocessor_Add_Street_Line1_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (30 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecD4_Reprocessor_Add_Street_Line2_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (30 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecD4_Reprocessor_City_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (3 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecD4_Reprocessor_Country_Code_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (50 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecD4_Reprocessor_Email_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (26 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecD4_Reprocessor_Fax_Number_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (80 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecD4_Reprocessor_Name_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (10 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecD4_Reprocessor_Postal_Code_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (2 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecD4_Reprocessor_State_Code_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (5 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecD4_Reprocessor_Zip_Code_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (4 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecD4_Reprocessor_Zip_Code_Ext_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (30 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecD4_Serial_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (40 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecD5_Operator_Of_Device_Other_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (3 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecE1_Init_Reporter_Country_Code_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (30 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecE1_Initial_Reporter_Add_Line1_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (30 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecE1_Initial_Reporter_City</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (50 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecE1_Initial_Reporter_Email_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (15 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecE1_Initial_Reporter_First_Name_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (25 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecE1_Initial_Reporter_Last_Name_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (10 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecE1_Initial_Reporter_Postal_Code_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (2 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecE1_Initial_Reporter_State_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (4 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecE1_Initial_Reporter_Title_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (30 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecF3_User_Facility_Add_St_Line1_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (30 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecF3_User_Facility_City_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (3 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecF3_User_Facility_Country_Code_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (50 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecF3_User_Facility_Name_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (10 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecF3_User_Facility_Postal_Code_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (2 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecF3_User_Facility_State_Code_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (4 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecF4_User_Facility_Contact_Title_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (25 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecF4_Usr_Faclty_Contact_Last_Name_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (1 character) exceeded. --></errorMessage>
+        <name>MedConnect__SecF4_Usr_Faclty_Contact_Mid_Init_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (15 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecF4_Usr_Faclty_Contct_First_Name_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (4 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecG1_Manfactrer_Cont_Zip_Code_Ext_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (50 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecG1_Manufactrer_Cont_Faclty_Name_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (10 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecG1_Manufactrer_Cont_Postal_Code_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (30 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecG1_Manufacturer_Cont_City_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (50 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecG1_Manufacturer_Cont_Email_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (26 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecG1_Manufacturer_Cont_Fax_Number_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (15 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecG1_Manufacturer_Cont_First_Name_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (30 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecG1_Manufacturer_Cont_St_Line1_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (30 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecG1_Manufacturer_Cont_St_Line2_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (2 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecG1_Manufacturer_Cont_State_Code_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (5 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecG1_Manufacturer_Cont_Zip_Code_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (3 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecG1_Manufctrer_Cont_Country_Code_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (10 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecG2_Manufactrer_Site_Postal_Code_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (30 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecG2_Manufacturer_Site_Add_Street_Line1</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (30 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecG2_Manufacturer_Site_Add_Street_Line2</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (30 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecG2_Manufacturer_Site_City_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (50 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecG2_Manufacturer_Site_Email_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (26 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecG2_Manufacturer_Site_Fax_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (50 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecG2_Manufacturer_Site_Name_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (2 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecG2_Manufacturer_Site_State_Code_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (5 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecG2_Manufacturer_Site_Zip_Code_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (3 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecG2_Manufctrer_Site_Country_Code_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (4 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecG2_Manufctrer_Site_Zip_Code_Ext_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (21 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecG9_Manufacturer_Report_Num_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (20 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecH7_Remedial_Action_Init1_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max length (20 characters) exceeded. --></errorMessage>
+        <name>MedConnect__SecH7_Remedial_Action_Init2_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- User Facility Date can&apos;t be less than Adverse Event Date. --></errorMessage>
+        <name>MedConnect__UF_Date_Not_Less_Than_Event_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Can&apos;t be less than event date --></errorMessage>
+        <name>MedConnect__UF_Importer_Event_Awareness_Date_check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Can&apos;t be less than event date --></errorMessage>
+        <name>MedConnect__User_Facility_Date_rep_sent_2_FDA_check</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- ESignature_History --></label>
+        <name>MedConnect__ESignature_History</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- MedWatch_3500A_PDF --></label>
+        <name>MedConnect__MedWatch_3500A_PDF</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Void --></label>
+        <name>MedConnect__Void</name>
+    </webLinks>
+</CustomObjectTranslation>

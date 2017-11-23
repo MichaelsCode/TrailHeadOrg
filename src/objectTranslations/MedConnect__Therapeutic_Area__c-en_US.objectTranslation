@@ -1,3 +1,132 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account --></label>
+        <name>MedConnect__Account__c</name>
+        <relationshipLabel><!-- Therapeutic Areas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Therapeutic Area --></label>
+        <name>MedConnect__Therapeutic_Area__c</name>
+        <picklistValues>
+            <masterLabel>Allergy</masterLabel>
+            <translation><!-- Allergy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Analgesia/Anesthesia</masterLabel>
+            <translation><!-- Analgesia/Anesthesia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anaphylaxis</masterLabel>
+            <translation><!-- Anaphylaxis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Angiogenesis</masterLabel>
+            <translation><!-- Angiogenesis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arthritis</masterLabel>
+            <translation><!-- Arthritis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Autoimmune Diseases</masterLabel>
+            <translation><!-- Autoimmune Diseases --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Biological</masterLabel>
+            <translation><!-- Biological --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bone Metabolism</masterLabel>
+            <translation><!-- Bone Metabolism --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central Nervous System &amp; Neurologic</masterLabel>
+            <translation><!-- Central Nervous System &amp; Neurologic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dermatology</masterLabel>
+            <translation><!-- Dermatology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diabetes</masterLabel>
+            <translation><!-- Diabetes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ENT</masterLabel>
+            <translation><!-- ENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Endocrinology</masterLabel>
+            <translation><!-- Endocrinology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gastrointestinal</masterLabel>
+            <translation><!-- Gastrointestinal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hematology</masterLabel>
+            <translation><!-- Hematology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infections, Cardiovascular</masterLabel>
+            <translation><!-- Infections, Cardiovascular --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inflammation</masterLabel>
+            <translation><!-- Inflammation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intensive care</masterLabel>
+            <translation><!-- Intensive care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Metabolic Disorders</masterLabel>
+            <translation><!-- Metabolic Disorders --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oncology</masterLabel>
+            <translation><!-- Oncology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ophthalmology</masterLabel>
+            <translation><!-- Ophthalmology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pain</masterLabel>
+            <translation><!-- Pain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Palliative care</masterLabel>
+            <translation><!-- Palliative care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Psychiatry</masterLabel>
+            <translation><!-- Psychiatry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Radiography</masterLabel>
+            <translation><!-- Radiography --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Respiratory</masterLabel>
+            <translation><!-- Respiratory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Toxicology</masterLabel>
+            <translation><!-- Toxicology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transplantation</masterLabel>
+            <translation><!-- Transplantation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Virology</masterLabel>
+            <translation><!-- Virology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Women’s Health</masterLabel>
+            <translation><!-- Women’s Health --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

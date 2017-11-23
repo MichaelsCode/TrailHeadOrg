@@ -1,3 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Default Field Set Edit --></label>
+        <name>Default_Field_Set_Edit</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Deleted Code Assignment --></label>
+        <name>Deleted_Code_Assignment</name>
+    </fieldSets>
+    <fields>
+        <label><!-- CAPA --></label>
+        <name>MedConnect__CAPA__c</name>
+        <relationshipLabel><!-- Code Assignments(Association) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Child Code --></label>
+        <name>MedConnect__Child_Code__c</name>
+        <relationshipLabel><!-- Code Assignments(Association) (Child Code) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Code Type --></label>
+        <name>MedConnect__Code_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code --></label>
+        <name>MedConnect__Code__c</name>
+        <relationshipLabel><!-- Code Assignments(Association) (Code) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Impacted Product --></label>
+        <name>MedConnect__Impacted_Product__c</name>
+        <relationshipLabel><!-- Code Assignments(Association) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Incident --></label>
+        <name>MedConnect__Incident__c</name>
+        <relationshipLabel><!-- Code Assignments(Association) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Is Deleted --></label>
+        <name>MedConnect__Is_Deleted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Inquiry Line Item --></label>
+        <name>MedConnect__Medical_Inquiry_Line_Item__c</name>
+        <relationshipLabel><!-- Code Assignments(Association) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Parent Record Id --></label>
+        <name>MedConnect__Parent_Record_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Investigation --></label>
+        <name>MedConnect__Product_Investigation__c</name>
+        <relationshipLabel><!-- Code Assignments(Association) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RMA Order --></label>
+        <name>MedConnect__RMA_Order__c</name>
+        <relationshipLabel><!-- Code Assignments(Association) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Related Code --></label>
+        <name>MedConnect__Related_Code__c</name>
+        <relationshipLabel><!-- Code Assignments(Association) (Related Code) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Repair Analysis And Parts Used Deleted --></label>
+        <name>MedConnect__Repair_Analysis_And_Parts_Used__c</name>
+        <relationshipLabel><!-- Code Assignments(Association) (Repair Analysis And Parts Used) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Repair Analysis And Parts Used --></label>
+        <name>MedConnect__Repair_Analysis__c</name>
+        <relationshipLabel><!-- Code Assignments(Association) (Repair Analysis And Parts Used) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Service Request --></label>
+        <name>MedConnect__Service_Request__c</name>
+        <relationshipLabel><!-- Code Assignments(Association) --></relationshipLabel>
+    </fields>
+    <recordTypes>
+        <label><!-- Consequence Code --></label>
+        <name>Consequence_Code</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Failure Code --></label>
+        <name>Failure_Code</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Subject Code --></label>
+        <name>Subject_Code</name>
+    </recordTypes>
+</CustomObjectTranslation>

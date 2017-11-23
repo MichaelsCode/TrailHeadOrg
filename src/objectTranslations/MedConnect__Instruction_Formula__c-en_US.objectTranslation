@@ -1,3 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Instruction Step Name should be entered of the same Instruction template. Each Instruction Step Name should be semicolon(;) separated. --></help>
+        <label><!-- Formula Expression --></label>
+        <name>MedConnect__Formula_Expression__c</name>
+    </fields>
+    <fields>
+        <label><!-- Instruction Template --></label>
+        <name>MedConnect__Instruction_Template__c</name>
+        <relationshipLabel><!-- Instruction Formula --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Operation --></label>
+        <name>MedConnect__Operation__c</name>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Max</masterLabel>
+            <translation><!-- Max --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Min</masterLabel>
+            <translation><!-- Min --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sum</masterLabel>
+            <translation><!-- Sum --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Threshold Operator --></label>
+        <name>MedConnect__Threshold_Operator__c</name>
+        <picklistValues>
+            <masterLabel>Equals</masterLabel>
+            <translation><!-- Equals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greater Than</masterLabel>
+            <translation><!-- Greater Than --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Less Than</masterLabel>
+            <translation><!-- Less Than --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Threshold Value --></label>
+        <name>MedConnect__Threshold_Value__c</name>
+    </fields>
+</CustomObjectTranslation>

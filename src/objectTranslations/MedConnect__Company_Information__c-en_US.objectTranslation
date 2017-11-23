@@ -1,3 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account Number --></label>
+        <name>MedConnect__Account_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Name --></label>
+        <name>MedConnect__Bank_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Contact Name --></label>
+        <name>MedConnect__Primary_Contact_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Contact Phone --></label>
+        <name>MedConnect__Primary_Contact_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Routing Number --></label>
+        <name>MedConnect__Routing_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Swift Code --></label>
+        <name>MedConnect__Swift_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Terms and Condition --></label>
+        <name>MedConnect__Terms_and_Condition__c</name>
+    </fields>
+</CustomObjectTranslation>

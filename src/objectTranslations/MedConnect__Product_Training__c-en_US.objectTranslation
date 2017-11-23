@@ -1,3 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Certification --></label>
+        <name>MedConnect__Certification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>MedConnect__Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Associated Contact --></label>
+        <name>MedConnect__Contact__c</name>
+        <relationshipLabel><!-- Product Training --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>MedConnect__Product__c</name>
+        <relationshipLabel><!-- Product Training --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Training/Certificate Date --></label>
+        <name>MedConnect__Training_Certificate_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training/Certificate Expiry --></label>
+        <name>MedConnect__Training_Certificate_Expiry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training Level --></label>
+        <name>MedConnect__Training_Level__c</name>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intermediate</masterLabel>
+            <translation><!-- Intermediate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Learner</masterLabel>
+            <translation><!-- Learner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Practitioner</masterLabel>
+            <translation><!-- Practitioner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thought Leader</masterLabel>
+            <translation><!-- Thought Leader --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uninitiated</masterLabel>
+            <translation><!-- Uninitiated --></translation>
+        </picklistValues>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Expiry Date Invalid --></errorMessage>
+        <name>MedConnect__Certification_Expiry_Date</name>
+    </validationRules>
+</CustomObjectTranslation>

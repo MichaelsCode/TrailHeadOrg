@@ -1,3 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Consignee Distribution Track --></label>
+        <name>MedConnect__Consignee_Distribution_Track__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consignee Information --></label>
+        <name>MedConnect__Consignee_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- Device Code Number --></label>
+        <name>MedConnect__Device_Code_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Device Expiration Date --></label>
+        <name>MedConnect__Device_Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Device Lot --></label>
+        <name>MedConnect__Device_Lot__c</name>
+    </fields>
+    <fields>
+        <label><!-- Device Manufacturing Date --></label>
+        <name>MedConnect__Device_Manufacturing_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Device Serial Number --></label>
+        <name>MedConnect__Device_Serial_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Device Usual Name --></label>
+        <name>MedConnect__Device_Usual_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Action Planned --></label>
+        <name>MedConnect__Event_Action_Planned__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Injuries Occured --></label>
+        <name>MedConnect__Event_Injuries_Occured__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Problem --></label>
+        <name>MedConnect__Event_Problem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Report Number --></label>
+        <name>MedConnect__Event_Report_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Total Manufactured --></label>
+        <name>MedConnect__Event_Total_Manufactured__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Total Same batch --></label>
+        <name>MedConnect__Event_Total_Same_batch__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Action --></label>
+        <name>MedConnect__Field_Action__c</name>
+        <relationshipLabel><!-- 806 Letters --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Address --></label>
+        <name>MedConnect__Manufacturer_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Name2 --></label>
+        <name>MedConnect__Manufacturer_Name2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Phone --></label>
+        <name>MedConnect__Manufacturer_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer  Reporter Address --></label>
+        <name>MedConnect__Manufacturer_Reporter_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer  Reporter Name --></label>
+        <name>MedConnect__Manufacturer_Reporter_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer  Reporter Phone --></label>
+        <name>MedConnect__Manufacturer_Reporter_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketing FDA Registration --></label>
+        <name>MedConnect__Marketing_FDA_Registration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketing Listing --></label>
+        <name>MedConnect__Marketing_Listing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketing Preamendments Device --></label>
+        <name>MedConnect__Marketing_Preamendments_Device__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketing Report Sent --></label>
+        <name>MedConnect__Marketing_Report_Sent__c</name>
+    </fields>
+</CustomObjectTranslation>

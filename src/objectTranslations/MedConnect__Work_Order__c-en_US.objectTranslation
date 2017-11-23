@@ -1,3 +1,916 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Billing_Information_Vendor --></label>
+        <name>Billing_Information_Vendor</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ESignature View FieldSet --></label>
+        <name>ESignature_View_FieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Fse Dispatch List View --></label>
+        <name>Fse_Dispatch_List_View</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- InterestLayoutForSFOne --></label>
+        <name>InterestLayoutForSFOne</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- NewWorkOrderView --></label>
+        <name>NewWorkOrderView</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Refurbishment Edit Fields --></label>
+        <name>Refurbishment_Edit_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Work Order Console List View --></label>
+        <name>Work_Order_Console_List_View</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Work Order Depot Console List View --></label>
+        <name>Work_Order_Depot_Console_List_View</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Work Order Depot Repair FieldSet --></label>
+        <name>Work_Order_Depot_Repair_FieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Work Order Detail View --></label>
+        <name>Work_Order_Detail_View</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Work_Order_Edit --></label>
+        <name>Work_Order_Edit</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Work_Order_Edit_Linked --></label>
+        <name>Work_Order_Edit_Linked</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Work Order Edit View --></label>
+        <name>Work_Order_Edit_View</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Work Order Field Service FieldSet --></label>
+        <name>Work_Order_Field_Service_FieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Work Order List View --></label>
+        <name>Work_Order_List_View</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Work Order Search Panel --></label>
+        <name>Work_Order_Search_Panel</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Work Order Vendor FieldSet --></label>
+        <name>Work_Order_Vendor_FieldSet</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Account --></label>
+        <name>MedConnect__Account__c</name>
+        <relationshipLabel><!-- Work Order (Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Short Name --></label>
+        <name>MedConnect__Adt_Short_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Age --></label>
+        <name>MedConnect__Age__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field accepts user&apos;s preferred available time to do this Work Order. --></help>
+        <label><!-- Alternate Time --></label>
+        <name>MedConnect__Alternate_Time__c</name>
+    </fields>
+    <fields>
+        <help><!-- Flag to identify whether an einvalid warranty(with respect to warranty application date) was applied to the work order. --></help>
+        <label><!-- Applied Invalid Warranty --></label>
+        <name>MedConnect__Applied_Invalid_Warranty__c</name>
+    </fields>
+    <fields>
+        <label><!-- Appointed Technician Name --></label>
+        <name>MedConnect__Appointed_Technician_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Appointed Technician ID --></label>
+        <name>MedConnect__Appointed_Technician__c</name>
+        <relationshipLabel><!-- Work Order --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Asset Sl No --></label>
+        <name>MedConnect__Asset_Sl_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asset Warranty --></label>
+        <name>MedConnect__Asset_Warranty__c</name>
+        <relationshipLabel><!-- Work Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Asset --></label>
+        <name>MedConnect__Asset__c</name>
+        <relationshipLabel><!-- Work Order --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Assign To --></label>
+        <name>MedConnect__Assign_To__c</name>
+        <relationshipLabel><!-- Work Orders (Assign To) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Assignment End Time --></label>
+        <name>MedConnect__Assigned_End_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assignment Start Time --></label>
+        <name>MedConnect__Assigned_Start_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned Technician Name --></label>
+        <name>MedConnect__Assigned_Technician_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned Technician --></label>
+        <name>MedConnect__Assigned_Technician__c</name>
+        <relationshipLabel><!-- Work Orders (Assigned Technician) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Authorized Value --></label>
+        <name>MedConnect__Authorized_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>MedConnect__Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>MedConnect__Contact__c</name>
+        <relationshipLabel><!-- Work Order --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cost Center --></label>
+        <name>MedConnect__Cost_Center__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost Estimate --></label>
+        <name>MedConnect__Cost_Estimate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Owner Email --></label>
+        <name>MedConnect__Current_Owner_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Reported --></label>
+        <name>MedConnect__Date_Reported__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Order Date --></label>
+        <name>MedConnect__Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Depot --></label>
+        <name>MedConnect__Depot_Account__c</name>
+        <relationshipLabel><!-- Work Orders (Depot) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Depot Address --></label>
+        <name>MedConnect__Depot_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Time --></label>
+        <name>MedConnect__End_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Escalated By --></label>
+        <name>MedConnect__Escalated_By__c</name>
+        <relationshipLabel><!-- Work Orders (Escalated By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Escalated --></label>
+        <name>MedConnect__Escalated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Action Activity --></label>
+        <name>MedConnect__Field_Action_Activity__c</name>
+        <relationshipLabel><!-- Work Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Impacted Product --></label>
+        <name>MedConnect__Impacted_Product__c</name>
+        <relationshipLabel><!-- Work Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Incident --></label>
+        <name>MedConnect__Incident__c</name>
+        <relationshipLabel><!-- Work Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Incomplete Activity Count --></label>
+        <name>MedConnect__Incomplete_Activity_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspection Description --></label>
+        <name>MedConnect__Inspection_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspection Standards --></label>
+        <name>MedConnect__Inspection_Standards__c</name>
+    </fields>
+    <fields>
+        <label><!-- Installed Location --></label>
+        <name>MedConnect__Installed_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsSubordinate --></label>
+        <name>MedConnect__IsSubordinate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Assign date --></label>
+        <name>MedConnect__Last_Assign_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loaner --></label>
+        <name>MedConnect__Loaner__c</name>
+        <relationshipLabel><!-- Work Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Owner Manager --></label>
+        <name>MedConnect__Owner_Manager__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purchase Order # --></label>
+        <name>MedConnect__PO_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- PO Required? --></label>
+        <name>MedConnect__PO_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Method --></label>
+        <name>MedConnect__Payment_Method__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Terms --></label>
+        <name>MedConnect__Payment_Terms__c</name>
+        <picklistValues>
+            <masterLabel>2% NET 30</masterLabel>
+            <translation><!-- 2% NET 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NET 30</masterLabel>
+            <translation><!-- NET 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NET 45</masterLabel>
+            <translation><!-- NET 45 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NET 60</masterLabel>
+            <translation><!-- NET 60 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Preferred Time End --></label>
+        <name>MedConnect__Preferred_Time_End__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11</masterLabel>
+            <translation><!-- 11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12</masterLabel>
+            <translation><!-- 12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13</masterLabel>
+            <translation><!-- 13 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14</masterLabel>
+            <translation><!-- 14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16</masterLabel>
+            <translation><!-- 16 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>17</masterLabel>
+            <translation><!-- 17 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18</masterLabel>
+            <translation><!-- 18 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>19</masterLabel>
+            <translation><!-- 19 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21</masterLabel>
+            <translation><!-- 21 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>22</masterLabel>
+            <translation><!-- 22 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>23</masterLabel>
+            <translation><!-- 23 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Preferred Time Start --></label>
+        <name>MedConnect__Preferred_Time_Start__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11</masterLabel>
+            <translation><!-- 11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12</masterLabel>
+            <translation><!-- 12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13</masterLabel>
+            <translation><!-- 13 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14</masterLabel>
+            <translation><!-- 14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16</masterLabel>
+            <translation><!-- 16 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>17</masterLabel>
+            <translation><!-- 17 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18</masterLabel>
+            <translation><!-- 18 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>19</masterLabel>
+            <translation><!-- 19 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21</masterLabel>
+            <translation><!-- 21 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>22</masterLabel>
+            <translation><!-- 22 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>23</masterLabel>
+            <translation><!-- 23 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Previous Owner Id --></label>
+        <name>MedConnect__Previous_Owner_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous Owner email --></label>
+        <name>MedConnect__Previous_Owner_email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Processing Status --></label>
+        <name>MedConnect__Processing_Status__c</name>
+        <picklistValues>
+            <masterLabel>Accepted by FSE/Scheduled</masterLabel>
+            <translation><!-- Accepted by FSE/Scheduled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Acknowledged by Vendor</masterLabel>
+            <translation><!-- Acknowledged by Vendor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Assigned To Vendor</masterLabel>
+            <translation><!-- Assigned To Vendor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Completion</masterLabel>
+            <translation><!-- Pending Completion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected by FSE</masterLabel>
+            <translation><!-- Rejected by FSE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reopen</masterLabel>
+            <translation><!-- Reopen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolved</masterLabel>
+            <translation><!-- Resolved --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product Complaint --></label>
+        <name>MedConnect__Product_Complaint__c</name>
+        <relationshipLabel><!-- Work Order --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>MedConnect__Product__c</name>
+        <relationshipLabel><!-- Work Order --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RMA Order --></label>
+        <name>MedConnect__RMA_Order__c</name>
+        <relationshipLabel><!-- Work Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RMA --></label>
+        <name>MedConnect__RMA__c</name>
+        <relationshipLabel><!-- Work Order --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reason For Change --></label>
+        <name>MedConnect__Reason_For_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason for Reopen --></label>
+        <name>MedConnect__Reson_For_Reopen__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Terms --></label>
+        <name>MedConnect__SLA_Terms__c</name>
+        <relationshipLabel><!-- Work Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Service/Maintenance Contract --></label>
+        <name>MedConnect__Service_Maintenance_Contract__c</name>
+        <relationshipLabel><!-- Work Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Service Request --></label>
+        <name>MedConnect__Service_Request__c</name>
+        <relationshipLabel><!-- Work Order --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- SignOff --></label>
+        <name>MedConnect__SignOff__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sign Off Status --></label>
+        <name>MedConnect__Sign_Off_Status__c</name>
+        <picklistValues>
+            <masterLabel>Sign Off Pending</masterLabel>
+            <translation><!-- Sign Off Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Signed Off</masterLabel>
+            <translation><!-- Signed Off --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Signature Code --></label>
+        <name>MedConnect__Signature_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- It reflects the comment on acceptance or rejection of an WO from FSE. --></help>
+        <label><!-- Signature Comment --></label>
+        <name>MedConnect__Signature_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- TechnicianMail --></label>
+        <name>MedConnect__TechnicianMail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test Standards Description --></label>
+        <name>MedConnect__Test_Standards_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test Standards --></label>
+        <name>MedConnect__Test_Standards__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Required (Hr.) --></label>
+        <name>MedConnect__Time_Required_Hr__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11</masterLabel>
+            <translation><!-- 11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12</masterLabel>
+            <translation><!-- 12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>MedConnect__Type__c</name>
+        <picklistValues>
+            <masterLabel>Callback</masterLabel>
+            <translation><!-- Callback --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clinical Support</masterLabel>
+            <translation><!-- Clinical Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Demonstration</masterLabel>
+            <translation><!-- Demonstration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diagnostic</masterLabel>
+            <translation><!-- Diagnostic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dispatch</masterLabel>
+            <translation><!-- Dispatch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dispatch Loaner</masterLabel>
+            <translation><!-- Dispatch Loaner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inspection</masterLabel>
+            <translation><!-- Inspection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Installation,Un-Installation</masterLabel>
+            <translation><!-- Installation,Un-Installation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planned Maintenance</masterLabel>
+            <translation><!-- Planned Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preventive Maintenance</masterLabel>
+            <translation><!-- Preventive Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receiving</masterLabel>
+            <translation><!-- Receiving --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair</masterLabel>
+            <translation><!-- Repair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Request</masterLabel>
+            <translation><!-- Service Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipping</masterLabel>
+            <translation><!-- Shipping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer</masterLabel>
+            <translation><!-- Transfer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- UDI --></label>
+        <name>MedConnect__UDI__c</name>
+    </fields>
+    <fields>
+        <label><!-- Usage UOM --></label>
+        <name>MedConnect__Usage_UOM__c</name>
+        <picklistValues>
+            <masterLabel>Gram</masterLabel>
+            <translation><!-- Gram --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kilogram</masterLabel>
+            <translation><!-- Kilogram --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lbs</masterLabel>
+            <translation><!-- Lbs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mts</masterLabel>
+            <translation><!-- Mts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit Reading</masterLabel>
+            <translation><!-- Unit Reading --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Usage --></label>
+        <name>MedConnect__Usage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Utilization --></label>
+        <name>MedConnect__Utilization__c</name>
+    </fields>
+    <fields>
+        <label><!-- WFStatusStore --></label>
+        <name>MedConnect__WFStatusStore__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N</masterLabel>
+            <translation><!-- N --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Q</masterLabel>
+            <translation><!-- Q --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R</masterLabel>
+            <translation><!-- R --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- WAD update reason --></label>
+        <name>MedConnect__Warranty_Application_Date_Update_Reason__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date to be used to list available and expired warranty --></help>
+        <label><!-- Warranty Application Date --></label>
+        <name>MedConnect__Warranty_Application_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Warranty Terms --></label>
+        <name>MedConnect__Warranty_Term__c</name>
+        <relationshipLabel><!-- Work Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- aaaaaaa --></label>
+        <name>MedConnect__aaaaaaa__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Default WO --></label>
+        <name>Default_WO</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Depot Repair --></label>
+        <name>Depot_Repair</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Field Service --></label>
+        <name>Field_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Refurbishment --></label>
+        <name>Refurbishment</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Vendor --></label>
+        <name>Vendor</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Assignment Start Time should not be greater than Assignment End Time --></errorMessage>
+        <name>MedConnect__Assignment_Start_is_greater_than_end</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Assignment date cannot be at past date --></errorMessage>
+        <name>MedConnect__Cannot_Be_Assigned_At_past_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- All Activities are not completed. --></errorMessage>
+        <name>MedConnect__CheckBeforeCompletion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When Status is reopen then Reason for Reopen not to be blank --></errorMessage>
+        <name>MedConnect__Reopen_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When Processing status is Completed then status can be reopened. --></errorMessage>
+        <name>MedConnect__Status_Reopen_change_from_completed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Work Order Date can not be less than Date Reported (Case creation date).Please enter proper dates in corresponding fields. --></errorMessage>
+        <name>MedConnect__WO_Date_greater_than_Reported_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Warranty Application Date should not blank --></errorMessage>
+        <name>MedConnect__Warranty_Application_Date_should_not_be</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Work Order can not be created on past date --></errorMessage>
+        <name>MedConnect__Work_Order_Date_Validation</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Accept_Reject_Work_Order --></label>
+        <name>MedConnect__Accept_Reject_Work_Order</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Acknowledge --></label>
+        <name>MedConnect__Acknowledge</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Assign_to_Depot_Technician --></label>
+        <name>MedConnect__Assign_to_Depot_Technician</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Assign_to_Vendor --></label>
+        <name>MedConnect__Assign_to_Vendor</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Check_Warranty --></label>
+        <name>MedConnect__Check_Warranty</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Cancel_Part_Orders --></label>
+        <name>MedConnect__Create_Cancel_Part_Orders</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ESignature_History --></label>
+        <name>MedConnect__ESignature_History</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Wor_Order_For_Incident --></label>
+        <name>MedConnect__New_Wor_Order_For_Incident</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Work_Order_For_Product_Complaint --></label>
+        <name>MedConnect__New_Work_Order_For_Product_Complaint</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Work_Order_For_Service_Request --></label>
+        <name>MedConnect__New_Work_Order_For_Service_Request</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Reopen_Work_Order --></label>
+        <name>MedConnect__Reopen_Work_Order</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- View_Audit_History --></label>
+        <name>MedConnect__View_Audit_History</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- View_BOM_Details --></label>
+        <name>MedConnect__View_BOM_Details</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Work_Order_Activity --></label>
+        <name>MedConnect__Work_Order_Activity</name>
+    </webLinks>
+</CustomObjectTranslation>

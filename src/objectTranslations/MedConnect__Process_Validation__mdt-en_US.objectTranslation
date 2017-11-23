@@ -1,3 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Active --></label>
+        <name>MedConnect__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Name --></label>
+        <name>MedConnect__Field_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Value --></label>
+        <name>MedConnect__Field_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Apli --></label>
+        <name>MedConnect__Object_Apli__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type Of Validation --></label>
+        <name>MedConnect__Type_Of_Validation__c</name>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation><!-- Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validation</masterLabel>
+            <translation><!-- Validation --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

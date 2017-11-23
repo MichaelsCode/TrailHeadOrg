@@ -1,3 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Distribution Complaint --></label>
+        <name>MedConnect__Distribution_Complaint__c</name>
+        <relationshipLabel><!-- Associated Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>MedConnect__Order__c</name>
+        <relationshipLabel><!-- Associated Distribution Complaints --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

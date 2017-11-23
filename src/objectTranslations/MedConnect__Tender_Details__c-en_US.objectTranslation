@@ -1,3 +1,245 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Tender_Details_Add_fields --></label>
+        <name>Tender_Details_Add_fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Tender_Details_Input_fields --></label>
+        <name>Tender_Details_Input_fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Tender Output FieldSet --></label>
+        <name>Tender_Output_FieldSet</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Account --></label>
+        <name>MedConnect__Account__c</name>
+        <relationshipLabel><!-- Tender Line Items (Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Additional Charges --></label>
+        <name>MedConnect__Additional_Charges__c</name>
+    </fields>
+    <fields>
+        <label><!-- Committed Delivery Date --></label>
+        <name>MedConnect__Committed_Delivery_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitor Product --></label>
+        <name>MedConnect__Competitor_Product__c</name>
+        <relationshipLabel><!-- Tender Line Items (Competitor Product) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Competitor --></label>
+        <name>MedConnect__Competitor__c</name>
+        <relationshipLabel><!-- Tender Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cost Price --></label>
+        <name>MedConnect__Cost_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Type --></label>
+        <name>MedConnect__Delivery_Type__c</name>
+        <picklistValues>
+            <masterLabel>One Time</masterLabel>
+            <translation><!-- One Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phased</masterLabel>
+            <translation><!-- Phased --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Desired Product --></label>
+        <name>MedConnect__Desired_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount % --></label>
+        <name>MedConnect__Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evaluation_No_Go_Count --></label>
+        <name>MedConnect__Evaluation_No_Go_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected Delivery Date --></label>
+        <name>MedConnect__Expected_Delivery_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected Supply Schedule --></label>
+        <name>MedConnect__Expected_Supply_Schedule__c</name>
+        <picklistValues>
+            <masterLabel>Daily</masterLabel>
+            <translation><!-- Daily --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Half yearly</masterLabel>
+            <translation><!-- Half yearly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation><!-- Monthly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation><!-- Quarterly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation><!-- Weekly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yearly</masterLabel>
+            <translation><!-- Yearly --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Expected Supply Units Per Schedule --></label>
+        <name>MedConnect__Expected_Supply_Units_Per_Schedule__c</name>
+    </fields>
+    <fields>
+        <label><!-- Freight Charges --></label>
+        <name>MedConnect__Freight_Charges__c</name>
+    </fields>
+    <fields>
+        <label><!-- Go/No Go --></label>
+        <name>MedConnect__Go_No_Go__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Go/No-Go --></label>
+        <name>MedConnect__Initial_Go_No_Go__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line Item --></label>
+        <name>MedConnect__Line_Item__c</name>
+    </fields>
+    <fields>
+        <label><!-- List Price --></label>
+        <name>MedConnect__List_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Make/Buy --></label>
+        <name>MedConnect__Make_Buy__c</name>
+        <picklistValues>
+            <masterLabel>Buy</masterLabel>
+            <translation><!-- Buy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Make</masterLabel>
+            <translation><!-- Make --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Margin --></label>
+        <name>MedConnect__Margin__c</name>
+    </fields>
+    <fields>
+        <label><!-- No of Schedule --></label>
+        <name>MedConnect__No_of_Schedule__c</name>
+    </fields>
+    <fields>
+        <label><!-- Offered Product --></label>
+        <name>MedConnect__Offered_Product__c</name>
+        <relationshipLabel><!-- Tender Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Partner --></label>
+        <name>MedConnect__Partner__c</name>
+        <relationshipLabel><!-- Tender Line Items (Partner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Probability --></label>
+        <name>MedConnect__Probability__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>MedConnect__Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Price --></label>
+        <name>MedConnect__Quote_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Required Quantity --></label>
+        <name>MedConnect__Required_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Specifications --></label>
+        <name>MedConnect__Specifications__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stage --></label>
+        <name>MedConnect__Stage__c</name>
+        <picklistValues>
+            <masterLabel>Analysis</masterLabel>
+            <translation><!-- Analysis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed Lost</masterLabel>
+            <translation><!-- Closed Lost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed WON</masterLabel>
+            <translation><!-- Closed WON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Negotiation</masterLabel>
+            <translation><!-- Negotiation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preparing</masterLabel>
+            <translation><!-- Preparing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proposal</masterLabel>
+            <translation><!-- Proposal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospecting</masterLabel>
+            <translation><!-- Prospecting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualification</masterLabel>
+            <translation><!-- Qualification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Response</masterLabel>
+            <translation><!-- Response --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tax --></label>
+        <name>MedConnect__Tax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tender --></label>
+        <name>MedConnect__Tender_Header__c</name>
+        <relationshipLabel><!-- Tender Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tender Name --></label>
+        <name>MedConnect__Tender_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Price --></label>
+        <name>MedConnect__Total_Price__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Enter Required Quantity equal to or lesser than the product of the Number of schedules and Number of items per schedule, --></errorMessage>
+        <name>MedConnect__RQ_less_than_NOS_X_NOIS</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Total Price should be less than (List Price + Additional Charges - Discount) --></errorMessage>
+        <name>MedConnect__Total_Price_Validation</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Link_To_Tender_Evaluations --></label>
+        <name>MedConnect__Link_To_Tender_Evaluations</name>
+    </webLinks>
+</CustomObjectTranslation>

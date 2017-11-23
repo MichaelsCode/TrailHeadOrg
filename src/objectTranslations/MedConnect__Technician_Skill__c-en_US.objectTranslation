@@ -1,3 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Activity --></label>
+        <name>MedConnect__Activity__c</name>
+        <picklistValues>
+            <masterLabel>Callback</masterLabel>
+            <translation><!-- Callback --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clinical Support</masterLabel>
+            <translation><!-- Clinical Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Demonstration</masterLabel>
+            <translation><!-- Demonstration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diagnostic</masterLabel>
+            <translation><!-- Diagnostic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dispatch</masterLabel>
+            <translation><!-- Dispatch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dispatch Loaner</masterLabel>
+            <translation><!-- Dispatch Loaner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inspection</masterLabel>
+            <translation><!-- Inspection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Installation,Un-Installation</masterLabel>
+            <translation><!-- Installation,Un-Installation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preventive Maintenance</masterLabel>
+            <translation><!-- Preventive Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receiving</masterLabel>
+            <translation><!-- Receiving --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair</masterLabel>
+            <translation><!-- Repair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Request</masterLabel>
+            <translation><!-- Service Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipping</masterLabel>
+            <translation><!-- Shipping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer</masterLabel>
+            <translation><!-- Transfer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Asset --></label>
+        <name>MedConnect__Asset__c</name>
+        <relationshipLabel><!-- Technician Skills --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Assignment Level --></label>
+        <name>MedConnect__Assignment_Level__c</name>
+        <picklistValues>
+            <masterLabel>1. Primary</masterLabel>
+            <translation><!-- 1. Primary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2. Secondary</masterLabel>
+            <translation><!-- 2. Secondary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3. Tertiary</masterLabel>
+            <translation><!-- 3. Tertiary --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Assignment Level Numeric --></label>
+        <name>MedConnect__Assingment_Level_Numeric__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>MedConnect__Product__c</name>
+        <relationshipLabel><!-- Technician Skills --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Rate/Hr --></label>
+        <name>MedConnect__Rate_Hr__c</name>
+    </fields>
+    <fields>
+        <label><!-- Skill Level --></label>
+        <name>MedConnect__Skill_Level__c</name>
+        <picklistValues>
+            <masterLabel>1. High</masterLabel>
+            <translation><!-- 1. High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2. Medium</masterLabel>
+            <translation><!-- 2. Medium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3. Low</masterLabel>
+            <translation><!-- 3. Low --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Subject Code --></label>
+        <name>MedConnect__Subject_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Depot/Technician --></label>
+        <name>MedConnect__Technician__c</name>
+        <relationshipLabel><!-- Skills --></relationshipLabel>
+    </fields>
+    <recordTypes>
+        <label><!-- Activity Skill --></label>
+        <name>Activity_Skill</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Asset Skill --></label>
+        <name>Asset_Skill</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Product Skill --></label>
+        <name>Product_Skill</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Subject Skill --></label>
+        <name>Subject_Skill</name>
+    </recordTypes>
+</CustomObjectTranslation>

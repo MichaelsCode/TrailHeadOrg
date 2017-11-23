@@ -1,3 +1,361 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- InventoryEditFieldDetails --></label>
+        <name>InventoryEditFieldDetails</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- InventoryFieldSet --></label>
+        <name>InventoryFieldSet</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Account --></label>
+        <name>MedConnect__Account__c</name>
+        <relationshipLabel><!-- Inventory (Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Adjusted --></label>
+        <name>MedConnect__Adjusted_Display__c</name>
+    </fields>
+    <fields>
+        <label><!-- Adjusted --></label>
+        <name>MedConnect__Adjusted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Adjustment Type --></label>
+        <name>MedConnect__Adjustment_Type__c</name>
+        <picklistValues>
+            <masterLabel>Lost/Damaged Stock Mismatch</masterLabel>
+            <translation><!-- Lost/Damaged Stock Mismatch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order/Transferred Out Stock Mismatch</masterLabel>
+            <translation><!-- Order/Transferred Out Stock Mismatch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return Stock Mismatch</masterLabel>
+            <translation><!-- Return Stock Mismatch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipment Stock Mismatch</masterLabel>
+            <translation><!-- Shipment Stock Mismatch --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Adt Short Name --></label>
+        <name>MedConnect__Adt_Short_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aisle --></label>
+        <name>MedConnect__Aisle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allocated Stock --></label>
+        <name>MedConnect__Allocated_Stock_Display__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allocated Stock --></label>
+        <name>MedConnect__Allocated_Stock__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asset --></label>
+        <name>MedConnect__Asset__c</name>
+        <relationshipLabel><!-- Inventory --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Availability --></label>
+        <name>MedConnect__Availability__c</name>
+        <picklistValues>
+            <masterLabel>In Transit</masterLabel>
+            <translation><!-- In Transit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Hand</masterLabel>
+            <translation><!-- On Hand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Order</masterLabel>
+            <translation><!-- On Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reserved</masterLabel>
+            <translation><!-- Reserved --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Batch Master --></label>
+        <name>MedConnect__Batch_Master__c</name>
+        <relationshipLabel><!-- Inventory --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Capital Device --></label>
+        <name>MedConnect__Capital_Device__c</name>
+    </fields>
+    <fields>
+        <label><!-- Damaged --></label>
+        <name>MedConnect__Damaged__c</name>
+    </fields>
+    <fields>
+        <label><!-- Depot/Warehouse --></label>
+        <name>MedConnect__Depot_Warehouse__c</name>
+        <relationshipLabel><!-- Inventory (Depot/Warehouse) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Depot --></label>
+        <name>MedConnect__Depot__c</name>
+        <relationshipLabel><!-- Inventory --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Inventory Location --></label>
+        <name>MedConnect__Inventory_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory Period --></label>
+        <name>MedConnect__Inventory_Period__c</name>
+        <relationshipLabel><!-- Inventory --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Inventory Location --></label>
+        <name>MedConnect__Inventory_Source_Location__c</name>
+        <relationshipLabel><!-- Inventory --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Kit Product Name --></label>
+        <name>MedConnect__Kit_Product_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Damaged --></label>
+        <name>MedConnect__Lost_Damaged__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lost --></label>
+        <name>MedConnect__Lost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lot Master --></label>
+        <name>MedConnect__Lot_Master__c</name>
+        <relationshipLabel><!-- Inventory --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Lot Number --></label>
+        <name>MedConnect__Lot_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Maximum Stock --></label>
+        <name>MedConnect__Max_Stock__c</name>
+    </fields>
+    <fields>
+        <label><!-- Minimum Stock --></label>
+        <name>MedConnect__Minimum_Stock__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>MedConnect__Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- On Hand --></label>
+        <name>MedConnect__On_Hand_Display__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ordered Out --></label>
+        <name>MedConnect__Ordered_Out__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ordered Quantity --></label>
+        <name>MedConnect__Ordered_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Inventory Id --></label>
+        <name>MedConnect__Parent_Inventory_Id__c</name>
+        <relationshipLabel><!-- Inventory --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Parent Part Name --></label>
+        <name>MedConnect__Parent_Part_Name__c</name>
+        <relationshipLabel><!-- Inventory (Parent Part Name) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Part Name --></label>
+        <name>MedConnect__Part_Name__c</name>
+        <relationshipLabel><!-- Inventory (Part Name) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Primary UOM --></label>
+        <name>MedConnect__Primary_UOM__c</name>
+        <picklistValues>
+            <masterLabel>Box</masterLabel>
+            <translation><!-- Box --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cartons</masterLabel>
+            <translation><!-- Cartons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case</masterLabel>
+            <translation><!-- Case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Litres</masterLabel>
+            <translation><!-- Litres --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single Unit</masterLabel>
+            <translation><!-- Single Unit --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- On Hand --></label>
+        <name>MedConnect__Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transfer In --></label>
+        <name>MedConnect__Received_From_Others__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reconcile Status --></label>
+        <name>MedConnect__Reconcile_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualified for Reconcillation</masterLabel>
+            <translation><!-- Qualified for Reconcillation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reconciled</masterLabel>
+            <translation><!-- Reconciled --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Refill Quantity --></label>
+        <name>MedConnect__Refill_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Required Quantity --></label>
+        <name>MedConnect__Required_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Returned --></label>
+        <name>MedConnect__Returned__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shelf Life (Days) --></label>
+        <name>MedConnect__Shelf_Life__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shelf --></label>
+        <name>MedConnect__Shelf__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sl Number --></label>
+        <name>MedConnect__Sl_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ordered Out/Transferred --></label>
+        <name>MedConnect__Sold_Transferred__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Inventory Transactions --></label>
+        <name>MedConnect__Source_Inventory_Transactions__c</name>
+        <relationshipLabel><!-- Inventory --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>MedConnect__Status__c</name>
+        <picklistValues>
+            <masterLabel>Damaged</masterLabel>
+            <translation><!-- Damaged --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Defective</masterLabel>
+            <translation><!-- Defective --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Good</masterLabel>
+            <translation><!-- Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refurbished</masterLabel>
+            <translation><!-- Refurbished --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repaired</masterLabel>
+            <translation><!-- Repaired --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Surgical Kit --></label>
+        <name>MedConnect__Surgical_Kit__c</name>
+        <relationshipLabel><!-- Inventory --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>MedConnect__Type__c</name>
+        <picklistValues>
+            <masterLabel>Consignment</masterLabel>
+            <translation><!-- Consignment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Depot Repair Facility</masterLabel>
+            <translation><!-- Depot Repair Facility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trunk Stock</masterLabel>
+            <translation><!-- Trunk Stock --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warehouse</masterLabel>
+            <translation><!-- Warehouse --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Owner --></label>
+        <name>MedConnect__User__c</name>
+        <relationshipLabel><!-- Inventory --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- isSelected --></label>
+        <name>MedConnect__isSelected__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Active --></label>
+        <name>Normal</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Reconciled --></label>
+        <name>Reconciled</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- An Inventory contains either Product or Kit. Both could not be added in the same time. --></errorMessage>
+        <name>MedConnect__Either_Product_or_Kit_Inventory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Inventory must be properly assigned to User,Depot or Account based on the Type --></errorMessage>
+        <name>MedConnect__Either_owner_or_Depot_Inventory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Product  should have at least one of the  Lot Number, Batch Number and SI Number. --></errorMessage>
+        <name>MedConnect__Lot_Batch_SI_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Asset  is required for Serialized inventory --></errorMessage>
+        <name>MedConnect__Serial_Number_For_Asset_Inventory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Inventory can not be modified as current Inventory Period is reconciled. --></errorMessage>
+        <name>MedConnect__editable_false_after_reconcillation</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- View_Hierarchy --></label>
+        <name>MedConnect__View_Hierarchy</name>
+    </webLinks>
+</CustomObjectTranslation>

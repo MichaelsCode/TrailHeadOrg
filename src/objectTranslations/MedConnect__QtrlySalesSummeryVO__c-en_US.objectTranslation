@@ -1,3 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- lastQtr2Actual --></label>
+        <name>MedConnect__lastQtr2Actual__c</name>
+    </fields>
+    <fields>
+        <label><!-- lastQtr2Plan --></label>
+        <name>MedConnect__lastQtr2Plan__c</name>
+    </fields>
+    <fields>
+        <label><!-- lastQtr3Actual --></label>
+        <name>MedConnect__lastQtr3Actual__c</name>
+    </fields>
+    <fields>
+        <label><!-- lastQtr3Plan --></label>
+        <name>MedConnect__lastQtr3Plan__c</name>
+    </fields>
+    <fields>
+        <label><!-- lastQtrActual --></label>
+        <name>MedConnect__lastQtrActual__c</name>
+    </fields>
+    <fields>
+        <label><!-- lastQtrPlan --></label>
+        <name>MedConnect__lastQtrPlan__c</name>
+    </fields>
+    <fields>
+        <label><!-- productName --></label>
+        <name>MedConnect__productName__c</name>
+    </fields>
+    <fields>
+        <label><!-- qtrlyVal2ndLastYr --></label>
+        <name>MedConnect__qtrlyVal2ndLastYr__c</name>
+    </fields>
+    <fields>
+        <label><!-- qtrlyValLastYr --></label>
+        <name>MedConnect__qtrlyValLastYr__c</name>
+    </fields>
+</CustomObjectTranslation>

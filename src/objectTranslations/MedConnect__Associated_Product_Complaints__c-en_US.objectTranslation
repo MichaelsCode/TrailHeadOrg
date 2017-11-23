@@ -1,3 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- CAPA --></label>
+        <name>MedConnect__CAPA__c</name>
+        <relationshipLabel><!-- Associated Product Complaints --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Impacted Product --></label>
+        <name>MedConnect__Impacted_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner (of CAPA) --></label>
+        <name>MedConnect__Owner_of_CAPA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner (of PC) --></label>
+        <name>MedConnect__Owner_of_PC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Processing Status (of CAPA) --></label>
+        <name>MedConnect__Processing_Status_of_CAPA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Processing Status (of PC) --></label>
+        <name>MedConnect__Processing_Status_of_PC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Complaint --></label>
+        <name>MedConnect__Product_Complaint__c</name>
+        <relationshipLabel><!-- Associated CAPAs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Investigation --></label>
+        <name>MedConnect__Product_Investigation__c</name>
+        <relationshipLabel><!-- Associated CAPAs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Record Type (of CAPA) --></label>
+        <name>MedConnect__Record_Type_of_CAPA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Type (of PC) --></label>
+        <name>MedConnect__Record_Type_of_PC__c</name>
+    </fields>
+</CustomObjectTranslation>

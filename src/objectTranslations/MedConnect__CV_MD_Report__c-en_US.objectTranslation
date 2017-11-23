@@ -1,3 +1,514 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- ESignature View FieldSet --></label>
+        <name>ESignature_View_FieldSet</name>
+    </fieldSets>
+    <fields>
+        <help><!-- can’t be &lt; Report Submission Date --></help>
+        <label><!-- Date of Receipt by Regulatory Authority --></label>
+        <name>MedConnect__Date_of_Receipt_by_Regulatory_Authority__c</name>
+    </fields>
+    <fields>
+        <label><!-- Follow-up of Report --></label>
+        <name>MedConnect__Follow_up_of_Report__c</name>
+        <relationshipLabel><!-- CV-MD Reports --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Select the primary Product Investigation from which data will be populated into report --></help>
+        <label><!-- Primary Product Investigation --></label>
+        <name>MedConnect__Primary_Product_Investigation__c</name>
+        <relationshipLabel><!-- CV-MD Reports --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reason For Change --></label>
+        <name>MedConnect__Reason_For_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Receipt Acknowledgement Number --></label>
+        <name>MedConnect__Receipt_Acknowledgement_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Locked --></label>
+        <name>MedConnect__Record_Locked__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Status --></label>
+        <name>MedConnect__Report_Status__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reporting Information Approved</masterLabel>
+            <translation><!-- Reporting Information Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reporting Information Rejected</masterLabel>
+            <translation><!-- Reporting Information Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Void</masterLabel>
+            <translation><!-- Void --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Report Submission Due Date --></label>
+        <name>MedConnect__Report_Submission_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Submitted By --></label>
+        <name>MedConnect__Report_Submitted_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reportable Authority --></label>
+        <name>MedConnect__Reportable_Authority1__c</name>
+        <relationshipLabel><!-- CV-MD Reports --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reporter Type --></label>
+        <name>MedConnect__SecA1_1_Reporter_Type__c</name>
+        <picklistValues>
+            <masterLabel>Importer</masterLabel>
+            <translation><!-- Importer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufacturer</masterLabel>
+            <translation><!-- Manufacturer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Incident reported to manufacturer --></label>
+        <name>MedConnect__SecA1_2_Incident_reported_to_manufactur__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Report on behalf of manufacturer --></label>
+        <name>MedConnect__SecA1_3_Report_on_behalf_of_manufacturer__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- User Email --></label>
+        <name>MedConnect__SecA2_User_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Fax No. --></label>
+        <name>MedConnect__SecA2_User_Fax_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Name --></label>
+        <name>MedConnect__SecA2_User_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Phone No. --></label>
+        <name>MedConnect__SecA2_User_Phone_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter File No. --></label>
+        <name>MedConnect__SecA3_Reporter_File_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Health Canada File Number --></label>
+        <name>MedConnect__SecA4_Health_Canada_File_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anticipated date for final report --></label>
+        <name>MedConnect__SecA5_1_Anticipated_date_for_final_repo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous report Submission Date --></label>
+        <name>MedConnect__SecA5_2_Previous_report_Submission_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type of Report --></label>
+        <name>MedConnect__SecA5_Type_of_Report__c</name>
+        <picklistValues>
+            <masterLabel>Final Report</masterLabel>
+            <translation><!-- Final Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preliminary Report</masterLabel>
+            <translation><!-- Preliminary Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preliminary and Final Report</masterLabel>
+            <translation><!-- Preliminary and Final Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update Report</masterLabel>
+            <translation><!-- Update Report --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Report Submission Date --></label>
+        <name>MedConnect__SecA6_Report_Submission_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importer Name and Address --></label>
+        <name>MedConnect__SecA7_Importer_Name_and_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Name City And State --></label>
+        <name>MedConnect__SecA7_Manufacturer_Name_City_And_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Health Canada assigned identification no --></label>
+        <name>MedConnect__SecA8_Health_Canada_assigned_identi_no__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importer Health Canada assigned ID --></label>
+        <name>MedConnect__SecA8_Importer_Health_Canada_asgn_cmpId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Establishment License Number --></label>
+        <name>MedConnect__SecA9_Establishment_License_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importer Establishment License Number --></label>
+        <name>MedConnect__SecA9_Importer_Establishment_License_Num__c</name>
+    </fields>
+    <fields>
+        <label><!-- Classification Of Report --></label>
+        <name>MedConnect__SecB1_1_Classification_Of_Report__c</name>
+        <picklistValues>
+            <masterLabel>10-Day</masterLabel>
+            <translation><!-- 10-Day --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30-Day</masterLabel>
+            <translation><!-- 30-Day --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Country of Event --></label>
+        <name>MedConnect__SecB1_2_Country_of_event__c</name>
+        <picklistValues>
+            <masterLabel>Canadian</masterLabel>
+            <translation><!-- Canadian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foreign</masterLabel>
+            <translation><!-- Foreign --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Incident Happened Due To --></label>
+        <name>MedConnect__SecB1_3_Incident_Happened_Due_To__c</name>
+        <picklistValues>
+            <masterLabel>Investigational testing</masterLabel>
+            <translation><!-- Investigational testing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special Access Program</masterLabel>
+            <translation><!-- Special Access Program --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Radiation Emitting Device --></label>
+        <name>MedConnect__SecB1_4_Radiation_Emitting_Device__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Event --></label>
+        <name>MedConnect__SecB2_Date_of_Event__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Date --></label>
+        <name>MedConnect__SecB3_Report_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Patient Consequences --></label>
+        <name>MedConnect__SecB4_Patient_Consequences__c</name>
+    </fields>
+    <fields>
+        <label><!-- Details of Incident --></label>
+        <name>MedConnect__SecB5_Details_of_Incident__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trade or Brand Name --></label>
+        <name>MedConnect__SecC1_Trade_or_Brand_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Control/ Lot/ Serial Number --></label>
+        <name>MedConnect__SecC2_Control_Lot_Serial_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expiration Date --></label>
+        <name>MedConnect__SecC3_Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Device Classification --></label>
+        <name>MedConnect__SecC4_1_Device_Classification__c</name>
+        <picklistValues>
+            <masterLabel>Class 1</masterLabel>
+            <translation><!-- Class 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Class 2</masterLabel>
+            <translation><!-- Class 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Class 3</masterLabel>
+            <translation><!-- Class 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Class 4</masterLabel>
+            <translation><!-- Class 4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Device License Number --></label>
+        <name>MedConnect__SecC4_2_Device_License_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Device Identification No. --></label>
+        <name>MedConnect__SecC4_3_Device_Identification_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Catalog --></label>
+        <name>MedConnect__SecC4_4_Catalog__c</name>
+    </fields>
+    <fields>
+        <label><!-- Model --></label>
+        <name>MedConnect__SecC4_4_Model__c</name>
+    </fields>
+    <fields>
+        <label><!-- Software Version Number --></label>
+        <name>MedConnect__SecC5_Software_Version_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Age of Device --></label>
+        <name>MedConnect__SecC6_Age_of_Device__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duration Of Device Used --></label>
+        <name>MedConnect__SecC7_1_Duration_Of_Device_Used__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duration Unit --></label>
+        <name>MedConnect__SecC7_2_Duration_Unit__c</name>
+        <picklistValues>
+            <masterLabel>Days</masterLabel>
+            <translation><!-- Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hours</masterLabel>
+            <translation><!-- Hours --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minutes</masterLabel>
+            <translation><!-- Minutes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weeks</masterLabel>
+            <translation><!-- Weeks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Years</masterLabel>
+            <translation><!-- Years --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Device labelled as sterile --></label>
+        <name>MedConnect__SecC8_Device_labelled_as_sterile__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Availability of device for evaluation --></label>
+        <name>MedConnect__SecC9_Availability_of_device_for_evaltn__c</name>
+        <picklistValues>
+            <masterLabel>Destroyed</masterLabel>
+            <translation><!-- Destroyed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neither (with explanation)</masterLabel>
+            <translation><!-- Neither (with explanation) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Returned to Manufacturer/ Importer</masterLabel>
+            <translation><!-- Returned to Manufacturer/ Importer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Explanation For Neither --></label>
+        <name>MedConnect__SecC9_Explanation_For_Neither__c</name>
+    </fields>
+    <fields>
+        <label><!-- Complainant is a --></label>
+        <name>MedConnect__SecD1_Complainant_is_a__c</name>
+        <picklistValues>
+            <masterLabel>Consumer</masterLabel>
+            <translation><!-- Consumer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health professional</masterLabel>
+            <translation><!-- Health professional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Name of Complainant --></label>
+        <name>MedConnect__SecD2_Name_of_Complainant__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name of Health Care Facility --></label>
+        <name>MedConnect__SecD3_Name_of_Health_Care_Facility__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Reporter Address --></label>
+        <name>MedConnect__SecD4_Initial_Reporter_Name_And_Adrs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Reporter Email --></label>
+        <name>MedConnect__SecD5_Initial_Reporter_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Reporter Phone --></label>
+        <name>MedConnect__SecD5_Initial_Reporter_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Investigative Actions and Timeline --></label>
+        <name>MedConnect__SecE1_Investigative_Actions_and_Timeline__c</name>
+    </fields>
+    <fields>
+        <label><!-- Root Cause of Problem --></label>
+        <name>MedConnect__SecE2_Root_Cause_of_Problem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Corrective Action Taken --></label>
+        <name>MedConnect__SecE3_Corrective_Action_Taken__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select device software version if it is not specified in the asset --></help>
+        <label><!-- Software Version Number --></label>
+        <name>MedConnect__Software_Version_Number__c</name>
+        <relationshipLabel><!-- CV-MD Reports --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Submission Status --></label>
+        <name>MedConnect__Submission_Status__c</name>
+        <picklistValues>
+            <masterLabel>Ack 1</masterLabel>
+            <translation><!-- Ack 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ack 2</masterLabel>
+            <translation><!-- Ack 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attachment Ack Pending</masterLabel>
+            <translation><!-- Attachment Ack Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Error</masterLabel>
+            <translation><!-- Data Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delayed Acknowledgement</masterLabel>
+            <translation><!-- Delayed Acknowledgement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Passed</masterLabel>
+            <translation><!-- Passed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System Error</masterLabel>
+            <translation><!-- System Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transmitted</masterLabel>
+            <translation><!-- Transmitted --></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <label><!-- Final Report --></label>
+        <name>Final_Report</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Preliminary Report --></label>
+        <name>Preliminary_Report</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Preliminary and Final Report --></label>
+        <name>Preliminary_and_Final_Report</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Update Report --></label>
+        <name>Update_Report</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- can&apos;t be less than Report Submission Date --></errorMessage>
+        <name>MedConnect__Date_of_Receipt_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please specify unit of device usage duration --></errorMessage>
+        <name>MedConnect__Duration_Unit_is_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Duration Of Device Used has not been specified. --></errorMessage>
+        <name>MedConnect__Duration_unit_should_not_be_input</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select an Initial Report --></errorMessage>
+        <name>MedConnect__Initial_report_is_required_for_Followup</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Reporting Information can only be created If Reportable Authority Status is &apos;Reportability Approved&apos;. --></errorMessage>
+        <name>MedConnect__RA_Status_Should_Reportability_Approved</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Record cannot be modified when Report Status is Complete or Void --></errorMessage>
+        <name>MedConnect__Record_not_save_report_status_Complete</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- can&apos;t be less than Date of Event --></errorMessage>
+        <name>MedConnect__Report_Submission_Date_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Report Number has not been specified --></errorMessage>
+        <name>MedConnect__Reporter_File_No_is_Required_for_Submit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill User Name and Report Submission Date --></errorMessage>
+        <name>MedConnect__Submission_Status_Submitted_Validation</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- ESignature_History --></label>
+        <name>MedConnect__ESignature_History</name>
+    </webLinks>
+</CustomObjectTranslation>

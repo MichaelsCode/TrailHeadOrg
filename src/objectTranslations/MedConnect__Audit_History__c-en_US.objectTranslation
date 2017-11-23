@@ -1,3 +1,540 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Action --></label>
+        <name>MedConnect__Action__c</name>
+    </fields>
+    <fields>
+        <label><!-- Changed Field API Names --></label>
+        <name>MedConnect__Changed_Field_API_Names__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col100 --></label>
+        <name>MedConnect__Col100__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col101 --></label>
+        <name>MedConnect__Col101__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col102 --></label>
+        <name>MedConnect__Col102__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col103 --></label>
+        <name>MedConnect__Col103__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col104 --></label>
+        <name>MedConnect__Col104__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col105 --></label>
+        <name>MedConnect__Col105__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col10L --></label>
+        <name>MedConnect__Col10L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col10 --></label>
+        <name>MedConnect__Col10__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col11L --></label>
+        <name>MedConnect__Col11L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col11 --></label>
+        <name>MedConnect__Col11__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col12L --></label>
+        <name>MedConnect__Col12L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col12 --></label>
+        <name>MedConnect__Col12__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col13L --></label>
+        <name>MedConnect__Col13L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col13 --></label>
+        <name>MedConnect__Col13__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col14L --></label>
+        <name>MedConnect__Col14L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col14 --></label>
+        <name>MedConnect__Col14__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col15L --></label>
+        <name>MedConnect__Col15L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col15 --></label>
+        <name>MedConnect__Col15__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col16L --></label>
+        <name>MedConnect__Col16L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col16 --></label>
+        <name>MedConnect__Col16__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col17L --></label>
+        <name>MedConnect__Col17L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col17 --></label>
+        <name>MedConnect__Col17__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col18L --></label>
+        <name>MedConnect__Col18L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col18 --></label>
+        <name>MedConnect__Col18__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col19L --></label>
+        <name>MedConnect__Col19L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col19 --></label>
+        <name>MedConnect__Col19__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col1L --></label>
+        <name>MedConnect__Col1L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col1 --></label>
+        <name>MedConnect__Col1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col20L --></label>
+        <name>MedConnect__Col20L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col20 --></label>
+        <name>MedConnect__Col20__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col21L --></label>
+        <name>MedConnect__Col21L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col21 --></label>
+        <name>MedConnect__Col21__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col22L --></label>
+        <name>MedConnect__Col22L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col22 --></label>
+        <name>MedConnect__Col22__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col23 --></label>
+        <name>MedConnect__Col23__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col24 --></label>
+        <name>MedConnect__Col24__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col25 --></label>
+        <name>MedConnect__Col25__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col26 --></label>
+        <name>MedConnect__Col26__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col27 --></label>
+        <name>MedConnect__Col27__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col28 --></label>
+        <name>MedConnect__Col28__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col29 --></label>
+        <name>MedConnect__Col29__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col2L --></label>
+        <name>MedConnect__Col2L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col2 --></label>
+        <name>MedConnect__Col2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col30 --></label>
+        <name>MedConnect__Col30__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col31 --></label>
+        <name>MedConnect__Col31__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col32 --></label>
+        <name>MedConnect__Col32__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col33 --></label>
+        <name>MedConnect__Col33__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col34 --></label>
+        <name>MedConnect__Col34__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col35 --></label>
+        <name>MedConnect__Col35__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col36 --></label>
+        <name>MedConnect__Col36__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col37 --></label>
+        <name>MedConnect__Col37__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col38 --></label>
+        <name>MedConnect__Col38__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col39 --></label>
+        <name>MedConnect__Col39__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col3L --></label>
+        <name>MedConnect__Col3L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col3 --></label>
+        <name>MedConnect__Col3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col40 --></label>
+        <name>MedConnect__Col40__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col41 --></label>
+        <name>MedConnect__Col41__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col42 --></label>
+        <name>MedConnect__Col42__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col43 --></label>
+        <name>MedConnect__Col43__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col44 --></label>
+        <name>MedConnect__Col44__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col45 --></label>
+        <name>MedConnect__Col45__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col46 --></label>
+        <name>MedConnect__Col46__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col47 --></label>
+        <name>MedConnect__Col47__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col48 --></label>
+        <name>MedConnect__Col48__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col49 --></label>
+        <name>MedConnect__Col49__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col4L --></label>
+        <name>MedConnect__Col4L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col4 --></label>
+        <name>MedConnect__Col4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col50 --></label>
+        <name>MedConnect__Col50__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col51 --></label>
+        <name>MedConnect__Col51__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col52 --></label>
+        <name>MedConnect__Col52__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col53 --></label>
+        <name>MedConnect__Col53__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col54 --></label>
+        <name>MedConnect__Col54__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col55 --></label>
+        <name>MedConnect__Col55__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col56 --></label>
+        <name>MedConnect__Col56__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col57 --></label>
+        <name>MedConnect__Col57__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col58 --></label>
+        <name>MedConnect__Col58__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col59 --></label>
+        <name>MedConnect__Col59__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col5L --></label>
+        <name>MedConnect__Col5L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col5 --></label>
+        <name>MedConnect__Col5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col60 --></label>
+        <name>MedConnect__Col60__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col61 --></label>
+        <name>MedConnect__Col61__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col62 --></label>
+        <name>MedConnect__Col62__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col63 --></label>
+        <name>MedConnect__Col63__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col64 --></label>
+        <name>MedConnect__Col64__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col66 --></label>
+        <name>MedConnect__Col66__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col67 --></label>
+        <name>MedConnect__Col67__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col68 --></label>
+        <name>MedConnect__Col68__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col69 --></label>
+        <name>MedConnect__Col69__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col6 --></label>
+        <name>MedConnect__Col6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col6L --></label>
+        <name>MedConnect__Col6l__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col70 --></label>
+        <name>MedConnect__Col70__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col71 --></label>
+        <name>MedConnect__Col71__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col72 --></label>
+        <name>MedConnect__Col72__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col73 --></label>
+        <name>MedConnect__Col73__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col74 --></label>
+        <name>MedConnect__Col74__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col75 --></label>
+        <name>MedConnect__Col75__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col76 --></label>
+        <name>MedConnect__Col76__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col77 --></label>
+        <name>MedConnect__Col77__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col78 --></label>
+        <name>MedConnect__Col78__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col79 --></label>
+        <name>MedConnect__Col79__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col7L --></label>
+        <name>MedConnect__Col7L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col7 --></label>
+        <name>MedConnect__Col7__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col80 --></label>
+        <name>MedConnect__Col80__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col81 --></label>
+        <name>MedConnect__Col81__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col82 --></label>
+        <name>MedConnect__Col82__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col83 --></label>
+        <name>MedConnect__Col83__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col84 --></label>
+        <name>MedConnect__Col84__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col85 --></label>
+        <name>MedConnect__Col85__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col86 --></label>
+        <name>MedConnect__Col86__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col87 --></label>
+        <name>MedConnect__Col87__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col88 --></label>
+        <name>MedConnect__Col88__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col89 --></label>
+        <name>MedConnect__Col89__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col8L --></label>
+        <name>MedConnect__Col8L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col8 --></label>
+        <name>MedConnect__Col8__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col90 --></label>
+        <name>MedConnect__Col90__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col91 --></label>
+        <name>MedConnect__Col91__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col92 --></label>
+        <name>MedConnect__Col92__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col93 --></label>
+        <name>MedConnect__Col93__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col94 --></label>
+        <name>MedConnect__Col94__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col95 --></label>
+        <name>MedConnect__Col95__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col96 --></label>
+        <name>MedConnect__Col96__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col97 --></label>
+        <name>MedConnect__Col97__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col98 --></label>
+        <name>MedConnect__Col98__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col99 --></label>
+        <name>MedConnect__Col99__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col9L --></label>
+        <name>MedConnect__Col9L__c</name>
+    </fields>
+    <fields>
+        <label><!-- Col9 --></label>
+        <name>MedConnect__Col9__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Latest Audit Record --></label>
+        <name>MedConnect__Is_Latest_Audit_Record__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object API Name --></label>
+        <name>MedConnect__Object_API_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous Audit History --></label>
+        <name>MedConnect__Previous_Audit_History__c</name>
+        <relationshipLabel><!-- Previously Audit History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reason for Change --></label>
+        <name>MedConnect__Reason_for_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Object Record Id --></label>
+        <name>MedConnect__Target_Object_Record_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- col65 --></label>
+        <name>MedConnect__col65__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,3 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Response Stopper --></label>
+        <name>MedConnect__Response_Stopper__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scoring --></label>
+        <name>MedConnect__Scoring__c</name>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disadvantage</masterLabel>
+            <translation><!-- Disadvantage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Favourably Positioned</masterLabel>
+            <translation><!-- Favourably Positioned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Serious Disadvantage</masterLabel>
+            <translation><!-- Serious Disadvantage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strong Competitive Advantage</masterLabel>
+            <translation><!-- Strong Competitive Advantage --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- TenderQuestions --></label>
+        <name>MedConnect__TenderQuestions__c</name>
+        <relationshipLabel><!-- Tender Evaluation --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tender Answer --></label>
+        <name>MedConnect__Tender_Answer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tender Details Id --></label>
+        <name>MedConnect__Tender_Details_Id__c</name>
+        <relationshipLabel><!-- Tender Evaluation --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

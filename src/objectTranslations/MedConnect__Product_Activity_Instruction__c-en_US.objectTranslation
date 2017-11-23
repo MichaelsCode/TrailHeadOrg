@@ -1,3 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Activity Sub Type --></label>
+        <name>MedConnect__Activity_Sub_Type__c</name>
+        <picklistValues>
+            <masterLabel>Instructions</masterLabel>
+            <translation><!-- Instructions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Items</masterLabel>
+            <translation><!-- Items --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Miscellaneous</masterLabel>
+            <translation><!-- Miscellaneous --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Steps</masterLabel>
+            <translation><!-- Steps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Task 1</masterLabel>
+            <translation><!-- Task 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Task 2</masterLabel>
+            <translation><!-- Task 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Task 3</masterLabel>
+            <translation><!-- Task 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Task 4</masterLabel>
+            <translation><!-- Task 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Task 5</masterLabel>
+            <translation><!-- Task 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Activity Type --></label>
+        <name>MedConnect__Activity_Type__c</name>
+        <picklistValues>
+            <masterLabel>Callback</masterLabel>
+            <translation><!-- Callback --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clinical Support</masterLabel>
+            <translation><!-- Clinical Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Demonstration</masterLabel>
+            <translation><!-- Demonstration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diagnostic</masterLabel>
+            <translation><!-- Diagnostic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dispatch</masterLabel>
+            <translation><!-- Dispatch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dispatch Loaner</masterLabel>
+            <translation><!-- Dispatch Loaner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inspection</masterLabel>
+            <translation><!-- Inspection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Installation</masterLabel>
+            <translation><!-- Installation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investigation</masterLabel>
+            <translation><!-- Investigation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preventive Maintenance</masterLabel>
+            <translation><!-- Preventive Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receiving</masterLabel>
+            <translation><!-- Receiving --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair</masterLabel>
+            <translation><!-- Repair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Request</masterLabel>
+            <translation><!-- Service Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipping</masterLabel>
+            <translation><!-- Shipping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer</masterLabel>
+            <translation><!-- Transfer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Un-Installation</masterLabel>
+            <translation><!-- Un-Installation --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Item --></label>
+        <name>MedConnect__Item__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>MedConnect__Product__c</name>
+        <relationshipLabel><!-- Activity Instructions --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

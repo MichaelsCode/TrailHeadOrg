@@ -1,3 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Cost --></label>
+        <name>MedConnect__Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective End Date --></label>
+        <name>MedConnect__End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- List Price --></label>
+        <name>MedConnect__List_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- MSRP --></label>
+        <name>MedConnect__MSRP__c</name>
+    </fields>
+    <fields>
+        <label><!-- %Margin --></label>
+        <name>MedConnect__Margin_percent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Maximum Price --></label>
+        <name>MedConnect__Maximum_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Minimum Price --></label>
+        <name>MedConnect__Minimum_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pricebook --></label>
+        <name>MedConnect__Pricebook__c</name>
+        <picklistValues>
+            <masterLabel>Level 1 Pricebook</masterLabel>
+            <translation><!-- Level 1 Pricebook --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Level 2 Pricebook</masterLabel>
+            <translation><!-- Level 2 Pricebook --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NA Pricebook</masterLabel>
+            <translation><!-- NA Pricebook --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>MedConnect__Product__c</name>
+        <relationshipLabel><!-- Price --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Promotional Price --></label>
+        <name>MedConnect__Promotional_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Start Date --></label>
+        <name>MedConnect__Start_Date__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Dont enter Effective Start Date as an after date of Effective End Date --></errorMessage>
+        <name>MedConnect__End_date_no_prior_to_Start_Date</name>
+    </validationRules>
+</CustomObjectTranslation>

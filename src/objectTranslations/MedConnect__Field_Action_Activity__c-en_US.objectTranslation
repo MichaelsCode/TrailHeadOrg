@@ -1,3 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Field Action Activity Edit --></label>
+        <name>Field_Action_Activity_Edit</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Adt Short Name --></label>
+        <name>MedConnect__Adt_Short_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>MedConnect__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Action Plan --></label>
+        <name>MedConnect__Field_Action_Plan__c</name>
+        <relationshipLabel><!-- Field Action Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reason For Change --></label>
+        <name>MedConnect__Reason_For_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>MedConnect__Status__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation><!-- Failed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+    </fields>
+    <webLinks>
+        <label><!-- Custom_Delete --></label>
+        <name>MedConnect__Custom_Delete</name>
+    </webLinks>
+</CustomObjectTranslation>

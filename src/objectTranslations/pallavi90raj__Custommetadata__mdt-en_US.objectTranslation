@@ -1,3 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Entity1 --></label>
+        <name>pallavi90raj__Entity1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Entity2 --></label>
+        <name>pallavi90raj__Entity2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field1 --></label>
+        <name>pallavi90raj__Field1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field2 --></label>
+        <name>pallavi90raj__Field2__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,3 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Incident Smart Script Edit FieldSet --></label>
+        <name>Incident_Smart_Script_Edit_FieldSet</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Account --></label>
+        <name>MedConnect__Account__c</name>
+        <relationshipLabel><!-- Health Authority Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>MedConnect__Contact__c</name>
+        <relationshipLabel><!-- Health Authority Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date Received --></label>
+        <name>MedConnect__Date_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>MedConnect__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Due Date --></label>
+        <name>MedConnect__Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incident --></label>
+        <name>MedConnect__Incident__c</name>
+        <relationshipLabel><!-- Health Authority Request --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reason for Change --></label>
+        <name>MedConnect__Reason_for_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submitted By --></label>
+        <name>MedConnect__User__c</name>
+        <relationshipLabel><!-- Health Authority Requests --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

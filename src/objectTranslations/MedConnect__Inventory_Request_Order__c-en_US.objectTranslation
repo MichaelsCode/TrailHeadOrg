@@ -1,3 +1,212 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account --></label>
+        <name>MedConnect__Account__c</name>
+        <relationshipLabel><!-- Service Orders (Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Age --></label>
+        <name>MedConnect__Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call --></label>
+        <name>MedConnect__Call__c</name>
+        <relationshipLabel><!-- Service Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>MedConnect__Contact__c</name>
+        <relationshipLabel><!-- Service Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Courier --></label>
+        <name>MedConnect__Courier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Date --></label>
+        <name>MedConnect__Delivery_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Depot/Warehouse --></label>
+        <name>MedConnect__Depot_Warehouse__c</name>
+        <relationshipLabel><!-- Service Orders (Depot/Warehouse) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Depot --></label>
+        <name>MedConnect__Depot__c</name>
+        <relationshipLabel><!-- Service Orders (Depot) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Destination User --></label>
+        <name>MedConnect__Destination_User__c</name>
+        <relationshipLabel><!-- Service Orders (Destination User) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Expected Delivery Date --></label>
+        <name>MedConnect__Expected_Delivery_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected Ship Date --></label>
+        <name>MedConnect__Expected_Ship_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incident --></label>
+        <name>MedConnect__Incident__c</name>
+        <relationshipLabel><!-- Service Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Integration Comments --></label>
+        <name>MedConnect__Integration_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Integration Status --></label>
+        <name>MedConnect__Integration_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interaction --></label>
+        <name>MedConnect__Interaction__c</name>
+        <relationshipLabel><!-- Service Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Order Type --></label>
+        <name>MedConnect__Order_Type__c</name>
+        <picklistValues>
+            <masterLabel>Adjustment</masterLabel>
+            <translation><!-- Adjustment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Defective Part Return</masterLabel>
+            <translation><!-- Defective Part Return --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inventory Transfer</masterLabel>
+            <translation><!-- Inventory Transfer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Replenishment</masterLabel>
+            <translation><!-- Replenishment --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Owner_User --></label>
+        <name>MedConnect__Owner_User__c</name>
+        <relationshipLabel><!-- Service Orders (Owner_User) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reason for Return --></label>
+        <name>MedConnect__Reason_for_Return__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference Number --></label>
+        <name>MedConnect__Reference_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Date --></label>
+        <name>MedConnect__Request_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Request --></label>
+        <name>MedConnect__Service_Request__c</name>
+        <relationshipLabel><!-- Service Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Shipping Address --></label>
+        <name>MedConnect__Shipping_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Date --></label>
+        <name>MedConnect__Shipping_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Id --></label>
+        <name>MedConnect__Shipping_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Method --></label>
+        <name>MedConnect__Shipping_Method_New__c</name>
+        <picklistValues>
+            <masterLabel>Air</masterLabel>
+            <translation><!-- Air --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Road</masterLabel>
+            <translation><!-- Road --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Shipping Method Del --></label>
+        <name>MedConnect__Shipping_Method__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Mode --></label>
+        <name>MedConnect__Shipping_Mode__c</name>
+        <picklistValues>
+            <masterLabel>3rd Party Logistics</masterLabel>
+            <translation><!-- 3rd Party Logistics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carrier</masterLabel>
+            <translation><!-- Carrier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Rep Pick Up</masterLabel>
+            <translation><!-- Sales Rep Pick Up --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Source Depot --></label>
+        <name>MedConnect__Source_Depot__c</name>
+        <relationshipLabel><!-- Service Orders (Source Depot) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Source Inventory --></label>
+        <name>MedConnect__Source_Inventory__c</name>
+        <relationshipLabel><!-- Service Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>MedConnect__Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tracking Number --></label>
+        <name>MedConnect__Tracking_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Order --></label>
+        <name>MedConnect__Work_Order__c</name>
+        <relationshipLabel><!-- Service Orders --></relationshipLabel>
+    </fields>
+    <recordTypes>
+        <label><!-- Order Creation --></label>
+        <name>Order_Creation</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Regional Operation --></label>
+        <name>Regional_Operation</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Shipping order --></label>
+        <name>Shipping_order</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Check_Fulfillment --></label>
+        <name>MedConnect__Check_Fulfillment</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_RMA_Order --></label>
+        <name>MedConnect__Generate_RMA_Order</name>
+    </webLinks>
+</CustomObjectTranslation>

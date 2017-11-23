@@ -1,3 +1,184 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- ReturnMaterialOrderEditDetails --></label>
+        <name>ReturnMaterialOrderEditDetails</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ReturnMaterialOrderEditFields --></label>
+        <name>ReturnMaterialOrderEditFields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- ADT Short Name --></label>
+        <name>MedConnect__ADT_Short_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asset --></label>
+        <name>MedConnect__Asset__c</name>
+        <relationshipLabel><!-- Return Material Order --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Complaint Name --></label>
+        <name>MedConnect__Complaint_Name_View__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Id --></label>
+        <name>MedConnect__Contact_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Name --></label>
+        <name>MedConnect__Contact_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Location --></label>
+        <name>MedConnect__Current_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destination --></label>
+        <name>MedConnect__Destination_Account__c</name>
+        <relationshipLabel><!-- Return Material Order (Destination) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Destination --></label>
+        <name>MedConnect__Destination__c</name>
+        <relationshipLabel><!-- Return Material Order --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Impacted Product --></label>
+        <name>MedConnect__Impacted_Product__c</name>
+        <relationshipLabel><!-- Return Material Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Incident Name --></label>
+        <name>MedConnect__Incident_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Submit Date --></label>
+        <name>MedConnect__Last_Submit_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Inquiry Line Item --></label>
+        <name>MedConnect__Medical_Inquiry_Line_Item__c</name>
+        <relationshipLabel><!-- Return Material Order --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Notes --></label>
+        <name>MedConnect__Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Line Item --></label>
+        <name>MedConnect__Order_Line_Item__c</name>
+        <relationshipLabel><!-- Return Material Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Order Status --></label>
+        <name>MedConnect__Order_Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Order Type --></label>
+        <name>MedConnect__Order_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Type --></label>
+        <name>MedConnect__Order_Type_vw__c</name>
+    </fields>
+    <fields>
+        <label><!-- Outbound Enabled --></label>
+        <name>MedConnect__Outbound_Enabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Name_View --></label>
+        <name>MedConnect__Product_Name_View__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Retrieval Attempt Count --></label>
+        <name>MedConnect__Product_Retrieval_Attempt_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>MedConnect__Product__c</name>
+        <relationshipLabel><!-- Return Material Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity Received --></label>
+        <name>MedConnect__Quantity_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>MedConnect__Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- RMA Order --></label>
+        <name>MedConnect__RMA_Order__c</name>
+        <relationshipLabel><!-- Return Material Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reason for Change --></label>
+        <name>MedConnect__Reason_for_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Request Name --></label>
+        <name>MedConnect__Service_Request_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source --></label>
+        <name>MedConnect__Source_Account__c</name>
+        <relationshipLabel><!-- Return Material Order --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>MedConnect__Status__c</name>
+        <picklistValues>
+            <masterLabel>Awaiting Return</masterLabel>
+            <translation><!-- Awaiting Return --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Transit</masterLabel>
+            <translation><!-- In Transit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready for Shipment</masterLabel>
+            <translation><!-- Ready for Shipment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Received</masterLabel>
+            <translation><!-- Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return Completed</masterLabel>
+            <translation><!-- Return Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipment Received</masterLabel>
+            <translation><!-- Shipment Received --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- UDI --></label>
+        <name>MedConnect__UDI__c</name>
+    </fields>
+    <fields>
+        <label><!-- 3 Attempts complete ? --></label>
+        <name>MedConnect__X3_Attempts_complete__c</name>
+    </fields>
+    <webLinks>
+        <label><!-- Custom_Delete --></label>
+        <name>MedConnect__Custom_Delete</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Notify --></label>
+        <name>MedConnect__Notify</name>
+    </webLinks>
+</CustomObjectTranslation>

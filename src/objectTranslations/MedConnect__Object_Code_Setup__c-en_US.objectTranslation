@@ -1,3 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- By default it is &quot;False&quot;, Enter Record Type Names semicolon separated for which only Terminal Code be selected. --></help>
+        <label><!-- Allow Only Terminal Codes --></label>
+        <name>MedConnect__Allow_Only_Terminal_Codes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the applicable Code Record Type  Name for the Object semicolon separated. --></help>
+        <label><!-- Applicable Codes --></label>
+        <name>MedConnect__Applicable_Codes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the Applicable Fields API name where Assigned Code data will be stored in a Text Area(readable format), semicolon separated for different Code Record Types according to the order mentioned in Applicable Code field. --></help>
+        <label><!-- Applicable Fields --></label>
+        <name>MedConnect__Applicable_Fields__c</name>
+    </fields>
+    <fields>
+        <help><!-- Delete --></help>
+        <label><!-- Code Type Id --></label>
+        <name>MedConnect__Code_Type_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Duplicate Codes --></label>
+        <name>MedConnect__Enable_Duplicate_Codes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the FieldSet name for Code Assignment Object which will be editable. Enter multiple FieldSet name semicolon separated for different Code Record Types according to the order mentioned in Applicable Code field.
+Use &quot;na&quot; for no FieldSet selection --></help>
+        <label><!-- Field Set Name Edit --></label>
+        <name>MedConnect__Field_Set_Name_Edit__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the FieldSet name for Code Object which will be viewable in code Selection modal. Enter multiple FieldSet name semicolon separated for different Code Record Types according to the order mentioned in Applicable Code field. Use &quot;na&quot; for default. --></help>
+        <label><!-- Field Set Name Search --></label>
+        <name>MedConnect__Field_Set_Name_Search__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the FieldSet name for Code Object which will be viewable in assigned code section. Enter multiple FieldSet name semicolon separated for different Code Record Types according to the order mentioned in Applicable Code field. Use &quot;na&quot; for default. --></help>
+        <label><!-- Field Set Name View --></label>
+        <name>MedConnect__Field_Set_Name_View__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please provide the API Name of a field from the Product module --></help>
+        <label><!-- Filter_By_ProductFamily_Or_Product --></label>
+        <name>MedConnect__Filter_By_ProductFamily_Or_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Limit --></label>
+        <name>MedConnect__Limit__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the Fieldname in Code Assignment Object that will be populated with parent record id. --></help>
+        <label><!-- Lookup Field Name --></label>
+        <name>MedConnect__Lookup_Field_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- This checkbox tells if Related Code Feature is enabled or not, that is relating an added code to another code which information can come from same Object or specific Parent Object. --></help>
+        <label><!-- Related Code Enable --></label>
+        <name>MedConnect__Related_Code_Enable__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter Code Record Type name which will have the option to add related code. --></help>
+        <label><!-- Related Code From --></label>
+        <name>MedConnect__Related_Code_From__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Code Linked To --></label>
+        <name>MedConnect__Related_Code_Linked_To__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the Field API name which will be queried in the &quot;SELECT&quot; clause, and the related Code data will come from Assigned Codes whose parent record Id will match this field value. --></help>
+        <label><!-- Related Code Object Field --></label>
+        <name>MedConnect__Related_Code_Object_Field__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the Object Name on which the Query will execute, Enter &quot;self&quot; if there is no parent Code query and the related Code data will come from the record itself. --></help>
+        <label><!-- Related Code Object Name --></label>
+        <name>MedConnect__Related_Code_Object_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the Field API name which will be used in WHERE clause of the query. --></help>
+        <label><!-- Related Code Query Field --></label>
+        <name>MedConnect__Related_Code_Query_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Render Deleted Code --></label>
+        <name>MedConnect__Render_Deleted_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the Code Record Types for which Applicable Codes by Product table will be restricted. --></help>
+        <label><!-- Restrict Applicable Code --></label>
+        <name>MedConnect__Restrict_Applicable_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the Code Record Types semicolon separated for those Available Codes table will be restricted. --></help>
+        <label><!-- Restrict Available Code --></label>
+        <name>MedConnect__Restrict_Available_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter API Name of the applicable Object. --></help>
+        <label><!-- SObjectType --></label>
+        <name>MedConnect__SObjectType__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is used to restrict the All Option Available in the Code selection page.Mention true and false in semicolon separated manner for codes. --></help>
+        <label><!-- Show All Option --></label>
+        <name>MedConnect__Show_All_Option__c</name>
+    </fields>
+</CustomObjectTranslation>

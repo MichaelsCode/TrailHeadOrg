@@ -1,3 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Code Type --></label>
+        <name>MedConnect__Code_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code --></label>
+        <name>MedConnect__Code__c</name>
+        <relationshipLabel><!-- Code Assignments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Family --></label>
+        <name>MedConnect__Product_Family__c</name>
+        <relationshipLabel><!-- Code Assignments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>MedConnect__Product__c</name>
+        <relationshipLabel><!-- Code Assignments --></relationshipLabel>
+    </fields>
+    <recordTypes>
+        <label><!-- By All --></label>
+        <name>By_All</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- By Product --></label>
+        <name>By_Product</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- By Product Family --></label>
+        <name>By_Product_Family</name>
+    </recordTypes>
+</CustomObjectTranslation>

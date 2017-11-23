@@ -1,3 +1,1011 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Approved PSR Description of PSR --></label>
+        <name>Approved_PSR_Description_of_PSR</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Approved PSR Fields --></label>
+        <name>Approved_PSR_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Approved PSR Information --></label>
+        <name>Approved_PSR_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Approved PSR Manufacturer’s comments / investigation results --></label>
+        <name>Approved_PSR_Manufacturer_s_comments_inv</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Approved PSR Medical Device Information --></label>
+        <name>Approved_PSR_Medical_Device_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Approved PSR Report Submission/ Acknowledgement Information --></label>
+        <name>Approved_PSR_Report_Submission_Acknowled</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Approved PSR Submitter Information --></label>
+        <name>Approved_PSR_Submitter_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Approved TR Additional Information --></label>
+        <name>Approved_TR_Additional_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Approved TR Information --></label>
+        <name>Approved_TR_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Approved TR Information on Trend Report --></label>
+        <name>Approved_TR_Information_on_Trend_Report</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Approved TR Information on submitter of the report --></label>
+        <name>Approved_TR_Information_on_submitter_of</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Approved TR Manufacturer’s preliminary comments --></label>
+        <name>Approved_TR_Manufacturer_s_preliminary_c</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Approved TR Medical Device Information --></label>
+        <name>Approved_TR_Medical_Device_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Approved TR Report Submission/ Acknowledgement Information --></label>
+        <name>Approved_TR_Report_Submission_Acknowledg</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Approved TR Results of manufacturer’s final investigation into trend --></label>
+        <name>Approved_TR_Results_of_manufacturer_s_fi</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ESignature View FieldSet --></label>
+        <name>ESignature_View_FieldSet</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Accessories/associated devices --></label>
+        <name>MedConnect__Accessories_associated_devices__c</name>
+        <relationshipLabel><!-- Reporting Summaries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Address of National Competent Authority --></label>
+        <name>MedConnect__Address_of_National_Competent_Authority__c</name>
+    </fields>
+    <fields>
+        <label><!-- Adt Short Name --></label>
+        <name>MedConnect__Adt_Short_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>MedConnect__Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Authorized Representative’s Address --></label>
+        <name>MedConnect__Authorized_Representative_s_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Authorized Representative’s City --></label>
+        <name>MedConnect__Authorized_Representative_s_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Authorized Representative’s Contact Name --></label>
+        <name>MedConnect__Authorized_Representative_s_Contact_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Authorized Representative’s Country --></label>
+        <name>MedConnect__Authorized_Representative_s_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Authorized Representative’s E-mail --></label>
+        <name>MedConnect__Authorized_Representative_s_E_mail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Authorized Representative’s Fax --></label>
+        <name>MedConnect__Authorized_Representative_s_Fax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Authorized Representative’s Name --></label>
+        <name>MedConnect__Authorized_Representative_s_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Authorized Representative’s Phone --></label>
+        <name>MedConnect__Authorized_Representative_s_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Authorized Representative’s Postcode --></label>
+        <name>MedConnect__Authorized_Representative_s_Postcode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Catalogue Number --></label>
+        <name>MedConnect__Catalogue_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Class --></label>
+        <name>MedConnect__Class__c</name>
+        <picklistValues>
+            <masterLabel>AIMD Active Implants</masterLabel>
+            <translation><!-- AIMD Active Implants --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IVD Annex II List A</masterLabel>
+            <translation><!-- IVD Annex II List A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IVD Annex II List B</masterLabel>
+            <translation><!-- IVD Annex II List B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IVD Devices for self-testing</masterLabel>
+            <translation><!-- IVD Devices for self-testing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IVD General</masterLabel>
+            <translation><!-- IVD General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MDD Class I</masterLabel>
+            <translation><!-- MDD Class I --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MDD Class III</masterLabel>
+            <translation><!-- MDD Class III --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MDD Class IIb</masterLabel>
+            <translation><!-- MDD Class IIb --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MDD Class Iia</masterLabel>
+            <translation><!-- MDD Class Iia --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>MedConnect__Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commercial name/ brand name / make --></label>
+        <name>MedConnect__Commercial_name_brand_name_make__c</name>
+    </fields>
+    <fields>
+        <label><!-- Common and well documented incidents --></label>
+        <name>MedConnect__Common_and_well_documented_incidents__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>MedConnect__Contact__c</name>
+        <relationshipLabel><!-- Reporting Summaries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact’s Address --></label>
+        <name>MedConnect__Contact_s_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact’s City --></label>
+        <name>MedConnect__Contact_s_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact’s Contact Name --></label>
+        <name>MedConnect__Contact_s_Contact_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact’s Country --></label>
+        <name>MedConnect__Contact_s_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact’s E-mail --></label>
+        <name>MedConnect__Contact_s_E_mail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact’s Fax --></label>
+        <name>MedConnect__Contact_s_Fax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact’s Name --></label>
+        <name>MedConnect__Contact_s_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact’s Phone --></label>
+        <name>MedConnect__Contact_s_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact’s Postcode --></label>
+        <name>MedConnect__Contact_s_Postcode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name of the coordinating NCA --></label>
+        <name>MedConnect__CoordinatingNCA_Competent_Authority_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date --></label>
+        <name>MedConnect__Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of PSR --></label>
+        <name>MedConnect__Date_of_PSR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Receipt by Regulatory Authority --></label>
+        <name>MedConnect__Date_of_Receipt_by_Regulatory_Authority__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date the trend was identified --></label>
+        <name>MedConnect__Date_the_trend_was_identified__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description for identified trend --></label>
+        <name>MedConnect__Description_for_identified_trend__c</name>
+    </fields>
+    <fields>
+        <label><!-- Established trigger level --></label>
+        <name>MedConnect__Established_trigger_level__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected date of next report --></label>
+        <name>MedConnect__Expected_date_of_next_PSR_report__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected date of next report --></label>
+        <name>MedConnect__Expected_date_of_next_report__c</name>
+    </fields>
+    <fields>
+        <label><!-- FSCA reference number assigned by NCA --></label>
+        <name>MedConnect__FSCA_reference_number_assigned_by_NCA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Action Name --></label>
+        <name>MedConnect__Field_Action_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Figures in the below section relate to --></label>
+        <name>MedConnect__Fields_in_the_below_section_relate_to__c</name>
+        <picklistValues>
+            <masterLabel>All PSR recipients NCAs identified</masterLabel>
+            <translation><!-- All PSR recipients NCAs identified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EEA + CH +TR</masterLabel>
+            <translation><!-- EEA + CH +TR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single Member State (if checked enable free text)</masterLabel>
+            <translation><!-- Single Member State (if checked enable free text) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Final comments from the manufacturer --></label>
+        <name>MedConnect__Final_comments_from_the_manufacturer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Follow-up of Report --></label>
+        <name>MedConnect__Follow_up_of_Report__c</name>
+        <relationshipLabel><!-- Follow Up Reporting Summaries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Further investigation --></label>
+        <name>MedConnect__Further_investigation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Identify other NCAs this report sent? --></label>
+        <name>MedConnect__Identify_other_NCAs_this_report_sent__c</name>
+    </fields>
+    <fields>
+        <label><!-- If yes,please list how many &amp; which CA --></label>
+        <name>MedConnect__If_yes_please_list_how_many_which_CA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incidence reference number assign by NCA --></label>
+        <name>MedConnect__Incidence_reference_number_by_NCA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incidents described in a FSN --></label>
+        <name>MedConnect__Incidents_described_in_a_FSN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incidents/trend represent serious threat --></label>
+        <name>MedConnect__Incidents_trend_represent_serious_threat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial corrective / preventive actions --></label>
+        <name>MedConnect__Initial_corrective_preventive_actions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Investigation update for this period --></label>
+        <name>MedConnect__Investigation_update_for_this_period__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Manually Created --></label>
+        <name>MedConnect__Is_Manually_Created__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lot/batch number range(if applicable) --></label>
+        <name>MedConnect__Lot_batch_number_range_if_applicable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Address --></label>
+        <name>MedConnect__Manufacturer_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer City --></label>
+        <name>MedConnect__Manufacturer_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Contact Name --></label>
+        <name>MedConnect__Manufacturer_Contact_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Country --></label>
+        <name>MedConnect__Manufacturer_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer E-mail --></label>
+        <name>MedConnect__Manufacturer_E_mail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Fax --></label>
+        <name>MedConnect__Manufacturer_Fax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Name --></label>
+        <name>MedConnect__Manufacturer_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Phone --></label>
+        <name>MedConnect__Manufacturer_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Postcode --></label>
+        <name>MedConnect__Manufacturer_Postcode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturers ref number for FSN/FSCA --></label>
+        <name>MedConnect__Manufacturers_ref_number_for_FSN_FSCA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Device Distributed In Countries --></label>
+        <name>MedConnect__Medical_Device_Distributed_In_Countries__c</name>
+        <picklistValues>
+            <masterLabel>All including Switzerland and Turkey</masterLabel>
+            <translation><!-- All including Switzerland and Turkey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Austria</masterLabel>
+            <translation><!-- Austria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belgium</masterLabel>
+            <translation><!-- Belgium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bulgaria</masterLabel>
+            <translation><!-- Bulgaria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>China</masterLabel>
+            <translation><!-- China --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Croatia</masterLabel>
+            <translation><!-- Croatia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cyprus</masterLabel>
+            <translation><!-- Cyprus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Czech Republic</masterLabel>
+            <translation><!-- Czech Republic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denmark</masterLabel>
+            <translation><!-- Denmark --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estonia</masterLabel>
+            <translation><!-- Estonia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finland</masterLabel>
+            <translation><!-- Finland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>France</masterLabel>
+            <translation><!-- France --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Germany</masterLabel>
+            <translation><!-- Germany --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Great Britain</masterLabel>
+            <translation><!-- Great Britain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greece</masterLabel>
+            <translation><!-- Greece --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hungary</masterLabel>
+            <translation><!-- Hungary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iceland</masterLabel>
+            <translation><!-- Iceland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ireland</masterLabel>
+            <translation><!-- Ireland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Italy</masterLabel>
+            <translation><!-- Italy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latvia</masterLabel>
+            <translation><!-- Latvia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liechtenstein</masterLabel>
+            <translation><!-- Liechtenstein --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lithuania</masterLabel>
+            <translation><!-- Lithuania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Luxembourg</masterLabel>
+            <translation><!-- Luxembourg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malta</masterLabel>
+            <translation><!-- Malta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Netherlands</masterLabel>
+            <translation><!-- Netherlands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norway</masterLabel>
+            <translation><!-- Norway --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poland</masterLabel>
+            <translation><!-- Poland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portugal</masterLabel>
+            <translation><!-- Portugal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Romania</masterLabel>
+            <translation><!-- Romania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slovakia</masterLabel>
+            <translation><!-- Slovakia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slovenia</masterLabel>
+            <translation><!-- Slovenia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spain</masterLabel>
+            <translation><!-- Spain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sweden</masterLabel>
+            <translation><!-- Sweden --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Switzerland</masterLabel>
+            <translation><!-- Switzerland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkey</masterLabel>
+            <translation><!-- Turkey --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Model Number or Family Name --></label>
+        <name>MedConnect__Model_Number_or_Family_Name2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Model Number or Family Name --></label>
+        <name>MedConnect__Model_Number_or_Family_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name of the coordinating NCA --></label>
+        <name>MedConnect__Name_of_the_coordinating_NCA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nature of prblm agreed for PSR reporting --></label>
+        <name>MedConnect__Nature_of_prblm_agreed_for_PSR_reporting__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Incidents this period --></label>
+        <name>MedConnect__New_Incidents_this_period__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nomenclature Code --></label>
+        <name>MedConnect__Nomenclature_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nomenclature System(Preferable GMDN) --></label>
+        <name>MedConnect__Nomenclature_System_Preferable_GMDN__c</name>
+        <picklistValues>
+            <masterLabel>EDMS</masterLabel>
+            <translation><!-- EDMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GMDN</masterLabel>
+            <translation><!-- GMDN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UMDNS (ECRI)</masterLabel>
+            <translation><!-- UMDNS (ECRI) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Nomenclature Text --></label>
+        <name>MedConnect__Nomenclature_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notified Body (NB) ID number --></label>
+        <name>MedConnect__Notified_Body_NB_ID_number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Others --></label>
+        <name>MedConnect__Others__c</name>
+    </fields>
+    <fields>
+        <label><!-- Others:  (identify the role) --></label>
+        <name>MedConnect__Others_identify_the_role__c</name>
+    </fields>
+    <fields>
+        <label><!-- PSR Type --></label>
+        <name>MedConnect__PSR_Type__c</name>
+        <picklistValues>
+            <masterLabel>Common and well documented incidents</masterLabel>
+            <translation><!-- Common and well documented incidents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incidents described in a Field Safety Notice</masterLabel>
+            <translation><!-- Incidents described in a Field Safety Notice --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Preliminary analysis into cause of trend --></label>
+        <name>MedConnect__Preliminary_analysis_into_cause_of_trend__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is populated while a report is created directly from product page. --></help>
+        <label><!-- Product --></label>
+        <name>MedConnect__Product__c</name>
+        <relationshipLabel><!-- Reporting Summaries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reason For Change --></label>
+        <name>MedConnect__Reason_For_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Receipt Acknowledgement Number --></label>
+        <name>MedConnect__Receipt_Acknowledgement_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient: Name of NCA --></label>
+        <name>MedConnect__RecipientName_of_NCA__c</name>
+        <picklistValues>
+            <masterLabel>Austria: Austrian Agency for Health and Food Safety</masterLabel>
+            <translation><!-- Austria: Austrian Agency for Health and Food Safety --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belgium: Federal Agency for Medicines and Health Products</masterLabel>
+            <translation><!-- Belgium: Federal Agency for Medicines and Health Products --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bulgaria: Bulgarian Drug Agency</masterLabel>
+            <translation><!-- Bulgaria: Bulgarian Drug Agency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Croatia: Agency for medicinal products and medical devices of Croatia</masterLabel>
+            <translation><!-- Croatia: Agency for medicinal products and medical devices of Croatia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cyprus: Ministry of Health - Pharmaceutical Services</masterLabel>
+            <translation><!-- Cyprus: Ministry of Health - Pharmaceutical Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Czech Republic: State Institute for Drug Control</masterLabel>
+            <translation><!-- Czech Republic: State Institute for Drug Control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denmark: Danish Health and Medicines Authority</masterLabel>
+            <translation><!-- Denmark: Danish Health and Medicines Authority --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estonia: State Agency of Medicines</masterLabel>
+            <translation><!-- Estonia: State Agency of Medicines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finland: Finnish Medicines Agency</masterLabel>
+            <translation><!-- Finland: Finnish Medicines Agency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>France: National Agency for the Safety of Medicine and Health Products</masterLabel>
+            <translation><!-- France: National Agency for the Safety of Medicine and Health Products --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Germany: Federal Institute for Drugs and Medical Devices</masterLabel>
+            <translation><!-- Germany: Federal Institute for Drugs and Medical Devices --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Germany: Paul Ehrlich Institute</masterLabel>
+            <translation><!-- Germany: Paul Ehrlich Institute --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greece: National Organization for Medicines</masterLabel>
+            <translation><!-- Greece: National Organization for Medicines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hungary: National Institute of Pharmacy</masterLabel>
+            <translation><!-- Hungary: National Institute of Pharmacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iceland: Icelandic Medicines Agency</masterLabel>
+            <translation><!-- Iceland: Icelandic Medicines Agency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ireland: Health Products Regulatory Authority (HPRA)</masterLabel>
+            <translation><!-- Ireland: Health Products Regulatory Authority (HPRA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Italy: Italian Medicines Agency</masterLabel>
+            <translation><!-- Italy: Italian Medicines Agency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latvia: State Agency of Medicines</masterLabel>
+            <translation><!-- Latvia: State Agency of Medicines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liechtenstein: Office of Health / Department of Pharmaceuticals</masterLabel>
+            <translation><!-- Liechtenstein: Office of Health / Department of Pharmaceuticals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lithuania: State Medicines Control Agency</masterLabel>
+            <translation><!-- Lithuania: State Medicines Control Agency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Luxembourg: Ministry of Health</masterLabel>
+            <translation><!-- Luxembourg: Ministry of Health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malta: Medicines Authority</masterLabel>
+            <translation><!-- Malta: Medicines Authority --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Netherlands: Healthcare Inspectorate</masterLabel>
+            <translation><!-- Netherlands: Healthcare Inspectorate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Netherlands: Medicines Evaluation Board</masterLabel>
+            <translation><!-- Netherlands: Medicines Evaluation Board --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norway: Norwegian Medicines Agency</masterLabel>
+            <translation><!-- Norway: Norwegian Medicines Agency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poland: Main Pharmaceutical Inspectorate</masterLabel>
+            <translation><!-- Poland: Main Pharmaceutical Inspectorate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poland: Office for Registration of Medicinal Products, Medical Devices and Biocidal Products</masterLabel>
+            <translation><!-- Poland: Office for Registration of Medicinal Products, Medical Devices and Biocidal Products --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portugal: National Authority of Medicines and Health Products</masterLabel>
+            <translation><!-- Portugal: National Authority of Medicines and Health Products --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Romania: National Medicines Agency</masterLabel>
+            <translation><!-- Romania: National Medicines Agency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slovakia: State Institute for Drug Control</masterLabel>
+            <translation><!-- Slovakia: State Institute for Drug Control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slovenia: Agency for Medicinal Products and Medical Devices of the Republic of Slovenia</masterLabel>
+            <translation><!-- Slovenia: Agency for Medicinal Products and Medical Devices of the Republic of Slovenia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spain: Spanish Agency for Medicines and Health Products</masterLabel>
+            <translation><!-- Spain: Spanish Agency for Medicines and Health Products --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sweden: Medical Products Agency</masterLabel>
+            <translation><!-- Sweden: Medical Products Agency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Kingdom: Medicines and Healthcare Products Regulatory</masterLabel>
+            <translation><!-- United Kingdom: Medicines and Healthcare Products Regulatory --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Recipient: Name of NCA --></label>
+        <name>MedConnect__Recipient_Name_of_NCA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recomended actions for this period --></label>
+        <name>MedConnect__Recomended_actions_for_this_period__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference number --></label>
+        <name>MedConnect__Reference_number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference number assigned by NCA --></label>
+        <name>MedConnect__Reference_number_assigned_by_NCA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remedial action/ CAPA/FSCA --></label>
+        <name>MedConnect__Remedial_CR_PR_FSC_action__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Submission Date --></label>
+        <name>MedConnect__Report_Submission_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Submission Status --></label>
+        <name>MedConnect__Report_Submission_Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Received by Regulatory body</masterLabel>
+            <translation><!-- Received by Regulatory body --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Report Submitted By --></label>
+        <name>MedConnect__Report_Submitted_By__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field reflects the criteria for which the report has been evaluated. --></help>
+        <label><!-- Reporting Criteria --></label>
+        <name>MedConnect__Reporting_Criteria__c</name>
+        <relationshipLabel><!-- Reporting Summaries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reporting Specification --></label>
+        <name>MedConnect__Reporting_Specification__c</name>
+        <relationshipLabel><!-- Reporting Summaries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Serial number range (if applicable) --></label>
+        <name>MedConnect__Serial_number_range_if_applicable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Single Member State --></label>
+        <name>MedConnect__Single_Member_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Software Version number (if applicable) --></label>
+        <name>MedConnect__Software_Version_number_View__c</name>
+    </fields>
+    <fields>
+        <label><!-- Software Version number (if applicable) --></label>
+        <name>MedConnect__Software_Version_number_if_applicable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stage of PSR reporting based on --></label>
+        <name>MedConnect__Stage_of_PSR_reporting_based_on__c</name>
+        <picklistValues>
+            <masterLabel>Observed Failure Mode</masterLabel>
+            <translation><!-- Observed Failure Mode --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Root Cause</masterLabel>
+            <translation><!-- Root Cause --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status of submitter --></label>
+        <name>MedConnect__Status_of_submitter__c</name>
+        <picklistValues>
+            <masterLabel>Authorized Representative from EEA or Switzerland</masterLabel>
+            <translation><!-- Authorized Representative from EEA or Switzerland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufacturer</masterLabel>
+            <translation><!-- Manufacturer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others (Free text if checked)</masterLabel>
+            <translation><!-- Others (Free text if checked) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Submitter&apos;s Address --></label>
+        <name>MedConnect__Submitter_s_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submitter&apos;s City --></label>
+        <name>MedConnect__Submitter_s_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submitter&apos;s Contact Name --></label>
+        <name>MedConnect__Submitter_s_Contact_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submitter&apos;s Country --></label>
+        <name>MedConnect__Submitter_s_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submitter&apos;s E-mail --></label>
+        <name>MedConnect__Submitter_s_E_mail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submitter&apos;s Fax --></label>
+        <name>MedConnect__Submitter_s_Fax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submitter&apos;s Name --></label>
+        <name>MedConnect__Submitter_s_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submitter&apos;s Phone --></label>
+        <name>MedConnect__Submitter_s_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submitter&apos;s Postcode --></label>
+        <name>MedConnect__Submitter_s_Postcode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Summary period agreed --></label>
+        <name>MedConnect__Summary_period_agreed__c</name>
+        <picklistValues>
+            <masterLabel>Every 12 months</masterLabel>
+            <translation><!-- Every 12 months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every 2 months</masterLabel>
+            <translation><!-- Every 2 months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every 3 months</masterLabel>
+            <translation><!-- Every 3 months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every 6 months</masterLabel>
+            <translation><!-- Every 6 months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every month</masterLabel>
+            <translation><!-- Every month --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- The manufacturer’s trend analysis result --></label>
+        <name>MedConnect__The_manufacturer_s_trend_analysis_result__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time period of trend analysis --></label>
+        <name>MedConnect__Time_period_of_trend_analysis__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time scheduled to implement action --></label>
+        <name>MedConnect__Time_scheduled_to_implement_action__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total number in progress --></label>
+        <name>MedConnect__Total_number_in_progress__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total number of incidents via PSR --></label>
+        <name>MedConnect__Total_number_of_incidents_via_PSR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total number resolved --></label>
+        <name>MedConnect__Total_number_resolved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trended events submitted as reportable? --></label>
+        <name>MedConnect__Trended_events_submitted_as_reportable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>MedConnect__Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type of Report --></label>
+        <name>MedConnect__Type_of_Report__c</name>
+        <picklistValues>
+            <masterLabel>Final Report</masterLabel>
+            <translation><!-- Final Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Follow-up Report</masterLabel>
+            <translation><!-- Follow-up Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Initial Report</masterLabel>
+            <translation><!-- Initial Report --></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <label><!-- Approved PSR --></label>
+        <name>Approved_PSR</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Approved TR --></label>
+        <name>Approved_TR</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Periodic Summary Report --></label>
+        <name>Periodic_Summary_Report</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Trending Report --></label>
+        <name>Trending_Report</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Attach_FSN --></label>
+        <name>MedConnect__Attach_FSN</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ESignature_History --></label>
+        <name>MedConnect__ESignature_History</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Periodic_Summary_Report --></label>
+        <name>MedConnect__Periodic_Summary_Report</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Submit_To_NCA --></label>
+        <name>MedConnect__Submit_To_NCA</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Submit_to_PSR_Owner --></label>
+        <name>MedConnect__Submit_to_PSR_Owner</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Trend_Report --></label>
+        <name>MedConnect__Trend_Report</name>
+    </webLinks>
+</CustomObjectTranslation>

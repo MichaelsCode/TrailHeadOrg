@@ -1,3 +1,198 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- ESignature View FieldSet --></label>
+        <name>ESignature_View_FieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- PC Related List FieldSet --></label>
+        <name>PC_Related_List_FieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ReportableAuthorityEditFieldSet --></label>
+        <name>Reportable_Authority_Edit_FieldSet</name>
+    </fieldSets>
+    <fields>
+        <label><!-- ADT Short Name --></label>
+        <name>MedConnect__ADT_Short_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Reportability determined through code reportability --></help>
+        <label><!-- Auto-Reportability --></label>
+        <name>MedConnect__Auto_Reportability__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Report --></label>
+        <name>MedConnect__Date_of_Report__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Void --></label>
+        <name>MedConnect__Date_of_Void__c</name>
+    </fields>
+    <fields>
+        <label><!-- Decision Tree URL --></label>
+        <name>MedConnect__Decision_Tree_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Decision Tree --></label>
+        <name>MedConnect__Decision_Tree__c</name>
+        <relationshipLabel><!-- Regulatory Authorities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Impacted Product Name --></label>
+        <name>MedConnect__Impacted_Product_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Impacted Product --></label>
+        <name>MedConnect__Impacted_Product__c</name>
+        <relationshipLabel><!-- Reportable Authorities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- IsRejected --></label>
+        <name>MedConnect__IsRejected__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Reportable --></label>
+        <name>MedConnect__Is_Reportable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Complaint --></label>
+        <name>MedConnect__Product_Complaint__c</name>
+        <relationshipLabel><!-- Reportable Authorities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reason For Change --></label>
+        <name>MedConnect__Reason_For_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason for Void --></label>
+        <name>MedConnect__Reason_for_Void__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Authority --></label>
+        <name>MedConnect__Regulatory_Authority__c</name>
+        <relationshipLabel><!-- Regulatory Authorities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Report Submission Due Date --></label>
+        <name>MedConnect__Report_Submission_Due_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is used to denote Manual/Automatic determination of reportability decision. --></help>
+        <label><!-- Reportability Determination Type --></label>
+        <name>MedConnect__Reportability_Determination_Type__c</name>
+        <picklistValues>
+            <masterLabel>Automatic</masterLabel>
+            <translation><!-- Automatic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual</masterLabel>
+            <translation><!-- Manual --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reportable Due Date --></label>
+        <name>MedConnect__Reportable_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporting Period Type --></label>
+        <name>MedConnect__Reporting_Period_Type__c</name>
+        <picklistValues>
+            <masterLabel>Calendar Day</masterLabel>
+            <translation><!-- Calendar Day --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Working Day</masterLabel>
+            <translation><!-- Working Day --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reporting Period --></label>
+        <name>MedConnect__Reporting_Period__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporting Summary --></label>
+        <name>MedConnect__Reporting_Summary__c</name>
+        <relationshipLabel><!-- Reportable Authority --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>MedConnect__Status__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Initial Report Submitted</masterLabel>
+            <translation><!-- Initial Report Submitted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Reportability Approval</masterLabel>
+            <translation><!-- Pending Reportability Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Reportability Determination</masterLabel>
+            <translation><!-- Pending Reportability Determination --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reportability Approved</masterLabel>
+            <translation><!-- Reportability Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reportability Determined</masterLabel>
+            <translation><!-- Reportability Determined --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reportability Rejected</masterLabel>
+            <translation><!-- Reportability Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Void</masterLabel>
+            <translation><!-- Void --></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <label><!-- CVMD_FORM --></label>
+        <name>CVMD_FORM</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Default --></label>
+        <name>Default</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- MEDDEV_FORM_2_12_1 --></label>
+        <name>MEDDEV_FORM_2_12_1</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- MEDWATCH_FORM_FDA_3500A --></label>
+        <name>MEDWATCH_FORM_FDA_3500A</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- RA Locked --></label>
+        <name>RA_Locked</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- US_ARO_FORM --></label>
+        <name>US_ARO_FORM</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Please provide justification for voiding --></errorMessage>
+        <name>MedConnect__Reason_for_changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cannot void record with this status --></errorMessage>
+        <name>MedConnect__Validation_Status_LOV_Void</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Create_Reportable_Authority --></label>
+        <name>MedConnect__Create_Reportable_Authority</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Determine_Reportability --></label>
+        <name>MedConnect__Determine_Reportability</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ESignature_History --></label>
+        <name>MedConnect__ESignature_History</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,3 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Installed Product --></label>
+        <name>MedConnect__Installed_Product__c</name>
+        <relationshipLabel><!-- PM Histories --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Preventive Maintenance Coverage --></label>
+        <name>MedConnect__PM_Coverage__c</name>
+        <relationshipLabel><!-- PM Histories --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Preventive Maintenance Plan --></label>
+        <name>MedConnect__PM_Plan__c</name>
+        <relationshipLabel><!-- PM Histories --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- PM Schedule Definition --></label>
+        <name>MedConnect__PM_Schedule_Definition__c</name>
+        <relationshipLabel><!-- PM Histories --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Work Order Closed on --></label>
+        <name>MedConnect__Work_Order_Closed_on__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Order Created on --></label>
+        <name>MedConnect__Work_Order_Created_on__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Order --></label>
+        <name>MedConnect__Work_Order__c</name>
+        <relationshipLabel><!-- PM Histories --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

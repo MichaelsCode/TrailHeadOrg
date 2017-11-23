@@ -1,3 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Asset Serial No --></label>
+        <name>MedConnect__Asset_Serial_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asset --></label>
+        <name>MedConnect__Asset__c</name>
+        <relationshipLabel><!-- Inventory Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Batch No --></label>
+        <name>MedConnect__Batch_No__c</name>
+        <relationshipLabel><!-- Inventory Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Condition --></label>
+        <name>MedConnect__Condition__c</name>
+        <picklistValues>
+            <masterLabel>Unusable</masterLabel>
+            <translation><!-- Unusable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Usable</masterLabel>
+            <translation><!-- Usable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Destination Inventory --></label>
+        <name>MedConnect__Destination_Inventory__c</name>
+        <relationshipLabel><!-- Destination Inventory Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Inventory Order Line Item --></label>
+        <name>MedConnect__Inventory_Order_Line_Item__c</name>
+        <relationshipLabel><!-- Inventory Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Inventory Request Order --></label>
+        <name>MedConnect__Inventory_Request_Order__c</name>
+        <relationshipLabel><!-- Inventory Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Lot Master --></label>
+        <name>MedConnect__Lot_Master__c</name>
+        <relationshipLabel><!-- Inventory Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Lot No --></label>
+        <name>MedConnect__Lot_No__c</name>
+        <relationshipLabel><!-- Inventory Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Parent Asset --></label>
+        <name>MedConnect__Parent_Asset1__c</name>
+        <relationshipLabel><!-- Inventory Transactions (Parent Asset) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Parent Asset --></label>
+        <name>MedConnect__Parent_Asset__c</name>
+        <relationshipLabel><!-- Inventory Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>MedConnect__Product__c</name>
+        <relationshipLabel><!-- Inventory Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>MedConnect__Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Order Line Item Status --></label>
+        <name>MedConnect__Related_Order_Line_Item_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Order Line Type --></label>
+        <name>MedConnect__Related_Order_Line_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Repair Analysis And Parts Used --></label>
+        <name>MedConnect__Repair_Analysis_And_Parts_Used__c</name>
+        <relationshipLabel><!-- Inventory Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Serial No --></label>
+        <name>MedConnect__Serial_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Inventory Condition --></label>
+        <name>MedConnect__Source_Inventory_Condition__c</name>
+        <picklistValues>
+            <masterLabel>Unusable</masterLabel>
+            <translation><!-- Unusable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Usable</masterLabel>
+            <translation><!-- Usable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Source Inventory --></label>
+        <name>MedConnect__Source_Inventory__c</name>
+        <relationshipLabel><!-- Source Inventory Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>MedConnect__Status__c</name>
+        <picklistValues>
+            <masterLabel>In-Transit</masterLabel>
+            <translation><!-- In-Transit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On-Hand</masterLabel>
+            <translation><!-- On-Hand --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>MedConnect__Type__c</name>
+        <picklistValues>
+            <masterLabel>Install</masterLabel>
+            <translation><!-- Install --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uninstall</masterLabel>
+            <translation><!-- Uninstall --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- isDestInvExternal --></label>
+        <name>MedConnect__isDestInvExternal__c</name>
+    </fields>
+</CustomObjectTranslation>

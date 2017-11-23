@@ -1,3 +1,187 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Loaner Inbound Fieldset --></label>
+        <name>Loaner_Inbound_Fieldset</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Loaner Outbound Fieldset --></label>
+        <name>Loaner_Outbound_Fieldset</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Replacement Inbound Route Fieldset --></label>
+        <name>Replacement_Inbound_Route_Fieldset</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Replacement Outbound Route Fieldset --></label>
+        <name>Replacement_Outbound_Route_Fieldset</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Return Inbound Route Fieldset --></label>
+        <name>Return_Inbound_Route_Fieldset</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Return Outbound Route Fieldset --></label>
+        <name>Return_Outbound_Route_Fieldset</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Analysis Site --></label>
+        <name>MedConnect__Analysis_Site__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Account --></label>
+        <name>MedConnect__Customer_Account__c</name>
+        <relationshipLabel><!-- Repair Routes (Customer Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>MedConnect__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destination --></label>
+        <name>MedConnect__Destination__c</name>
+        <relationshipLabel><!-- Repair Routes (Destination) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Dispatch Reference Number --></label>
+        <name>MedConnect__Dispatch_Reference_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dispatched By --></label>
+        <name>MedConnect__Dispatched_By__c</name>
+        <relationshipLabel><!-- Repair Routes (Dispatched By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Dispatched Time --></label>
+        <name>MedConnect__Dispatched_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dispatched Via --></label>
+        <name>MedConnect__Dispatched_Via__c</name>
+        <picklistValues>
+            <masterLabel>Air</masterLabel>
+            <translation><!-- Air --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DHL</masterLabel>
+            <translation><!-- DHL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FedEx</masterLabel>
+            <translation><!-- FedEx --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Full Load</masterLabel>
+            <translation><!-- Full Load --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS</masterLabel>
+            <translation><!-- UPS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USPS</masterLabel>
+            <translation><!-- USPS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- In Use --></label>
+        <name>MedConnect__In_Use__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Last Stop --></label>
+        <name>MedConnect__Is_Last_Stop__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loaner --></label>
+        <name>MedConnect__Loaner__c</name>
+        <relationshipLabel><!-- Repair Routes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Primary Repair Site --></label>
+        <name>MedConnect__Primary_Repair_Site__c</name>
+    </fields>
+    <fields>
+        <label><!-- Received By --></label>
+        <name>MedConnect__Received_By__c</name>
+        <relationshipLabel><!-- Repair Routes (Received By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Received Time --></label>
+        <name>MedConnect__Received_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object --></label>
+        <name>MedConnect__Ref_Object__c</name>
+    </fields>
+    <fields>
+        <label><!-- Replacement Order Line Item --></label>
+        <name>MedConnect__Replacement_Order_Line_Item__c</name>
+        <relationshipLabel><!-- Repair Routes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Responsible Repair Engineer --></label>
+        <name>MedConnect__Responsible_Repair_Engineer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return Material Order --></label>
+        <name>MedConnect__Return_Material_Order__c</name>
+        <relationshipLabel><!-- Repair Routes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Route Stop Number --></label>
+        <name>MedConnect__Route_Stop_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rule Order Number --></label>
+        <name>MedConnect__Rule_Order_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Notes --></label>
+        <name>MedConnect__Service_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source --></label>
+        <name>MedConnect__Source__c</name>
+        <relationshipLabel><!-- Repair Routes (Source) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>MedConnect__Status__c</name>
+        <picklistValues>
+            <masterLabel>Dispatched</masterLabel>
+            <translation><!-- Dispatched --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Transit</masterLabel>
+            <translation><!-- In Transit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Received</masterLabel>
+            <translation><!-- Received --></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <label><!-- Inbound --></label>
+        <name>Inbound</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Outbound --></label>
+        <name>Outbound</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Analysis Site should be the last stop --></errorMessage>
+        <name>MedConnect__Analysis_Site_Should_be_Last_Stop</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Source and Destination should be populated --></errorMessage>
+        <name>MedConnect__Source_Destination_Should_be_Populated</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Available_Routes --></label>
+        <name>MedConnect__Available_Routes</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Check_Available_Routes --></label>
+        <name>MedConnect__Check_Available_Routes</name>
+    </webLinks>
+</CustomObjectTranslation>

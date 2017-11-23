@@ -1,3 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Account Plan View --></label>
+        <name>Account_Plan_View</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Account Quarter FieldSet --></label>
+        <name>Account_Quarter_FieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Account Year FieldSet --></label>
+        <name>Account_Year_FieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- xcvx --></label>
+        <name>xcvxxcv</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Account ID --></label>
+        <name>MedConnect__Account_ID__c</name>
+        <relationshipLabel><!-- Account Plans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Purchasing Account --></label>
+        <name>MedConnect__Purchasing_Account__c</name>
+        <relationshipLabel><!-- Account Plans (Purchasing Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Purchasing Group --></label>
+        <name>MedConnect__Purchasing_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purchasing Process --></label>
+        <name>MedConnect__Purchasing_Process__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quarter --></label>
+        <name>MedConnect__Quarter__c</name>
+        <picklistValues>
+            <masterLabel>Q1</masterLabel>
+            <translation><!-- Q1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Q2</masterLabel>
+            <translation><!-- Q2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Q3</masterLabel>
+            <translation><!-- Q3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Q4</masterLabel>
+            <translation><!-- Q4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Year --></label>
+        <name>MedConnect__Year__c</name>
+        <picklistValues>
+            <masterLabel>2000</masterLabel>
+            <translation><!-- 2000 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- countPlannedContract --></label>
+        <name>MedConnect__countPlannedContract__c</name>
+    </fields>
+    <fields>
+        <label><!-- countPlannedObjectives --></label>
+        <name>MedConnect__countPlannedObjectives__c</name>
+    </fields>
+    <fields>
+        <label><!-- countPlannedSales --></label>
+        <name>MedConnect__countPlannedSales__c</name>
+    </fields>
+    <fields>
+        <label><!-- countPlannedStrategies --></label>
+        <name>MedConnect__countPlannedStrategies__c</name>
+    </fields>
+    <fields>
+        <label><!-- countPotentialSizing --></label>
+        <name>MedConnect__countPotentialSizing__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- You can not create  plan for past date. --></errorMessage>
+        <name>MedConnect__noplanningforpastquarter</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Edit --></label>
+        <name>MedConnect__Edit</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Account_Plan --></label>
+        <name>MedConnect__New_Account_Plan</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Share --></label>
+        <name>MedConnect__Share</name>
+    </webLinks>
+</CustomObjectTranslation>

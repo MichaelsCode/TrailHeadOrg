@@ -1,3 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Default Field Set Search --></label>
+        <name>Default_Field_Set_Search</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Default Field Set Search Intake --></label>
+        <name>Default_Field_Set_Search_Intake</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Default Field Set View --></label>
+        <name>Default_Field_Set_View</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- MedConnect Default Field Set Deleted Codes --></label>
+        <name>MedConnect_Default_Field_Set_Deleted</name>
+    </fieldSets>
+    <fields>
+        <help><!-- This field is used to denote whether the automation criteria is enabled for code --></help>
+        <label><!-- Automation Enabled --></label>
+        <name>MedConnect__Automation_Enabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code Hierarchy --></label>
+        <name>MedConnect__Code_Hierarchy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code Level --></label>
+        <name>MedConnect__Code_Level__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code Number --></label>
+        <name>MedConnect__Code_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>MedConnect__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Code --></label>
+        <name>MedConnect__Parent_Code__c</name>
+        <relationshipLabel><!-- Codes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Return Required --></label>
+        <name>MedConnect__Return_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Smart Script --></label>
+        <name>MedConnect__Smart_Script__c</name>
+        <relationshipLabel><!-- Codes --></relationshipLabel>
+    </fields>
+    <recordTypes>
+        <label><!-- Analysis Code --></label>
+        <name>Analysis_Code</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Conclusion Code --></label>
+        <name>Conclusion_Code</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Device Code --></label>
+        <name>Device_Code</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Fault Code --></label>
+        <name>Fault_Code</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Inquiry Code --></label>
+        <name>Inquiry_Code</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Method Code --></label>
+        <name>Method_Code</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Outcome Code --></label>
+        <name>Outcome_Code</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Patient Code --></label>
+        <name>Patient_Code</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Problem Code --></label>
+        <name>Problem_Code</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Resolution Code --></label>
+        <name>Resolution_Code</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Result Code --></label>
+        <name>Result_Code</name>
+    </recordTypes>
+</CustomObjectTranslation>

@@ -1,3 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Asset --></label>
+        <name>MedConnect__Asset__c</name>
+        <relationshipLabel><!-- Repair Installation History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Lot Master --></label>
+        <name>MedConnect__Lot_Master__c</name>
+        <relationshipLabel><!-- Repair Installation History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Operation --></label>
+        <name>MedConnect__Operation__c</name>
+        <picklistValues>
+            <masterLabel>Installed</masterLabel>
+            <translation><!-- Installed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uninstalled</masterLabel>
+            <translation><!-- Uninstalled --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Performed On --></label>
+        <name>MedConnect__Performed_On__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>MedConnect__Product1__c</name>
+        <relationshipLabel><!-- Repair Installation History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>MedConnect__Product__c</name>
+        <relationshipLabel><!-- Repair Installation History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>MedConnect__Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Repair Analysis And Parts Used --></label>
+        <name>MedConnect__Repair_Analysis_And_Parts_Used__c</name>
+        <relationshipLabel><!-- Repair Installation History --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

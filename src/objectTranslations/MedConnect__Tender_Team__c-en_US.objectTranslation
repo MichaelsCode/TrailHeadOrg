@@ -1,3 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Department --></label>
+        <name>MedConnect__Department__c</name>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation><!-- Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal</masterLabel>
+            <translation><!-- Legal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Logistics</masterLabel>
+            <translation><!-- Logistics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufacturing</masterLabel>
+            <translation><!-- Manufacturing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation><!-- Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supply Chain</masterLabel>
+            <translation><!-- Supply Chain --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Member Name --></label>
+        <name>MedConnect__Member_Name__c</name>
+        <relationshipLabel><!-- Tender Team --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Scoring --></label>
+        <name>MedConnect__Scoring__c</name>
+        <picklistValues>
+            <masterLabel>1 - Serious Disadvantage</masterLabel>
+            <translation><!-- 1 - Serious Disadvantage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Disadvantage</masterLabel>
+            <translation><!-- 2 - Disadvantage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Average</masterLabel>
+            <translation><!-- 3 - Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Favourably Positioned</masterLabel>
+            <translation><!-- 4 - Favourably Positioned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Strong Competitive Advantage</masterLabel>
+            <translation><!-- 5 - Strong Competitive Advantage --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Team Member Role --></label>
+        <name>MedConnect__Team_Member_Role__c</name>
+        <picklistValues>
+            <masterLabel>Account Manager</masterLabel>
+            <translation><!-- Account Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Area Manager</masterLabel>
+            <translation><!-- Area Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre Sales Consultant</masterLabel>
+            <translation><!-- Pre Sales Consultant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Specialist</masterLabel>
+            <translation><!-- Product Specialist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regional Manager</masterLabel>
+            <translation><!-- Regional Manager --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tender Header ID --></label>
+        <name>MedConnect__Tender_Header_ID__c</name>
+        <relationshipLabel><!-- Tender Team --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

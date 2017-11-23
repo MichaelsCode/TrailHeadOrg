@@ -1,3 +1,304 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- CallEditInfoInFieldSet --></label>
+        <name>CallEditInfoInFieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CallEditInfoOutFieldSet --></label>
+        <name>CallEditInfoOutFieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CallInfoDocCheckFieldSet --></label>
+        <name>CallInfoDocCheckFieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Call_Edit_Approval_Section --></label>
+        <name>Call_Edit_Approval_Section</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Clinical_Specialist_CallInfoInput --></label>
+        <name>Clinical_Specialist_CallInfoInput</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Clinical_Specialist_CallInfoView --></label>
+        <name>Clinical_Specialist_CallInfoView</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- InterestLayoutForSFOne --></label>
+        <name>InterestLayoutForSFOne</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Sales_CallInfoInput --></label>
+        <name>Sales_CallInfoInput</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Sales_CallInfoView --></label>
+        <name>Sales_CallInfoView</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Account --></label>
+        <name>MedConnect__Account__c</name>
+        <relationshipLabel><!-- Calls --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Short Name --></label>
+        <name>MedConnect__Adt_Short_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Agenda of the call --></help>
+        <label><!-- Agenda --></label>
+        <name>MedConnect__Agenda__c</name>
+    </fields>
+    <fields>
+        <label><!-- Appointment/Invitation print out --></label>
+        <name>MedConnect__Appointment_Invitation_print_out__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call End --></label>
+        <name>MedConnect__Call_End__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call Mode --></label>
+        <name>MedConnect__Call_Mode__c</name>
+        <picklistValues>
+            <masterLabel>Conference Call/Video Call</masterLabel>
+            <translation><!-- Conference Call/Video Call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Face to Face meeting at office</masterLabel>
+            <translation><!-- Face to Face meeting at office --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meeting at a conference</masterLabel>
+            <translation><!-- Meeting at a conference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WebEx</masterLabel>
+            <translation><!-- WebEx --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Call Report count --></label>
+        <name>MedConnect__Call_Report_cnt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call Start --></label>
+        <name>MedConnect__Call_Start__c</name>
+    </fields>
+    <fields>
+        <help><!-- Status of call. --></help>
+        <label><!-- Call Status --></label>
+        <name>MedConnect__Call_Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheduled</masterLabel>
+            <translation><!-- Scheduled --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Call Type --></label>
+        <name>MedConnect__Call_Type__c</name>
+        <picklistValues>
+            <masterLabel>Advisory Committee Meeting</masterLabel>
+            <translation><!-- Advisory Committee Meeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract Discussion</masterLabel>
+            <translation><!-- Contract Discussion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discovery Meeting</masterLabel>
+            <translation><!-- Discovery Meeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Meeting</masterLabel>
+            <translation><!-- General Meeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Demonstration</masterLabel>
+            <translation><!-- Product Demonstration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Review Committee Meeting</masterLabel>
+            <translation><!-- Review Committee Meeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tactical Discussion</masterLabel>
+            <translation><!-- Tactical Discussion --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Certification of training --></label>
+        <name>MedConnect__Certification_of_training__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitor info --></label>
+        <name>MedConnect__Competitor_info__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>MedConnect__Contact__c</name>
+        <relationshipLabel><!-- Calls --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Demo product --></label>
+        <name>MedConnect__Demo_product__c</name>
+    </fields>
+    <fields>
+        <label><!-- FAQ list --></label>
+        <name>MedConnect__FAQ_list__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invite from the Account --></label>
+        <name>MedConnect__Invite_from_the_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invite from the Contact --></label>
+        <name>MedConnect__Invite_from_the_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Document --></label>
+        <name>MedConnect__Other_Document__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Call --></label>
+        <name>MedConnect__Parent_Call__c</name>
+        <relationshipLabel><!-- Follow up Calls --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Patient Consent (Outsider presence) --></label>
+        <name>MedConnect__Patient_Consent_Outsider_presence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Patient Consent --></label>
+        <name>MedConnect__Patient_Consent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Permissions/I cards for entry to client --></label>
+        <name>MedConnect__Permissions_4_client_premise__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price List --></label>
+        <name>MedConnect__Price_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- Problems faced by the Customers --></label>
+        <name>MedConnect__Problems_Customers__c</name>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>looking for a new products</masterLabel>
+            <translation><!-- looking for a new products --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>opening a new entity</masterLabel>
+            <translation><!-- opening a new entity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>unhappy with competitor P/S</masterLabel>
+            <translation><!-- unhappy with competitor P/S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>unhappy with our P/S</masterLabel>
+            <translation><!-- unhappy with our P/S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>unhappy with our prices</masterLabel>
+            <translation><!-- unhappy with our prices --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>wants to understand contract T&amp;Cs</masterLabel>
+            <translation><!-- wants to understand contract T&amp;Cs --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product Priority 1 --></label>
+        <name>MedConnect__Product_Priority_1__c</name>
+        <relationshipLabel><!-- Calls (Product Priority 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Priority 2 --></label>
+        <name>MedConnect__Product_Priority_2__c</name>
+        <relationshipLabel><!-- Calls (Product Priority 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Priority 3 --></label>
+        <name>MedConnect__Product_Priority_3__c</name>
+        <relationshipLabel><!-- Calls (Product Priority 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Priority 4 --></label>
+        <name>MedConnect__Product_Priority_4__c</name>
+        <relationshipLabel><!-- Calls (Product Priority 4) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product clinical info &amp; external revi --></label>
+        <name>MedConnect__Product_clinical_info_external_revi__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason for Change --></label>
+        <name>MedConnect__Reason_for_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference details --></label>
+        <name>MedConnect__Reference_details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Showcase Presentation --></label>
+        <name>MedConnect__Showcase_presentation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Product flyers/brochures --></label>
+        <name>MedConnect__Target_Product_flyers_brochures__c</name>
+    </fields>
+    <fields>
+        <label><!-- Visiting card --></label>
+        <name>MedConnect__Visiting_card__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Clinical Specialist Call --></label>
+        <name>Clinical_Specialist_Call</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Sales Call --></label>
+        <name>Sales_Call</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Call End  should be greater than Call Start --></errorMessage>
+        <name>MedConnect__Call_End_after_Call_Start</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Past Date call set up/reschedule not allowed. --></errorMessage>
+        <name>MedConnect__Past_Date_not_allowed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Contact does not belong to the selected account. --></errorMessage>
+        <name>MedConnect__Validate_Selected_contact</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- My_Call_List --></label>
+        <name>MedConnect__My_Call_List</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Call_for_Account --></label>
+        <name>MedConnect__New_Call_for_Account</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Call_for_Contact --></label>
+        <name>MedConnect__New_Call_for_Contact</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Follow_up_Call --></label>
+        <name>MedConnect__New_Follow_up_Call</name>
+    </webLinks>
+</CustomObjectTranslation>

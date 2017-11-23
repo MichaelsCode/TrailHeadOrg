@@ -1,3 +1,175 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Estimate Detail Field Set --></label>
+        <name>Estimate_Detail_Field_Set</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Estimate Field Set --></label>
+        <name>Estimate_Field_Set</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Estimate Read Only --></label>
+        <name>Estimate_Read_Only</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Quote Field Set --></label>
+        <name>Quote_Field_Set</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Account --></label>
+        <name>MedConnect__Account__c</name>
+        <relationshipLabel><!-- Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Short Name --></label>
+        <name>MedConnect__Adt_Short_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Child Quote --></label>
+        <name>MedConnect__Child_Quote__c</name>
+        <relationshipLabel><!-- Quotes (Child Quote) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>MedConnect__Contact__c</name>
+        <relationshipLabel><!-- Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>MedConnect__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount Type --></label>
+        <name>MedConnect__Discount_Type__c</name>
+        <picklistValues>
+            <masterLabel>Amount</masterLabel>
+            <translation><!-- Amount --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percent</masterLabel>
+            <translation><!-- Percent --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Discount --></label>
+        <name>MedConnect__Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expense Warranty Coverage --></label>
+        <name>MedConnect__Expense_Warranty_Coverage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoiced? --></label>
+        <name>MedConnect__Invoiced__c</name>
+    </fields>
+    <fields>
+        <label><!-- Labour Warranty Coverage --></label>
+        <name>MedConnect__Labour_Warranty_Coverage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Material Warranty Coverage --></label>
+        <name>MedConnect__Material_Warranty_Coverage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Quote --></label>
+        <name>MedConnect__Parent_Quote__c</name>
+        <relationshipLabel><!-- Quotes (Parent Quote) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Part Order --></label>
+        <name>MedConnect__Part_Order__c</name>
+        <relationshipLabel><!-- Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>MedConnect__Product__c</name>
+        <relationshipLabel><!-- Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reason For Change --></label>
+        <name>MedConnect__Reason_For_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Contract --></label>
+        <name>MedConnect__Service_Maintenance_Contract__c</name>
+        <relationshipLabel><!-- Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- SignOff --></label>
+        <name>MedConnect__SignOff__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signature Status --></label>
+        <name>MedConnect__Signature_Status__c</name>
+        <picklistValues>
+            <masterLabel>Signed</masterLabel>
+            <translation><!-- Signed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unsigned</masterLabel>
+            <translation><!-- Unsigned --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>MedConnect__Status__c</name>
+        <picklistValues>
+            <masterLabel>Accepted</masterLabel>
+            <translation><!-- Accepted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Presented</masterLabel>
+            <translation><!-- Presented --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revised</masterLabel>
+            <translation><!-- Revised --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total Billable Line Amount --></label>
+        <name>MedConnect__Total_Billable_Line_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Gross Amount --></label>
+        <name>MedConnect__Total_Gross_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Payble Amount --></label>
+        <name>MedConnect__Total_Payble_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valid Till --></label>
+        <name>MedConnect__Valid_Till__c</name>
+    </fields>
+    <fields>
+        <label><!-- Version Number --></label>
+        <name>MedConnect__Version_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Order --></label>
+        <name>MedConnect__Work_Order__c</name>
+        <relationshipLabel><!-- Quotes --></relationshipLabel>
+    </fields>
+    <recordTypes>
+        <label><!-- Quote For Work Order --></label>
+        <name>Work_Order</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- New_Quote --></label>
+        <name>MedConnect__New_Quote</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Revise --></label>
+        <name>MedConnect__Revise</name>
+    </webLinks>
+</CustomObjectTranslation>

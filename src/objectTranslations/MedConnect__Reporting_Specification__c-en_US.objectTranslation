@@ -1,3 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Approved PSR Information --></label>
+        <name>Approved_PSR_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Approved TR Information --></label>
+        <name>Approved_TR_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ESignature View FieldSet --></label>
+        <name>ESignature_View_FieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- PSR Information --></label>
+        <name>PSR_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- PSR and Trend Report Other Information Fieldset --></label>
+        <name>PSR_Other_Information_Fieldset</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Trend Report Information --></label>
+        <name>Trend_Report_Information</name>
+    </fieldSets>
+    <fields>
+        <help><!-- This field reflects whether the contract is active or not. --></help>
+        <label><!-- Active --></label>
+        <name>MedConnect__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Adt Short Name --></label>
+        <name>MedConnect__Adt_Short_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>MedConnect__Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The contact reference who is responsible to send report. --></help>
+        <label><!-- Authorized Contact --></label>
+        <name>MedConnect__Authorized_Contact__c</name>
+        <relationshipLabel><!-- Reporting Specifications (Authorized Contact) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>MedConnect__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the contact of NCA whom to the report will be sent. --></help>
+        <label><!-- NCA Contact --></label>
+        <name>MedConnect__NCA_Contact__c</name>
+        <relationshipLabel><!-- Reporting Specifications --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The reference of product for which the PSR or TR is built. --></help>
+        <label><!-- Product --></label>
+        <name>MedConnect__Product__c</name>
+        <relationshipLabel><!-- Reporting Specifications --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reason For Change --></label>
+        <name>MedConnect__Reason_For_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>MedConnect__Type__c</name>
+        <picklistValues>
+            <masterLabel>Periodic Summary Report</masterLabel>
+            <translation><!-- Periodic Summary Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trend Report</masterLabel>
+            <translation><!-- Trend Report --></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <label><!-- Approved PSR --></label>
+        <name>Approved_PSR</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Approved TR --></label>
+        <name>Approved_TR</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Periodic Summary Report --></label>
+        <name>Periodic_Summary_Report</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Trend Report --></label>
+        <name>Trend_Report</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- ESignature_History --></label>
+        <name>MedConnect__ESignature_History</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Evaluate_Report --></label>
+        <name>MedConnect__Evaluate_Report</name>
+    </webLinks>
+</CustomObjectTranslation>

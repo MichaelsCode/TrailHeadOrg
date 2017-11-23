@@ -1,3 +1,384 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Asset --></label>
+        <name>MedConnect__Asset__c</name>
+        <relationshipLabel><!-- Order Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Batch # --></label>
+        <name>MedConnect__Batch__c</name>
+        <relationshipLabel><!-- Order Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Billable --></label>
+        <name>MedConnect__Billable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call Product --></label>
+        <name>MedConnect__Call_Product__c</name>
+        <relationshipLabel><!-- Order Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>MedConnect__Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Condition-Destination --></label>
+        <name>MedConnect__Condition_Destination__c</name>
+        <picklistValues>
+            <masterLabel>Unusable</masterLabel>
+            <translation><!-- Unusable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Usable</masterLabel>
+            <translation><!-- Usable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Condition-Source --></label>
+        <name>MedConnect__Condition_Source__c</name>
+        <picklistValues>
+            <masterLabel>Unusable</masterLabel>
+            <translation><!-- Unusable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Usable</masterLabel>
+            <translation><!-- Usable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>MedConnect__Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Courier --></label>
+        <name>MedConnect__Courier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Location Inventory --></label>
+        <name>MedConnect__Current_Location_Inventory__c</name>
+        <relationshipLabel><!-- Order Line Items (Current Location Inventory) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>MedConnect__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destination Account --></label>
+        <name>MedConnect__Destination_Account__c</name>
+        <relationshipLabel><!-- Order Line Items (Destination Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Destination Inventory --></label>
+        <name>MedConnect__Destination_Inventory__c</name>
+        <relationshipLabel><!-- Order Line Items (Destination Inventory) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Expected Delivery Date --></label>
+        <name>MedConnect__Expected_Delivery_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected Loaner Return Date --></label>
+        <name>MedConnect__Expected_Loaner_Return_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected Ship Date --></label>
+        <name>MedConnect__Expected_Ship_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- FSE Inventory ID --></label>
+        <name>MedConnect__FSE_Inventory_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- FSE Required Batch --></label>
+        <name>MedConnect__FSE_Required_Batch__c</name>
+    </fields>
+    <fields>
+        <label><!-- FSE Required Lot --></label>
+        <name>MedConnect__FSE_Required_Lot__c</name>
+    </fields>
+    <fields>
+        <label><!-- FSE Required SI --></label>
+        <name>MedConnect__FSE_Required_SI__c</name>
+    </fields>
+    <fields>
+        <label><!-- FSE User Id --></label>
+        <name>MedConnect__FSE_User_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order # --></label>
+        <name>MedConnect__Inventory_Request_Order__c</name>
+        <relationshipLabel><!-- Order Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Inventory Transactions --></label>
+        <name>MedConnect__Inventory_Transactions__c</name>
+        <relationshipLabel><!-- Order Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>MedConnect__LineItem_Status__c</name>
+        <picklistValues>
+            <masterLabel>Awaiting Receipt</masterLabel>
+            <translation><!-- Awaiting Receipt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awaiting Shipment</masterLabel>
+            <translation><!-- Awaiting Shipment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partially Received</masterLabel>
+            <translation><!-- Partially Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partially Shipped</masterLabel>
+            <translation><!-- Partially Shipped --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Received</masterLabel>
+            <translation><!-- Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reconciliation - Add</masterLabel>
+            <translation><!-- Reconciliation - Add --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reconciliation - Subtract</masterLabel>
+            <translation><!-- Reconciliation - Subtract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent Back</masterLabel>
+            <translation><!-- Sent Back --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipped</masterLabel>
+            <translation><!-- Shipped --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swap</masterLabel>
+            <translation><!-- Swap --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Lot # --></label>
+        <name>MedConnect__Lot__c</name>
+        <relationshipLabel><!-- Order Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>MedConnect__Order_Line_Type__c</name>
+        <picklistValues>
+            <masterLabel>Adjustment</masterLabel>
+            <translation><!-- Adjustment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Defective Part Return</masterLabel>
+            <translation><!-- Defective Part Return --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inventory Transfer</masterLabel>
+            <translation><!-- Inventory Transfer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Replenishment</masterLabel>
+            <translation><!-- Replenishment --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Out Of Box Failure --></label>
+        <name>MedConnect__Out_Of_Box_Failure__c</name>
+    </fields>
+    <fields>
+        <label><!-- PO# --></label>
+        <name>MedConnect__PO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product/Kit Name --></label>
+        <name>MedConnect__Product_Kit_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>MedConnect__Product__c</name>
+        <relationshipLabel><!-- Order Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity Expected --></label>
+        <name>MedConnect__Qty_Expected__c</name>
+    </fields>
+    <fields>
+        <label><!-- RMA Reference # --></label>
+        <name>MedConnect__RMA_Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Route --></label>
+        <name>MedConnect__Route__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Method --></label>
+        <name>MedConnect__Shipping_Method_New__c</name>
+        <picklistValues>
+            <masterLabel>Air</masterLabel>
+            <translation><!-- Air --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Road</masterLabel>
+            <translation><!-- Road --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Shipping Method --></label>
+        <name>MedConnect__Shipping_Method__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Account --></label>
+        <name>MedConnect__Source_Account__c</name>
+        <relationshipLabel><!-- Order Line Items (Source Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Source Inventory --></label>
+        <name>MedConnect__Source_Inventory__c</name>
+        <relationshipLabel><!-- Order Line Items (Source Inventory) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Fullfillment Status --></label>
+        <name>MedConnect__Status__c</name>
+        <picklistValues>
+            <masterLabel>Depot Warhouse</masterLabel>
+            <translation><!-- Depot Warhouse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FSE Trunk Stock</masterLabel>
+            <translation><!-- FSE Trunk Stock --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request Trunk Stock</masterLabel>
+            <translation><!-- Request Trunk Stock --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self Trunk Stock</masterLabel>
+            <translation><!-- Self Trunk Stock --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unfulfilled</masterLabel>
+            <translation><!-- Unfulfilled --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Surgical Kit --></label>
+        <name>MedConnect__Surgical_Kit__c</name>
+        <relationshipLabel><!-- Order Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Total Quantity Received --></label>
+        <name>MedConnect__Total_Qty_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Quantity Shipped --></label>
+        <name>MedConnect__Total_Qty_Shipped__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking Number --></label>
+        <name>MedConnect__Tracking_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction Quantity --></label>
+        <name>MedConnect__Transaction_Qty__c</name>
+    </fields>
+    <fields>
+        <label><!-- UDI Number --></label>
+        <name>MedConnect__UDI_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- isLoaner --></label>
+        <name>MedConnect__isLoaner__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Order Line Type cannot be changed once created. --></errorMessage>
+        <name>MedConnect__Line_Item_Type_Cannot_be_changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Received status can be set only if Total Quantity Received and Quantity Expected is equal. --></errorMessage>
+        <name>MedConnect__Received_If_Total_Qty_rcvd_Qty_Exp</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Received status can be set only if Total Quantity Received and Quantity Expected is equal. --></errorMessage>
+        <name>MedConnect__Received_If_Total_Qty_rcvd_Qty_Exp_IRD</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Received status can be set only if Total Quantity Shipped and Quantity Expected is equal. --></errorMessage>
+        <name>MedConnect__Received_if_Total_Qty_Shipped_Qty_Expect</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Shipped status can be set only if Total Quantity Shipped and Quantity Expected is equal. --></errorMessage>
+        <name>MedConnect__Shipped_if_Total_Qty_Shipped_Qty_Expect</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Shipped status can be set only if Total Quantity Shipped and Quantity Expected is equal. --></errorMessage>
+        <name>MedConnect__Shipped_if_Total_Qty_Shipped_Qty_Expectd</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Total Quantity Shipped and Total Quantity Received cannot be greater than Quantity Expected. --></errorMessage>
+        <name>MedConnect__Source_Inv_should_have_Transaction_Qty</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Source Inventory and Destination Inventory is always an internal inventory. --></errorMessage>
+        <name>MedConnect__Source_N_Destination_is_always_internal</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Source Inventory and Destination Inventory is always an internal inventory. --></errorMessage>
+        <name>MedConnect__Source_N_Destination_is_internal_Adjustm</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Source Inventory and Destination Inventory is always an internal inventory. --></errorMessage>
+        <name>MedConnect__Source_N_Destination_is_internal_DPR</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Source Inventory is always external inventory when type is Replenishment --></errorMessage>
+        <name>MedConnect__Source_is_always_external</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Source Inventory is always internal inventory when type is Replenishment --></errorMessage>
+        <name>MedConnect__Source_is_always_internal</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Status &apos;Received&apos; cannot be changed to the Status &apos;Sent Back&apos; --></errorMessage>
+        <name>MedConnect__Status_Received_can_not_be_Sent_Back</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Status &apos;Received&apos; cannot be changed to the Status &apos;Sent Back&apos; --></errorMessage>
+        <name>MedConnect__Status_Received_not_be_Sent_Back_DPR</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Status &apos;Sent Back&apos; cannot be changed to the Status &apos;Received&apos; --></errorMessage>
+        <name>MedConnect__Status_Sent_Back_can_not_be_Received</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Status &apos;Sent Back&apos; cannot be changed to the Status &apos;Received&apos; --></errorMessage>
+        <name>MedConnect__Status_Sent_Back_not_be_Received_DPR</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Total Quantity Shipped and Total Quantity Received cannot be greater than Quantity Expected. --></errorMessage>
+        <name>MedConnect__TQS_and_TQR_cannot_be_greater_than_QE</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Total Quantity Shipped and Total Quantity Received cannot be greater than Quantity Expected. --></errorMessage>
+        <name>MedConnect__TQS_nd_TQR_cannot_be_greater_than_QE_all</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- For &apos;Sent Back&apos; status  Transaction Quanitity cannot be greater than Total Quantity Shipped --></errorMessage>
+        <name>MedConnect__Transac_Qty_not_great_Total_Qty_Shipped</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- For &apos;Sent Back&apos; status Transaction Quanitity cannot be greater than Total Quantity Shipped --></errorMessage>
+        <name>MedConnect__Transact_Qty_not_great_Total_Qty_Shipped</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Check_Inventory --></label>
+        <name>MedConnect__Check_Inventory</name>
+    </webLinks>
+</CustomObjectTranslation>

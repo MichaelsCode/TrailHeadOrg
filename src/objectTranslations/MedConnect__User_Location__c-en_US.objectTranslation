@@ -1,3 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Accuracy --></label>
+        <name>MedConnect__Accuracy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Altitude --></label>
+        <name>MedConnect__Altitude__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>MedConnect__Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Provider --></label>
+        <name>MedConnect__Provider__c</name>
+    </fields>
+    <fields>
+        <label><!-- Speed --></label>
+        <name>MedConnect__Speed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time --></label>
+        <name>MedConnect__Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>MedConnect__User__c</name>
+        <relationshipLabel><!-- User Location --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

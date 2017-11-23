@@ -1,3 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- ProductLotsDetailsSecInFieldSet --></label>
+        <name>ProductLotsDetailsSecInFieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ProductLotsDetailsSecOutFieldSet --></label>
+        <name>ProductLotsDetailsSecOutFieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SelectProductLotFieldSet --></label>
+        <name>SelectProductLotFieldSet</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Description --></label>
+        <name>MedConnect__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Device History --></label>
+        <name>MedConnect__Device_History__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expiration Date --></label>
+        <name>MedConnect__Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lot Number --></label>
+        <name>MedConnect__Lot_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lot Quantity Affected --></label>
+        <name>MedConnect__Lot_Quantity_Affected__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lot Reference --></label>
+        <name>MedConnect__Lot_Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturing Location --></label>
+        <name>MedConnect__Manufacturing_Location__c</name>
+        <relationshipLabel><!-- Lot Masters --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- NCMR --></label>
+        <name>MedConnect__NCMR1__c</name>
+        <relationshipLabel><!-- Lots --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>MedConnect__Product__c</name>
+        <relationshipLabel><!-- Lot Masters --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity Attached UOM --></label>
+        <name>MedConnect__Quantity_Attached_UOM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Product --></label>
+        <name>MedConnect__Reference_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type2 --></label>
+        <name>MedConnect__Type2__c</name>
+        <picklistValues>
+            <masterLabel>Counterfeit</masterLabel>
+            <translation><!-- Counterfeit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Good</masterLabel>
+            <translation><!-- Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recall</masterLabel>
+            <translation><!-- Recall --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>MedConnect__Type__c</name>
+        <picklistValues>
+            <masterLabel>Counterfeit</masterLabel>
+            <translation><!-- Counterfeit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Good</masterLabel>
+            <translation><!-- Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recall</masterLabel>
+            <translation><!-- Recall --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Unit Cost --></label>
+        <name>MedConnect__Unit_Cost__c</name>
+    </fields>
+    <webLinks>
+        <label><!-- Add_Product_Lots --></label>
+        <name>MedConnect__Add_Product_Lots</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- View_Device_History --></label>
+        <name>MedConnect__View_Device_History</name>
+    </webLinks>
+</CustomObjectTranslation>

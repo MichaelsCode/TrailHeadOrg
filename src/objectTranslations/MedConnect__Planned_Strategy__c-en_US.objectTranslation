@@ -1,3 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account Plan Id --></label>
+        <name>MedConnect__Account_Plan_Id__c</name>
+        <relationshipLabel><!-- Planned Strategies --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Competitor Activity --></label>
+        <name>MedConnect__Competetor_Activity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitor --></label>
+        <name>MedConnect__Competitor__c</name>
+        <relationshipLabel><!-- Planned Strategies --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>MedConnect__Opportunity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Strategic Goal --></label>
+        <name>MedConnect__Strategic_Goal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Strength --></label>
+        <name>MedConnect__Strength__c</name>
+    </fields>
+    <fields>
+        <label><!-- Threat --></label>
+        <name>MedConnect__Threat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weakness --></label>
+        <name>MedConnect__Weakness__c</name>
+    </fields>
+</CustomObjectTranslation>

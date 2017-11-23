@@ -1,3 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Depot --></label>
+        <name>MedConnect__Depot__c</name>
+        <relationshipLabel><!-- Technician Depot Assignments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Technician --></label>
+        <name>MedConnect__Technician__c</name>
+        <relationshipLabel><!-- Technician Depot Assignments --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

@@ -1,3 +1,174 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Business Hours Source --></label>
+        <name>MedConnect__Business_Hours_Source__c</name>
+        <picklistValues>
+            <masterLabel>Account</masterLabel>
+            <translation><!-- Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract</masterLabel>
+            <translation><!-- Contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom</masterLabel>
+            <translation><!-- Custom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation><!-- Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SLA</masterLabel>
+            <translation><!-- SLA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Business Hours --></label>
+        <name>MedConnect__Business_Hours__c</name>
+        <relationshipLabel><!-- SLA Detail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Clock Starts From --></label>
+        <name>MedConnect__Clock_Starts_From__c</name>
+        <picklistValues>
+            <masterLabel>Created Date</masterLabel>
+            <translation><!-- Created Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Report Date</masterLabel>
+            <translation><!-- Report Date --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Commitment Type --></label>
+        <name>MedConnect__Commitment_Type__c</name>
+        <picklistValues>
+            <masterLabel>Initial Response</masterLabel>
+            <translation><!-- Initial Response --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Onsite Response</masterLabel>
+            <translation><!-- Onsite Response --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolution</masterLabel>
+            <translation><!-- Resolution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Restoration</masterLabel>
+            <translation><!-- Restoration --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Customer Commitment --></label>
+        <name>MedConnect__Customer_Commitment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Frequency --></label>
+        <name>MedConnect__Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Days</masterLabel>
+            <translation><!-- Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Months</masterLabel>
+            <translation><!-- Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Years</masterLabel>
+            <translation><!-- Years --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Included Or Not --></label>
+        <name>MedConnect__Included_Or_Not__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Goal --></label>
+        <name>MedConnect__Internal_Goal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Of Units --></label>
+        <name>MedConnect__Number_Of_Units__c</name>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>MedConnect__Priority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SLA Terms --></label>
+        <name>MedConnect__SLA_Terms__c</name>
+        <relationshipLabel><!-- SLA Details --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Select --></label>
+        <name>MedConnect__Select__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Details --></label>
+        <name>MedConnect__Service_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Name --></label>
+        <name>MedConnect__Service_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service --></label>
+        <name>MedConnect__Service__c</name>
+        <relationshipLabel><!-- SLA Detail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tracked On --></label>
+        <name>MedConnect__Tracked_On__c</name>
+        <picklistValues>
+            <masterLabel>Incident</masterLabel>
+            <translation><!-- Incident --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Request</masterLabel>
+            <translation><!-- Service Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work Order</masterLabel>
+            <translation><!-- Work Order --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Unit of Time --></label>
+        <name>MedConnect__Unit_of_Time__c</name>
+        <picklistValues>
+            <masterLabel>Days</masterLabel>
+            <translation><!-- Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hours</masterLabel>
+            <translation><!-- Hours --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minutes</masterLabel>
+            <translation><!-- Minutes --></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <label><!-- Commitment --></label>
+        <name>Commitment</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Services --></label>
+        <name>Services</name>
+    </recordTypes>
+</CustomObjectTranslation>

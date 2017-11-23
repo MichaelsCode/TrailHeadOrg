@@ -3,7 +3,7 @@
  -->
 
 <apex:page standardController="Contact">
-    <apex:form>
+    <apex:form >
         Hello <apex:inputField value="{!Contact.FirstName}" />
         <br /><apex:commandButton value="Submit" action="{!save}" />
     </apex:form>

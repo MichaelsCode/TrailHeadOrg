@@ -1,3 +1,294 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Incident Smart Script Edit FieldSet --></label>
+        <name>Incident_Smart_Script_Edit_FieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- InterestLayoutForSFOne --></label>
+        <name>InterestLayoutForSFOne</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Order set --></label>
+        <name>Order_set</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Template Set --></label>
+        <name>Template_Set</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Bill To Account Mechanism --></label>
+        <name>MedConnect__Bill_To_Account_Mechanism__c</name>
+        <picklistValues>
+            <masterLabel>Cell - Text</masterLabel>
+            <translation><!-- Cell - Text --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone</masterLabel>
+            <translation><!-- Phone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Postal Address</masterLabel>
+            <translation><!-- Postal Address --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Bill To Account --></label>
+        <name>MedConnect__Bill_To_Account__c</name>
+        <relationshipLabel><!-- Orders (Bill To Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Company Authorized By --></label>
+        <name>MedConnect__Company_Authorized_By__c</name>
+        <relationshipLabel><!-- Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Currency --></label>
+        <name>MedConnect__Currency__c</name>
+        <picklistValues>
+            <masterLabel>EURO</masterLabel>
+            <translation><!-- EURO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GBP</masterLabel>
+            <translation><!-- GBP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USD</masterLabel>
+            <translation><!-- USD --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Customer Authorized By --></label>
+        <name>MedConnect__Customer_Authorized_By__c</name>
+        <relationshipLabel><!-- Orders (Customer Authorized By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Customer Contact --></label>
+        <name>MedConnect__Customer_Contact__c</name>
+        <relationshipLabel><!-- Orders (Customer Contact) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Total Amount --></label>
+        <name>MedConnect__Detail_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distribution Complaint --></label>
+        <name>MedConnect__Distribution_Complaint__c</name>
+        <relationshipLabel><!-- Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Freight Amount --></label>
+        <name>MedConnect__Freight_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incident --></label>
+        <name>MedConnect__Incident__c</name>
+        <relationshipLabel><!-- Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>MedConnect__Opportunity__c</name>
+        <relationshipLabel><!-- Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Order Date --></label>
+        <name>MedConnect__Order_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order ID --></label>
+        <name>MedConnect__Order_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Start Date --></label>
+        <name>MedConnect__Order_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payable Amount --></label>
+        <name>MedConnect__Payable_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Terms --></label>
+        <name>MedConnect__Payment_Terms__c</name>
+        <picklistValues>
+            <masterLabel>2% NET 30</masterLabel>
+            <translation><!-- 2% NET 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NET 30</masterLabel>
+            <translation><!-- NET 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NET 45</masterLabel>
+            <translation><!-- NET 45 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NET 60</masterLabel>
+            <translation><!-- NET 60 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Pre-Freight Amount --></label>
+        <name>MedConnect__Pre_Freight_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>MedConnect__Priority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reason for Change --></label>
+        <name>MedConnect__Reason_for_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Quote --></label>
+        <name>MedConnect__Related_Quote__c</name>
+        <relationshipLabel><!-- Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Ship To Account --></label>
+        <name>MedConnect__Ship_To_Account__c</name>
+        <relationshipLabel><!-- Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Customer --></label>
+        <name>MedConnect__Sold_To_Account__c</name>
+        <relationshipLabel><!-- Orders (Sold To Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>MedConnect__Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awaiting Approval</masterLabel>
+            <translation><!-- Awaiting Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Booked</masterLabel>
+            <translation><!-- Booked --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Transit</masterLabel>
+            <translation><!-- In Transit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipped</masterLabel>
+            <translation><!-- Shipped --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Submit --></label>
+        <name>MedConnect__Submit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Template Name --></label>
+        <name>MedConnect__Template_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Discount --></label>
+        <name>MedConnect__Total_Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Tax --></label>
+        <name>MedConnect__Total_Tax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>MedConnect__Type__c</name>
+        <picklistValues>
+            <masterLabel>Internal</masterLabel>
+            <translation><!-- Internal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase</masterLabel>
+            <translation><!-- Purchase --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Order</masterLabel>
+            <translation><!-- Sales Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Order</masterLabel>
+            <translation><!-- Service Order --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Version --></label>
+        <name>MedConnect__Version__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Order --></label>
+        <name>MedConnect__Work_Order__c</name>
+        <relationshipLabel><!-- Part Orders --></relationshipLabel>
+    </fields>
+    <recordTypes>
+        <label><!-- Sales Order --></label>
+        <name>Sales_Order</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Template --></label>
+        <name>Template</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Associate_Orders_with_Distribution_Complaint --></label>
+        <name>MedConnect__Associate_Orders_with_Distribution_Complaint</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Distribution_Complaint --></label>
+        <name>MedConnect__Create_Distribution_Complaint</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Sales_Order_From_Saved_Orders --></label>
+        <name>MedConnect__New_Sales_Order_From_Saved_Orders</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Sales_Order_From_Template --></label>
+        <name>MedConnect__New_Sales_Order_From_Template</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Template --></label>
+        <name>MedConnect__New_Template</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Save_As_Template --></label>
+        <name>MedConnect__Save_As_Template</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Submit --></label>
+        <name>MedConnect__Submit</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SubmitMultiple --></label>
+        <name>MedConnect__SubmitMultiple</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,3 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Charge Back Edit Field Set --></label>
+        <name>Charge_Back_Edit_Field_Set</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Disposition --></label>
+        <name>MedConnect__Disposition__c</name>
+        <relationshipLabel><!-- Charge Back --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Net Additional Expense Amount --></label>
+        <name>MedConnect__Net_Additional_Expense_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Charge to Supplier --></label>
+        <name>MedConnect__Net_Charge_to_Suplier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Terms --></label>
+        <name>MedConnect__Payment_Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Complaint --></label>
+        <name>MedConnect__Product_Complaint__c</name>
+        <relationshipLabel><!-- Charge Back --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>MedConnect__Status__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Supplier Account Number --></label>
+        <name>MedConnect__Supplier_Account_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier Email --></label>
+        <name>MedConnect__Supplier_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier Phone --></label>
+        <name>MedConnect__Supplier_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier --></label>
+        <name>MedConnect__Supplier__c</name>
+        <relationshipLabel><!-- Charge Back --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Total Charge Back Amount --></label>
+        <name>MedConnect__Total_Charge_Back_Amount__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Complaint Charge Back --></label>
+        <name>Complaint_Charge_Back</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Disposition Charge Back --></label>
+        <name>Disposition_Charge_Back</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Download_as_PDF --></label>
+        <name>MedConnect__Download_as_PDF</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Email --></label>
+        <name>MedConnect__Send_Email</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,3 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- AssignToolDetailFieldSet --></label>
+        <name>AssignToolDetailFieldSet</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Tool Description --></label>
+        <name>MedConnect__Tool_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tool Name --></label>
+        <name>MedConnect__Tool_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tool --></label>
+        <name>MedConnect__Tool__c</name>
+        <relationshipLabel><!-- Assign Tools --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Work Order Activity --></label>
+        <name>MedConnect__Work_Order_Activity__c</name>
+        <relationshipLabel><!-- Assign Tools --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

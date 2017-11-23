@@ -1,3 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Task --></label>
+        <name>MedConnect__Task__c</name>
+        <picklistValues>
+            <masterLabel>Closure (UNIVERSAL REQUIREMENT ROLE)</masterLabel>
+            <translation><!-- Closure (UNIVERSAL REQUIREMENT ROLE) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Containment (UNIVERSAL REQUIREMENT ROLE)</masterLabel>
+            <translation><!-- Containment (UNIVERSAL REQUIREMENT ROLE) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coordination (UNIVERSAL REQUIREMENT ROLE)</masterLabel>
+            <translation><!-- Coordination (UNIVERSAL REQUIREMENT ROLE) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disposition Approval (UNIVERSAL REQUIREMENT ROLE)</masterLabel>
+            <translation><!-- Disposition Approval (UNIVERSAL REQUIREMENT ROLE) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disposition Execution (UNIVERSAL REQUIREMENT ROLE)</masterLabel>
+            <translation><!-- Disposition Execution (UNIVERSAL REQUIREMENT ROLE) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disposition Planning (UNIVERSAL REQUIREMENT ROLE)</masterLabel>
+            <translation><!-- Disposition Planning (UNIVERSAL REQUIREMENT ROLE) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Due Date Extension Approval (UNIVERSAL REQUIREMENT ROLE)</masterLabel>
+            <translation><!-- Due Date Extension Approval (UNIVERSAL REQUIREMENT ROLE) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investigation (UNIVERSAL REQUIREMENT ROLE)</masterLabel>
+            <translation><!-- Investigation (UNIVERSAL REQUIREMENT ROLE) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investigation Approval (UNIVERSAL REQUIREMENT ROLE)</masterLabel>
+            <translation><!-- Investigation Approval (UNIVERSAL REQUIREMENT ROLE) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ownership (UNIVERSAL REQUIREMENT ROLE)</masterLabel>
+            <translation><!-- Ownership (UNIVERSAL REQUIREMENT ROLE) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>MedConnect__User__c</name>
+        <relationshipLabel><!-- MRB --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

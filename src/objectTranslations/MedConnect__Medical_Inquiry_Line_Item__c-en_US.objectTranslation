@@ -1,3 +1,807 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Action To Be taken --></label>
+        <name>Action_To_Be_taken</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- MILineItem_Field_Set_Related_List --></label>
+        <name>MILineItem_Field_Set_Related_List</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- MI Line Item Address Field Set --></label>
+        <name>MI_Line_Item_Address_Field_Set</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- MI Line Item Field Set --></label>
+        <name>MI_Line_Item_Field_Set</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Medical Inquiry Product Name --></label>
+        <name>Medical_Inquiry_Product_Name</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Medical Inquiry Product Order FieldSet --></label>
+        <name>Medical_Inquiry_Product_Order_FieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Order Detail --></label>
+        <name>Order_Detail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Other Product Details --></label>
+        <name>Other_Product_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Product Details --></label>
+        <name>Product_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Product Details View --></label>
+        <name>Product_Details_View</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Additional Information 2 --></label>
+        <name>MedConnect__Additional_Information_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Information --></label>
+        <name>MedConnect__Additional_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- Addnl. Manf. Narrative/Corrective Data --></label>
+        <name>MedConnect__Addnl_Manf_Narrative_Corrective_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Street --></label>
+        <name>MedConnect__Address_Line_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address Line 2 --></label>
+        <name>MedConnect__Address_Line_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1 Answer --></label>
+        <name>MedConnect__Answer1__c</name>
+    </fields>
+    <fields>
+        <label><!-- 2 Answer --></label>
+        <name>MedConnect__Answer2__c</name>
+    </fields>
+    <fields>
+        <label><!-- 3 Answer --></label>
+        <name>MedConnect__Answer3__c</name>
+    </fields>
+    <fields>
+        <label><!-- 4 Answer --></label>
+        <name>MedConnect__Answer4__c</name>
+    </fields>
+    <fields>
+        <label><!-- 5 Answer --></label>
+        <name>MedConnect__Answer5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Any defect contribute to the incident? --></label>
+        <name>MedConnect__Any_defect_contribute_to_the_incident__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not known</masterLabel>
+            <translation><!-- Not known --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Any environmental factor caused incident --></label>
+        <name>MedConnect__Any_environmental_factor_caused_incident__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not known</masterLabel>
+            <translation><!-- Not known --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Assembly --></label>
+        <name>MedConnect__Assembly__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asset Not Found --></label>
+        <name>MedConnect__Asset_Not_Found__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asset --></label>
+        <name>MedConnect__Asset__c</name>
+        <relationshipLabel><!-- Inquiry Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Associated Products --></label>
+        <name>MedConnect__Associated_Products__c</name>
+    </fields>
+    <fields>
+        <label><!-- Batch Number --></label>
+        <name>MedConnect__Batch_Master__c</name>
+        <relationshipLabel><!-- Inquiry Products (Batch Master) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Batch Number Depricated --></label>
+        <name>MedConnect__Batch_Number__c</name>
+        <relationshipLabel><!-- Inquiry Products (Batch Number) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Brand Image --></label>
+        <name>MedConnect__Brand_Image__c</name>
+        <picklistValues>
+            <masterLabel>Deteriorated</masterLabel>
+            <translation><!-- Deteriorated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Improved</masterLabel>
+            <translation><!-- Improved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Impact</masterLabel>
+            <translation><!-- No Impact --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Brand Name --></label>
+        <name>MedConnect__Brand_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>MedConnect__City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cleaning --></label>
+        <name>MedConnect__Cleaning__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code History --></label>
+        <name>MedConnect__Code_History__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code Specific History --></label>
+        <name>MedConnect__Code_Specific_History__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>MedConnect__Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Component Investigation Comment --></label>
+        <name>MedConnect__Component_Investigation_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Components --></label>
+        <name>MedConnect__Components__c</name>
+    </fields>
+    <fields>
+        <label><!-- Concomitant Products --></label>
+        <name>MedConnect__Concomitant_Products__c</name>
+    </fields>
+    <fields>
+        <label><!-- Copy Address From Contact --></label>
+        <name>MedConnect__Copy_Address_From_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Copy Email From Contact --></label>
+        <name>MedConnect__Copy_Email_From_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Copy Fax From Contact --></label>
+        <name>MedConnect__Copy_Fax_From_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Copy Phone From Contact --></label>
+        <name>MedConnect__Copy_Phone_From_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost --></label>
+        <name>MedConnect__Cost__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Current Location of Medical Device --></label>
+        <name>MedConnect__Current_Location_of_Medical_Device__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Experience --></label>
+        <name>MedConnect__Customer_Experience__c</name>
+        <picklistValues>
+            <masterLabel>Deteriorated</masterLabel>
+            <translation><!-- Deteriorated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Improved</masterLabel>
+            <translation><!-- Improved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Impact</masterLabel>
+            <translation><!-- No Impact --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Date of Expiry --></label>
+        <name>MedConnect__Date_of_Expiry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Explant --></label>
+        <name>MedConnect__Date_of_Explant__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Implant --></label>
+        <name>MedConnect__Date_of_Implant__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Manufacture --></label>
+        <name>MedConnect__Date_of_Manufacture__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Method --></label>
+        <name>MedConnect__Delivery_Method__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fax</masterLabel>
+            <translation><!-- Fax --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone</masterLabel>
+            <translation><!-- Phone --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Deprecated Batch Number --></label>
+        <name>MedConnect__Deprecated_Batch_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Describe if deviation caused incident --></label>
+        <name>MedConnect__Describe_if_deviation_caused_incident__c</name>
+    </fields>
+    <fields>
+        <label><!-- Describe the deviation if any --></label>
+        <name>MedConnect__Describe_the_deviation_if_any__c</name>
+    </fields>
+    <fields>
+        <label><!-- Describe the expected sequence of events --></label>
+        <name>MedConnect__Describe_the_expected_sequence_of_events__c</name>
+    </fields>
+    <fields>
+        <label><!-- Describe the pre-condition --></label>
+        <name>MedConnect__Describe_the_pre_condition__c</name>
+    </fields>
+    <fields>
+        <label><!-- Design --></label>
+        <name>MedConnect__Design__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destroy Affected Product? --></label>
+        <name>MedConnect__Destroy_Affected_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Device Evaluated by Manufacturer? --></label>
+        <name>MedConnect__Device_Evaluated_by_Manufacturer__c</name>
+        <picklistValues>
+            <masterLabel>Evaluation Summary Attached</masterLabel>
+            <translation><!-- Evaluation Summary Attached --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Returned to Manufacturer</masterLabel>
+            <translation><!-- Not Returned to Manufacturer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Device Operator (Other) --></label>
+        <name>MedConnect__Device_Operator_Other__c</name>
+    </fields>
+    <fields>
+        <label><!-- Device Operator --></label>
+        <name>MedConnect__Device_Operator__c</name>
+        <picklistValues>
+            <masterLabel>Health Professional</masterLabel>
+            <translation><!-- Health Professional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lay User</masterLabel>
+            <translation><!-- Lay User --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Patient</masterLabel>
+            <translation><!-- Patient --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Did a defect contribute to the incident? --></label>
+        <name>MedConnect__Did_a_defect_contribute_to_the_incident__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not known</masterLabel>
+            <translation><!-- Not known --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Did the deviation cause the incident? --></label>
+        <name>MedConnect__Did_the_deviation_cause_the_incident__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Known</masterLabel>
+            <translation><!-- Not Known --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Did the user have any pre-condition? --></label>
+        <name>MedConnect__Did_the_user_have_any_pre_condition__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Known</masterLabel>
+            <translation><!-- Not Known --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Distribution Complaint --></label>
+        <name>MedConnect__Distribution_Complaint__c</name>
+        <relationshipLabel><!-- Inquiry Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Duration Of Device Used --></label>
+        <name>MedConnect__Duration_Of_Device_Used__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duration Unit --></label>
+        <name>MedConnect__Duration_Unit__c</name>
+        <picklistValues>
+            <masterLabel>Days</masterLabel>
+            <translation><!-- Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hours</masterLabel>
+            <translation><!-- Hours --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minutes</masterLabel>
+            <translation><!-- Minutes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weeks</masterLabel>
+            <translation><!-- Weeks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Years</masterLabel>
+            <translation><!-- Years --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>MedConnect__Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- FDA Correction/ Removal Reporting No. --></label>
+        <name>MedConnect__FDA_Correction_Removal_Reporting_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fax --></label>
+        <name>MedConnect__Fax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Action Required? --></label>
+        <name>MedConnect__Field_Action_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- How was the Device used? --></label>
+        <name>MedConnect__How_was_the_Device_used__c</name>
+        <picklistValues>
+            <masterLabel>Initial Use of Device</masterLabel>
+            <translation><!-- Initial Use of Device --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Problem noted prior use</masterLabel>
+            <translation><!-- Problem noted prior use --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Re-serviced/refurbished</masterLabel>
+            <translation><!-- Re-serviced/refurbished --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reuse of a reusable medical device</masterLabel>
+            <translation><!-- Reuse of a reusable medical device --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reuse of a single use medical device</masterLabel>
+            <translation><!-- Reuse of a single use medical device --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Implant Duration --></label>
+        <name>MedConnect__Implant_Duration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inquiry Text --></label>
+        <name>MedConnect__Inquiry_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Investigation Required --></label>
+        <name>MedConnect__Investigation_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loaner Dispatched --></label>
+        <name>MedConnect__Loaner_Dispatched__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loaner Requested --></label>
+        <name>MedConnect__Loaner_Requested__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>MedConnect__Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lot Number --></label>
+        <name>MedConnect__Lot_Master__c</name>
+        <relationshipLabel><!-- Inquiry Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Manufacturing Location --></label>
+        <name>MedConnect__Manufacturing_Location__c</name>
+        <relationshipLabel><!-- Inquiry Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Medical Inquiry --></label>
+        <name>MedConnect__Medical_Inquiry__c</name>
+        <relationshipLabel><!-- Inquiry Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Non Reportable --></label>
+        <name>MedConnect__Non_Reportable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Line Item --></label>
+        <name>MedConnect__Order_Line_Item__c</name>
+        <relationshipLabel><!-- Inquiry Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>MedConnect__Order__c</name>
+        <relationshipLabel><!-- Inquiry Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Other Usage of Device --></label>
+        <name>MedConnect__Other_Usage_of_Device__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>MedConnect__Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Location --></label>
+        <name>MedConnect__Product_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Name --></label>
+        <name>MedConnect__Product_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Part Number --></label>
+        <name>MedConnect__Product_Part_Number_View__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Part Number --></label>
+        <name>MedConnect__Product_Part_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>MedConnect__Product__c</name>
+        <relationshipLabel><!-- Inquiry Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product available with Manufacturer? --></label>
+        <name>MedConnect__Product_available_with_Manufacturer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product received by Manufacturer on --></label>
+        <name>MedConnect__Product_received_by_Manufacturer_on__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason for Change --></label>
+        <name>MedConnect__Reason_for_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason for Non- Evaluation --></label>
+        <name>MedConnect__Reason_for_Non_Evaluation__c</name>
+        <picklistValues>
+            <masterLabel>Device evaluation anticipated, but not yet begun</masterLabel>
+            <translation><!-- Device evaluation anticipated, but not yet begun --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Device not made by company</masterLabel>
+            <translation><!-- Device not made by company --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Device problem already known, no evaluation necessary</masterLabel>
+            <translation><!-- Device problem already known, no evaluation necessary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Device received in a condition which made analysis impossible</masterLabel>
+            <translation><!-- Device received in a condition which made analysis impossible --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Remedial Action Initiated Other Type 1st --></label>
+        <name>MedConnect__Remedial_Action_Initiated_Other_Type_1st__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remedial Action Initiated Other Type 2 --></label>
+        <name>MedConnect__Remedial_Action_Initiated_Other_Type_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remedial Action Initiated Type --></label>
+        <name>MedConnect__Remedial_Action_Initiated_Type__c</name>
+        <picklistValues>
+            <masterLabel>Inspection</masterLabel>
+            <translation><!-- Inspection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Modification/ Adjustment</masterLabel>
+            <translation><!-- Modification/ Adjustment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Notification</masterLabel>
+            <translation><!-- Notification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Patient Monitoring</masterLabel>
+            <translation><!-- Patient Monitoring --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recall</masterLabel>
+            <translation><!-- Recall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relabeling</masterLabel>
+            <translation><!-- Relabeling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair</masterLabel>
+            <translation><!-- Repair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Replace</masterLabel>
+            <translation><!-- Replace --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Replace Affected Product? --></label>
+        <name>MedConnect__Replace_Affected_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reprocessor City --></label>
+        <name>MedConnect__Reprocessor_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reprocessor Country --></label>
+        <name>MedConnect__Reprocessor_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reprocessor Email --></label>
+        <name>MedConnect__Reprocessor_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reprocessor Fax Number --></label>
+        <name>MedConnect__Reprocessor_Fax_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reprocessor Name --></label>
+        <name>MedConnect__Reprocessor_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reprocessor Postal Code --></label>
+        <name>MedConnect__Reprocessor_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reprocessor State --></label>
+        <name>MedConnect__Reprocessor_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reprocessor Street Address Line 1 --></label>
+        <name>MedConnect__Reprocessor_Street_Address_Line_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reprocessor Street Address Line 2 --></label>
+        <name>MedConnect__Reprocessor_Street_Address_Line_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reprocessor Zip Code Extn --></label>
+        <name>MedConnect__Reprocessor_Zip_Code_Extn__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reprocessor Zip Code --></label>
+        <name>MedConnect__Reprocessor_Zip_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return affected Product? --></label>
+        <name>MedConnect__Return_affected_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Line Item --></label>
+        <name>MedConnect__Sales_Order_Line_Item__c</name>
+        <relationshipLabel><!-- Inquiry Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Serial Number --></label>
+        <name>MedConnect__Serial_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Request --></label>
+        <name>MedConnect__Service_Request__c</name>
+        <relationshipLabel><!-- Inquiry Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Single Use Device? --></label>
+        <name>MedConnect__Single_Use_Device__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>MedConnect__State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Therapy Dates of Associated Products --></label>
+        <name>MedConnect__Therapy_Dates_of_Associated_Products__c</name>
+    </fields>
+    <fields>
+        <label><!-- UDI --></label>
+        <name>MedConnect__UDI__c</name>
+    </fields>
+    <fields>
+        <label><!-- Urgent - Immediate --></label>
+        <name>MedConnect__Urgent_Immediate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Was the Device Reprocessed and Reused? --></label>
+        <name>MedConnect__Was_the_Device_Reprocessed_and_Reused__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 1 Why --></label>
+        <name>MedConnect__Why1__c</name>
+    </fields>
+    <fields>
+        <label><!-- 2 Why --></label>
+        <name>MedConnect__Why2__c</name>
+    </fields>
+    <fields>
+        <label><!-- 3 Why --></label>
+        <name>MedConnect__Why3__c</name>
+    </fields>
+    <fields>
+        <label><!-- 4 Why --></label>
+        <name>MedConnect__Why4__c</name>
+    </fields>
+    <fields>
+        <label><!-- 5 Why --></label>
+        <name>MedConnect__Why5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zip --></label>
+        <name>MedConnect__Zip__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Duration Of Device Used has not been specified --></errorMessage>
+        <name>MedConnect__Duration_Unit_Not_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please specify unit of device usage duration --></errorMessage>
+        <name>MedConnect__Duration_Unit_is_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Order Line Item must be selected if order is selected --></errorMessage>
+        <name>MedConnect__Order_Line_Item_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This field can be filled only if Device Evaluated by Manufacturer = No --></errorMessage>
+        <name>MedConnect__Reason_for_Non_Evaluation_depends</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value Cannot be negetive --></errorMessage>
+        <name>MedConnect__field_cant_be_negetive</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Custom_Delete --></label>
+        <name>MedConnect__Custom_Delete</name>
+    </webLinks>
+</CustomObjectTranslation>

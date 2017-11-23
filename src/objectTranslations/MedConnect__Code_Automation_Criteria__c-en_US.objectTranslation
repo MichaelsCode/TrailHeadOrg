@@ -1,3 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Is the Rule active? --></help>
+        <label><!-- Active --></label>
+        <name>MedConnect__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code --></label>
+        <name>MedConnect__Code__c</name>
+        <relationshipLabel><!-- Code Automation Criteria --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Is Reportable --></label>
+        <name>MedConnect__IsReportable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Days --></label>
+        <name>MedConnect__No_of_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Authority --></label>
+        <name>MedConnect__Regulatory_Authority__c</name>
+        <relationshipLabel><!-- Code Automation Criteria --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Reporting Decision --></label>
+        <name>MedConnect__Regulatory_Reporting_Decision__c</name>
+        <picklistValues>
+            <masterLabel>Malfunction</masterLabel>
+            <translation><!-- Malfunction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Deterministic</masterLabel>
+            <translation><!-- Non-Deterministic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reportable</masterLabel>
+            <translation><!-- Reportable --></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <label><!-- Regulatory Authority --></label>
+        <name>Reportability_Decision_Criteria</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Number of Days cannot be negative --></errorMessage>
+        <name>MedConnect__Number_of_Days_Nn_negative</name>
+    </validationRules>
+</CustomObjectTranslation>

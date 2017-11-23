@@ -1,3 +1,706 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Action to Be Taken --></label>
+        <name>Action_to_Be_Taken</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Common Information --></label>
+        <name>Common_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Common Section --></label>
+        <name>Common_Section</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ESignature View FieldSet --></label>
+        <name>ESignature_View_FieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- 5 why --></label>
+        <name>Five_why</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- General Information --></label>
+        <name>General_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Investigation Detail --></label>
+        <name>Investigation_Detail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Investigation Outcome --></label>
+        <name>Investigation_Outcome</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- NCMR General Information --></label>
+        <name>NCMR_General_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- NCMR Investigation Details --></label>
+        <name>NCMR_Investigation_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- NCMR Investigation Outcome --></label>
+        <name>NCMR_Investigation_Outcome</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- NCMR Why Analysis --></label>
+        <name>NCMR_Why_Analysis</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- General Information --></label>
+        <name>NonReturn_Analysis_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Investigation Details --></label>
+        <name>NonReturn_Analysis_Inv_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Investigation Outcome --></label>
+        <name>NonReturn_Analysis_Inv_Outcome</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- General Information --></label>
+        <name>Return_Analysis_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Investigation Details --></label>
+        <name>Return_Analysis_Investigation_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Investigation Outcome --></label>
+        <name>Return_Analysis_Investigation_Outcome</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Root Cause Identified --></label>
+        <name>Root_Cause_Identified</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- What factors are considered relevant to the cause of the incident? --></label>
+        <name>relevant_factors_caused_the_incident</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Additional Findings --></label>
+        <name>MedConnect__Additional_Findings__c</name>
+    </fields>
+    <fields>
+        <label><!-- Adt Short Name --></label>
+        <name>MedConnect__Adt_Short_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Analysis Code --></label>
+        <name>MedConnect__Analysis_Code__c</name>
+        <picklistValues>
+            <masterLabel>Code 1</masterLabel>
+            <translation><!-- Code 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 2</masterLabel>
+            <translation><!-- Code 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 3</masterLabel>
+            <translation><!-- Code 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 4</masterLabel>
+            <translation><!-- Code 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 5</masterLabel>
+            <translation><!-- Code 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Analysis Type --></label>
+        <name>MedConnect__Analysis_Type__c</name>
+        <picklistValues>
+            <masterLabel>Device Design Record</masterLabel>
+            <translation><!-- Device Design Record --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Device History Record</masterLabel>
+            <translation><!-- Device History Record --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Failure Mode and Effects Analysis</masterLabel>
+            <translation><!-- Failure Mode and Effects Analysis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fault Tree Analysis</masterLabel>
+            <translation><!-- Fault Tree Analysis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fish Bone Technique</masterLabel>
+            <translation><!-- Fish Bone Technique --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 1. Answer --></label>
+        <name>MedConnect__Answer1__c</name>
+    </fields>
+    <fields>
+        <label><!-- 2. Answer --></label>
+        <name>MedConnect__Answer2__c</name>
+    </fields>
+    <fields>
+        <label><!-- 3. Answer --></label>
+        <name>MedConnect__Answer3__c</name>
+    </fields>
+    <fields>
+        <label><!-- 4. Answer --></label>
+        <name>MedConnect__Answer4__c</name>
+    </fields>
+    <fields>
+        <label><!-- 5. Answer --></label>
+        <name>MedConnect__Answer5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assembly --></label>
+        <name>MedConnect__Assembly__c</name>
+    </fields>
+    <fields>
+        <label><!-- Device History (Batch) --></label>
+        <name>MedConnect__Batch_Device_History__c</name>
+    </fields>
+    <fields>
+        <label><!-- Batch Number --></label>
+        <name>MedConnect__Batch_Master__c</name>
+        <relationshipLabel><!-- Product Investigations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cause Code --></label>
+        <name>MedConnect__Cause_Code__c</name>
+        <picklistValues>
+            <masterLabel>C1231</masterLabel>
+            <translation><!-- C1231 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C2323</masterLabel>
+            <translation><!-- C2323 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C2342</masterLabel>
+            <translation><!-- C2342 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>MedConnect__Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Component Investigation --></label>
+        <name>MedConnect__Component_Investigation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Components --></label>
+        <name>MedConnect__Components__c</name>
+    </fields>
+    <fields>
+        <label><!-- Corrective Actions --></label>
+        <name>MedConnect__Corrective_Actions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Defective Controls --></label>
+        <name>MedConnect__Current_Control_Detective_Controls__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preventive Controls --></label>
+        <name>MedConnect__Current_Controls_Preventive_Controls__c</name>
+    </fields>
+    <fields>
+        <label><!-- Defect Code --></label>
+        <name>MedConnect__Defect_Code__c</name>
+        <picklistValues>
+            <masterLabel>A1264</masterLabel>
+            <translation><!-- A1264 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A2131</masterLabel>
+            <translation><!-- A2131 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B3424</masterLabel>
+            <translation><!-- B3424 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C6542</masterLabel>
+            <translation><!-- C6542 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Defect Location --></label>
+        <name>MedConnect__Defect_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Design --></label>
+        <name>MedConnect__Design__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destroy Product --></label>
+        <name>MedConnect__Destroy_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Device History (Lot) --></label>
+        <name>MedConnect__Device_History__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distribution Complaint --></label>
+        <name>MedConnect__Distribution_Complaint__c</name>
+        <relationshipLabel><!-- Product Investigations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Due Date of Completion --></label>
+        <name>MedConnect__Due_Date_of_Completion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Findings --></label>
+        <name>MedConnect__Findings__c</name>
+    </fields>
+    <fields>
+        <label><!-- Impacted Product --></label>
+        <name>MedConnect__Impacted_Product_CAPA__c</name>
+        <relationshipLabel><!-- Product Investigations (Impacted Product) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Impacted Product Name --></label>
+        <name>MedConnect__Impacted_Product_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Impacted Product --></label>
+        <name>MedConnect__Impacted_Product__c</name>
+        <relationshipLabel><!-- Prouct Investigations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Defective Controls --></label>
+        <name>MedConnect__Implemented_Controls_Detective_Controls__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preventive Controls --></label>
+        <name>MedConnect__Implemented_Controls_Preventive_Controls__c</name>
+    </fields>
+    <fields>
+        <label><!-- Investigation End Date --></label>
+        <name>MedConnect__Investigation_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Investigation Performed on --></label>
+        <name>MedConnect__Investigation_Performed_on__c</name>
+        <picklistValues>
+            <masterLabel>Actual Defective Product</masterLabel>
+            <translation><!-- Actual Defective Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Literature</masterLabel>
+            <translation><!-- Product Literature --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sample Products</masterLabel>
+            <translation><!-- Sample Products --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Similar Products</masterLabel>
+            <translation><!-- Similar Products --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Investigation Plan --></label>
+        <name>MedConnect__Investigation_Plan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Investigation Start Date --></label>
+        <name>MedConnect__Investigation_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Investigator Name --></label>
+        <name>MedConnect__Investigator_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Likelihood of Detection --></label>
+        <name>MedConnect__Likelihood__c</name>
+        <picklistValues>
+            <masterLabel>Absolute Uncertainty</masterLabel>
+            <translation><!-- Absolute Uncertainty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Almost Certain</masterLabel>
+            <translation><!-- Almost Certain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moderate</masterLabel>
+            <translation><!-- Moderate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moderately High</masterLabel>
+            <translation><!-- Moderately High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remote</masterLabel>
+            <translation><!-- Remote --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very High</masterLabel>
+            <translation><!-- Very High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very Low</masterLabel>
+            <translation><!-- Very Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very Remote</masterLabel>
+            <translation><!-- Very Remote --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Likelihood of Detection Ranking --></label>
+        <name>MedConnect__Likelihood_of_Detection_Ranking__c</name>
+    </fields>
+    <fields>
+        <label><!-- Materials --></label>
+        <name>MedConnect__Materials__c</name>
+    </fields>
+    <fields>
+        <label><!-- NCMR --></label>
+        <name>MedConnect__NCMR__c</name>
+        <relationshipLabel><!-- NCMR Investigations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Others --></label>
+        <name>MedConnect__Others__c</name>
+    </fields>
+    <fields>
+        <label><!-- Packing --></label>
+        <name>MedConnect__Packing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Possible Effects --></label>
+        <name>MedConnect__Possible_Effects__c</name>
+    </fields>
+    <fields>
+        <label><!-- Potential Consequence(s) of Failure --></label>
+        <name>MedConnect__Potential_Consequence_s_of_Failure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Potential Failure Mode --></label>
+        <name>MedConnect__Potential_Failure_Mode__c</name>
+        <picklistValues>
+            <masterLabel>Burst</masterLabel>
+            <translation><!-- Burst --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leak</masterLabel>
+            <translation><!-- Leak --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Potential Severity --></label>
+        <name>MedConnect__Potential_Severity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preventive Action --></label>
+        <name>MedConnect__Preventive_Action__c</name>
+    </fields>
+    <fields>
+        <label><!-- Probability of Not Detecting --></label>
+        <name>MedConnect__Probability_of_Not_Detecting__c</name>
+    </fields>
+    <fields>
+        <label><!-- Probability of Occurance --></label>
+        <name>MedConnect__Probability_of_Occurance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Probability of Recurrance Ranking --></label>
+        <name>MedConnect__Probability_of_Recurrance_Ranking__c</name>
+    </fields>
+    <fields>
+        <help><!-- Frequent:Expected to occur frequently
+Probable:May occur several times in life of device
+Occasional:Expected sometime in life of device
+Remote:Unlikely, but possible in the life of an item
+Improbable:So unlikely,could not be determined --></help>
+        <label><!-- Probability of Recurrance --></label>
+        <name>MedConnect__Probability_of_Recurrance__c</name>
+        <picklistValues>
+            <masterLabel>1 in 15,000</masterLabel>
+            <translation><!-- 1 in 15,000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 in 150,000</masterLabel>
+            <translation><!-- 1 in 150,000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 in 2,000</masterLabel>
+            <translation><!-- 1 in 2,000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 in 20</masterLabel>
+            <translation><!-- 1 in 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 in 3</masterLabel>
+            <translation><!-- 1 in 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 in 400</masterLabel>
+            <translation><!-- 1 in 400 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 in 8</masterLabel>
+            <translation><!-- 1 in 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 in 80</masterLabel>
+            <translation><!-- 1 in 80 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&lt;1 in 1,500,000</masterLabel>
+            <translation><!-- &lt;1 in 1,500,000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;1 in 2</masterLabel>
+            <translation><!-- &gt;1 in 2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ProductId --></label>
+        <name>MedConnect__ProductId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Complaint --></label>
+        <name>MedConnect__Product_Complaint_Lk__c</name>
+        <relationshipLabel><!-- Product Investigations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Lot Number --></label>
+        <name>MedConnect__Product_Lot1__c</name>
+        <relationshipLabel><!-- Product Investigations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Lot deleted --></label>
+        <name>MedConnect__Product_Lot__c</name>
+        <relationshipLabel><!-- Product Investigations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RPN Status --></label>
+        <name>MedConnect__RPN_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- RPN --></label>
+        <name>MedConnect__RPN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason For Change --></label>
+        <name>MedConnect__Reason_For_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preventive Controls --></label>
+        <name>MedConnect__Recommended_Controls__c</name>
+    </fields>
+    <fields>
+        <label><!-- Defective Controls --></label>
+        <name>MedConnect__Recommended_control_Detective_Controls__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Product Investigation --></label>
+        <name>MedConnect__Related_Product_Investigation__c</name>
+        <relationshipLabel><!-- Prouct Investigations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Replace Product to Customer --></label>
+        <name>MedConnect__Replace_Product_to_Customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return Product --></label>
+        <name>MedConnect__Return_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Risk Assessment --></label>
+        <name>MedConnect__Risk_Assessment__c</name>
+        <relationshipLabel><!-- Product Investigations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Root Cause --></label>
+        <name>MedConnect__Root_Cause__c</name>
+    </fields>
+    <fields>
+        <label><!-- Root Cause of Failure --></label>
+        <name>MedConnect__Root_Cause_of_Failure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Severity Ranking --></label>
+        <name>MedConnect__Severity_Ranking__c</name>
+    </fields>
+    <fields>
+        <label><!-- Severity --></label>
+        <name>MedConnect__Severity__c</name>
+        <picklistValues>
+            <masterLabel>Catastrophic</masterLabel>
+            <translation><!-- Catastrophic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extreme</masterLabel>
+            <translation><!-- Extreme --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minor</masterLabel>
+            <translation><!-- Minor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moderate</masterLabel>
+            <translation><!-- Moderate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very High</masterLabel>
+            <translation><!-- Very High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very Low</masterLabel>
+            <translation><!-- Very Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very Minor</masterLabel>
+            <translation><!-- Very Minor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>MedConnect__Status__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sterilization --></label>
+        <name>MedConnect__Sterilization__c</name>
+    </fields>
+    <fields>
+        <label><!-- Technique Type --></label>
+        <name>MedConnect__Technique_Type__c</name>
+        <picklistValues>
+            <masterLabel>Destructive</masterLabel>
+            <translation><!-- Destructive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non Destructive</masterLabel>
+            <translation><!-- Non Destructive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Equipment Used --></label>
+        <name>MedConnect__Tools_Used__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type of Lab --></label>
+        <name>MedConnect__Type_of_Lab__c</name>
+        <picklistValues>
+            <masterLabel>3rd Party Lab</masterLabel>
+            <translation><!-- 3rd Party Lab --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Company Lab</masterLabel>
+            <translation><!-- Company Lab --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OEM</masterLabel>
+            <translation><!-- OEM --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- UDI --></label>
+        <name>MedConnect__UDI__c</name>
+    </fields>
+    <fields>
+        <label><!-- Update Batch DHR --></label>
+        <name>MedConnect__Update_Batch_DHR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Update Lot DHR --></label>
+        <name>MedConnect__Update_Lot_DHR__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1. Why? --></label>
+        <name>MedConnect__why1__c</name>
+    </fields>
+    <fields>
+        <label><!-- 2. Why? --></label>
+        <name>MedConnect__why2__c</name>
+    </fields>
+    <fields>
+        <label><!-- 3. Why? --></label>
+        <name>MedConnect__why3__c</name>
+    </fields>
+    <fields>
+        <label><!-- 4. Why? --></label>
+        <name>MedConnect__why4__c</name>
+    </fields>
+    <fields>
+        <label><!-- 5. Why? --></label>
+        <name>MedConnect__why5__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Distribution --></label>
+        <name>Distribution</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- NCMR Investigation --></label>
+        <name>NCMR_Investigation</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Non Return Analysis --></label>
+        <name>NonReturn_Analysis</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Return Analysis --></label>
+        <name>Return_Analysis</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- &apos;Investigation Start Date&apos; is always less than &apos;Investigation End Date&apos;. --></errorMessage>
+        <name>MedConnect__Start_Date_Less_Than_End_Date</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- CAPA --></label>
+        <name>MedConnect__CAPA</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ESignature_History --></label>
+        <name>MedConnect__ESignature_History</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Initiate_Supplier_PC_SCAR --></label>
+        <name>MedConnect__Initiate_Supplier_PC_SCAR</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- View_Audit_History --></label>
+        <name>MedConnect__View_Audit_History</name>
+    </webLinks>
+</CustomObjectTranslation>

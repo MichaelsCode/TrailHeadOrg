@@ -1,3 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Action Label --></label>
+        <name>MedConnect__Action_Label__c</name>
+    </fields>
+    <fields>
+        <label><!-- Action Name --></label>
+        <name>MedConnect__Action_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Action Time Taken(Mins) --></label>
+        <name>MedConnect__Action_Time_Taken_Mins__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>MedConnect__Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Owner --></label>
+        <name>MedConnect__Current_Owner__c</name>
+        <relationshipLabel><!-- Work Order Actions (Current Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Current Technician --></label>
+        <name>MedConnect__Current_Technician__c</name>
+        <relationshipLabel><!-- Work Order Actions (Current Technician) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ESignature Captured --></label>
+        <name>MedConnect__ESignature_Captured__c</name>
+    </fields>
+    <fields>
+        <label><!-- Performed By --></label>
+        <name>MedConnect__Performed_By__c</name>
+        <relationshipLabel><!-- Work Order Actions (Performed By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Previous Action Date --></label>
+        <name>MedConnect__Previous_Action_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous Owner --></label>
+        <name>MedConnect__Previous_Owner__c</name>
+        <relationshipLabel><!-- Work Order Actions (Previous Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Previous Technician --></label>
+        <name>MedConnect__Previous_Technician__c</name>
+        <relationshipLabel><!-- Work Order Actions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Work Order --></label>
+        <name>MedConnect__Work_Order__c</name>
+        <relationshipLabel><!-- Work Order Actions --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

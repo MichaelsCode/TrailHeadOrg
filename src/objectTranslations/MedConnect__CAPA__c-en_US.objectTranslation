@@ -1,3 +1,711 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- CAPAFields --></label>
+        <name>CAPAFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CAPAListFieldSet --></label>
+        <name>CAPAListFieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CAPA_Basic_Detail --></label>
+        <name>CAPA_Basic_Detail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CAPA Detail --></label>
+        <name>CAPA_Detail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CAPA_FLDSET_DTL --></label>
+        <name>CAPA_FLDSET_DTL</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CAPA Information --></label>
+        <name>CAPA_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CAPA Owner Information --></label>
+        <name>CAPA_Owner_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CAPA Select FieldSet --></label>
+        <name>CAPA_Select_FieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CAPA Summary --></label>
+        <name>CAPA_Summary</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CAPA_Supplier_FieldSet_Columns --></label>
+        <name>CAPA_Supplier_FieldSet_Columns</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CAPA Supplier Select FieldSet --></label>
+        <name>CAPA_Supplier_Select_FieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CAPA Why Analysis --></label>
+        <name>CAPA_Why_Analysis</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ESignature View FieldSet --></label>
+        <name>ESignature_View_FieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Owner Information --></label>
+        <name>Owner_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Process FieldSet --></label>
+        <name>Process_FieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Product Fieldset --></label>
+        <name>Product_Fieldset</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- RCA FieldSet --></label>
+        <name>RCA_FieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Supplier CAPA list field --></label>
+        <name>Supplier_CAPA_list_field</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Supplier Field List --></label>
+        <name>Supplier_Field_List</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Account --></label>
+        <name>MedConnect__Account__c</name>
+        <relationshipLabel><!-- CAPA --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Short Name --></label>
+        <name>MedConnect__Adt_Short_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Adverse Affect on Finished Device --></label>
+        <name>MedConnect__Adverse_Affect_on_Finish_Device__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asset --></label>
+        <name>MedConnect__Asset__c</name>
+        <relationshipLabel><!-- CAPA --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Audit Date --></label>
+        <name>MedConnect__Audit_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brief Summary of Root Cause Analysis --></label>
+        <name>MedConnect__Brief_Summary_of_Completed_CAPA_Plan__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAPA Age --></label>
+        <name>MedConnect__CAPA_Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAPA Implemented on --></label>
+        <name>MedConnect__CAPA_Implemented_on__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAPA Plan Due Date --></label>
+        <name>MedConnect__CAPA_Plan_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAPA Record Type --></label>
+        <name>MedConnect__CAPA_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAPA Source --></label>
+        <name>MedConnect__CAPA_Source__c</name>
+        <picklistValues>
+            <masterLabel>APAC Audit</masterLabel>
+            <translation><!-- APAC Audit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSA Audit</masterLabel>
+            <translation><!-- CSA Audit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complaint</masterLabel>
+            <translation><!-- Complaint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer</masterLabel>
+            <translation><!-- Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Audit</masterLabel>
+            <translation><!-- Customer Audit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ECO</masterLabel>
+            <translation><!-- ECO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Injury</masterLabel>
+            <translation><!-- Employee Injury --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FDA Audit</masterLabel>
+            <translation><!-- FDA Audit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Improvement</masterLabel>
+            <translation><!-- Improvement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>InMetro Audit</masterLabel>
+            <translation><!-- InMetro Audit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal</masterLabel>
+            <translation><!-- Internal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Audit</masterLabel>
+            <translation><!-- Internal Audit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MRB</masterLabel>
+            <translation><!-- MRB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Notified Body Audit</masterLabel>
+            <translation><!-- Notified Body Audit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Audit</masterLabel>
+            <translation><!-- Other Audit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Safety Issue</masterLabel>
+            <translation><!-- Safety Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplier</masterLabel>
+            <translation><!-- Supplier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trend Analysis</masterLabel>
+            <translation><!-- Trend Analysis --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CAPA Type --></label>
+        <name>MedConnect__CAPA_Type__c</name>
+        <picklistValues>
+            <masterLabel>CAR</masterLabel>
+            <translation><!-- CAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complaint</masterLabel>
+            <translation><!-- Complaint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investigation</masterLabel>
+            <translation><!-- Investigation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAR</masterLabel>
+            <translation><!-- PAR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Closure Date --></label>
+        <name>MedConnect__Closure_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closure Time (Minutes) --></label>
+        <name>MedConnect__Closure_Time_Minutes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>MedConnect__Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created date --></label>
+        <name>MedConnect__Created_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Creator&apos;s Email --></label>
+        <name>MedConnect__Creator_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Due --></label>
+        <name>MedConnect__Date_Due__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Initiated --></label>
+        <name>MedConnect__Date_Initiated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effectiveness determined --></label>
+        <name>MedConnect__Effectiveness_determined__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Evidence/Effectiveness --></label>
+        <name>MedConnect__Evidence_Effectiveness__c</name>
+    </fields>
+    <fields>
+        <label><!-- Finished Device Issues Resolved --></label>
+        <name>MedConnect__Finish_Device_Issues_Resolved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Impacted Product --></label>
+        <name>MedConnect__Impacted_Product__c</name>
+        <relationshipLabel><!-- CAPA --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Implementation/Effectiveness Required? --></label>
+        <name>MedConnect__Implementation_Effectiveness_Required__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Implementation Progress --></label>
+        <name>MedConnect__Implementation_Progress__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interim Status Reason --></label>
+        <name>MedConnect__Interim_Status_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interim Status --></label>
+        <name>MedConnect__Interim_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Audit Number --></label>
+        <name>MedConnect__Internal_Audit_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Audit Required --></label>
+        <name>MedConnect__Internal_Audit_Required__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Internal Audit --></label>
+        <name>MedConnect__Internal_Audit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Investigation --></label>
+        <name>MedConnect__Investigation__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsTemplate --></label>
+        <name>MedConnect__IsTemplate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Modified Date --></label>
+        <name>MedConnect__Last_Modified_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Latest Due Date of Actions --></label>
+        <name>MedConnect__Latest_Due_Date_of_Actions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lot --></label>
+        <name>MedConnect__Lot1__c</name>
+        <relationshipLabel><!-- CAPA --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Lot Number --></label>
+        <name>MedConnect__Lot_Number_View__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deprecated Lot Number --></label>
+        <name>MedConnect__Lot_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lot Deleted --></label>
+        <name>MedConnect__Lot__c</name>
+        <relationshipLabel><!-- CAPA --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Major Non-conformance --></label>
+        <name>MedConnect__Major_Non_conformance__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- NCMR --></label>
+        <name>MedConnect__NCMR__c</name>
+        <relationshipLabel><!-- CAPA --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Non Conformance Description --></label>
+        <name>MedConnect__Non_Conformance_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Observation Details --></label>
+        <name>MedConnect__Observation_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Observation Number --></label>
+        <name>MedConnect__Observation_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Information --></label>
+        <name>MedConnect__Other_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Department --></label>
+        <name>MedConnect__Owner_Department__c</name>
+        <picklistValues>
+            <masterLabel>Clinical</masterLabel>
+            <translation><!-- Clinical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineering</masterLabel>
+            <translation><!-- Engineering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Production</masterLabel>
+            <translation><!-- Production --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchasing</masterLabel>
+            <translation><!-- Purchasing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quality Assurance</masterLabel>
+            <translation><!-- Quality Assurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation><!-- Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service</masterLabel>
+            <translation><!-- Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warehouse</masterLabel>
+            <translation><!-- Warehouse --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Owner site --></label>
+        <name>MedConnect__Owner_site__c</name>
+        <picklistValues>
+            <masterLabel>Owner Site 1</masterLabel>
+            <translation><!-- Owner Site 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Owner Site 2</masterLabel>
+            <translation><!-- Owner Site 2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Part Description --></label>
+        <name>MedConnect__Part_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Number --></label>
+        <name>MedConnect__Part_Number_View__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Number --></label>
+        <name>MedConnect__Part_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plan to Verify Effectiveness --></label>
+        <name>MedConnect__Plan_to_Verify_Effectiveness__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Contact --></label>
+        <name>MedConnect__Primary_Contact__c</name>
+        <relationshipLabel><!-- CAPA --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Problem Description --></label>
+        <name>MedConnect__Problem_Description_long__c</name>
+    </fields>
+    <fields>
+        <label><!-- Procedures Affected --></label>
+        <name>MedConnect__Procedures_Affected__c</name>
+    </fields>
+    <fields>
+        <label><!-- ProductId --></label>
+        <name>MedConnect__ProductId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Complaint --></label>
+        <name>MedConnect__Product_Complaint__c</name>
+        <relationshipLabel><!-- CAPA --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Investigation --></label>
+        <name>MedConnect__Product_Investigation__c</name>
+        <relationshipLabel><!-- CAPA --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Name --></label>
+        <name>MedConnect__Product_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Name --></label>
+        <name>MedConnect__Product_Name_view__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>MedConnect__Product__c</name>
+        <relationshipLabel><!-- CAPA --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reason For Change --></label>
+        <name>MedConnect__Reason_For_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason for Action --></label>
+        <name>MedConnect__Reason_for_Action__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Date --></label>
+        <name>MedConnect__Response_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Due Date --></label>
+        <name>MedConnect__Response_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Time (Minutes) --></label>
+        <name>MedConnect__Response_Time_Minutes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Responsible Quality Engineer --></label>
+        <name>MedConnect__Responsible_Quality_Engineer__c</name>
+        <relationshipLabel><!-- CAPA --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Root Cause --></label>
+        <name>MedConnect__Root_Cause__c</name>
+    </fields>
+    <fields>
+        <label><!-- Serial Number --></label>
+        <name>MedConnect__Serial_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Short Description --></label>
+        <name>MedConnect__Short_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Site --></label>
+        <name>MedConnect__Site__c</name>
+        <picklistValues>
+            <masterLabel>Site 1</masterLabel>
+            <translation><!-- Site 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Site 2</masterLabel>
+            <translation><!-- Site 2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status Check --></label>
+        <name>MedConnect__Status_Check__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status History --></label>
+        <name>MedConnect__Status_History__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>MedConnect__Status__c</name>
+        <picklistValues>
+            <masterLabel>Acknowledged by Supplier</masterLabel>
+            <translation><!-- Acknowledged by Supplier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review</masterLabel>
+            <translation><!-- In Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Closure Approval</masterLabel>
+            <translation><!-- Pending Closure Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolved</masterLabel>
+            <translation><!-- Resolved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplier Notified</masterLabel>
+            <translation><!-- Supplier Notified --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Root Cause Analysis Date --></label>
+        <name>MedConnect__Summary_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier Account --></label>
+        <name>MedConnect__Supplier_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier --></label>
+        <name>MedConnect__Supplier__c</name>
+        <relationshipLabel><!-- CAPA (Supplier) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- UDI --></label>
+        <name>MedConnect__UDI__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validation Date --></label>
+        <name>MedConnect__Validation_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Verification of Effectiveness Due Date --></label>
+        <name>MedConnect__Verification_of_Effectiveness_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Was effectiveness verified --></label>
+        <name>MedConnect__Was_effectiveness_verified__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Applicable</masterLabel>
+            <translation><!-- Not Applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 1. Why? --></label>
+        <name>MedConnect__Why_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- 2. Why? --></label>
+        <name>MedConnect__Why_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- 3. Why? --></label>
+        <name>MedConnect__Why_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- 4. Why? --></label>
+        <name>MedConnect__Why_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- 5. Why? --></label>
+        <name>MedConnect__Why_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1. Answer --></label>
+        <name>MedConnect__X1_Answer__c</name>
+    </fields>
+    <fields>
+        <label><!-- 2. Answer --></label>
+        <name>MedConnect__X2_Answer__c</name>
+    </fields>
+    <fields>
+        <label><!-- 3. Answer --></label>
+        <name>MedConnect__X3_Answer__c</name>
+    </fields>
+    <fields>
+        <label><!-- 4. Answer --></label>
+        <name>MedConnect__X4_Answer__c</name>
+    </fields>
+    <fields>
+        <label><!-- 5. Answer --></label>
+        <name>MedConnect__X5_Answer__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Default --></label>
+        <name>Default</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Process --></label>
+        <name>Process</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Product --></label>
+        <name>Product</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Supplier CAPA --></label>
+        <name>Supplier_CAPA</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Closure date should not be before Date Initiated --></errorMessage>
+        <name>MedConnect__Closure_date_prior_to_Initiated_Date</name>
+    </validationRules>
+</CustomObjectTranslation>

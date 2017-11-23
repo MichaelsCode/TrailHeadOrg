@@ -1,3 +1,170 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Likelihood of Detection Ranking --></label>
+        <name>MedConnect__Likelihood_of_Detection_Ranking__c</name>
+    </fields>
+    <fields>
+        <label><!-- Likelihood of Detection --></label>
+        <name>MedConnect__Likelihood_of_Detection__c</name>
+        <picklistValues>
+            <masterLabel>Absolute Uncertainty</masterLabel>
+            <translation><!-- Absolute Uncertainty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Almost Certain</masterLabel>
+            <translation><!-- Almost Certain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moderate</masterLabel>
+            <translation><!-- Moderate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moderately High</masterLabel>
+            <translation><!-- Moderately High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remote</masterLabel>
+            <translation><!-- Remote --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very High</masterLabel>
+            <translation><!-- Very High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very Low</masterLabel>
+            <translation><!-- Very Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very Remote</masterLabel>
+            <translation><!-- Very Remote --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- NCMR --></label>
+        <name>MedConnect__NCMR__c</name>
+        <relationshipLabel><!-- Risk Assessments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Probability of Recurrence Ranking --></label>
+        <name>MedConnect__Probability_of_Recurrance_Ranking__c</name>
+    </fields>
+    <fields>
+        <label><!-- Probability of Recurrence --></label>
+        <name>MedConnect__Probability_of_Recurrance__c</name>
+        <picklistValues>
+            <masterLabel>1 in 15,000</masterLabel>
+            <translation><!-- 1 in 15,000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 in 150,000</masterLabel>
+            <translation><!-- 1 in 150,000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 in 2,000</masterLabel>
+            <translation><!-- 1 in 2,000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 in 20</masterLabel>
+            <translation><!-- 1 in 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 in 3</masterLabel>
+            <translation><!-- 1 in 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 in 400</masterLabel>
+            <translation><!-- 1 in 400 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 in 8</masterLabel>
+            <translation><!-- 1 in 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 in 80</masterLabel>
+            <translation><!-- 1 in 80 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&lt;1 in 1,500,000</masterLabel>
+            <translation><!-- &lt;1 in 1,500,000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;1 in 2</masterLabel>
+            <translation><!-- &gt;1 in 2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Lot Number --></label>
+        <name>MedConnect__Product_Lot1__c</name>
+        <relationshipLabel><!-- Risk Assessments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Lot Master Deprecated --></label>
+        <name>MedConnect__Product_Lot__c</name>
+        <relationshipLabel><!-- Risk Assessments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RPN Status --></label>
+        <name>MedConnect__RPN_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- RPN --></label>
+        <name>MedConnect__RPN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Severity Ranking --></label>
+        <name>MedConnect__Severity_Ranking__c</name>
+    </fields>
+    <fields>
+        <label><!-- Severity --></label>
+        <name>MedConnect__Severity__c</name>
+        <picklistValues>
+            <masterLabel>Catastrophic</masterLabel>
+            <translation><!-- Catastrophic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extreme</masterLabel>
+            <translation><!-- Extreme --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minor</masterLabel>
+            <translation><!-- Minor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moderate</masterLabel>
+            <translation><!-- Moderate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very High</masterLabel>
+            <translation><!-- Very High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very Low</masterLabel>
+            <translation><!-- Very Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very Minor</masterLabel>
+            <translation><!-- Very Minor --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

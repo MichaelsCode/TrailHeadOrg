@@ -1,3 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Value should be Formula/Static. --></help>
+        <label><!-- Assigned Type --></label>
+        <name>MedConnect__Assigned_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned Value --></label>
+        <name>MedConnect__Assigned_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destination Field API Name --></label>
+        <name>MedConnect__Destination_Field_API_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destination Object API Name --></label>
+        <name>MedConnect__Destination_Object_API_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Type --></label>
+        <name>MedConnect__Field_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Active --></label>
+        <name>MedConnect__Is_Active__c</name>
+    </fields>
+</CustomObjectTranslation>

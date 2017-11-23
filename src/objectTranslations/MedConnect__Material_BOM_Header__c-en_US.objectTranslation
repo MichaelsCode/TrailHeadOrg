@@ -1,3 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Adt Short Name --></label>
+        <name>MedConnect__Adt_Short_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asset Batch Number --></label>
+        <name>MedConnect__Asset_Batch_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asset Lot Number --></label>
+        <name>MedConnect__Asset_Lot_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asset Serial Number --></label>
+        <name>MedConnect__Asset_Serial_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asset --></label>
+        <name>MedConnect__Asset__c</name>
+        <relationshipLabel><!-- Material BOM --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Inspection Cost --></label>
+        <name>MedConnect__Inspection_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Picture --></label>
+        <name>MedConnect__Picture__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Description --></label>
+        <name>MedConnect__Product_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Design --></label>
+        <name>MedConnect__Product_Design__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason For Change --></label>
+        <name>MedConnect__Reason_For_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Revision Level --></label>
+        <name>MedConnect__Revision_Level__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D</masterLabel>
+            <translation><!-- D --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

@@ -1,3 +1,352 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- RA Edit Information --></label>
+        <name>RA_Edit_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- RA Edit View --></label>
+        <name>RA_Edit_View</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- RA List View --></label>
+        <name>RA_List_View</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- RA edit Repair Cost --></label>
+        <name>RA_edit_Repair_Cost</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- TrunkStockEditFieldSet --></label>
+        <name>TrunkStockEditFieldSet</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Action --></label>
+        <name>MedConnect__Action__c</name>
+        <picklistValues>
+            <masterLabel>Initiate Repair</masterLabel>
+            <translation><!-- Initiate Repair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loaner Item</masterLabel>
+            <translation><!-- Loaner Item --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loaner Pick-Up Completed</masterLabel>
+            <translation><!-- Loaner Pick-Up Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outbound Delivery Item</masterLabel>
+            <translation><!-- Outbound Delivery Item --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perform Repairs</masterLabel>
+            <translation><!-- Perform Repairs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Procuring Item</masterLabel>
+            <translation><!-- Procuring Item --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scrap the goods</masterLabel>
+            <translation><!-- Scrap the goods --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Activity --></label>
+        <name>MedConnect__Activity__c</name>
+        <relationshipLabel><!-- Repair Analysis And Parts Used --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Additional Cost --></label>
+        <name>MedConnect__Additional_Charges__c</name>
+    </fields>
+    <fields>
+        <label><!-- Short Name --></label>
+        <name>MedConnect__Adt_Short_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asset Material BOM --></label>
+        <name>MedConnect__Asset_Material_BOM__c</name>
+        <relationshipLabel><!-- Repair Analysis And Parts Used --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>MedConnect__Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost --></label>
+        <name>MedConnect__Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Defect Code --></label>
+        <name>MedConnect__Defect_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Defective Part Name --></label>
+        <name>MedConnect__Defective_Part_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Defective Part Number --></label>
+        <name>MedConnect__Defective_Part_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destination Inventory --></label>
+        <name>MedConnect__Destination_Inventory__c</name>
+        <relationshipLabel><!-- Repair Analysis And Parts Used (Destination Inventory) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Fault Code --></label>
+        <name>MedConnect__Fault_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Installed Asset --></label>
+        <name>MedConnect__Installed_Asset__c</name>
+        <relationshipLabel><!-- Repair Analysis And Parts Used (Installed Asset) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Inventory Line Item --></label>
+        <name>MedConnect__Inventory_Line_Item__c</name>
+        <relationshipLabel><!-- Repair Analysis And Parts Used --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Inventory Order Fulfillment Mode --></label>
+        <name>MedConnect__Inventory_Order_Fulfillment_Mode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory Order Line Item --></label>
+        <name>MedConnect__Inventory_Order_Line_Item__c</name>
+        <relationshipLabel><!-- Repair Analysis And Parts Used --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Inventory Order Status --></label>
+        <name>MedConnect__Inventory_Order_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory Type --></label>
+        <name>MedConnect__Inventory_Type__c</name>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation><!-- Product --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Is Installed --></label>
+        <name>MedConnect__Is_Installed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Labor Cost --></label>
+        <name>MedConnect__Labor_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Material BOM Line Item --></label>
+        <name>MedConnect__Material_BOM_Item__c</name>
+        <relationshipLabel><!-- Repair Analysis And Parts Used --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Parent WO Asset --></label>
+        <name>MedConnect__Parent_WO_Asset__c</name>
+        <relationshipLabel><!-- Repair Analysis And Parts Used (Parent WO Asset) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Part Name --></label>
+        <name>MedConnect__Part_Name_Product__c</name>
+        <relationshipLabel><!-- Repair Analysis And Parts Used --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Part Name --></label>
+        <name>MedConnect__Part_Name__c</name>
+        <relationshipLabel><!-- Repair Analysis And Parts Used --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Part Type --></label>
+        <name>MedConnect__Part_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parts Cost --></label>
+        <name>MedConnect__Parts_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>MedConnect__Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason For Change --></label>
+        <name>MedConnect__Reason_For_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Repair Code --></label>
+        <name>MedConnect__Repair_Code__c</name>
+        <picklistValues>
+            <masterLabel>RC00001</masterLabel>
+            <translation><!-- RC00001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RC00002</masterLabel>
+            <translation><!-- RC00002 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RC00003</masterLabel>
+            <translation><!-- RC00003 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RC00004</masterLabel>
+            <translation><!-- RC00004 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RC00005</masterLabel>
+            <translation><!-- RC00005 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RC00006</masterLabel>
+            <translation><!-- RC00006 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RC00007</masterLabel>
+            <translation><!-- RC00007 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RC00008</masterLabel>
+            <translation><!-- RC00008 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RC00009</masterLabel>
+            <translation><!-- RC00009 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RC00010</masterLabel>
+            <translation><!-- RC00010 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Repair Operation Code --></label>
+        <name>MedConnect__Repair_Operation_Code__c</name>
+        <picklistValues>
+            <masterLabel>Refurbish</masterLabel>
+            <translation><!-- Refurbish --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remove and Refit</masterLabel>
+            <translation><!-- Remove and Refit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remove and Replace</masterLabel>
+            <translation><!-- Remove and Replace --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remove and Replace New</masterLabel>
+            <translation><!-- Remove and Replace New --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Replaced Part Number --></label>
+        <name>MedConnect__Replaced_Part_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Inventory --></label>
+        <name>MedConnect__Source_Inventory__c</name>
+        <relationshipLabel><!-- Repair Analysis And Parts Used --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>MedConnect__Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Installed</masterLabel>
+            <translation><!-- Installed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uninstalled</masterLabel>
+            <translation><!-- Uninstalled --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tax --></label>
+        <name>MedConnect__Tax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Cost --></label>
+        <name>MedConnect__Total_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trouble Code --></label>
+        <name>MedConnect__Trouble_Code__c</name>
+        <picklistValues>
+            <masterLabel>TC00001</masterLabel>
+            <translation><!-- TC00001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TC00002</masterLabel>
+            <translation><!-- TC00002 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TC00003</masterLabel>
+            <translation><!-- TC00003 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TC00004</masterLabel>
+            <translation><!-- TC00004 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TC00005</masterLabel>
+            <translation><!-- TC00005 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TC00006</masterLabel>
+            <translation><!-- TC00006 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TC00007</masterLabel>
+            <translation><!-- TC00007 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TC00008</masterLabel>
+            <translation><!-- TC00008 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TC00009</masterLabel>
+            <translation><!-- TC00009 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TC00010</masterLabel>
+            <translation><!-- TC00010 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Uninstalled Asset --></label>
+        <name>MedConnect__Uninstalled_Asset__c</name>
+        <relationshipLabel><!-- Repair Analysis And Parts Used --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Work Order --></label>
+        <name>MedConnect__Work_Order__c</name>
+        <relationshipLabel><!-- Repair Analysis And Parts Used --></relationshipLabel>
+    </fields>
+    <webLinks>
+        <label><!-- Install --></label>
+        <name>MedConnect__Install</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Repair_Analysis_And_Parts_Used --></label>
+        <name>MedConnect__New_Repair_Analysis_And_Parts_Used</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Uninstall --></label>
+        <name>MedConnect__Uninstall</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- View_Asset_Hierarchy --></label>
+        <name>MedConnect__View_Asset_Hierarchy</name>
+    </webLinks>
+</CustomObjectTranslation>

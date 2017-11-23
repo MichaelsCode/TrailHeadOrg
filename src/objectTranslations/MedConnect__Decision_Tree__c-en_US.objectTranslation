@@ -1,3 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Active --></label>
+        <name>MedConnect__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Adt Short Name --></label>
+        <name>MedConnect__Adt_Short_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Decision Tree Flow Name --></label>
+        <name>MedConnect__Decision_Tree_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regulatory Authority --></label>
+        <name>MedConnect__Regulatory_Authority__c</name>
+        <relationshipLabel><!-- Decision Tree --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reporting Form Name --></label>
+        <name>MedConnect__Reporting_Form_Name__c</name>
+    </fields>
+</CustomObjectTranslation>

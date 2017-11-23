@@ -1,3 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Activated --></label>
+        <name>MedConnect__Activated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Audit Trail --></label>
+        <name>MedConnect__Audit_Trail__c</name>
+        <relationshipLabel><!-- Audit Trail Detail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>MedConnect__Category__c</name>
+        <picklistValues>
+            <masterLabel>Field</masterLabel>
+            <translation><!-- Field --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Record Type</masterLabel>
+            <translation><!-- Record Type --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relationship</masterLabel>
+            <translation><!-- Relationship --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Enabled --></label>
+        <name>MedConnect__Enabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field API Name --></label>
+        <name>MedConnect__Field_API_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Trace Key --></label>
+        <name>MedConnect__Parent_Trace_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason for Change --></label>
+        <name>MedConnect__Reason_for_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference Object API Name --></label>
+        <name>MedConnect__Reference_Object_API_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- History Table Field Name --></label>
+        <name>MedConnect__TargetFieldApiName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>MedConnect__Type__c</name>
+        <picklistValues>
+            <masterLabel>Child</masterLabel>
+            <translation><!-- Child --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Date</masterLabel>
+            <translation><!-- Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DateTime</masterLabel>
+            <translation><!-- DateTime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parent</masterLabel>
+            <translation><!-- Parent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reference</masterLabel>
+            <translation><!-- Reference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Text</masterLabel>
+            <translation><!-- Text --></translation>
+        </picklistValues>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Cannot modify any Mapping in Audit Trail Detail As it is Activated --></errorMessage>
+        <name>MedConnect__Cannot_Change_any_field_if_Activated</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Reference Object API Name is mandatory for Field Type Reference --></errorMessage>
+        <name>MedConnect__Referece_Object_API_Name</name>
+    </validationRules>
+</CustomObjectTranslation>

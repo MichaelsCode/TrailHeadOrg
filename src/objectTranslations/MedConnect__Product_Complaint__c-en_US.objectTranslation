@@ -1,3 +1,1811 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- ESignature View FieldSet --></label>
+        <name>ESignature_View_FieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Edit_Details_Action_Sec --></label>
+        <name>Edit_Details_Action_Sec</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Edit_Details_Event_Sec --></label>
+        <name>Edit_Details_Event_Sec</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Edit_Details_General_Sec --></label>
+        <name>Edit_Details_General_Sec</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Edit_Details_Other_Sec --></label>
+        <name>Edit_Details_Other_Sec</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Edit_Details_Patient_Sec --></label>
+        <name>Edit_Details_Patient_Sec</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Edit Details Reporter Sec --></label>
+        <name>Edit_Details_Reporter_Sec</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Incident Quality Medical Edit --></label>
+        <name>Incident_Quality_Medical_Edit</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Incident Quality Non Medical Edit --></label>
+        <name>Incident_Quality_Non_Medical_Edit</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Medical Device Edit Details Action Sec --></label>
+        <name>Medical_Device_Edit_Details_Action_Sec</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Medical Device Edit Details Action Taken Sec --></label>
+        <name>Medical_Device_Edit_Details_Action_Taken</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Medical Device Edit Details Event Sec --></label>
+        <name>Medical_Device_Edit_Details_Event_Sec</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Medical Device Edit Details Patient Sec --></label>
+        <name>Medical_Device_Edit_Details_Patient_Sec</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- PcToAssetFieldSet --></label>
+        <name>PcToAssetFieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- PdtComplaintInfo --></label>
+        <name>PdtComplaintInfo</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Supplier Edit Details Action Sec --></label>
+        <name>Supplier_Edit_Details_Action_Sec</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Supplier Edit Details Event Sec --></label>
+        <name>Supplier_Edit_Details_Event_Sec</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Supplier Edit Details Other Sec --></label>
+        <name>Supplier_Edit_Details_Other_Sec</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Supplier Edit Details Patient Sec --></label>
+        <name>Supplier_Edit_Details_Patient_Sec</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Supplier Information --></label>
+        <name>Supplier_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- supplier pc list field --></label>
+        <name>supplier_pc_list_field</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>MedConnect__Account_Name__c</name>
+        <relationshipLabel><!-- Product Complaints --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Acknowledgement Action Date --></label>
+        <name>MedConnect__Acknowledgement_Action_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acknowledgement Action Requested --></label>
+        <name>MedConnect__Acknowledgement_Action_Requested__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Acknowledgement Action Taken --></label>
+        <name>MedConnect__Acknowledgement_Action_Taken__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Additional Manufacturer Narrative --></label>
+        <name>MedConnect__Additional_Manufacturer_Narrative__c</name>
+    </fields>
+    <fields>
+        <label><!-- Short Name --></label>
+        <name>MedConnect__Adt_Short_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date and Time when user logs the Complaint --></help>
+        <label><!-- Alert Date --></label>
+        <name>MedConnect__Alert_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asset Not Found? --></label>
+        <name>MedConnect__Asset_Not_Found__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asset --></label>
+        <name>MedConnect__Asset__c</name>
+        <relationshipLabel><!-- Product Complaints --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Deprecated Batch Number --></label>
+        <name>MedConnect__Batch_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Complaint Closure Date --></label>
+        <name>MedConnect__Closed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closure Time (Minutes) --></label>
+        <name>MedConnect__Closure_Time_Minutes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check if Codes are documented and complete --></help>
+        <label><!-- Codes Documentation Completed ? --></label>
+        <name>MedConnect__Codes_documentation_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comment --></label>
+        <name>MedConnect__Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Description(Unused) --></label>
+        <name>MedConnect__Complaint_Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check if Investigation related to Complaint are complete --></help>
+        <label><!-- Investigation Complete? --></label>
+        <name>MedConnect__Complaint_Investigation_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Complaint Type --></label>
+        <name>MedConnect__Complaint_Type__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D</masterLabel>
+            <translation><!-- D --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Concomitant Products --></label>
+        <name>MedConnect__Concomitant_Products__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consequence Code --></label>
+        <name>MedConnect__Consequence_Code__c</name>
+        <picklistValues>
+            <masterLabel>ab1234</masterLabel>
+            <translation><!-- ab1234 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ab1235</masterLabel>
+            <translation><!-- ab1235 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>dz1234</masterLabel>
+            <translation><!-- dz1234 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>hr9432</masterLabel>
+            <translation><!-- hr9432 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>hr9876</masterLabel>
+            <translation><!-- hr9876 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>in2367</masterLabel>
+            <translation><!-- in2367 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>in8764</masterLabel>
+            <translation><!-- in8764 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Consequence Description --></label>
+        <name>MedConnect__Consequence_Description__c</name>
+        <picklistValues>
+            <masterLabel>Death</masterLabel>
+            <translation><!-- Death --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disability</masterLabel>
+            <translation><!-- Disability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dizziness</masterLabel>
+            <translation><!-- Dizziness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Headache</masterLabel>
+            <translation><!-- Headache --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospitalization</masterLabel>
+            <translation><!-- Hospitalization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infection</masterLabel>
+            <translation><!-- Infection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Injury</masterLabel>
+            <translation><!-- Injury --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contact Name --></label>
+        <name>MedConnect__Contact_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>MedConnect__Contact__c</name>
+        <relationshipLabel><!-- Product Complaints --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Corrected Data --></label>
+        <name>MedConnect__Corrected_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Corrective Action --></label>
+        <name>MedConnect__Corrective_Action__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country of Event --></label>
+        <name>MedConnect__Country_Of_Event_Occurance__c</name>
+        <picklistValues>
+            <masterLabel>Argentina</masterLabel>
+            <translation><!-- Argentina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Australia</masterLabel>
+            <translation><!-- Australia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Austria</masterLabel>
+            <translation><!-- Austria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belgium</masterLabel>
+            <translation><!-- Belgium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bosnia and Herzegovina</masterLabel>
+            <translation><!-- Bosnia and Herzegovina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brazil</masterLabel>
+            <translation><!-- Brazil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bulgaria</masterLabel>
+            <translation><!-- Bulgaria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada</masterLabel>
+            <translation><!-- Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chile</masterLabel>
+            <translation><!-- Chile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>China</masterLabel>
+            <translation><!-- China --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Columbia</masterLabel>
+            <translation><!-- Columbia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Costa Rica</masterLabel>
+            <translation><!-- Costa Rica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Croatia</masterLabel>
+            <translation><!-- Croatia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cyprus</masterLabel>
+            <translation><!-- Cyprus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Czech Republic</masterLabel>
+            <translation><!-- Czech Republic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denmark</masterLabel>
+            <translation><!-- Denmark --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dominican Republic</masterLabel>
+            <translation><!-- Dominican Republic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Egypt</masterLabel>
+            <translation><!-- Egypt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estonia</masterLabel>
+            <translation><!-- Estonia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finland</masterLabel>
+            <translation><!-- Finland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>France</masterLabel>
+            <translation><!-- France --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Germany</masterLabel>
+            <translation><!-- Germany --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Great Britain</masterLabel>
+            <translation><!-- Great Britain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greece</masterLabel>
+            <translation><!-- Greece --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hong Kong</masterLabel>
+            <translation><!-- Hong Kong --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hungary</masterLabel>
+            <translation><!-- Hungary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iceland</masterLabel>
+            <translation><!-- Iceland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation><!-- India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indonesia</masterLabel>
+            <translation><!-- Indonesia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Israel</masterLabel>
+            <translation><!-- Israel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Italy</masterLabel>
+            <translation><!-- Italy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Japan</masterLabel>
+            <translation><!-- Japan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kosovo</masterLabel>
+            <translation><!-- Kosovo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latvia</masterLabel>
+            <translation><!-- Latvia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liechtenstein</masterLabel>
+            <translation><!-- Liechtenstein --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lithuania</masterLabel>
+            <translation><!-- Lithuania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Luxembourg</masterLabel>
+            <translation><!-- Luxembourg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Macedonia</masterLabel>
+            <translation><!-- Macedonia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malaysia</masterLabel>
+            <translation><!-- Malaysia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malta</masterLabel>
+            <translation><!-- Malta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mexico</masterLabel>
+            <translation><!-- Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montenegro</masterLabel>
+            <translation><!-- Montenegro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Zealand</masterLabel>
+            <translation><!-- New Zealand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norway</masterLabel>
+            <translation><!-- Norway --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peru</masterLabel>
+            <translation><!-- Peru --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Philippines</masterLabel>
+            <translation><!-- Philippines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poland</masterLabel>
+            <translation><!-- Poland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portugal</masterLabel>
+            <translation><!-- Portugal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Republic of Ireland</masterLabel>
+            <translation><!-- Republic of Ireland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Romania</masterLabel>
+            <translation><!-- Romania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Russia</masterLabel>
+            <translation><!-- Russia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Serbia</masterLabel>
+            <translation><!-- Serbia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Singapore</masterLabel>
+            <translation><!-- Singapore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slovakia</masterLabel>
+            <translation><!-- Slovakia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slovenia</masterLabel>
+            <translation><!-- Slovenia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Africa</masterLabel>
+            <translation><!-- South Africa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Korea</masterLabel>
+            <translation><!-- South Korea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spain</masterLabel>
+            <translation><!-- Spain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sweden</masterLabel>
+            <translation><!-- Sweden --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Switzerland</masterLabel>
+            <translation><!-- Switzerland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taiwan</masterLabel>
+            <translation><!-- Taiwan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thailand</masterLabel>
+            <translation><!-- Thailand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Netherlands</masterLabel>
+            <translation><!-- The Netherlands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkey</masterLabel>
+            <translation><!-- Turkey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USA</masterLabel>
+            <translation><!-- USA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uruguay</masterLabel>
+            <translation><!-- Uruguay --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Creator&apos;s Email --></label>
+        <name>MedConnect__Creator_Email__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check if refund to customer is complete --></help>
+        <label><!-- Refund Complete? --></label>
+        <name>MedConnect__Customer_Refund_Complete__c</name>
+    </fields>
+    <fields>
+        <help><!-- Relevant if outcomes attributed to adverse event is &quot;Death&quot; --></help>
+        <label><!-- Date of Death --></label>
+        <name>MedConnect__Date_of_Death__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Encounter --></label>
+        <name>MedConnect__Date_of_Encounter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Event --></label>
+        <name>MedConnect__Date_of_Event__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Date --></label>
+        <name>MedConnect__Date_of_Report__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date the record was voided --></help>
+        <label><!-- Date of Void --></label>
+        <name>MedConnect__Date_of_Void__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Response Time(In days) --></label>
+        <name>MedConnect__Default_Response_Time_In_days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Batch Number --></label>
+        <name>MedConnect__Device_Dtl_Batch_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brand Name --></label>
+        <name>MedConnect__Device_Dtl_Brand_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lot Number --></label>
+        <name>MedConnect__Device_Dtl_Lot_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturing Location --></label>
+        <name>MedConnect__Device_Dtl_Manufacturing_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Serial Number --></label>
+        <name>MedConnect__Device_Dtl_Serial_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- UDI --></label>
+        <name>MedConnect__Device_Dtl_UDI__c</name>
+    </fields>
+    <fields>
+        <label><!-- Device Evaluated by Manufacturer? --></label>
+        <name>MedConnect__Device_Evaluated_by_Manufacturer__c</name>
+        <picklistValues>
+            <masterLabel>Evaluation Summary Attached</masterLabel>
+            <translation><!-- Evaluation Summary Attached --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Returned to Manufacturer</masterLabel>
+            <translation><!-- Not Returned to Manufacturer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Date of Expiry --></label>
+        <name>MedConnect__Device_Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Device Failure Code --></label>
+        <name>MedConnect__Device_Failure_Code__c</name>
+        <picklistValues>
+            <masterLabel>C1</masterLabel>
+            <translation><!-- C1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C2</masterLabel>
+            <translation><!-- C2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Date of Manufacture --></label>
+        <name>MedConnect__Device_Manufacture_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implant Duration --></label>
+        <name>MedConnect__Duration_of_Implantation__c</name>
+    </fields>
+    <fields>
+        <help><!-- Auto Populate form the in-built flow wizard --></help>
+        <label><!-- Event Date --></label>
+        <name>MedConnect__Event_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Description (Local) --></label>
+        <name>MedConnect__Event_Description_Local__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Description --></label>
+        <name>MedConnect__Event_Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Auto Populate form the in-built flow wizard --></help>
+        <label><!-- Event Month --></label>
+        <name>MedConnect__Event_Month__c</name>
+        <picklistValues>
+            <masterLabel>April</masterLabel>
+            <translation><!-- April --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>August</masterLabel>
+            <translation><!-- August --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>December</masterLabel>
+            <translation><!-- December --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>February</masterLabel>
+            <translation><!-- February --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>January</masterLabel>
+            <translation><!-- January --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>July</masterLabel>
+            <translation><!-- July --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>June</masterLabel>
+            <translation><!-- June --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>March</masterLabel>
+            <translation><!-- March --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>May</masterLabel>
+            <translation><!-- May --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>November</masterLabel>
+            <translation><!-- November --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>October</masterLabel>
+            <translation><!-- October --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>September</masterLabel>
+            <translation><!-- September --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Auto Populate form the in-built flow wizard --></help>
+        <label><!-- Event Year --></label>
+        <name>MedConnect__Event_Year__c</name>
+        <picklistValues>
+            <masterLabel>2000</masterLabel>
+            <translation><!-- 2000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2001</masterLabel>
+            <translation><!-- 2001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2002</masterLabel>
+            <translation><!-- 2002 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2003</masterLabel>
+            <translation><!-- 2003 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2004</masterLabel>
+            <translation><!-- 2004 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2005</masterLabel>
+            <translation><!-- 2005 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2006</masterLabel>
+            <translation><!-- 2006 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2007</masterLabel>
+            <translation><!-- 2007 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2008</masterLabel>
+            <translation><!-- 2008 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2009</masterLabel>
+            <translation><!-- 2009 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2010</masterLabel>
+            <translation><!-- 2010 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2011</masterLabel>
+            <translation><!-- 2011 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2012</masterLabel>
+            <translation><!-- 2012 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2013</masterLabel>
+            <translation><!-- 2013 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2014</masterLabel>
+            <translation><!-- 2014 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2015</masterLabel>
+            <translation><!-- 2015 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2016</masterLabel>
+            <translation><!-- 2016 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2017</masterLabel>
+            <translation><!-- 2017 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Expiration Date --></label>
+        <name>MedConnect__Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Explant --></label>
+        <name>MedConnect__Explantation_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fault Code --></label>
+        <name>MedConnect__Fault_Code__c</name>
+        <picklistValues>
+            <masterLabel>S1</masterLabel>
+            <translation><!-- S1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S2</masterLabel>
+            <translation><!-- S2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S3</masterLabel>
+            <translation><!-- S3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Field Action Required? --></label>
+        <name>MedConnect__Field_Action_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Height (cm) --></label>
+        <name>MedConnect__Height_cm__c</name>
+    </fields>
+    <fields>
+        <label><!-- Impacted Product --></label>
+        <name>MedConnect__Impacted_Product_CAPA__c</name>
+        <relationshipLabel><!-- Product Complaints --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date of Implant --></label>
+        <name>MedConnect__Implantation_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incident Happened Due To --></label>
+        <name>MedConnect__Incident_Happened_Due_To__c</name>
+        <picklistValues>
+            <masterLabel>Investigational testing</masterLabel>
+            <translation><!-- Investigational testing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special Access Program</masterLabel>
+            <translation><!-- Special Access Program --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Incident --></label>
+        <name>MedConnect__Incident__c</name>
+        <relationshipLabel><!-- Product Complaint --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Injury Date --></label>
+        <name>MedConnect__Injury_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Injury Occured --></label>
+        <name>MedConnect__Injury_Occured__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invalid Complaint --></label>
+        <name>MedConnect__Invalid_Complaint__c</name>
+    </fields>
+    <fields>
+        <label><!-- Investigation Required? --></label>
+        <name>MedConnect__Investigation_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsEscalated --></label>
+        <name>MedConnect__IsEscalated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Supplier Owner --></label>
+        <name>MedConnect__Is_Supplier_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Single Use Device? --></label>
+        <name>MedConnect__Is_this_a_Single_use_Device__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Language --></label>
+        <name>MedConnect__Language__c</name>
+        <picklistValues>
+            <masterLabel>English</masterLabel>
+            <translation><!-- English --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>French</masterLabel>
+            <translation><!-- French --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>German</masterLabel>
+            <translation><!-- German --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Loaner Dispatched --></label>
+        <name>MedConnect__Loaner_Dispatched__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loaner Requested --></label>
+        <name>MedConnect__Loaner_Requested__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deprecated Lot Number --></label>
+        <name>MedConnect__Lot_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Location --></label>
+        <name>MedConnect__Manufacturer_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Name --></label>
+        <name>MedConnect__Manufacturer_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Number --></label>
+        <name>MedConnect__Manufacturer_Report_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturing Location --></label>
+        <name>MedConnect__Manufacturing_Location__c</name>
+        <relationshipLabel><!-- Product Complaints --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Current Location of Medical Device --></label>
+        <name>MedConnect__Medical_device_current_location__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter Name and Address of Reprocessor if the Device was Reprocessed and Reused on a Patient --></help>
+        <label><!-- Name and Address of Reprocessor --></label>
+        <name>MedConnect__Name_and_Address_of_Reprocessor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check if the Complaint need to be Reported --></help>
+        <label><!-- Need Reporting --></label>
+        <name>MedConnect__Need_Reporting__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Medical Devices --></label>
+        <name>MedConnect__Number_of_medical_devices__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of affected Patients --></label>
+        <name>MedConnect__Number_of_patients__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please enter details if operator of device is lot listed and selected as &quot;Other&quot; --></help>
+        <label><!-- Device Operator (Other) --></label>
+        <name>MedConnect__Operator_of_Device_Other__c</name>
+    </fields>
+    <fields>
+        <help><!-- Health professional = physician, nurse, respiratory therapist, etc.
+Lay user/patient = person being treated, parent/spouse/friend of the patient
+Other = nurses aide, orderly, etc. --></help>
+        <label><!-- Device Operator --></label>
+        <name>MedConnect__Operator_of_device__c</name>
+        <picklistValues>
+            <masterLabel>Health Professional</masterLabel>
+            <translation><!-- Health Professional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lay User</masterLabel>
+            <translation><!-- Lay User --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Patient</masterLabel>
+            <translation><!-- Patient --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Health professional = physician, nurse, respiratory therapist, etc.
+Lay user/patient = person being treated, parent/spouse/friend of the patient
+Other = nurses aide, orderly, etc. --></help>
+        <label><!-- Operator of the device --></label>
+        <name>MedConnect__Operator_of_the_device__c</name>
+        <picklistValues>
+            <masterLabel>Health Professional</masterLabel>
+            <translation><!-- Health Professional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lay User/Patient</masterLabel>
+            <translation><!-- Lay User/Patient --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- (Select all that apply) --></help>
+        <label><!-- Outcome on the Patient --></label>
+        <name>MedConnect__Outcomes_Attributed_to_Adverse_Event__c</name>
+        <picklistValues>
+            <masterLabel>Congenital Anomaly/Birth Defect</masterLabel>
+            <translation><!-- Congenital Anomaly/Birth Defect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Death</masterLabel>
+            <translation><!-- Death --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disability or Permanent Damage</masterLabel>
+            <translation><!-- Disability or Permanent Damage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospitalization - initial or prolonged</masterLabel>
+            <translation><!-- Hospitalization - initial or prolonged --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Life-threatening</masterLabel>
+            <translation><!-- Life-threatening --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Serious (Important Medical Events)</masterLabel>
+            <translation><!-- Other Serious (Important Medical Events) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reqd. Intervention to Prevent Damage</masterLabel>
+            <translation><!-- Reqd. Intervention to Prevent Damage --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Owner Profile --></label>
+        <name>MedConnect__Owner_Profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Age Unit --></label>
+        <name>MedConnect__Patient_Age_Unit__c</name>
+        <picklistValues>
+            <masterLabel>Days</masterLabel>
+            <translation><!-- Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Months</masterLabel>
+            <translation><!-- Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Years</masterLabel>
+            <translation><!-- Years --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Patient age at the time of event --></label>
+        <name>MedConnect__Patient_Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Patient DOB --></label>
+        <name>MedConnect__Patient_DOB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Height Unit --></label>
+        <name>MedConnect__Patient_Height_Unit__c</name>
+        <picklistValues>
+            <masterLabel>cms</masterLabel>
+            <translation><!-- cms --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ft</masterLabel>
+            <translation><!-- ft --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Height of the patient --></label>
+        <name>MedConnect__Patient_Height__c</name>
+    </fields>
+    <fields>
+        <label><!-- Patient Identifier --></label>
+        <name>MedConnect__Patient_Identifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weight Unit --></label>
+        <name>MedConnect__Patient_Weight_Unit__c</name>
+        <picklistValues>
+            <masterLabel>kgs</masterLabel>
+            <translation><!-- kgs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>lbs</masterLabel>
+            <translation><!-- lbs --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Weight of the patient --></label>
+        <name>MedConnect__Patient_Weight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Patient Outcome Description --></label>
+        <name>MedConnect__Patient_outcome__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preventive Action --></label>
+        <name>MedConnect__Preventive_Action__c</name>
+    </fields>
+    <fields>
+        <label><!-- Problem Description --></label>
+        <name>MedConnect__Problem_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Processing Status History --></label>
+        <name>MedConnect__Processing_Status_History__c</name>
+    </fields>
+    <fields>
+        <label><!-- Processing Status --></label>
+        <name>MedConnect__Processing_Status__c</name>
+        <picklistValues>
+            <masterLabel>Accepted</masterLabel>
+            <translation><!-- Accepted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Acknowledged by Supplier</masterLabel>
+            <translation><!-- Acknowledged by Supplier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Closure Approval</masterLabel>
+            <translation><!-- Pending Closure Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending reportability approval</masterLabel>
+            <translation><!-- Pending reportability approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reportability Added</masterLabel>
+            <translation><!-- Reportability Added --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reportability approved</masterLabel>
+            <translation><!-- Reportability approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolved</masterLabel>
+            <translation><!-- Resolved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Voided</masterLabel>
+            <translation><!-- Voided --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work In Progress</masterLabel>
+            <translation><!-- Work In Progress --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ProductIds --></label>
+        <name>MedConnect__ProductIds__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Name --></label>
+        <name>MedConnect__Product_Name__c</name>
+        <relationshipLabel><!-- Product Complaints --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Recall Required? --></label>
+        <name>MedConnect__Product_Recall_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product available with Manufacturer? --></label>
+        <name>MedConnect__Product_Received_by_Manufacturer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product received by Manufacturer on --></label>
+        <name>MedConnect__Product_Received_by_Manufacturer_on__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fault Code --></label>
+        <name>MedConnect__Product_Subject_Code__c</name>
+        <picklistValues>
+            <masterLabel>C1</masterLabel>
+            <translation><!-- C1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C2</masterLabel>
+            <translation><!-- C2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Impacted Product --></label>
+        <name>MedConnect__RPT_Impacted_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason For Change --></label>
+        <name>MedConnect__Reason_for_Change__c</name>
+    </fields>
+    <fields>
+        <help><!-- Auto Populate form the in-built flow wizard --></help>
+        <label><!-- Received Date --></label>
+        <name>MedConnect__Received_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check if Regulatory Reports are complete --></help>
+        <label><!-- Regulatory Reports Completed ? --></label>
+        <name>MedConnect__Regulatory_Reports_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Product Complaint --></label>
+        <name>MedConnect__Related_Product_Complaint__c</name>
+        <relationshipLabel><!-- Supplier Product Complaints --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Medical History --></label>
+        <name>MedConnect__Relevent_Hist_Preexisting_Med_Condition__c</name>
+    </fields>
+    <fields>
+        <label><!-- Second Remedial Action --></label>
+        <name>MedConnect__Remedial_action_taken_2nd__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Remedial Action --></label>
+        <name>MedConnect__Remedial_action_taken__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check if replacement product is sent to customer --></help>
+        <label><!-- Replacement Complete ? --></label>
+        <name>MedConnect__Replacement_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Date/Time --></label>
+        <name>MedConnect__Report_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Due Date(Unused) --></label>
+        <name>MedConnect__Report_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Source Others --></label>
+        <name>MedConnect__Report_Source_Others__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Source --></label>
+        <name>MedConnect__Report_Source__c</name>
+        <picklistValues>
+            <masterLabel>Company Representative</masterLabel>
+            <translation><!-- Company Representative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer</masterLabel>
+            <translation><!-- Consumer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributor</masterLabel>
+            <translation><!-- Distributor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foreign</masterLabel>
+            <translation><!-- Foreign --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health Professional</masterLabel>
+            <translation><!-- Health Professional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Literature</masterLabel>
+            <translation><!-- Literature --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Study</masterLabel>
+            <translation><!-- Study --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User Facility</masterLabel>
+            <translation><!-- User Facility --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reportable(Deleted) --></label>
+        <name>MedConnect__Reportable__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reporter City --></label>
+        <name>MedConnect__Reporter_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter City --></label>
+        <name>MedConnect__Reporter_City_view__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Country --></label>
+        <name>MedConnect__Reporter_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Country --></label>
+        <name>MedConnect__Reporter_Country_view__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Email --></label>
+        <name>MedConnect__Reporter_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Email --></label>
+        <name>MedConnect__Reporter_Email_view__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Fax --></label>
+        <name>MedConnect__Reporter_Fax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter First Name --></label>
+        <name>MedConnect__Reporter_First_Name_View__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter First Name --></label>
+        <name>MedConnect__Reporter_First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Health Professional? --></label>
+        <name>MedConnect__Reporter_Health_Professional_View__c</name>
+    </fields>
+    <fields>
+        <label><!-- Health Professional? --></label>
+        <name>MedConnect__Reporter_Health_Professional__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Last Name --></label>
+        <name>MedConnect__Reporter_Last_Name_View__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Last Name --></label>
+        <name>MedConnect__Reporter_Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Middle Name --></label>
+        <name>MedConnect__Reporter_Middle_Name_View__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Middle Name --></label>
+        <name>MedConnect__Reporter_Middle_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Occupation --></label>
+        <name>MedConnect__Reporter_Occupation2__c</name>
+        <picklistValues>
+            <masterLabel>Administrator/Supervisor</masterLabel>
+            <translation><!-- Administrator/Supervisor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Audiologist</masterLabel>
+            <translation><!-- Audiologist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Biomedical Engineer</masterLabel>
+            <translation><!-- Biomedical Engineer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dentist</masterLabel>
+            <translation><!-- Dentist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nurse</masterLabel>
+            <translation><!-- Nurse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nurse Practitioner</masterLabel>
+            <translation><!-- Nurse Practitioner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Healthcare</masterLabel>
+            <translation><!-- Other Healthcare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Healthcare Professional</masterLabel>
+            <translation><!-- Other Healthcare Professional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmacist</masterLabel>
+            <translation><!-- Pharmacist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Physician</masterLabel>
+            <translation><!-- Physician --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Physician Assistant</masterLabel>
+            <translation><!-- Physician Assistant --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reporter Occupation --></label>
+        <name>MedConnect__Reporter_Occupation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Occupation --></label>
+        <name>MedConnect__Reporter_Occupation_view__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Phone No --></label>
+        <name>MedConnect__Reporter_Phone_No_View__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Phone No --></label>
+        <name>MedConnect__Reporter_Phone_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter State --></label>
+        <name>MedConnect__Reporter_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter State --></label>
+        <name>MedConnect__Reporter_State_view__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Street --></label>
+        <name>MedConnect__Reporter_Street_View__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Street --></label>
+        <name>MedConnect__Reporter_Street__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Title --></label>
+        <name>MedConnect__Reporter_Title_Edit__c</name>
+        <picklistValues>
+            <masterLabel>Dr.</masterLabel>
+            <translation><!-- Dr. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mr.</masterLabel>
+            <translation><!-- Mr. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mrs.</masterLabel>
+            <translation><!-- Mrs. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ms.</masterLabel>
+            <translation><!-- Ms. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prof.</masterLabel>
+            <translation><!-- Prof. --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reporter Title --></label>
+        <name>MedConnect__Reporter_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Zip Code --></label>
+        <name>MedConnect__Reporter_Zip_Code_View__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Zip Code --></label>
+        <name>MedConnect__Reporter_Zip_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporter Fax --></label>
+        <name>MedConnect__Reporter_fax_view__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select Reporting Period to Determine the Report Due Date --></help>
+        <label><!-- Reporting Period(unused) --></label>
+        <name>MedConnect__Reporting_Period__c</name>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation><!-- 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Response Date --></label>
+        <name>MedConnect__Response_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Time (Minutes) --></label>
+        <name>MedConnect__Response_Time_Minutes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check if additional information requested by customer are sent --></help>
+        <label><!-- Additional Information sent? --></label>
+        <name>MedConnect__Sent_Additional_Information_Requested__c</name>
+    </fields>
+    <fields>
+        <label><!-- Serial Number --></label>
+        <name>MedConnect__Serial_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incident represent serious public threat --></label>
+        <name>MedConnect__Serious_public_health_threat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Request --></label>
+        <name>MedConnect__Service_Request__c</name>
+        <relationshipLabel><!-- Product Complaints --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Severity of Failure --></label>
+        <name>MedConnect__Severity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Severity --></label>
+        <name>MedConnect__Severity_temp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sex --></label>
+        <name>MedConnect__Sex__c</name>
+        <picklistValues>
+            <masterLabel>F</masterLabel>
+            <translation><!-- F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M</masterLabel>
+            <translation><!-- M --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Supplier Type --></label>
+        <name>MedConnect__SupplierType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier Account Number --></label>
+        <name>MedConnect__Supplier_Account_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier Email Address --></label>
+        <name>MedConnect__Supplier_Email_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier Name --></label>
+        <name>MedConnect__Supplier_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier Phone --></label>
+        <name>MedConnect__Supplier_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier --></label>
+        <name>MedConnect__Supplier__c</name>
+        <relationshipLabel><!-- Product Complaints (Supplier) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Exclude treatment of event --></help>
+        <label><!-- Therapy Dates of Associated Products --></label>
+        <name>MedConnect__Therapy_Dates__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check if Minimum 3 Attempts are made to get the Product Returned --></help>
+        <label><!-- 3 Attempts complete? --></label>
+        <name>MedConnect__Three_Attempts_Made_for_Product_Return__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type Of Complaint --></label>
+        <name>MedConnect__Type_Of_Complaint__c</name>
+        <picklistValues>
+            <masterLabel>Adverse Event</masterLabel>
+            <translation><!-- Adverse Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Problem</masterLabel>
+            <translation><!-- Product Problem --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User Experience</masterLabel>
+            <translation><!-- User Experience --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Event Classification --></label>
+        <name>MedConnect__Type_of_Reportable_Event__c</name>
+        <picklistValues>
+            <masterLabel>Death</masterLabel>
+            <translation><!-- Death --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malfunction</masterLabel>
+            <translation><!-- Malfunction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Serious Injury</masterLabel>
+            <translation><!-- Serious Injury --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- UDI --></label>
+        <name>MedConnect__UUID__c</name>
+    </fields>
+    <fields>
+        <label><!-- How was the Device used? --></label>
+        <name>MedConnect__Usage_of_Device__c</name>
+        <picklistValues>
+            <masterLabel>Initial Use of Device</masterLabel>
+            <translation><!-- Initial Use of Device --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Problem noted prior use</masterLabel>
+            <translation><!-- Problem noted prior use --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Re-serviced/refurbished</masterLabel>
+            <translation><!-- Re-serviced/refurbished --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reuse of a reusable medical device</masterLabel>
+            <translation><!-- Reuse of a reusable medical device --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reuse of a single use medical device</masterLabel>
+            <translation><!-- Reuse of a single use medical device --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Was the Device Reprocessed and Reused? --></label>
+        <name>MedConnect__Was_the_Device_Reprocessed_and_Reused__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Weight (lbs/kg) --></label>
+        <name>MedConnect__Weight_lbs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return affected Product? --></label>
+        <name>MedConnect__is_ready_to_return__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Number of affected Products --></label>
+        <name>MedConnect__quantity__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Complaint --></label>
+        <name>Complaint</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Medical Device Complaint --></label>
+        <name>Medical_Device_Complaint</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Product Quality Complaint --></label>
+        <name>Product_Quality_Complaint</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Supplier --></label>
+        <name>Supplier</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Either Product or Asset Is Mandatory --></errorMessage>
+        <name>MedConnect__Asset_Or_Product_mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Date of Death cannot be specified unless Death is selected as an outcome --></errorMessage>
+        <name>MedConnect__Date_of_Death_field_value_population</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Edit not possible in this Stage --></errorMessage>
+        <name>MedConnect__Edit_stop_Status_void</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Future Event Date not allowed, kindly check the Event Date --></errorMessage>
+        <name>MedConnect__Future_Event_Date_not_allowed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cant Uncheck the Recall field --></errorMessage>
+        <name>MedConnect__Once_Checked_Recallable_cant_be_changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please don&apos;t give an absurd Date-of-Birth --></errorMessage>
+        <name>MedConnect__Patient_must_be_born</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cannot void record with this status --></errorMessage>
+        <name>MedConnect__Processing_Status_Void_validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please don&apos;t give an Event Date after a Report Date --></errorMessage>
+        <name>MedConnect__Report_after_Event</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Acknowledge --></label>
+        <name>MedConnect__Acknowledge</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Assign_to_Supplier --></label>
+        <name>MedConnect__Assign_to_Supplier</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CAPA --></label>
+        <name>MedConnect__CAPA</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CAPA_for_Suppliers --></label>
+        <name>MedConnect__CAPA_for_Suppliers</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Change_Processing_Status --></label>
+        <name>MedConnect__Change_Processing_Status</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Check_Warranty --></label>
+        <name>MedConnect__Check_Warranty</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Adverse_Event --></label>
+        <name>MedConnect__Create_Adverse_Event</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ESignature_History --></label>
+        <name>MedConnect__ESignature_History</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_RMA_Order --></label>
+        <name>MedConnect__Generate_RMA_Order</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Product_Complaint --></label>
+        <name>MedConnect__New_Product_Complaint</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Questionnaire --></label>
+        <name>MedConnect__Questionnaire</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Reportability_Decision --></label>
+        <name>MedConnect__Reportability_Decision</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Ack_Email --></label>
+        <name>MedConnect__Send_Ack_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Acknowledgement --></label>
+        <name>MedConnect__Send_Acknowledgement</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_LOD --></label>
+        <name>MedConnect__Send_LOD</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Notification_To_Supplier --></label>
+        <name>MedConnect__Send_Notification_To_Supplier</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- View_Audit_History --></label>
+        <name>MedConnect__View_Audit_History</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,3 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Impacted Product --></label>
+        <name>MedConnect__Impacted_Product__c</name>
+        <relationshipLabel><!-- Related Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Lot --></label>
+        <name>MedConnect__Lot1__c</name>
+        <relationshipLabel><!-- Related Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Lot --></label>
+        <name>MedConnect__Lot__c</name>
+        <relationshipLabel><!-- Related Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Complaint --></label>
+        <name>MedConnect__Product_Complaint__c</name>
+        <relationshipLabel><!-- Related Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Related Product --></label>
+        <name>MedConnect__Product__c</name>
+        <relationshipLabel><!-- Related Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>MedConnect__Related_Product__c</name>
+    </fields>
+</CustomObjectTranslation>

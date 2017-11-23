@@ -1,3 +1,201 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- ApprovedFieldAction --></label>
+        <name>ApprovedFieldAction</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ESignature View FieldSet --></label>
+        <name>ESignature_View_FieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- NonApprovedFieldAction --></label>
+        <name>NonApprovedFieldAction</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Adt Short Name --></label>
+        <name>MedConnect__Adt_Short_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Criticality of the FA - Low, Medium, High --></help>
+        <label><!-- Criticality --></label>
+        <name>MedConnect__Criticality__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Date by which FA will be completed --></help>
+        <label><!-- End Date --></label>
+        <name>MedConnect__End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Action --></label>
+        <name>MedConnect__Field_Action__c</name>
+        <relationshipLabel><!-- Field Action Plans --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Health Hazard Evaluation report number --></help>
+        <label><!-- HHE Number --></label>
+        <name>MedConnect__HHE_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Report number of internal investigation --></help>
+        <label><!-- Investigation Report Number --></label>
+        <name>MedConnect__Investigation_Report_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Minimum number of attempts required to contact customer before giving up --></help>
+        <label><!-- Minimum Number of attempts --></label>
+        <name>MedConnect__Minimum_Number_of_attempts__c</name>
+    </fields>
+    <fields>
+        <help><!-- Mode of communicating with customer POC --></help>
+        <label><!-- Mode of communication --></label>
+        <name>MedConnect__Mode_of_communication__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone</masterLabel>
+            <translation><!-- Phone --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- What objective needs to be achieved at the end of FA completion --></help>
+        <label><!-- Objective --></label>
+        <name>MedConnect__Objective__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner --></label>
+        <name>MedConnect__Owner_view__c</name>
+    </fields>
+    <fields>
+        <help><!-- Need details from customer --></help>
+        <label><!-- POH Required? --></label>
+        <name>MedConnect__POH_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>MedConnect__Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason For Change --></label>
+        <name>MedConnect__Reason_For_Change__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name of reviewer / Approver --></help>
+        <label><!-- Reviewer/ Appover --></label>
+        <name>MedConnect__Reviewer_Appover__c</name>
+        <relationshipLabel><!-- Field Action Plans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sign Off Status --></label>
+        <name>MedConnect__Sign_Off_Status__c</name>
+        <picklistValues>
+            <masterLabel>Sign Off Pending</masterLabel>
+            <translation><!-- Sign Off Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Signed Off</masterLabel>
+            <translation><!-- Signed Off --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SignatureDocumentId --></label>
+        <name>MedConnect__SignatureDocumentId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signature Code --></label>
+        <name>MedConnect__Signature_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signature --></label>
+        <name>MedConnect__Signature__c</name>
+    </fields>
+    <fields>
+        <help><!-- Key FSE skills required to execute the FA --></help>
+        <label><!-- Skills required --></label>
+        <name>MedConnect__Skills_required__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date by which FA will be started --></help>
+        <label><!-- Start Date --></label>
+        <name>MedConnect__Start_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Current Status of the plan - New, Not Approved, Approved, In Progress, Complete, Closed --></help>
+        <label><!-- Status --></label>
+        <name>MedConnect__Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- no of month --></label>
+        <name>MedConnect__no_of_month__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Approved FAP --></label>
+        <name>Approved_FAP</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- NonApproved FAP --></label>
+        <name>NonApproved_FAP</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Pending Approval FAP --></label>
+        <name>Pending_Approval_FAP</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Start Date must be older or equal to the End Date. --></errorMessage>
+        <name>MedConnect__Date_Validation</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Custom_Delete --></label>
+        <name>MedConnect__Custom_Delete</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ESignature_History --></label>
+        <name>MedConnect__ESignature_History</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Signature --></label>
+        <name>MedConnect__Signature</name>
+    </webLinks>
+</CustomObjectTranslation>

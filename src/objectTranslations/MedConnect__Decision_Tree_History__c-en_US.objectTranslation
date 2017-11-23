@@ -1,3 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Contact --></label>
+        <name>MedConnect__Contact__c</name>
+        <relationshipLabel><!-- Decision Tree History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Decision Tree Result --></label>
+        <name>MedConnect__Decision_Tree_Result__c</name>
+    </fields>
+    <fields>
+        <label><!-- History Field 1 --></label>
+        <name>MedConnect__History_Field_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- History Field 2 --></label>
+        <name>MedConnect__History_Field_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason for Change --></label>
+        <name>MedConnect__Reason_for_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reportable Authority --></label>
+        <name>MedConnect__Reportable_Authority__c</name>
+        <relationshipLabel><!-- Decision Tree History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>MedConnect__User__c</name>
+        <relationshipLabel><!-- Decision Tree History --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

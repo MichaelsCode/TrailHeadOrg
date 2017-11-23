@@ -1,3 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Active --></label>
+        <name>MedConnect__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Hours --></label>
+        <name>MedConnect__Business_Hours__c</name>
+        <relationshipLabel><!-- SLA Terms --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>MedConnect__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Date --></label>
+        <name>MedConnect__Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Response Tracked On --></label>
+        <name>MedConnect__Initial_Response_Tracked_On__c</name>
+        <picklistValues>
+            <masterLabel>Case</masterLabel>
+            <translation><!-- Case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WorkOrder</masterLabel>
+            <translation><!-- WorkOrder --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Onsite Response Tracked On --></label>
+        <name>MedConnect__Onsite_Response_Tracked_On__c</name>
+        <picklistValues>
+            <masterLabel>Case</masterLabel>
+            <translation><!-- Case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WorkOrder</masterLabel>
+            <translation><!-- WorkOrder --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Resolution Tracked On --></label>
+        <name>MedConnect__Resolution_Tracked_On__c</name>
+        <picklistValues>
+            <masterLabel>Case</masterLabel>
+            <translation><!-- Case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WorkOrder</masterLabel>
+            <translation><!-- WorkOrder --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Restoration Tracked On --></label>
+        <name>MedConnect__Restoration_Tracked_On__c</name>
+        <picklistValues>
+            <masterLabel>Case</masterLabel>
+            <translation><!-- Case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WorkOrder</masterLabel>
+            <translation><!-- WorkOrder --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Select --></label>
+        <name>MedConnect__Select__c</name>
+    </fields>
+    <webLinks>
+        <label><!-- Activate --></label>
+        <name>MedConnect__Activate</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Deactivate --></label>
+        <name>MedConnect__Deactivate</name>
+    </webLinks>
+</CustomObjectTranslation>

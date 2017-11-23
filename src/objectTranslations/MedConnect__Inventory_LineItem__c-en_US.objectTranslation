@@ -1,3 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Expiration Date --></label>
+        <name>MedConnect__Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory Transactions --></label>
+        <name>MedConnect__Inventory_Transactions__c</name>
+        <relationshipLabel><!-- Inventory LineItems --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Lot Number --></label>
+        <name>MedConnect__Lot_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>MedConnect__Product__c</name>
+        <relationshipLabel><!-- Inventory LineItems --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>MedConnect__Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>MedConnect__Status__c</name>
+        <picklistValues>
+            <masterLabel>Planned</masterLabel>
+            <translation><!-- Planned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferred</masterLabel>
+            <translation><!-- Transferred --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Surgical Kit --></label>
+        <name>MedConnect__Surgical_Kit__c</name>
+        <relationshipLabel><!-- Inventory LineItems --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

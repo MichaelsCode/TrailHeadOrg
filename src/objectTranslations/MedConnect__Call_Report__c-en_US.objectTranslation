@@ -1,3 +1,355 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Clinical_Spec_Call_Report_Input --></label>
+        <name>Clinical_Spec_Call_Report_Input</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Clinical_Spec_Call_Report_View --></label>
+        <name>Clinical_Spec_Call_Report_View</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Sales Call Report Input --></label>
+        <name>Sales_Call_Report_Input</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Sales Call Report View --></label>
+        <name>Sales_Call_Report_View</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Account Tactic --></label>
+        <name>MedConnect__Account_Tactic__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activity --></label>
+        <name>MedConnect__Activity__c</name>
+        <picklistValues>
+            <masterLabel>Board Meeting</masterLabel>
+            <translation><!-- Board Meeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dinner</masterLabel>
+            <translation><!-- Dinner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lunch</masterLabel>
+            <translation><!-- Lunch --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Actual Call Duration (HH:MM) --></label>
+        <name>MedConnect__Actual_Call_Duration_hh__c</name>
+    </fields>
+    <fields>
+        <label><!-- Adt Short Name --></label>
+        <name>MedConnect__Adt_Short_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Age of Patient --></label>
+        <name>MedConnect__Age_of_Patient__c</name>
+    </fields>
+    <fields>
+        <label><!-- Best probability estimate to close sale --></label>
+        <name>MedConnect__Best_prob_estimate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call Preparation ID --></label>
+        <name>MedConnect__Call_Preparation_ID__c</name>
+        <relationshipLabel><!-- Call Reports --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Clinical Specialist presence during Procedure --></help>
+        <label><!-- Clinical_Specialist_presence_during_Proc --></label>
+        <name>MedConnect__Clinical_Specialist_presence_during_Proc__c</name>
+        <picklistValues>
+            <masterLabel>Observation Room</masterLabel>
+            <translation><!-- Observation Room --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operation Room (OR) outside Sterile Field</masterLabel>
+            <translation><!-- Operation Room (OR) outside Sterile Field --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operation Room (OR) within sterile Field</masterLabel>
+            <translation><!-- Operation Room (OR) within sterile Field --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>MedConnect__Comments__c</name>
+    </fields>
+    <fields>
+        <help><!-- Comments in case not identified as Clinical Specialist --></help>
+        <label><!-- Comments in case not identified  in OR? --></label>
+        <name>MedConnect__Comments_in_case_not_identified_in_OR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments in case the use was OFF-LABEL --></label>
+        <name>MedConnect__Comments_in_case_the_use_was_OFF_LABEL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitor --></label>
+        <name>MedConnect__Competitor__c</name>
+        <relationshipLabel><!-- Call Reports --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Summary of a discussion on the product --></help>
+        <label><!-- Discussion Summary --></label>
+        <name>MedConnect__Discussion_Summary__c</name>
+    </fields>
+    <fields>
+        <label><!-- How meeting went --></label>
+        <name>MedConnect__How_meeting_went__c</name>
+        <picklistValues>
+            <masterLabel>Bad</masterLabel>
+            <translation><!-- Bad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Excellent</masterLabel>
+            <translation><!-- Excellent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fair</masterLabel>
+            <translation><!-- Fair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Good</masterLabel>
+            <translation><!-- Good --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Was the Clinical Specialist clearly, verbally and visually identified as sales representatives as opposed to healthcare personnel? --></help>
+        <label><!-- Identified as Sales Rep in OR? --></label>
+        <name>MedConnect__Identified_as_Sales_Rep_in_OR__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Indication --></label>
+        <name>MedConnect__Indication__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Were there specific instructions on aseptic techniques for washing and attire in OR? --></help>
+        <label><!-- Instructions(aseptic techniques) in OR? --></label>
+        <name>MedConnect__Instructions_aseptic_techniques_in_OR__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Key Message --></label>
+        <name>MedConnect__Key_Message__c</name>
+    </fields>
+    <fields>
+        <help><!-- List of specific instructions on aseptic techniques for washing and attire in OR --></help>
+        <label><!-- List of instructions(aseptic techniques) --></label>
+        <name>MedConnect__List_of_specific_instructions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meeting Outcome --></label>
+        <name>MedConnect__Meeting_Outcome__c</name>
+        <picklistValues>
+            <masterLabel>Conversion</masterLabel>
+            <translation><!-- Conversion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discovery</masterLabel>
+            <translation><!-- Discovery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engagement</masterLabel>
+            <translation><!-- Engagement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Issues</masterLabel>
+            <translation><!-- Other Issues --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualification</masterLabel>
+            <translation><!-- Qualification --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Next Meeting Date/Time --></label>
+        <name>MedConnect__Next_Meeting_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Step --></label>
+        <name>MedConnect__Next_Step__c</name>
+        <picklistValues>
+            <masterLabel>Demos to be arranged</masterLabel>
+            <translation><!-- Demos to be arranged --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other contract issues</masterLabel>
+            <translation><!-- Other contract issues --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing issues</masterLabel>
+            <translation><!-- Pricing issues --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product availability issues</masterLabel>
+            <translation><!-- Product availability issues --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product reimbursement info to be sent</masterLabel>
+            <translation><!-- Product reimbursement info to be sent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Send product literature</masterLabel>
+            <translation><!-- Send product literature --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Send references</masterLabel>
+            <translation><!-- Send references --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Send service engineer: previous product</masterLabel>
+            <translation><!-- Send service engineer: previous product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training needs to be done</masterLabel>
+            <translation><!-- Training needs to be done --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Size approx --></label>
+        <name>MedConnect__Opportunity_Size_approx__c</name>
+    </fields>
+    <fields>
+        <label><!-- Patient Initials --></label>
+        <name>MedConnect__Patient_Initials__c</name>
+    </fields>
+    <fields>
+        <help><!-- 1 (Least) 5(Best) --></help>
+        <label><!-- Physician Proficiency in Product use --></label>
+        <name>MedConnect__Physician_Proficiency_in_Product_use__c</name>
+        <picklistValues>
+            <masterLabel>1 (Least)</masterLabel>
+            <translation><!-- 1 (Least) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 (Best)</masterLabel>
+            <translation><!-- 5 (Best) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Planned Call Duration --></label>
+        <name>MedConnect__Planned_Call_Duration__c</name>
+    </fields>
+    <fields>
+        <help><!-- Was the procedure as per ON-LABEL use of the medical device? --></help>
+        <label><!-- Procedure as per ON-LABEL use? --></label>
+        <name>MedConnect__Procedure_as_per_ON_LABEL_use__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>MedConnect__Product__c</name>
+        <relationshipLabel><!-- Call Reports --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Questions asked by physicians or technicians during procedures --></help>
+        <label><!-- Questions asked during procedures --></label>
+        <name>MedConnect__Questions_asked_during_procedures__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason For Change --></label>
+        <name>MedConnect__Reason_For_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sex of patient --></label>
+        <name>MedConnect__Sex_of_patient__c</name>
+        <picklistValues>
+            <masterLabel>Female</masterLabel>
+            <translation><!-- Female --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Male</masterLabel>
+            <translation><!-- Male --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type of Activity Performed --></label>
+        <name>MedConnect__Type_of_Activity_Performed__c</name>
+        <picklistValues>
+            <masterLabel>Observation and Consultation</masterLabel>
+            <translation><!-- Observation and Consultation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Observation only</masterLabel>
+            <translation><!-- Observation only --></translation>
+        </picklistValues>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Please enter in Actual Duration in HH:MM format --></errorMessage>
+        <name>MedConnect__Validate_Actual_Call_Duration</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- New_Call_Report --></label>
+        <name>MedConnect__New_Call_Report</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- View_Audit_History --></label>
+        <name>MedConnect__View_Audit_History</name>
+    </webLinks>
+</CustomObjectTranslation>

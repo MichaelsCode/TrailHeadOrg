@@ -1,3 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Address --></label>
+        <name>MedConnect__Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>MedConnect__Contact__c</name>
+        <relationshipLabel><!-- Depots --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Type of Lab --></label>
+        <name>MedConnect__Type_of_Lab__c</name>
+        <picklistValues>
+            <masterLabel>3rd Party Lab</masterLabel>
+            <translation><!-- 3rd Party Lab --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OEM Lab</masterLabel>
+            <translation><!-- OEM Lab --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Own Lab</masterLabel>
+            <translation><!-- Own Lab --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

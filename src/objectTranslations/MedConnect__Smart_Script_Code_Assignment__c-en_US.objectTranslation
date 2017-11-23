@@ -1,3 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Assign if Expression is True --></label>
+        <name>MedConnect__Assign_if_Expression_is_True__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code Level --></label>
+        <name>MedConnect__Code_Level__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Type --></label>
+        <name>MedConnect__Code_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code --></label>
+        <name>MedConnect__Code__c</name>
+        <relationshipLabel><!-- Code Assignments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Smart Script Element --></label>
+        <name>MedConnect__Smart_Script_Step__c</name>
+        <relationshipLabel><!-- Code Assignments --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

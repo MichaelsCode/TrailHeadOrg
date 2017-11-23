@@ -1,3 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Authorized Representative Name --></label>
+        <name>MedConnect__Authorized_Representative_Name__c</name>
+        <relationshipLabel><!-- Authorized Representative Contacts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact First Name --></label>
+        <name>MedConnect__Contact_First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Last Name --></label>
+        <name>MedConnect__Contact_Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Middle Name --></label>
+        <name>MedConnect__Contact_Middle_Name__c</name>
+    </fields>
+</CustomObjectTranslation>

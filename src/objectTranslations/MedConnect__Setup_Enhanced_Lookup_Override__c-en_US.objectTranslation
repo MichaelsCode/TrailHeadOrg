@@ -1,3 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Active --></label>
+        <name>MedConnect__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- labelField --></label>
+        <name>MedConnect__labelField__c</name>
+    </fields>
+    <fields>
+        <label><!-- maximumSelectionSize --></label>
+        <name>MedConnect__maximumSelectionSize__c</name>
+    </fields>
+    <fields>
+        <label><!-- minimumInputLength --></label>
+        <name>MedConnect__minimumInputLength__c</name>
+    </fields>
+    <fields>
+        <label><!-- style --></label>
+        <name>MedConnect__style__c</name>
+    </fields>
+    <fields>
+        <label><!-- valueField --></label>
+        <name>MedConnect__valueField__c</name>
+    </fields>
+    <fields>
+        <label><!-- whereClause --></label>
+        <name>MedConnect__whereClause__c</name>
+    </fields>
+</CustomObjectTranslation>

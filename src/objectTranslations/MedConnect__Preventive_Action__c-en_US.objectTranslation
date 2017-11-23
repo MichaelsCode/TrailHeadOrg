@@ -1,3 +1,196 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- ESignature View FieldSet --></label>
+        <name>ESignature_View_FieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Implementation/Effectiveness --></label>
+        <name>Implementation_Effectiveness</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- PA_Edit_Details --></label>
+        <name>PA_Edit_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- PA Extended Edit --></label>
+        <name>PA_Extended_Edit</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- PA Line Item Fields --></label>
+        <name>PA_Line_Item_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- PA Plan --></label>
+        <name>PA_Plan</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Short Name --></label>
+        <name>MedConnect__Adt_Short_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Adverse Affect on Finished Device --></label>
+        <name>MedConnect__Adverse_Affect_on_Finished_Device__c</name>
+    </fields>
+    <fields>
+        <label><!-- Audit Date --></label>
+        <name>MedConnect__Audit_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAPA Implemented on --></label>
+        <name>MedConnect__CAPA_Implemented_on__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAPA Plan Due Date --></label>
+        <name>MedConnect__CAPA_Plan_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAPA --></label>
+        <name>MedConnect__CAPA__c</name>
+        <relationshipLabel><!-- Preventive Action --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date Implemented --></label>
+        <name>MedConnect__Date_Implemented__c</name>
+    </fields>
+    <fields>
+        <label><!-- Due Date --></label>
+        <name>MedConnect__Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- %Effective --></label>
+        <name>MedConnect__Effective__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effectiveness Determined --></label>
+        <name>MedConnect__Effectiveness_Determined__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Evidence/Effectiveness --></label>
+        <name>MedConnect__Evidence_Effectiveness__c</name>
+    </fields>
+    <fields>
+        <label><!-- Finished Device Issues Resolved --></label>
+        <name>MedConnect__Finished_Device_Issues_Resolved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation/Effectiveness Required? --></label>
+        <name>MedConnect__Implementation_Effectiveness_Required__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Implementation Progress --></label>
+        <name>MedConnect__Implementation_Progress__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interim Status Reason --></label>
+        <name>MedConnect__Interim_Status_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interim Status --></label>
+        <name>MedConnect__Interim_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Audit Number --></label>
+        <name>MedConnect__Internal_Audit_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Audit Required --></label>
+        <name>MedConnect__Internal_Audit_Required__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Investigation --></label>
+        <name>MedConnect__Investigation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line Number --></label>
+        <name>MedConnect__Line_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- PA Action Plan --></label>
+        <name>MedConnect__PA_Action_Plan__c</name>
+    </fields>
+    <fields>
+        <label><!-- PA Description --></label>
+        <name>MedConnect__PA_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plan to Verify Effectiveness --></label>
+        <name>MedConnect__Plan_to_Verify_Effectiveness__c</name>
+    </fields>
+    <fields>
+        <label><!-- Procedures Affected --></label>
+        <name>MedConnect__Procedures_Affected__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason For Change --></label>
+        <name>MedConnect__Reason_For_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Root Cause --></label>
+        <name>MedConnect__Root_Cause__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>MedConnect__Status__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Verfication of Effectiveness Due Date --></label>
+        <name>MedConnect__Verfication_of_Effectiveness_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Verification/Validation --></label>
+        <name>MedConnect__Verification_Validation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Was effectiveness verified --></label>
+        <name>MedConnect__Was_effectiveness_verified__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <webLinks>
+        <label><!-- ESignature_History --></label>
+        <name>MedConnect__ESignature_History</name>
+    </webLinks>
+</CustomObjectTranslation>

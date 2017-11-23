@@ -1,3 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Contact Name --></label>
+        <name>MedConnect__Contact__c</name>
+        <relationshipLabel><!-- Associated Contacts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Department --></label>
+        <name>MedConnect__Department__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>MedConnect__Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Inquiry --></label>
+        <name>MedConnect__Medical_Inquiry__c</name>
+        <relationshipLabel><!-- Associated Contacts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>MedConnect__Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary --></label>
+        <name>MedConnect__Primary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Complaint --></label>
+        <name>MedConnect__Product_Complaint__c</name>
+        <relationshipLabel><!-- Associated Contacts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reporter --></label>
+        <name>MedConnect__Reporter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Role --></label>
+        <name>MedConnect__Role__c</name>
+        <picklistValues>
+            <masterLabel>Approver</masterLabel>
+            <translation><!-- Approver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consultant</masterLabel>
+            <translation><!-- Consultant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investigator</masterLabel>
+            <translation><!-- Investigator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Owner</masterLabel>
+            <translation><!-- Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regulatory Authority</masterLabel>
+            <translation><!-- Regulatory Authority --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Specialty --></label>
+        <name>MedConnect__Specialty__c</name>
+    </fields>
+    <fields>
+        <label><!-- Therapeutic Area --></label>
+        <name>MedConnect__Therapeutic_Area__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Medical Inquiry --></label>
+        <name>By_Medical_Inquiry</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Product Complaint --></label>
+        <name>By_Product_Complaint</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Add_Contact --></label>
+        <name>MedConnect__Add_Contact</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Associated_Contact --></label>
+        <name>MedConnect__New_Associated_Contact</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,3 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Instruction Section --></label>
+        <name>MedConnect__Instruction_Section__c</name>
+        <relationshipLabel><!-- Instruction Test --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Instruction Steps --></label>
+        <name>MedConnect__Instruction_Steps__c</name>
+        <relationshipLabel><!-- Instruction Test --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Instruction Test Header --></label>
+        <name>MedConnect__Instruction_Test_Header__c</name>
+        <relationshipLabel><!-- Instruction Test --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Result --></label>
+        <name>MedConnect__Result__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,3 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- WOExpenseCostFieldSet --></label>
+        <name>WOExpenseCostFieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- WOExpensebillableFieldSet --></label>
+        <name>WOExpensebillableFieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Work Order Expense Edit --></label>
+        <name>Work_Order_Expense_Edit</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Work Order Expense List --></label>
+        <name>Work_Order_Expense_List</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Short Name --></label>
+        <name>MedConnect__Adt_Short_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billable --></label>
+        <name>MedConnect__Billable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost --></label>
+        <name>MedConnect__Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>MedConnect__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason For Change --></label>
+        <name>MedConnect__Reason_For_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>MedConnect__Type__c</name>
+        <picklistValues>
+            <masterLabel>Airfare</masterLabel>
+            <translation><!-- Airfare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumables Charge</masterLabel>
+            <translation><!-- Consumables Charge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment</masterLabel>
+            <translation><!-- Entertainment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food - Breakfast</masterLabel>
+            <translation><!-- Food - Breakfast --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food - Dinner</masterLabel>
+            <translation><!-- Food - Dinner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food - Lunch</masterLabel>
+            <translation><!-- Food - Lunch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gas</masterLabel>
+            <translation><!-- Gas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lodging</masterLabel>
+            <translation><!-- Lodging --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mileage</masterLabel>
+            <translation><!-- Mileage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Misc</masterLabel>
+            <translation><!-- Misc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parking</masterLabel>
+            <translation><!-- Parking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parts</masterLabel>
+            <translation><!-- Parts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone</masterLabel>
+            <translation><!-- Phone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rental Cars</masterLabel>
+            <translation><!-- Rental Cars --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tolls</masterLabel>
+            <translation><!-- Tolls --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Work Order --></label>
+        <name>MedConnect__Work_Order__c</name>
+        <relationshipLabel><!-- Expenses --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

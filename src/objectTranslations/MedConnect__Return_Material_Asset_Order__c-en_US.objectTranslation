@@ -1,3 +1,178 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- ReturnOrderAssetFields --></label>
+        <name>ReturnOrderAssetFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ReturnOrderAssetFieldsDispatchDetail --></label>
+        <name>ReturnOrderAssetFieldsDispatchDetail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ReturnOrderAssetFieldsInformation --></label>
+        <name>ReturnOrderAssetFieldsInformation</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ReturnOrderAssetFieldsPackageDispatch --></label>
+        <name>ReturnOrderAssetFieldsPackageDispatch</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ReturnOrderAssetFieldsReceivingDetail --></label>
+        <name>ReturnOrderAssetFieldsReceivingDetail</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Asset --></label>
+        <name>MedConnect__Asset__c</name>
+        <relationshipLabel><!-- Return Material Asset Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date --></label>
+        <name>MedConnect__Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dispatch Address --></label>
+        <name>MedConnect__Dispatch_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dispatch Date --></label>
+        <name>MedConnect__Dispatch_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dispatch Notes --></label>
+        <name>MedConnect__Dispatch_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dispatch Status --></label>
+        <name>MedConnect__Dispatch_Status__c</name>
+        <picklistValues>
+            <masterLabel>Dispatched</masterLabel>
+            <translation><!-- Dispatched --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In transit</masterLabel>
+            <translation><!-- In transit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Received</masterLabel>
+            <translation><!-- Received --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Dispatched Via --></label>
+        <name>MedConnect__Dispatched_Via__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disposition Type --></label>
+        <name>MedConnect__Disposition_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected Delivery Date to Customer --></label>
+        <name>MedConnect__Expected_Delivery_Date_to_Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Impacted Product --></label>
+        <name>MedConnect__Impacted_Product__c</name>
+        <relationshipLabel><!-- Return Material Asset Order --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Inventory --></label>
+        <name>MedConnect__Inventory1__c</name>
+        <relationshipLabel><!-- Return Material Asset Order --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Inventory --></label>
+        <name>MedConnect__Inventory__c</name>
+        <relationshipLabel><!-- Return Material Asset Order --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Is Dispatched --></label>
+        <name>MedConnect__Is_Dispatched_Package__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Dispatched --></label>
+        <name>MedConnect__Is_Dispatched__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Inquiry Line Item --></label>
+        <name>MedConnect__Medical_Inquiry_Line_Item__c</name>
+        <relationshipLabel><!-- Return Material Asset Order --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Notes --></label>
+        <name>MedConnect__Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dispatch Address --></label>
+        <name>MedConnect__Package_Dispatch_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dispatch Notes --></label>
+        <name>MedConnect__Package_Dispatch_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Package Dispatch Status --></label>
+        <name>MedConnect__Package_Dispatch_Status__c</name>
+        <picklistValues>
+            <masterLabel>Dispatched</masterLabel>
+            <translation><!-- Dispatched --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In transit</masterLabel>
+            <translation><!-- In transit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Received</masterLabel>
+            <translation><!-- Received --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- RMA Detail --></label>
+        <name>MedConnect__RMA_Detail__c</name>
+        <relationshipLabel><!-- Return Material Asset Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reason For Change --></label>
+        <name>MedConnect__Reason_for_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Received Date/Time --></label>
+        <name>MedConnect__Received_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Received by --></label>
+        <name>MedConnect__Received_by__c</name>
+        <relationshipLabel><!-- Return Material Asset Order --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Receiving Status --></label>
+        <name>MedConnect__Receiving_Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In process</masterLabel>
+            <translation><!-- In process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>MedConnect__Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- UDI --></label>
+        <name>MedConnect__UDI__c</name>
+    </fields>
+    <webLinks>
+        <label><!-- Custom_Delete --></label>
+        <name>MedConnect__Custom_Delete</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,3 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- InputLabel FieldSet --></label>
+        <name>InputLabel_FieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- OutputLabel FieldSet --></label>
+        <name>OutputLabel_FieldSet</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Account Plan Id --></label>
+        <name>MedConnect__Account_Plan_Id__c</name>
+        <relationshipLabel><!-- Planned Potential Sizings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Therapeutic Area Name --></label>
+        <name>MedConnect__Therapeutic_Area_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Procedures --></label>
+        <name>MedConnect__Total_Procedures__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Total Procedure value can be positive only. --></errorMessage>
+        <name>MedConnect__Prrocedure_value_positive_only</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,3 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Action Performed --></label>
+        <name>MedConnect__Action_Performed__c</name>
+    </fields>
+    <fields>
+        <label><!-- ProcessInstanceWorkitemId --></label>
+        <name>MedConnect__ProcessInstanceWorkitemId__c</name>
+    </fields>
+    <fields>
+        <label><!-- SignOff Time --></label>
+        <name>MedConnect__SignOff_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- SignatureDocumentId --></label>
+        <name>MedConnect__SignatureDocumentId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signed By --></label>
+        <name>MedConnect__Signed_By__c</name>
+        <relationshipLabel><!-- Sign-Offs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- TargetObjectId --></label>
+        <name>MedConnect__TargetObjectId__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,3 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Action --></label>
+        <name>MedConnect__Action__c</name>
+    </fields>
+    <fields>
+        <label><!-- ESignature Required --></label>
+        <name>MedConnect__ESignature_Required__c</name>
+    </fields>
+    <fields>
+        <help><!-- Provide Profiles semicolon separated. --></help>
+        <label><!-- Profiles --></label>
+        <name>MedConnect__Profiles__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason Mandatory --></label>
+        <name>MedConnect__Reason_Mandatory__c</name>
+    </fields>
+    <fields>
+        <help><!-- Provide Roles semicolon separated. --></help>
+        <label><!-- Roles --></label>
+        <name>MedConnect__Roles__c</name>
+    </fields>
+</CustomObjectTranslation>

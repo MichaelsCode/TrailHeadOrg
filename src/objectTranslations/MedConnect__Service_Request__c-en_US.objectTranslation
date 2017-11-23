@@ -1,3 +1,359 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Analysis Field Set --></label>
+        <name>Analysis_Field_Set</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Edit View Field Set --></label>
+        <name>Edit_View_Field_Set</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Grid View Field Set --></label>
+        <name>Grid_View_Field_Set</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Incident Smart Script Edit FieldSet --></label>
+        <name>Incident_Smart_Script_Edit_FieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ServiceRequestChangeStatus --></label>
+        <name>ServiceRequestChangeStatus</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- WorkOrderPaymentTermFieldset --></label>
+        <name>WorkOrderPaymentTermFieldset</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Abstract --></label>
+        <name>MedConnect__Abstract__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>MedConnect__Account__c</name>
+        <relationshipLabel><!-- Service Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Adt Short Name --></label>
+        <name>MedConnect__Adt_Short_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allocated Technician --></label>
+        <name>MedConnect__Allocated_Technician__c</name>
+        <relationshipLabel><!-- Service Requests (Allocated Technician) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Analysis Type --></label>
+        <name>MedConnect__Analysis_Type__c</name>
+        <picklistValues>
+            <masterLabel>Return Only</masterLabel>
+            <translation><!-- Return Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return and Replace</masterLabel>
+            <translation><!-- Return and Replace --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return, Repair and Replace</masterLabel>
+            <translation><!-- Return, Repair and Replace --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return, Replace, Repair and Refurbish</masterLabel>
+            <translation><!-- Return, Replace, Repair and Refurbish --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Asset Location --></label>
+        <name>MedConnect__Asset_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asset Warranty --></label>
+        <name>MedConnect__Asset_Warranty__c</name>
+        <relationshipLabel><!-- Service Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Asset Name --></label>
+        <name>MedConnect__Asset__c</name>
+        <relationshipLabel><!-- Service Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Assigned To --></label>
+        <name>MedConnect__Assigned_To__c</name>
+        <relationshipLabel><!-- Service Requests (Assigned To) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Authorized Value --></label>
+        <name>MedConnect__Authorized_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billable --></label>
+        <name>MedConnect__Billable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closed Date --></label>
+        <name>MedConnect__Closed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commit Date --></label>
+        <name>MedConnect__Commit_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Id --></label>
+        <name>MedConnect__Contact_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Name --></label>
+        <name>MedConnect__Contact_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost Center --></label>
+        <name>MedConnect__Cost_Center__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>MedConnect__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incident --></label>
+        <name>MedConnect__Incident__c</name>
+        <relationshipLabel><!-- Service Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Justification for Analysis --></label>
+        <name>MedConnect__Justification_for_Analysis__c</name>
+    </fields>
+    <fields>
+        <help><!-- System should capture different language input --></help>
+        <label><!-- Local Language Description --></label>
+        <name>MedConnect__Local_Language_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>MedConnect__Order__c</name>
+        <relationshipLabel><!-- Service Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Purchase Order # --></label>
+        <name>MedConnect__PO_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- PO Required? --></label>
+        <name>MedConnect__PO_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Method --></label>
+        <name>MedConnect__Payment_Method__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Terms --></label>
+        <name>MedConnect__Payment_Terms__c</name>
+        <picklistValues>
+            <masterLabel>2% NET 30</masterLabel>
+            <translation><!-- 2% NET 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NET 30</masterLabel>
+            <translation><!-- NET 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NET 45</masterLabel>
+            <translation><!-- NET 45 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NET 60</masterLabel>
+            <translation><!-- NET 60 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Preferred Service Hours --></label>
+        <name>MedConnect__Preferred_Service_Hours__c</name>
+        <picklistValues>
+            <masterLabel>10-2</masterLabel>
+            <translation><!-- 10-2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12-4</masterLabel>
+            <translation><!-- 12-4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6-9</masterLabel>
+            <translation><!-- 6-9 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>MedConnect__Priority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Processing Status --></label>
+        <name>MedConnect__Processing_Status__c</name>
+        <picklistValues>
+            <masterLabel>Accepted</masterLabel>
+            <translation><!-- Accepted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolved</masterLabel>
+            <translation><!-- Resolved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work In Progress</masterLabel>
+            <translation><!-- Work In Progress --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product ID --></label>
+        <name>MedConnect__Product_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Name --></label>
+        <name>MedConnect__Product_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Recall Required --></label>
+        <name>MedConnect__Product_Recall_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>MedConnect__Product__c</name>
+        <relationshipLabel><!-- Service Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reason For Change --></label>
+        <name>MedConnect__Reason_For_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolution Code --></label>
+        <name>MedConnect__Resolution_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolution Description --></label>
+        <name>MedConnect__Resolution_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Terms --></label>
+        <name>MedConnect__SLA_Terms__c</name>
+        <relationshipLabel><!-- Service Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- SR Type --></label>
+        <name>MedConnect__SR_Type__c</name>
+        <picklistValues>
+            <masterLabel>Extended</masterLabel>
+            <translation><!-- Extended --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation><!-- Standard --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Serial Number --></label>
+        <name>MedConnect__Serial_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service/Maintenance Contract --></label>
+        <name>MedConnect__Service_Maintenance_Contract__c</name>
+        <relationshipLabel><!-- Service Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Severity --></label>
+        <name>MedConnect__Severity__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>MedConnect__Status__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending from Customer</masterLabel>
+            <translation><!-- Pending from Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolved</masterLabel>
+            <translation><!-- Resolved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technician Allocated</masterLabel>
+            <translation><!-- Technician Allocated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technician Dispatch</masterLabel>
+            <translation><!-- Technician Dispatch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work In Progress</masterLabel>
+            <translation><!-- Work In Progress --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- UDI --></label>
+        <name>MedConnect__UDI__c</name>
+    </fields>
+    <fields>
+        <label><!-- Warranty Term --></label>
+        <name>MedConnect__Warranty_Term__c</name>
+        <relationshipLabel><!-- Service Requests --></relationshipLabel>
+    </fields>
+    <webLinks>
+        <label><!-- Change_Status --></label>
+        <name>MedConnect__Change_Status</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Check_Entitlement --></label>
+        <name>MedConnect__Check_Entitlement</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Complaint --></label>
+        <name>MedConnect__Create_Complaint</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_RMA_Order --></label>
+        <name>MedConnect__Generate_RMA_Order</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Service_Request --></label>
+        <name>MedConnect__New_Service_Request</name>
+    </webLinks>
+</CustomObjectTranslation>

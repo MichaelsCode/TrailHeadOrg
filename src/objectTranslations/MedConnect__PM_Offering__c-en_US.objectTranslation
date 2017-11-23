@@ -1,3 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Description --></label>
+        <name>MedConnect__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Offering --></label>
+        <name>MedConnect__Is_Offering__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line Price --></label>
+        <name>MedConnect__Line_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preventive Maintenance Plan --></label>
+        <name>MedConnect__Preventive_Maintenance_Plan__c</name>
+        <relationshipLabel><!-- PM Offerings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Service Contract End Date --></label>
+        <name>MedConnect__Service_Contract_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Contract Start Date --></label>
+        <name>MedConnect__Service_Contract_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Contract --></label>
+        <name>MedConnect__Service_Contract__c</name>
+        <relationshipLabel><!-- PM Offerings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Service Plan --></label>
+        <name>MedConnect__Service_Plan__c</name>
+        <relationshipLabel><!-- PM Offerings --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

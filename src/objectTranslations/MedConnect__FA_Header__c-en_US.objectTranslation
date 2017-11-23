@@ -1,3 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- FA Edit View --></label>
+        <name>FA_Edit_View</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- FA List View --></label>
+        <name>FA_List_View</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Short Name --></label>
+        <name>MedConnect__Adt_Short_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cause of Failure --></label>
+        <name>MedConnect__Cause_of_Failure__c</name>
+        <picklistValues>
+            <masterLabel>Loss of Operation</masterLabel>
+            <translation><!-- Loss of Operation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weathering</masterLabel>
+            <translation><!-- Weathering --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Mode --></label>
+        <name>MedConnect__FA_Mode__c</name>
+        <picklistValues>
+            <masterLabel>Burst</masterLabel>
+            <translation><!-- Burst --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leak</masterLabel>
+            <translation><!-- Leak --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Possible effect due to the Failure --></help>
+        <label><!-- Possible Effect --></label>
+        <name>MedConnect__Possible_Effect__c</name>
+    </fields>
+    <fields>
+        <help><!-- value can be any number between1 to 10 --></help>
+        <label><!-- Potential Severity --></label>
+        <name>MedConnect__Potential_Severity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preventive Action --></label>
+        <name>MedConnect__Preventive_Action__c</name>
+    </fields>
+    <fields>
+        <help><!-- value can be any number between 1 to 10 --></help>
+        <label><!-- Probability of Not Detecting --></label>
+        <name>MedConnect__Probability_of_Not_Detecting__c</name>
+    </fields>
+    <fields>
+        <help><!-- value can be any number between 1 to 10 --></help>
+        <label><!-- Probability of Occurrence --></label>
+        <name>MedConnect__Probability_of_Occurance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason For Change --></label>
+        <name>MedConnect__Reason_For_Change__c</name>
+    </fields>
+    <fields>
+        <help><!-- Potential Severity  x  Probability of Not Detecting  x  Probability of Occurance --></help>
+        <label><!-- Risk Priority Number --></label>
+        <name>MedConnect__Risk_Priority_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Selected --></label>
+        <name>MedConnect__Selected__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Order --></label>
+        <name>MedConnect__Work_Order__c</name>
+        <relationshipLabel><!-- Failure Analysis --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>
